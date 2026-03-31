@@ -8,12 +8,13 @@ related: [products/tradingdocs/backend/architecture]
 ---
 # Premier Info
 
-**Company**: Premier Info (premierinfo.biz) — IT/services arm for a Holland-based BV company (name TBC)
+**Company**: Gemini Corporation NV (Netherlands) — IT handled by Premier Info (premierinfo.biz, India)
 **Contact**: Rahul Sharma (+91 90243 37090), Rahul.Sharma@premierinfo.biz
 **Second user**: Hariom Joshi, hariom.joshi@premierinfo.biz
 **Product interest**: TradingDocs.AI
-**Source**: Direct outreach (cold/warm contact)
-**Note**: Rahul works for the India office; the end customer is a Dutch (BV) trading company
+**Source**: Calendly booking — TradingDocs.AI Demo
+**Location**: Dubai
+**Note**: Rahul is Documentation Manager at Gemini Corporation NV, uses Premier Info email. India-based.
 
 ## Status
 
@@ -37,7 +38,8 @@ LC document compliance checking accuracy. Their documentation team needs the sys
 
 ## Current Process
 
-- Holland/Netherlands-based trading company (something BV), Rahul is in India office
+- Gemini Corporation NV, Netherlands-based trading company
+- Rahul is Documentation Manager, based in India (+91 9024337090)
 - Has dedicated documentation officers who review LC compliance
 - Trades to destinations including Spain (ES) and Belgium (BE) based on shipment codes
 
