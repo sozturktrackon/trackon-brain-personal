@@ -14,7 +14,7 @@ related: [products/tradingdocs/backend/architecture]
 
 ## Status
 
-Trial active — longulf.tradingdocs.ai, 500 page credits
+Trial active — longulf.tradingdocs.ai, 1000 page credits (500 initial + 500 topped up 2026-03-31)
 - Moiez actively testing since 2026-03-27
 - Prefers web app (primary), email workflow as secondary
 - Email endpoints shared: longulf+lc@tradingdocs.io (LC assessment), longulf@tradingdocs.io (doc discrepancy)
