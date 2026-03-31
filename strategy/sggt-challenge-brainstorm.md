@@ -54,49 +54,62 @@ No other applicant will have all three:
 
 ---
 
-## STRATEGIC DECISION: WHICH CATEGORY?
+## STRATEGIC DECISION: WHICH BUSINESS SECTOR?
 
-### Option A: Category 1 — Core Grains Trade Systems ERPs/CTRMs
+There are 19 sectors. The form likely allows one pick. Here's how Trackon maps:
+
+### Option A: Category 19 — Integrated "Full-Stack" Platforms ★★★★★
+"Trade OS (ERP + CTRM + finance + logistics), End-to-end grain ecosystem platforms"
+
 **Pros:**
-- Most direct fit — Trackon IS a CTRM
-- Can present the full product suite (Legacy → TrackonAI → TradingDocs)
-- Shows 20+ years of evolution, not just a startup idea
-- Unique: AI-native CTRM designed for SME grain traders
+- This IS Trackon — CTRM + document AI + tracking + sanctions in one ecosystem
+- Differentiates from single-function startups who only do one thing
+- Shows breadth AND depth — 20 years of domain + modern AI stack
+- Category 19 likely gets fewer applicants (most will pick a narrow lane)
+- Judges see a platform vision, not a feature
 
 **Cons:**
-- Competing against established CTRM vendors (ION, Brady)
-- Category may attract fewer applications (less "sexy" than AI categories)
+- "Full-stack" claim needs proof — pitch deck must show all 3 products convincingly
+- Risk of looking scattered if not presented as a cohesive platform
 
-**Verdict:** ★★★★★ — Strongest fit. This IS what Trackon does.
+**Verdict:** Best fit. No one else will have CTRM + LC AI + tracking + sanctions as one company.
 
-### Option B: Category 10 — Documentation & Workflow Automation
+### Option B: Category 1 — Core Grains Trade Systems ★★★★
+"CTRM, Trade lifecycle management, Contract management"
+
 **Pros:**
-- TradingDocs.AI is the most innovative product (AI + LC compliance is genuinely novel)
-- "70% of LCs rejected on first presentation" is a powerful opening stat
-- Judges see tangible problem → solution → measurable impact
-- Complements banking sector interest (Midland Bank, DFA)
+- Most honest/direct category — Trackon is literally a CTRM company
+- 20+ years of proof, real customers
 
 **Cons:**
-- Narrower scope (just document processing, not full trade lifecycle)
-- Less "grain-specific" unless framed around grain trade documentation specifically
+- Competing against ION, Brady, larger CTRM vendors
+- Undersells the AI/TradingDocs innovation story
 
-**Verdict:** ★★★★ — Strong innovation story, but narrower.
+### Option C: Category 18 — SME Enablement Platforms ★★★★
+"Tools for small traders, Digital onboarding, Micro-trade platforms"
 
-### Option C: Category 7 — Data, AI & Market Intelligence
 **Pros:**
-- AI is the buzzword every judge wants to hear
-- Bedrock Agent, MCP Server, AI analytics are genuinely differentiated
-- Aligns with "innovation" angle
+- Perfectly aligns with IMEAA's Global South mission
+- TrackonAI is literally built for SME traders on spreadsheets
+- "Deploy in days, not months" story is compelling here
+- Judges who care about food security impact will love this
 
 **Cons:**
-- Trackon is not primarily a data/intelligence platform
-- Weaker case vs. pure data/analytics competitors
+- Undersells the enterprise Legacy product and TradingDocs
 
-**Verdict:** ★★★ — Risky. Might look like a stretch.
+### Option D: Category 10 — Documentation & Workflow Automation ★★★
+"Trade documentation automation, Customs & compliance integration"
 
-### RECOMMENDATION: Apply under Category 1 (CTRM) but lead with TradingDocs.AI as the innovation story
+**Pros:**
+- TradingDocs.AI is the most innovative single product
+- "70% LC rejection" stat is powerful
 
-**The narrative:** "We are the only CTRM that was built inside a grain trading house. After 20 years of Trackon Legacy serving enterprise traders, we built TrackonAI for the SME segment and TradingDocs.AI for document compliance. Our AI reduces LC rejections from 70% to near-zero. We're bringing enterprise-grade trading technology to the Global South at accessible pricing."
+**Cons:**
+- Narrower — only shows one product, misses the ecosystem
+
+### RECOMMENDATION: Category 19 (Full-Stack Platform)
+
+**The narrative:** "Trackon is the only integrated Trade OS built by someone who ran grain trade operations for 12 years. We combine CTRM (contract-to-settlement), AI-powered document compliance (LC checking, sanctions, 193-country regulations), and shipment tracking in one platform. From enterprise traders to SMEs entering digital trade for the first time — one ecosystem, not five vendors."
 
 ---
 
@@ -229,31 +242,60 @@ Even if not winning:
 
 ---
 
+## CONCRETE DELIVERABLES
+
+1. **Application form** — fill in all fields (most are short text, dropdowns)
+2. **250-character company profile** — the hardest part. Must be perfect.
+3. **Pitch deck (PDF/PPT)** — mandatory upload, max 35MB. This is where you tell the full story.
+4. **60-second elevator pitch video** — mandatory. Must be hosted on YouTube/Vimeo/public URL. Murat on camera.
+5. **Opt into all 4 additional challenges** — free exposure (UN-FAO, IMEAA-DMCC 2027, EUFICA, CDL)
+
 ## TIMELINE TO DEADLINE (30 April 2026)
 
 | Week | Task | Owner |
 |---|---|---|
-| **W/C 31 Mar** | Finalize category and tier decision | Murat |
-| **W/C 31 Mar** | Call Sudhakar — ask what judges look for | Murat |
-| **W/C 7 Apr** | Draft application text | Murat + Claude |
-| **W/C 7 Apr** | Prepare pitch deck (if required) | Murat + Ozan (design) |
-| **W/C 7 Apr** | Record elevator pitch video (if required) | Murat |
-| **W/C 14 Apr** | First draft complete — internal review | Murat |
-| **W/C 14 Apr** | Check application portal requirements | Murat |
-| **W/C 21 Apr** | Final polish and submit | Murat |
+| **W/C 31 Mar** | Message Sudhakar on WhatsApp | Murat |
+| **W/C 31 Mar** | Finalize business sector and company category | Murat + Claude |
+| **W/C 7 Apr** | Draft 250-char company profile | Murat + Claude |
+| **W/C 7 Apr** | Build pitch deck (10-12 slides) | Murat + Claude + Ozan (design) |
+| **W/C 14 Apr** | Record 60-second elevator pitch video | Murat |
+| **W/C 14 Apr** | Upload video to YouTube/Vimeo | Murat |
+| **W/C 21 Apr** | Fill form, upload deck, submit | Murat |
 | **W/C 21 Apr** | Thank-you note to Sudhakar | Murat |
 
-**Critical path:** AFG go-live is April 26. Application due April 30. Both in the same week. Plan accordingly — draft the application BEFORE the AFG crunch.
+**Critical path:** AFG go-live is April 26. Application due April 30. Both in same week. Draft the pitch deck BEFORE the AFG crunch week. Record the video by April 14 latest.
+
+## THE 250-CHARACTER COMPANY PROFILE (DRAFT)
+
+This is the most constrained field. Every character matters:
+
+**Option A (Full-stack angle):**
+"Trackon is a Trade OS for grain traders — AI-powered CTRM, LC document compliance, shipment tracking, and sanctions screening in one platform. Built by a 12-year grain trade CTO. Serving enterprise and SME traders across MENA, Europe, and the US."
+
+(249 chars)
+
+**Option B (SME + AI angle):**
+"Trackon brings AI-native commodity trading software to SME grain traders. CTRM, document AI (UCP 600/ISBP 821 LC compliance), shipment tracking, sanctions screening. Deploy in days, not months. Built inside a real grain trading house over 12 years."
+
+(250 chars)
+
+**Option C (Problem-first):**
+"70% of grain trade LCs are rejected on first presentation. Trackon fixes this with AI document compliance alongside full CTRM, tracking, and sanctions — one platform built by a former grain trade CTO with 20 years of commodity trading software."
+
+(244 chars)
 
 ---
 
 ## OPEN QUESTIONS
 
-1. **Application format**: Is it a form, pitch deck, video, or written submission? Need to check the Accubate portal.
-2. **Multiple categories**: Can we apply to multiple categories or only one?
-3. **Presentation format at IGC**: If shortlisted, what's the format? Pitch competition? Panel? Demo?
-4. **Travel logistics**: London June 10 — need to plan if shortlisted
-5. **MCP announcement timing**: If MCP Server is ready by April, should it be in the application? "First CTRM with MCP" is a headline judges would notice.
+1. ~~Application format~~ — ANSWERED: Form + pitch deck (PDF/PPT) + 60-sec video
+2. **Multiple sectors**: Can we select more than one business sector? Or just one? (Ask Sudhakar or check form)
+3. **Presentation format at IGC**: If shortlisted, what's the format in London? Pitch competition? Panel? Demo?
+4. **Travel logistics**: London June 10 — need to plan if shortlisted (jury decision May 15)
+5. **MCP announcement timing**: If MCP Server is ready by April, include in pitch deck? "First CTRM with MCP" is a headline judges would notice.
+6. **Revenue dropdown options**: What are the ranges? This determines prize category. Need to check form.
+7. **Funding stage**: Trackon is bootstrapped/self-funded. Select "Other" or closest match?
+8. **Woman founder**: No — answer honestly, this is likely for diversity tracking not scoring
 
 ---
 
