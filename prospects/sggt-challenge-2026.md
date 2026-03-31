@@ -125,7 +125,9 @@ related: [_personal/strategy/sggt-challenge-brainstorm.md]
 Sudhakar Tomar via WhatsApp, 25 March 2026. Murat confirmed interest ("Will do").
 
 ## Action Items
-- [ ] Decide which category/categories to apply under
-- [ ] Decide which product(s) to lead with (Trackon Legacy CTRM? TrackonAI? TradingDocs?)
-- [ ] Prepare application before 30 April 2026
-- [ ] Consider whether to apply as Scale-up or Mature company
+- [ ] Message Sudhakar — drafted, send on 2026-04-01. Asking for category advice (CTRM vs Documentation) and jury criteria
+- [ ] Wait for Sudhakar's reply before finalizing category
+- [ ] Prepare pitch deck (PDF/PPT) — mandatory
+- [ ] Record 60-second elevator pitch video — mandatory, host on YouTube/Vimeo
+- [ ] Draft 250-character company profile
+- [ ] Fill and submit application before 30 April 2026

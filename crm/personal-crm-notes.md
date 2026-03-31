@@ -65,6 +65,17 @@ Related: [[_personal/crm/crm-contacts|CRM Contacts]], [[_personal/commercial/syn
 
 ---
 
+## Sudhakar Tomar (IMEAA President)
+
+- **Relationship**: Worked together at Hakan (2009-2021). Sudhakar was Managing Director, Murat was CTO. 12 years.
+- **Current role**: President of IMEAA. Organizer of SGGT Challenge 2026 with IGC.
+- **Channel**: WhatsApp
+- **Tone**: "Hi Mr. Sudhakar" — respectful, professional, not stiff. He was Murat's boss.
+- **Last contact**: 25 March 2026 — Sudhakar shared SGGT Challenge, Murat said "Will do"
+- **Pending**: Message drafted, to send 1 April 2026 — asking category advice and jury criteria
+
+---
+
 ## HFD (Hakan Foods DMCC) — Beta-to-Paid
 
 - **Status:** Customer #1
