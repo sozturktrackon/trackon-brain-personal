@@ -139,6 +139,27 @@ TLB-2658 superseded — created before full architecture analysis.
 | 5 | [TNT-545](https://trackonsoftware.atlassian.net/browse/TNT-545) | Maersk + COSCO adapters |
 | 6 | [TNT-546](https://trackonsoftware.atlassian.net/browse/TNT-546) | Integration + SeaRates fallback + tests |
 
+## Confirmed Implementation Detail (code review 2026-03-31)
+
+**SCAC code is already available per journey in Oracle.**
+- Stored in `TBL_SHIPPING_LINES.SCAC_CODE`, joined via `TBL_JOURNEY.SHIPPING_LINE_ID_SEQ`
+- All major carriers already mapped (MAEU, MSCU, CMDU, HLCU, COSU, etc.)
+- Current script passes SCAC as retry fallback only — needs to always pass on first call
+
+**EC2 script change is 2 lines** in `process_journey()` at line 1570:
+```
+Before: call_searates_api(api_key, num, typ)
+After:  call_tracking_service(function_url, num, typ, sealine=journey.shipping_line_scac_code)
+```
+
+**Tracking priority order** (unchanged): Booking Carrier (BK) → Booking Forwarder (BK) → BOL (BL) → BOL as BK.
+Container tracking is deliberately disabled (reuse risk).
+
+**Two separate tracking systems exist today:**
+- Legacy (Mana): EC2 cron → `oracle_vessel_tracking.py` → SeaRates → Oracle TBL_JOURNEY
+- TrackonAI: EventBridge → `fetch_journey_tracking.py` Lambda → SeaRates → DynamoDB
+- Mana uses the Legacy path. The Lambda Function URL bridges both.
+
 ## Existing Code to Reuse
 
 | File | Lines | Reusable For |
