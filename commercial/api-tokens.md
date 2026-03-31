@@ -19,7 +19,8 @@ updated: 2026-03-31
 
 ## Desktime
 
-- **URL**: https://desktime.com/api/v1/
+- **URL**: https://desktime.com/api/v2/json
 - **Auth**: Query parameter `apiKey={api_key}`
 - **API Key**: 0e155e21d34158e443a5ea9d0aa39d08
-- **Endpoints**: `/company`, `/employee`, `/projects`, `/absence`
+- **Endpoints**: `/company/info`, `/employee/{id}`, `/projects`, `/absence`
+- **MCP Server**: `utils/desktime-mcp/desktime_api.py`
