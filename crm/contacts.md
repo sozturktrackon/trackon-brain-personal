@@ -135,6 +135,20 @@ Related: [[_personal/commercial/deal-notes|Deal Notes]], [[_personal/intel/conta
 
 ---
 
+## Strategic Network Contacts
+
+### Sudhakar Tomar — IMEAA President
+- **Current role**: President, IMEAA (India Middle East Agri Alliance)
+- **Organization**: IMEAA + BSAF + SAAF ecosystem — 30,000+ agri-entities, 5.5M farmers, $1.5B in trade catalyzed
+- **Location**: Dubai, UAE
+- **Background**: MBA Marketing, 30+ years in agri-commodities
+- **Relationship with Murat**: Worked together at Hakan (2009-2021). Sudhakar was Managing Director, Murat was CTO. ~12 years of direct collaboration.
+- **Current engagement**: Personally invited Trackon to apply for SGGT Challenge 2026 (March 2026). Organizer of the challenge with IGC.
+- **Strategic value**: Direct access to 6,000+ grain traders, IGC network, Global South agriculture ecosystem. One of the most connected people in India-Middle East agri-trade corridor.
+- **Status**: Warm relationship, active engagement
+
+---
+
 ## Disqualified / Do Not Pursue
 
 ### محمد الخلوف (Mohammed Al-Khalouf)

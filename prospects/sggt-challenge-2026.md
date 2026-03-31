@@ -54,6 +54,14 @@ updated: 2026-03-31
 13. Government & Policy Integration Tech
 15. Climate & Sustainability Tech
 
+## Relationship Context — Sudhakar Tomar
+- **Current role**: President of IMEAA (India Middle East Agri Alliance)
+- **IMEAA scale**: 30,000+ agri-entities, 5.5M farmers, 1,600+ agribusinesses, $1.5B in trade catalyzed, 20+ MoUs
+- **Relationship with Murat**: Worked together at Hakan (2009-2021). Sudhakar was Managing Director, Murat was CTO. ~12 years of direct collaboration.
+- **This is NOT a cold application** — Sudhakar personally reached out to Murat and encouraged him to apply. "If shortlisted you will get exposed to 6000 grain traders. Do your best."
+- **IGC-IMEAA MoU**: Signed June 2025, landmark partnership giving IMEAA co-hosting rights at IGC events
+- Sudhakar personally organized this challenge with IGC — he is not just a contact, he is the organizer
+
 ## Source
 Sudhakar Tomar via WhatsApp, 25 March 2026. Murat confirmed interest ("Will do").
 
