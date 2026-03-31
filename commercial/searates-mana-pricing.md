@@ -23,15 +23,18 @@ related: [customers/mana/overview, products/trackonai/journey-tracking, _persona
 - No signed agreement in place — verbal EUR 500/month deal only
 - Two agreements drafted and sent to Josh (Mana) — neither signed
 - Contract execution requires DFA (owner of Mana) — known bottleneck
-- **Decision: proceed via monthly invoicing without a formal contract**
-- Implied acceptance expected once Mana pays the first invoice
 
-## Billing Mechanics
+## Proposed Billing (NOT AGREED)
 
-- $2.50 per unique shipment tracked per calendar month
-- Billing based on **maximum unique shipments** tracked in a given month
-- Tracking stops automatically on delivery or invoice payment
-- Trackon to produce a monthly report listing unique shipments as invoice backup
+- **$2.50/shipment is a PROPOSAL only** — sent to Josh and Joanna on March 30
+- Josh has NOT responded as of March 31
+- **Do not invoice until verbal acceptance received**
+- Follow up on WhatsApp if no response by April 2
+- Proposed mechanics:
+  - $2.50 per unique shipment tracked per calendar month
+  - Billing based on **maximum unique shipments** tracked in a given month
+  - Tracking stops automatically on delivery or invoice payment
+  - Trackon to produce a monthly report listing unique shipments as invoice backup
 
 ## What Happened (March 2026)
 
@@ -49,18 +52,78 @@ related: [customers/mana/overview, products/trackonai/journey-tracking, _persona
 - Asked for: upgrade options, pricing for higher volume plans
 - **Pending**: Alexander's response with plan options and pricing
 
+## Current Status (March 31, 2026)
+
+| | |
+|---|---|
+| **Mana proposal** | $2.50/shipment email sent to Josh and Joanna on March 30 |
+| **Josh response** | No response on WhatsApp as of March 31 |
+| **Agreement** | Verbal EUR 500/month only — no signed contract |
+| **Emergency credits** | SeaRates provided 28 units — nearly exhausted |
+| **Active shipments** | ~500/month at peak |
+| **Expected revenue** | $1,000–$1,250/month at new rate |
+| **Expected cost** | ~$550/month |
+| **Expected margin** | $500–$700/month |
+
 ## Pending
 
 - **Alexander (SeaRates)**: waiting for upgrade options and volume pricing
 - **Count dispute**: SeaRates may be overcounting — Trackon has 529 unique shipments total vs. SeaRates February count exceeding that. Need Alexander to clarify counting methodology.
-- **Josh (Mana)**: waiting for WhatsApp response on $2.50/shipment billing
+- **Josh (Mana)**: no WhatsApp response as of March 31
 - If DFA needs to approve, SeaRates email is the key evidence (third party cost, not margin padding)
 - Mana may request to hold EUR 500 rate for one month while getting internal approval — acceptable given relationship
 - **New angle**: If SeaRates is overcounting, the actual cost may be lower than assumed. Wait for Alexander's response before finalizing Mana pricing.
 
-## Open Technical Questions
+## Mana Carrier Volume Analysis (352 total shipments)
 
-1. Can we build a local tracker that monitors active shipment pool size month-over-month and projects SeaRates credit consumption?
-2. Can we estimate the break-even per-shipment rate dynamically based on average voyage duration?
-3. Is there a way to optimise API calls — e.g. skip weekends, skip shipments within first 5 days of tracking — to reduce SeaRates burn without degrading service?
-4. Should we cache SeaRates responses and only re-query after X hours to reduce API call count toward the 90,000/year cap?
+| Carrier | Code | Shipments | % | Cumulative | Free API |
+|---|---|---|---|---|---|
+| CMA CGM | 2960 | 111 | 31.5% | 31.5% | Yes |
+| MSC | 1482 | 82 | 23.3% | 54.8% | Yes (code exists in tradingdocs-backend) |
+| Maersk | 13 | 35 | 9.9% | 64.8% | Yes (best documented) |
+| Hapag-Lloyd | 2655 | 26 | 7.4% | 72.2% | Yes |
+| COSCO | 2820 | 21 | 6.0% | 78.1% | Yes |
+| ONE | 4660 | 18 | 5.1% | 83.2% | Yes |
+| Evergreen | 2880 | 13 | 3.7% | 86.9% | Yes |
+| OOCL | 2662 | 12 | 3.4% | 90.3% | Yes |
+| HMM (combined) | 2731+4740 | 12 | 3.4% | 93.8% | Yes |
+| Blue Anchor | 908 | 10 | 2.8% | 96.6% | Unlikely |
+| Yang Ming | 940 | 4 | 1.1% | 97.7% | Yes |
+| Others (5 carriers) | — | 8 | 2.3% | 100% | Mixed |
+
+**Key finding**: Top 5 carriers = 78% of volume, all with free APIs. Top 9 = 94%.
+Blue Anchor (10 shipments) is the only meaningful carrier without a clear public API.
+
+## Revised Strategy — Direct Carrier Integration
+
+See [[decisions/2026-carrier-direct-api-strategy]] for full decision record.
+
+**Instead of fighting with Josh over $2.50/shipment, eliminate the cost:**
+- Build direct API integrations for top 5 carriers (78% of volume, zero cost)
+- Keep SeaRates for remaining 22% long tail — $1,650/year plan now lasts full 12 months
+- Total cost drops from $6,600/year to ~$1,650/year
+- At EUR 500/month from Mana = ~$4,350/year margin regardless of Josh negotiation
+
+**Build order:**
+1. CMA CGM — this week (31.5%)
+2. MSC — port from tradingdocs-backend (23.3%)
+3. Maersk — April (9.9%)
+4. Hapag-Lloyd — April (7.4%)
+5. COSCO — April (6%)
+
+## Revised Economics
+
+| Scenario | SeaRates/year | Direct API | Total cost | Mana revenue | Margin |
+|---|---|---|---|---|---|
+| Current (all SeaRates) | $6,600 | $0 | $6,600 | ~$6,000 | **-$600** |
+| Top 5 direct + SeaRates tail | ~$1,650 | ~$0 | ~$1,650 | ~$6,000 | **~$4,350** |
+| Top 9 direct + SeaRates tail | ~$800 | ~$0 | ~$800 | ~$6,000 | **~$5,200** |
+| All direct (no SeaRates) | $0 | ~$0 | ~$0 | ~$6,000 | **~$6,000** |
+
+## Next Actions
+
+- [ ] Follow up Josh on WhatsApp if no response by April 2
+- [ ] Start CMA CGM direct API integration this week
+- [ ] Port MSC tracking code from tradingdocs-backend
+- [ ] Build cache layer on SeaRates for remaining carriers (30-40% API burn reduction)
+- [ ] Continue Alexander count dispute — win = immediate cost relief on SeaRates tail
