@@ -8,11 +8,12 @@ related: [products/tradingdocs/backend/architecture]
 ---
 # Premier Info
 
-**Company**: Premier Info (premierinfo.biz)
+**Company**: Premier Info (premierinfo.biz) — IT/services arm for a Holland-based BV company (name TBC)
 **Contact**: Rahul Sharma (+91 90243 37090), Rahul.Sharma@premierinfo.biz
 **Second user**: Hariom Joshi, hariom.joshi@premierinfo.biz
 **Product interest**: TradingDocs.AI
 **Source**: Direct outreach (cold/warm contact)
+**Note**: Rahul works for the India office; the end customer is a Dutch (BV) trading company
 
 ## Status
 
@@ -36,7 +37,7 @@ LC document compliance checking accuracy. Their documentation team needs the sys
 
 ## Current Process
 
-- Belgium-based operations (phone +0032)
+- Holland/Netherlands-based trading company (something BV), Rahul is in India office
 - Has dedicated documentation officers who review LC compliance
 - Trades to destinations including Spain (ES) and Belgium (BE) based on shipment codes
 
