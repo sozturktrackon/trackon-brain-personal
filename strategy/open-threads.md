@@ -17,8 +17,8 @@ related: [customers.md, pricing.md, product-decisions.md]
 | Agrisar TradingDocs.AI $1,000/month | Murat | Agreed in principle, not activated | Push activation — no new conversation needed |
 | Agrisar SeaRates API $500/month | Murat | Pitched, not confirmed | Follow up with Ashley |
 | Turkish logistics pricing $2,400 or $1,800 | Murat | Planned at Gulfood | Execute conversation at Gulfood |
-| Mana tracking fee — bundle vs pass-through | Murat | Decision made internally, not yet formalized with Mana | Present bundled service fee proposal after ETD/ETA fix |
-| Mana overall support fee review | Murat | Discussion initiated, not resolved | Depends on Tuesday meeting outcome (Feb 2026) |
+| Mana tracking fee — $2.50/shipment proposal | Murat | Proposal sent to Josh March 30, 2026. No response as of March 31. | Follow up with Josh. SeaRates credits exhausted — tracking degraded NOW. |
+| Mana overall support fee review | Murat | Discussion initiated, not resolved | Depends on Josh response to tracking proposal |
 
 ---
 
