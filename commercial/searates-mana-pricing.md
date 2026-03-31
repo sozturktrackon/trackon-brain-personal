@@ -120,10 +120,37 @@ See [[decisions/2026-carrier-direct-api-strategy]] for full decision record.
 | Top 9 direct + SeaRates tail | ~$800 | ~$0 | ~$800 | ~$6,000 | **~$5,200** |
 | All direct (no SeaRates) | $0 | ~$0 | ~$0 | ~$6,000 | **~$6,000** |
 
+## Jira Epic (approved architecture)
+
+**[TNT-540](https://trackonsoftware.atlassian.net/browse/TNT-540)** — Direct Carrier Tracking — Reduce SeaRates dependency by 78%
+- Assigned to: Hamza
+- Estimated: 4 weeks
+
+TLB-2658 superseded — created before full architecture analysis.
+
+**Approved architecture:** Extend `fetch_journey_tracking.py` in trackon-aws-backend with carrier routing layer. No new Lambda functions, no new infrastructure. SeaRates fallback for unintegrated carriers.
+
+| Sub-task | Key | Summary |
+|---|---|---|
+| 1 | [TNT-541](https://trackonsoftware.atlassian.net/browse/TNT-541) | Port carrier auth → carrier_auth.py |
+| 2 | [TNT-542](https://trackonsoftware.atlassian.net/browse/TNT-542) | Hapag-Lloyd adapter (DCSA API — lowest risk) |
+| 3 | [TNT-543](https://trackonsoftware.atlassian.net/browse/TNT-543) | CMA CGM adapter (31.5% volume) |
+| 4 | [TNT-544](https://trackonsoftware.atlassian.net/browse/TNT-544) | MSC adapter (session login) |
+| 5 | [TNT-545](https://trackonsoftware.atlassian.net/browse/TNT-545) | Maersk + COSCO adapters |
+| 6 | [TNT-546](https://trackonsoftware.atlassian.net/browse/TNT-546) | Integration + SeaRates fallback + tests |
+
+## Existing Code to Reuse
+
+| File | Lines | Reusable For |
+|---|---|---|
+| `tradingdocs-backend/src/lambdas/fetch_container_tare_weight.py` | 4,001 | Auth patterns for all 5 carriers (Maersk OAuth, MSC session/S3, CMA scraping, Hapag portal, COSCO eLines) |
+| `trackon-aws-backend/src/lambdas/fetch_journey_tracking.py` | 896 | SeaRates fallback, SCAC mapping, change detection, credit system |
+| `trackon-build/utils/oracle_vessel_tracking.py` | 2,025 | SCAC code mappings, Legacy Oracle update patterns |
+
 ## Next Actions
 
 - [ ] Follow up Josh on WhatsApp if no response by April 2
-- [ ] Start CMA CGM direct API integration this week
-- [ ] Port MSC tracking code from tradingdocs-backend
+- [ ] Ozan starts TLB-2658: GQL resolver + CMA CGM adapter (Week 1)
+- [ ] Port MSC auth from fetch_container_tare_weight.py (Week 2)
 - [ ] Build cache layer on SeaRates for remaining carriers (30-40% API burn reduction)
 - [ ] Continue Alexander count dispute — win = immediate cost relief on SeaRates tail
