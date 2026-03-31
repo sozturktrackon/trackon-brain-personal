@@ -7,6 +7,7 @@ deadline: 2026-04-30
 event_date: 2026-06-10
 event_location: International Grains Conference, London
 updated: 2026-03-31
+related: [_personal/strategy/sggt-challenge-brainstorm.md]
 ---
 
 # SMART Global Grains Trade Challenge 2026
