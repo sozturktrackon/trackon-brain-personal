@@ -19,9 +19,30 @@ related: [_personal/strategy/sggt-challenge-brainstorm.md]
 - Focus: efficiency, transparency, logistics, risk management, food security (esp. Global South)
 
 ## Prize & Exposure
-- **$150,000 prize pool** across 3 categories: Startups, Scale-ups, Mature companies
+- **$150,000 prize pool** across 3 REVENUE-BASED categories (NOT product categories):
+  - **Category 1**: Revenue up to $2M → $50,000
+  - **Category 2**: Revenue $2-5M → $50,000
+  - **Category 3**: Revenue > $5M → $50,000
 - Winners present at **International Grains Conference, London — 10 June 2026**
+- Venue: IET Savoy Place, London (London Grains Week)
 - Shortlisted companies get exposed to **6,000 grain traders**
+- Mentorship from IMEAA Ecosystem + industry outreach to 30,000 companies
+- Jury Decision: **15 May 2026**
+
+## Partners & Sponsors
+- **IGC** (International Grains Council)
+- **IMEAA** (India Middle East Agri Alliance)
+- **Microsoft AI for Good Lab**
+- **DMCC** (Dubai Multi Commodities Centre) — Trackon Software is a DMCC company!
+- DMCC AI Centre
+- BSAF (Bharat Subcontinent Agri Foundation)
+- South Asia Agri Forum
+- Gulfood
+- Manufacturing Mountain Partnership of the United Nations
+- World Food Forum
+- **Gafta** (The Grain and Feed Trade Association)
+- **FOSFA** (Federation of Oils, Seeds and Fats Associations)
+- **IGTC** (International Grain Trade Coalition)
 
 ## Deadline
 - **Submissions close: 30 April 2026**

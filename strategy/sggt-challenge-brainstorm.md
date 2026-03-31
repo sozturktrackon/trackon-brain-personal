@@ -100,15 +100,25 @@ No other applicant will have all three:
 
 ---
 
-## WHICH TIER: Startup / Scale-up / Mature?
+## WHICH REVENUE CATEGORY?
 
-| Tier | Fits? | Risk |
-|---|---|---|
-| **Startup** | No — 20+ years of products, paying customers | Would look dishonest |
-| **Scale-up** | Yes — TrackonAI/TradingDocs are scaling products with first paying customers | Best positioning |
-| **Mature** | Technically yes for Legacy | Judges expect large revenue; small team may look weak |
+**CORRECTION**: The prize categories are by REVENUE, not by company stage. The 20 "categories" Sudhakar listed (CTRM, Documentation, etc.) are APPLICATION FOCUS AREAS — what your product does. The PRIZE is determined by company revenue.
 
-**RECOMMENDATION: Scale-up.** Frame it as: "Mature domain expertise (20+ years in commodity trading), scaling new AI-native products for the SME segment."
+| Prize Category | Revenue Range | Prize | Fits Trackon? |
+|---|---|---|---|
+| **Category 1** | Up to $2M | $50,000 | **Most likely** — depends on Trackon's current annual revenue |
+| **Category 2** | $2M - $5M | $50,000 | Possible if Legacy revenue is included |
+| **Category 3** | > $5M | $50,000 | Unlikely |
+
+**RECOMMENDATION: Category 1 (up to $2M).** This is where Trackon most naturally fits. Being a smaller company in this tier is actually an ADVANTAGE — it shows innovation punching above its weight.
+
+## ADDITIONAL LEVERAGE: DMCC PARTNERSHIP
+
+**DMCC is a listed partner of the challenge.** Trackon Software DMCC is literally a DMCC company. This is not a coincidence — DMCC is promoting innovation within its own ecosystem. This strengthens the application significantly. Consider mentioning DMCC entity status in the application.
+
+## MICROSOFT AI FOR GOOD LAB
+
+Microsoft is co-sponsoring. Trackon runs on AWS, not Azure — but this is about AI for Good in agriculture, not cloud provider loyalty. The AI-native story (Bedrock, Claude, document AI) still resonates. If anything, it shows independence from any single ecosystem.
 
 ---
 
