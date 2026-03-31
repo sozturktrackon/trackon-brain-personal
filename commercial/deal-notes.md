@@ -10,6 +10,8 @@ related: [_personal/crm/contacts.md, _personal/strategy/strategic-decisions.md]
 
 # Commercial Discussions & Deal Notes
 
+Related: [[_personal/commercial/deal-log|Deal Log]], [[_personal/commercial/pricing|Pricing]], [[_personal/crm/contacts|Contacts]], [[products/tradingdocs/tradingdocs-roadmap|TradingDocs Roadmap]]
+
 ## Pricing Model History
 
 ### Old Model (Abandoned)

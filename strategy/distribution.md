@@ -10,6 +10,8 @@ related: [_personal/strategy/positioning-and-messaging.md, _personal/commercial/
 
 # Strategic Decisions & Distribution
 
+Related: [[_personal/strategy/positioning-and-messaging|Positioning & Messaging]], [[_personal/commercial/deal-notes|Deal Notes]], [[_personal/commercial/demo-feedback|Demo Feedback]], [[_personal/intel/contacts-intel|Competitive Intel]], [[_personal/prospects/yagnesh-savania|Yagnesh Savania]]
+
 ## The Core Problem
 
 **Distribution, not product.** The product works. The moat is getting it in front of the right buyers at the right moment.

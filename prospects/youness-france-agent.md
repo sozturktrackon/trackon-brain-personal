@@ -7,6 +7,8 @@ updated: 2026-03-31
 ---
 # Youness — France Sales Agent
 
+Product: [[products/tradingdocs/tradingdocs-roadmap|TradingDocs.AI]] | First target: [[_personal/prospects/amee-foods|Amee Foods]]
+
 **Contact**: Youness (last name TBC)
 **Relationship**: Personal friend of Murat (from music)
 **Location**: France (contacted during Murat's Paris trip)

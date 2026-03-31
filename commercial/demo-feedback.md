@@ -10,6 +10,8 @@ related: [_personal/strategy/distribution.md, _personal/crm/contacts.md]
 
 # Demo Feedback & Feature Requests
 
+Product: [[products/tradingdocs/tradingdocs-roadmap|TradingDocs.AI]] | Prospects: [[_personal/prospects/amee-foods|Amee Foods]], [[_personal/prospects/longulf|Longulf]], [[_personal/prospects/premier-info|Premier Info]], [[_personal/prospects/agriculture-whatsapp|Saudi WhatsApp Lead]]
+
 ## Amee Foods (Dina Thomas)
 - **Trial result**: Soft rejection — "still evaluating whether this solution is truly relevant for our day-to-day operations"
 - **Root cause (assessed)**: Didn't connect document checking to operational pain during self-run trial

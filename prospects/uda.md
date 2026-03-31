@@ -8,7 +8,7 @@ related: [customers/uda/overview, products/tradingdocs/backend/architecture]
 ---
 # UDA — TradingDocs.AI Pipeline
 
-**Status**: In pipeline for TradingDocs.AI (already active Trackon Legacy customer)
+**Status**: In pipeline for [[products/tradingdocs/tradingdocs-roadmap|TradingDocs.AI]] (already active [[customers/uda/uda-overview|Trackon Legacy customer]])
 
 ## Details
 

@@ -9,6 +9,8 @@ related: [company/tools/openclaw]
 
 # Planned: Email Archive Mining via OpenClaw
 
+Tool: [[company/tools/openclaw|OpenClaw]] | Output: [[_personal/crm/contacts|Contacts]], [[_personal/crm/crm-contacts|CRM Contacts]]
+
 ## Goal
 Process full Gmail archive through OpenClaw to extract:
 - Customer communication history

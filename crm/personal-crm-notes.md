@@ -10,6 +10,8 @@ related: [_personal/crm/crm-contacts.md]
 
 # Personal Notes — Relationships & Sensitive Context
 
+Related: [[_personal/crm/crm-contacts|CRM Contacts]], [[_personal/commercial/syncfusion-renewal|Syncfusion Renewal]]
+
 > ⚠️ Keep in `_personal/` — not for shared vault. Contains relationship context, private deal observations, and sensitive commercial positions.
 
 ---

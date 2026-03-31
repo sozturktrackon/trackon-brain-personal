@@ -10,6 +10,8 @@ related: [_personal/crm/crm-contacts.md, _personal/strategy/positioning-and-mess
 
 # Deal Log & Pricing History
 
+Related: [[_personal/commercial/pricing|Pricing]], [[_personal/commercial/deal-notes|Deal Notes]], [[_personal/commercial/syncfusion-renewal|Syncfusion]], [[_personal/crm/crm-contacts|CRM Contacts]], [[_personal/strategy/positioning-and-messaging|Positioning]]
+
 ---
 
 ## Closed Deals

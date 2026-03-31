@@ -8,6 +8,8 @@ related: [products/tradingdocs/backend/architecture]
 ---
 # Longulf
 
+Product: [[products/tradingdocs/tradingdocs-roadmap|TradingDocs.AI]]
+
 **Contact**: Moiez Kadiwar
 **Product interest**: TradingDocs.AI
 **Source**: Gulfood referral via Gary

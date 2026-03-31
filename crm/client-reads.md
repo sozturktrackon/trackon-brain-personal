@@ -4,10 +4,12 @@ status: active
 tags: [private, client-reads, negotiation, signals]
 created: 2026-03-30
 source: conversation-history
-related: [customers.md, pricing.md, strategy-positioning.md]
+related: [customers/agrisar/agrisar-health, customers/mana/mana-health, _personal/commercial/pricing]
 ---
 
 # _Personal: Client Reads & Private Notes
+
+Customers: [[customers/agrisar/agrisar-health|Agrisar]], [[customers/mana/mana-health|Mana]] | Related: [[_personal/commercial/pricing|Pricing]]
 
 > Not for shared vault. Behavioral observations, negotiation reads, interpersonal context.
 

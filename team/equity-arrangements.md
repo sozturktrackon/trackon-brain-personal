@@ -8,6 +8,8 @@ related: []
 ---
 # Equity Arrangements (Confidential)
 
+Team: [[company/team/bibeesh|Bibeesh]], [[company/team/hamza|Hamza]]
+
 Moved from team profile files during vault sanitization.
 
 ## Phantom Equity Pool

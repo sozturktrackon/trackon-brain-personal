@@ -8,6 +8,8 @@ related: []
 ---
 # Yagnesh (Yags) Savania — CONFIDENTIAL
 
+Related: [[_personal/intel/contacts-intel|Competitive Intel]], [[_personal/strategy/distribution|Distribution Strategy]]
+
 **Do not mention his name in any outreach or shared systems.**
 
 **Email**: ysavania@hotmail.com

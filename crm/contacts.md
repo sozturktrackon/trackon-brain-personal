@@ -10,6 +10,8 @@ related: [_personal/commercial/deal-notes.md, _personal/intel/contacts-intel.md]
 
 # Contacts & Prospects
 
+Related: [[_personal/commercial/deal-notes|Deal Notes]], [[_personal/intel/contacts-intel|Competitive Intel]], [[_personal/crm/crm-contacts|CRM Contacts]], [[_personal/crm/client-reads|Client Reads]]
+
 ## Active Customers
 
 ### Mana DMCC

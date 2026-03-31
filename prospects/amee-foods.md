@@ -4,9 +4,11 @@ status: stalled
 tags: [prospect, confidential, tradingdocs]
 created: 2026-03-31
 updated: 2026-03-31
-related: [products/tradingdocs/backend/architecture]
+related: [products/tradingdocs/backend/tradingdocs-architecture, _personal/prospects/youness-france-agent]
 ---
 # Amee Foods
+
+Product: [[products/tradingdocs/tradingdocs-roadmap|TradingDocs.AI]] | Agent: [[_personal/prospects/youness-france-agent|Youness (France)]] | [[_personal/commercial/demo-feedback|Demo Feedback]]
 
 **Company**: Amee Foods (France)
 **Contact**: Dina Thomas, Front & Back Office Manager, dina.thomas@ameefoods.com, +33 607 91 16 43

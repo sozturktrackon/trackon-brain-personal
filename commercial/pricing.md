@@ -4,10 +4,12 @@ status: active
 tags: [pricing, deals, SLA, revenue, strategy]
 created: 2026-03-30
 source: conversation-history
-related: [customers.md, positioning.md]
+related: [customers/agrisar/agrisar-health, customers/mana/mana-health, _personal/commercial/deal-log, _personal/strategy/open-threads]
 ---
 
 # Pricing & Commercial Decisions
+
+Customers: [[customers/agrisar/agrisar-health|Agrisar]], [[customers/mana/mana-health|Mana]] | Related: [[_personal/commercial/deal-log|Deal Log]], [[_personal/strategy/open-threads|Open Threads]]
 
 ## Benchmark: Market Comparison (as of Jan 2026)
 

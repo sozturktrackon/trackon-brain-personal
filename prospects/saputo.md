@@ -8,7 +8,7 @@ related: [products/tradingdocs/backend/architecture]
 ---
 # Saputo
 
-**Status**: In pipeline for TradingDocs.AI
+**Status**: In pipeline for [[products/tradingdocs/tradingdocs-roadmap|TradingDocs.AI]]
 
 ## Details
 

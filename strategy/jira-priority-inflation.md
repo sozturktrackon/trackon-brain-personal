@@ -9,6 +9,8 @@ related: [company/jira-insights, decisions/2026-jira-priority-rules]
 
 # Jira Priority Inflation — Management Observation
 
+Data: [[company/jira-insights|Jira Insights]] | Fix: [[decisions/2026-jira-priority-rules|Priority Rules Decision]]
+
 ## The Problem
 
 - TLB: 61% of tickets marked Urgent

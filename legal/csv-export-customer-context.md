@@ -8,6 +8,8 @@ related: [decisions/2024-csv-only-data-export]
 ---
 # CSV-Only Export — Customer-Specific Context (Confidential)
 
+Policy: [[decisions/2024-csv-only-data-export|CSV-Only Data Export]] | Customer: [[customers/agrisar/agrisar-overview|Agrisar]] | Related: [[_personal/legal/agrisar-open-issues|Agrisar Open Issues]]
+
 Moved from `decisions/2024-csv-only-data-export.md` during vault sanitization.
 
 ## Agrisar-Specific Context

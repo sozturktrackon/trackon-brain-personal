@@ -11,6 +11,8 @@ related: [_personal/crm/personal-crm-notes.md, _personal/strategy/strategic-deci
 
 # ID Syncfusion Renewal - Require written price lock in MLA before signing renewal
 
+Related: [[_personal/crm/personal-crm-notes|CRM Notes]], [[_personal/strategy/strategic-decisions|Strategic Decisions]]
+
 | | |
 |---|---|
 | **THE PROBLEM** | Syncfusion's verbal/email 3-year price stability promise (from previous rep Catherine) is not in the signed EULA. EULA §1 explicitly supersedes all prior communications. After ~May 2027 (year 3), pricing reverts to discretionary and 25 bundled seats likely convert to paid. How do we protect against a surprise price increase? |

@@ -10,6 +10,8 @@ related: [_personal/crm/crm-contacts.md, _personal/commercial/deal-log.md]
 
 # Positioning & Messaging Decisions
 
+Public versions: [[company/market/market-positioning|Positioning]], [[company/market/market-messaging|Messaging]] | Related: [[_personal/strategy/distribution|Distribution Strategy]]
+
 ---
 
 ## Core Product Positioning

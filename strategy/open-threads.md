@@ -4,10 +4,12 @@ status: active
 tags: [follow-up, decisions, pending, blockers]
 created: 2026-03-30
 source: conversation-history
-related: [customers.md, pricing.md, product-decisions.md]
+related: [_personal/commercial/pricing, _personal/legal/agrisar-open-issues, customers/agrisar/agrisar-health, customers/mana/mana-health]
 ---
 
 # Open Threads & Pending Decisions
+
+Customers: [[customers/agrisar/agrisar-health|Agrisar]], [[customers/mana/mana-health|Mana]] | Commercial: [[_personal/commercial/pricing|Pricing]], [[_personal/legal/agrisar-open-issues|Agrisar Issues]]
 
 ## Commercial
 

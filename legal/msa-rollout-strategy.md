@@ -8,6 +8,8 @@ related: [decisions/2024-msa-isv-rollout]
 ---
 # MSA Rollout Strategy (Confidential)
 
+Decision: [[decisions/2024-msa-isv-rollout|MSA + ISV Rollout]] | Customers: [[customers/agrisar/agrisar-overview|Agrisar]], [[customers/mana/mana-overview|Mana]], [[customers/agropeak/agropeak-overview|Agropeak]]
+
 Moved from `decisions/2024-msa-isv-rollout.md` during vault sanitization.
 
 ## Rollout Strategy

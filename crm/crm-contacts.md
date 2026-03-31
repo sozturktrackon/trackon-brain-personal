@@ -10,6 +10,8 @@ related: [_personal/commercial/deal-log.md, _personal/commercial/deal-notes.md]
 
 # CRM Contacts
 
+Related: [[_personal/commercial/deal-log|Deal Log]], [[_personal/commercial/deal-notes|Deal Notes]], [[_personal/crm/personal-crm-notes|Personal Notes]], [[_personal/crm/contacts|Contacts]]
+
 ---
 
 ## Customers

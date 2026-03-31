@@ -10,6 +10,8 @@ related: [_personal/crm/contacts.md, _personal/strategy/distribution.md]
 
 # Competitive Intel & Suspicious Contacts
 
+Related: [[_personal/crm/contacts|Contacts]], [[_personal/strategy/distribution|Distribution Strategy]], [[company/market/market-competitors|Market Competitors]]
+
 ## Competitor Analysis
 
 ### TradeDoc.AI (trade-doc.ai)

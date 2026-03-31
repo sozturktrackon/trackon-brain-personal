@@ -9,6 +9,8 @@ related: [company/team/bibeesh, products/trackon-legacy/overview, products/track
 
 # Bus Factor Risk: Bibeesh = 1 for Trackon Legacy
 
+Person: [[company/team/bibeesh|Bibeesh]] | Product: [[products/trackon-legacy/legacy-overview|Trackon Legacy]] | Related: [[products/trackon-legacy/legacy-technical-debt|Legacy Tech Debt]]
+
 ## The Risk
 
 Bibeesh is the sole developer who understands the full Trackon Legacy stack:

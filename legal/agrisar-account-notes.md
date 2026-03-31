@@ -4,9 +4,11 @@ status: active
 tags: [agrisar, legal, dispute, confidential]
 created: 2024-01-01
 updated: 2026-03-30
-related: [customers/agrisar/overview]
+related: [customers/agrisar/agrisar-overview, decisions/2024-csv-only-data-export, decisions/2024-msa-isv-rollout]
 ---
 # Agrisar — Full Account Notes (Confidential)
+
+Customer: [[customers/agrisar/agrisar-overview|Agrisar]] | Related: [[decisions/2024-csv-only-data-export|CSV Export Policy]], [[decisions/2024-msa-isv-rollout|MSA Rollout]], [[_personal/legal/agrisar-open-issues|Open Issues]], [[_personal/legal/csv-export-customer-context|CSV Context]]
 
 Moved from `customers/agrisar/overview.md` during vault sanitization.
 

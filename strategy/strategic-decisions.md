@@ -10,6 +10,8 @@ related: [_personal/strategy/positioning-and-messaging.md, _personal/commercial/
 
 # Strategic Decisions (Not in Codebase)
 
+Products: [[products/trackonai/trackonai-roadmap|TrackonAI]], [[products/tradingdocs/tradingdocs-roadmap|TradingDocs.AI]] | Related: [[_personal/strategy/positioning-and-messaging|Positioning]], [[_personal/commercial/deal-log|Deal Log]], [[_personal/team/equity-arrangements|Equity]]
+
 These are decisions made in conversation that shaped direction but were never written into code or formal documentation.
 
 ---

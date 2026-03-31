@@ -8,6 +8,8 @@ related: [products/tradingdocs/backend/architecture]
 ---
 # Premier Info
 
+Product: [[products/tradingdocs/tradingdocs-roadmap|TradingDocs.AI]]
+
 **Company**: Gemini Corporation NV (Netherlands) — IT handled by Premier Info (premierinfo.biz, India)
 **Contact**: Rahul Sharma (+91 90243 37090), Rahul.Sharma@premierinfo.biz
 **Second user**: Hariom Joshi, hariom.joshi@premierinfo.biz

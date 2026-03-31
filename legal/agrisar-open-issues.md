@@ -8,6 +8,8 @@ related: [customers/agrisar/overview]
 ---
 # Agrisar — Open Issues (Confidential)
 
+Customer: [[customers/agrisar/agrisar-overview|Agrisar]] | Related: [[decisions/2024-csv-only-data-export|CSV Export Policy]], [[_personal/legal/agrisar-account-notes|Account Notes]], [[_personal/legal/msa-rollout-strategy|MSA Strategy]]
+
 Moved from `customers/agrisar/open-issues.md` during vault sanitization.
 
 ## Active Legal Issues

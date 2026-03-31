@@ -4,8 +4,10 @@ status: active
 tags: [prospect, tradingdocs, inbound]
 created: 2026-03-23
 updated: 2026-03-30
-related: []
+related: [products/tradingdocs/tradingdocs-roadmap]
 ---
+
+Product: [[products/tradingdocs/tradingdocs-roadmap|TradingDocs.AI]] (LC / SBLC compliance)
 
 ## Contact
 - Phone: +966 57 966 5211
