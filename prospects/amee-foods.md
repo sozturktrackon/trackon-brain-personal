@@ -39,3 +39,4 @@ Stalled — Dina replied 2026-01-05 saying "still evaluating whether this soluti
 - They did a demo and pilot trial
 - The "weird response" — after engaging through a full trial, providing volume details, and receiving a quote, they went cold with a vague "evaluating relevance" reply. This suggests either: internal pushback from management, the trial didn't demonstrate enough value vs their current process, or the timing (holiday period Dec-Jan) killed momentum.
 - Small deal ($399/mo = $4,788/year) — low priority but worth a check-in if a new feature or case study becomes available
+- Youness (France-based contact, friend of Murat from music) has been briefed to chase Amee Foods and other French trading companies for TradingDocs. See _personal/prospects/youness-france-agent.md
