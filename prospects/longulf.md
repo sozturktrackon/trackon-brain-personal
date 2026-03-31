@@ -32,11 +32,24 @@ Trial active — longulf.tradingdocs.ai, 500 page credits
 
 Documents prepared manually then checked against LC terms. 2-person check system is slow and error-prone.
 
+## Proposal Details (sent 2026-02-18, valid 30 days)
+
+- **Implementation fee**: $10,000 one-time (trade corridor mapping, custom rules, SAP integration, LC templates, training, 2-week go-live support)
+- **Core Platform**: $650/mo (upload, splitting, cross-doc comparison, LC compliance vs UCP 600/ISBP 821, 40 languages, 100 doc sets/mo fair usage)
+- **Regulatory Compliance**: Included (193 countries via ICTM API)
+- **Data Capture & Automation**: $200/mo (extraction to SAP fields, email gateway)
+- **Sanctions & AML Screening**: $250/mo (3rd party)
+- **Full Platform Bundle**: $1,000/mo (vs $1,100 individual)
+- **Overage**: $15 per document set beyond 100/mo
+- **Contract**: 12 months, auto-renewal, 30-day termination notice
+- **Volume basis**: ~900 shipments/year (75 doc sets/month)
+- **Total year-1 value**: $10,000 + $12,000 = $22,000
+
 ## Sales Progress
 
-- Proposal sent: Yes
+- Proposal sent: 2026-02-18 (expired 2026-03-20 — needs refresh if closing now)
 - Meeting recording: Shared
 - 2026-03-26: First WhatsApp contact from Moiez, onboarding instructions shared
 - 2026-03-27: Moiez started testing on web app, tried email workflow too
-- 2026-03-31: Demo call at 9am UK. System blocked users (all 500 page credits exhausted). Murat added 200 more pages.
-- Next action: Monitor trial usage, follow up on demo call outcome, check if Moiez hit any other issues
+- 2026-03-31: Demo call at 9am UK. System blocked users (all 500 page credits exhausted). Murat added 500 more pages.
+- Next action: Follow up on trial results, close deal (note: original proposal validity expired, may need to reissue or extend)
