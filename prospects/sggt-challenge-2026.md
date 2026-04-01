@@ -121,11 +121,23 @@ related: [_personal/strategy/sggt-challenge-brainstorm.md]
 - **IGC-IMEAA MoU**: Signed June 2025, landmark partnership giving IMEAA co-hosting rights at IGC events
 - Sudhakar personally organized this challenge with IGC — he is not just a contact, he is the organizer
 
-## Source
-Sudhakar Tomar via WhatsApp, 25 March 2026. Murat confirmed interest ("Will do").
+## Conversation Log
+- **25 Mar 2026**: Sudhakar shared challenge. Murat: "Will do"
+- **1 Apr 2026**: Murat asked about CTRM vs Documentation category. Sudhakar: "absolutely right" (apply both)
+- **1 Apr 2026**: Murat pitched TradingDocs 30% commission, asked about IGC collaboration
+- **1 Apr 2026**: Sudhakar: IGC is intergovernmental so can't directly, but "there are ways around it. We can discuss"
+- **1 Apr 2026**: Sudhakar asked for pitch deck. Murat committed to prepare one.
+
+## Potential IGC/IMEAA Distribution Channel
+- Sudhakar confirmed IGC can't do direct commercial partnerships (intergovernmental body)
+- But "there are ways around it" — wants to discuss further
+- IMEAA itself (not IGC) could potentially be a distribution partner
+- 30% commission on TradingDocs pitched — Sudhakar did not reject it
+- This is a separate opportunity from the challenge itself — potential ongoing business relationship
 
 ## Action Items
-- [ ] Message Sudhakar — drafted, send on 2026-04-01. Asking for category advice (CTRM vs Documentation) and jury criteria
+- [x] Message Sudhakar — sent 2026-04-01. Confirmed: apply to both categories.
+- [x] Sudhakar asked for pitch deck — Murat committed to prepare and send one
 - [ ] Wait for Sudhakar's reply before finalizing category
 - [ ] Prepare pitch deck (PDF/PPT) — mandatory
 - [ ] Record 60-second elevator pitch video — mandatory, host on YouTube/Vimeo
