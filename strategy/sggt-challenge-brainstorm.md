@@ -4,11 +4,13 @@ type: strategy
 status: draft
 deadline: 2026-04-30
 event: 2026-06-10 (IGC Grains Conference, London)
-updated: 2026-03-31
-related: [_personal/prospects/sggt-challenge-2026.md]
+updated: 2026-04-01
+related: [_personal/prospects/sggt-challenge-2026]
 ---
 
 # SGGT Challenge 2026 — Application Strategy Brainstorm
+
+Challenge details and timeline: [[_personal/prospects/sggt-challenge-2026]]
 
 ## THE OPPORTUNITY IN CONTEXT
 

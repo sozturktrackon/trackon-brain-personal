@@ -6,8 +6,8 @@ status: to-apply
 deadline: 2026-04-30
 event_date: 2026-06-10
 event_location: International Grains Conference, London
-updated: 2026-03-31
-related: [_personal/strategy/sggt-challenge-brainstorm.md]
+updated: 2026-04-01
+related: [_personal/strategy/sggt-challenge-brainstorm]
 ---
 
 # SMART Global Grains Trade Challenge 2026
@@ -134,6 +134,8 @@ related: [_personal/strategy/sggt-challenge-brainstorm.md]
 - IMEAA itself (not IGC) could potentially be a distribution partner
 - 30% commission on TradingDocs pitched — Sudhakar did not reject it
 - This is a separate opportunity from the challenge itself — potential ongoing business relationship
+
+See [[_personal/strategy/sggt-challenge-brainstorm]] for application strategy and pitch framework.
 
 ## Action Items
 - [x] Message Sudhakar — sent 2026-04-01. Confirmed: apply to both categories.
