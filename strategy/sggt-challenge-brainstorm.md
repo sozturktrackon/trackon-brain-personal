@@ -1,10 +1,10 @@
 ---
 title: SGGT Challenge 2026 — Application Strategy Brainstorm
 type: strategy
-status: draft
+status: completed
 deadline: 2026-04-30
 event: 2026-06-10 (IGC Grains Conference, London)
-updated: 2026-04-01
+updated: 2026-04-08
 related: [_personal/prospects/sggt-challenge-2026]
 ---
 

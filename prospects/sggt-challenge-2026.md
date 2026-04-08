@@ -2,11 +2,11 @@
 title: SMART Global Grains Trade Challenge 2026
 type: opportunity
 source: Sudhakar Tomar (IMEAA contact)
-status: to-apply
+status: applied
 deadline: 2026-04-30
 event_date: 2026-06-10
 event_location: International Grains Conference, London
-updated: 2026-04-01
+updated: 2026-04-08
 related: [_personal/strategy/sggt-challenge-brainstorm]
 ---
 
@@ -126,7 +126,10 @@ related: [_personal/strategy/sggt-challenge-brainstorm]
 - **1 Apr 2026**: Murat asked about CTRM vs Documentation category. Sudhakar: "absolutely right" (apply both)
 - **1 Apr 2026**: Murat pitched TradingDocs 30% commission, asked about IGC collaboration
 - **1 Apr 2026**: Sudhakar: IGC is intergovernmental so can't directly, but "there are ways around it. We can discuss"
-- **1 Apr 2026**: Sudhakar asked for pitch deck. Murat committed to prepare one.
+- **1 Apr 2026**: Sudhakar asked for pitch deck. Murat sent TradingDocs-focused SGGT pitch deck (v1, 11 slides)
+- **7 Apr 2026**: Murat announced MCP integration to Sudhakar. Sudhakar: "This is fantastic". Asked if Murat applied yet.
+- **7 Apr 2026**: Murat: "Not yet, will complete in 2 days"
+- **8 Apr 2026**: Application submitted. Full-stack pitch deck v2 (12 slides) with MCP slide added. Elevator pitch video recorded (68 seconds).
 
 ## Potential IGC/IMEAA Distribution Channel
 - Sudhakar confirmed IGC can't do direct commercial partnerships (intergovernmental body)
@@ -139,9 +142,23 @@ See [[_personal/strategy/sggt-challenge-brainstorm]] for application strategy an
 
 ## Action Items
 - [x] Message Sudhakar — sent 2026-04-01. Confirmed: apply to both categories.
-- [x] Sudhakar asked for pitch deck — Murat committed to prepare and send one
-- [ ] Wait for Sudhakar's reply before finalizing category
-- [ ] Prepare pitch deck (PDF/PPT) — mandatory
-- [ ] Record 60-second elevator pitch video — mandatory, host on YouTube/Vimeo
-- [ ] Draft 250-character company profile
-- [ ] Fill and submit application before 30 April 2026
+- [x] Sudhakar asked for pitch deck — sent TradingDocs v1 deck on 2026-04-01
+- [x] Prepare full-stack pitch deck v2 (12 slides, all 3 products + MCP) — completed 2026-04-08
+- [x] Record 60-second elevator pitch video (68 seconds) — completed 2026-04-08
+- [x] Draft 250-character company profile
+- [x] Fill and submit application — submitted 2026-04-08
+- [ ] Send thank-you note to Sudhakar
+- [ ] Wait for jury decision — 15 May 2026
+- [ ] If shortlisted: plan London trip for 10 June 2026
+
+## Application Details (as submitted)
+- **Business sector**: Category 19 — Integrated "Full-Stack" Platforms
+- **Company category**: Scaleup
+- **Pitch deck**: sggt-pitch-deck-v2.html (12 slides, full ecosystem: TrackonAI + TradingDocs + Legacy + MCP)
+- **Video**: 68-second elevator pitch
+- **Opted into**: all 5 additional challenges (UN-FAO, IMEAA-DMCC 2027, EUFICA, CDL, Mentorship)
+
+## Legal Note
+- Accubate (Cunomial) terms reviewed 2026-04-08. Standard SaaS terms, no IP transfer.
+- SGGT consent allows data sharing with sponsors/partners (IGC, IMEAA, DMCC, Microsoft, Gafta, FOSFA).
+- No confidentiality clause for submitted materials. Nothing sensitive was submitted beyond what is already public on websites.
