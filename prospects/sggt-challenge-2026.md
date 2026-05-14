@@ -6,7 +6,8 @@ status: applied
 deadline: 2026-04-30
 event_date: 2026-06-10
 event_location: International Grains Conference, London
-updated: 2026-04-08
+updated: 2026-05-13
+followup_deadline: 2026-05-14 (COB London — jury due-diligence questions)
 related: [_personal/strategy/sggt-challenge-brainstorm]
 ---
 
@@ -130,6 +131,7 @@ related: [_personal/strategy/sggt-challenge-brainstorm]
 - **7 Apr 2026**: Murat announced MCP integration to Sudhakar. Sudhakar: "This is fantastic". Asked if Murat applied yet.
 - **7 Apr 2026**: Murat: "Not yet, will complete in 2 days"
 - **8 Apr 2026**: Application submitted. Full-stack pitch deck v2 (12 slides) with MCP slide added. Elevator pitch video recorded (68 seconds).
+- **13 May 2026**: Jury sent due-diligence follow-up — 11 detailed questions. Response due **14 May 2026 COB London time**. Topics: end-to-end workflow with title/money flow, evidence for 3-5hr→3min claim, per-doc accuracy (invoice/B-L/phyto/fumigation/weight/quality), grain-specific AI vs OCR (GAFTA/FOSFA terms), 193-country rules engine sources, sanctions/AML providers, MCP live-vs-demo status, plain-English query safety, defensibility, scalability proof, ARR/MRR + paying customers + paid doc checks + 3 grain references. Strategy: confidently honest, work one question at a time. See [[_personal/prospects/sggt-jury-followup-response-2026|response draft]].
 
 ## Potential IGC/IMEAA Distribution Channel
 - Sudhakar confirmed IGC can't do direct commercial partnerships (intergovernmental body)
@@ -148,6 +150,7 @@ See [[_personal/strategy/sggt-challenge-brainstorm]] for application strategy an
 - [x] Draft 250-character company profile
 - [x] Fill and submit application — submitted 2026-04-08
 - [ ] Send thank-you note to Sudhakar
+- [ ] **Respond to jury due-diligence follow-up — due 14 May 2026 COB London**
 - [ ] Wait for jury decision — 15 May 2026
 - [ ] If shortlisted: plan London trip for 10 June 2026
 
