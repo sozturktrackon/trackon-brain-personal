@@ -9,35 +9,89 @@ updated: 2026-05-15
 
 # SGGT WAR ROOM CARD
 
-## 15-MIN PITCH KEYWORDS (12 SLIDES, glance only, speak don't read)
+## 15-MIN PITCH KEYWORDS (12 slides, glance only, speak don't read)
+
+**Deck-mapping note:** the deck has no dedicated TrackonAI slide. While showing the "3 Products" slide, narrate slide 3 AND slide 4 consecutively (~2 min on that single visual). Do not switch slides between 3 and 4.
 
 ```
- 1. TITLE         — Murat, 20 yrs grain CTO at Hakan, Trackon DMCC
- 2. PROBLEM       — spreadsheets vs $500K. DAIRY trader, ALGERIA,
-                    10 clean shipments. SAME ENGINE → GRAIN (Hakan/AFG)
-                    with GAFTA/FOSFA. Soft-commodities-wide.
- 3. 3 PRODUCTS    — Legacy / TrackonAI / TradingDocs. One tenant.
- 4. TRADINGDOCS   — over-flag → AI auto-resolve → 3-min human residual
-                    → learns per tenant (never pooled)
- 5. MCP           — April 2026, FIRST CTRM with MCP. Read-only, tenant-scoped.
- 6. ARCHITECTURE  — multi-tenant isolation, every call logged. Brief.
- 7. GRAIN-SPECIFIC— GAFTA/FOSFA, UCP 600 + ISBP 821, notation (1.4×10⁴=14000),
-                    phyto wording library, cross-doc consistency. THE MOAT.
- 8. MARKET        — 500M tonnes, 140 countries, $156B.
-                    4 vendor gaps: CTRMs lack AI / AI tools lack CTRM /
-                    eBL lacks validation / compliance lacks CTRM
- 9. PRICING       — SME accessible (sub + per-shipment)
-10. CUSTOMERS     — 7 paying. GRAIN: Hakan Foods DMCC, AFG Trading DMCC
-                    (consented). TRIALS: UAE house + Dutch trader.
-                    DFA (world's biggest dairy) advanced. ARR < $2M.
-11. TEAM          — 12 yrs Hakan CTO. Trading-systems engineers, not generalist.
-12. CLOSE / ASK   — (a) IMEAA 30k network distribution
-                    (b) jury intros to anchor grain houses
-                    (c) cheque accelerates Arabic + country rules
-                    NETWORK > CHEQUE. Live demo offered.
+ 1. TITLE + TEAM — Murat, CEO Trackon DMCC. 12 YEARS CTO at Hakan
+    (UPFRONT       (grain trader — now our paying customer). Team =
+    AUTHORITY)     trading-systems engineers, 20+ YEARS inside grain
+                   trade. We've read these documents at 2am with cargo
+                   stuck at port. That's why we built this.
+
+ 2. PROBLEM     — Grain trade is stuck between two bad options:
+                  (a) SPREADSHEETS + Word templates + email +
+                      manual tracking — brittle, unauditable, no
+                      single source of truth, no audit trail
+                  (b) EXPENSIVE enterprise CTRMs (ION, Brady) — built
+                      for energy/metals, never grain-aware, out of
+                      reach for SMEs
+                  Documentation officer with COLOURED HIGHLIGHTERS
+                  reconciling 6 documents per shipment = real workflow.
+                  ORIGIN: DAIRY trader, ALGERIA, 10 clean shipments
+                  since. SAME ENGINE → GRAIN (Hakan/AFG) with
+                  GAFTA/FOSFA. Soft-commodities-wide.
+
+ 3. 3 PRODUCTS   — Trackon Legacy: Complete trading ERP — contracts,
+                   positions, shipments, full GL and accounting — for
+                   established grain & soft-commodity trading houses.
+                   TrackonAI: Cloud-native, AI-first contracting/logistics/
+                   execution platform with native MCP. Light accounting by
+                   design — integrates into the customer's existing ERP.
+                   TradingDocs.AI: AI document validation and LC compliance
+                   engine that catches discrepancies before cargo is refused
+                   at port.
+                   One tenant, one data model, three surfaces.
+
+ 4. TRACKONAI    — Cloud-native, AI-first platform focused on contracting,
+                   logistics, and execution. Full lifecycle: contract →
+                   position → shipment → settlement. Light accounting by
+                   design — integrates into the customer's existing ERP.
+                   AI assistant in the UI lets traders chat with their data
+                   (Bedrock Agent). Multi-tenant, multi-region. Hakan and
+                   AFG in production today.
+
+ 5. TRADINGDOCS  — over-flag → AI auto-resolve → 3-min HUMAN residual
+                   → learns per tenant (never pooled).
+                   Full title + money-flow lifecycle covered in our
+                   written response — happy to drill in Q&A.
+
+ 6. MCP          — Pilot Feb 2026, PRODUCTION since end of March 2026.
+                   FIRST CTRM with native MCP. Read-only, tenant-scoped.
+
+ 7. ARCHITECTURE — Trading companies operate as GROUPS: origination
+                   offices, trading hubs, subsidiaries across MULTIPLE
+                   COUNTRIES. Our system models that natively —
+                   multi-branch, multi-legal-entity, automatic
+                   inter-branch transfer pricing. Multi-tenant cloud,
+                   multi-region, full per-tenant audit trail.
+
+ 8. GRAIN-SPEC   — GAFTA/FOSFA, UCP 600 + ISBP 821, notation
+                   (1.4×10⁴=14000), phyto wording library,
+                   cross-doc consistency. THE MOAT.
+
+ 9. MARKET       — 500M tonnes, 140 countries, $156B.
+                   4 vendor gaps: CTRMs lack AI / AI tools lack CTRM /
+                   eBL lacks validation / compliance lacks CTRM
+
+10. PRICING      — Per-tenant subscription + per-shipment validation.
+                   Annual plan saves 2 months. SME-accessible, no
+                   enterprise sticker shock.
+
+11. CUSTOMERS    — Global trading companies. GRAIN: Hakan Foods DMCC,
+                   AFG Trading DMCC (both TrackonAI, consented).
+                   TRIALS: UAE house + Dutch trader.
+                   DFA (world's #3 dairy) advanced commercial discussions.
+                   ARR < $2M.
+
+12. CLOSE / ASK  — (a) IMEAA 30k network distribution
+                   (b) jury intros to anchor grain houses
+                   (c) cheque accelerates Arabic + country rules
+                   NETWORK > CHEQUE. Live demo offered.
 ```
 
-**Target time: 13:00 spoken + 2:00 buffer. Compress slides 6 + 9 if behind. NEVER compress slide 10.**
+**Target time: 13:00 spoken + 2:00 buffer. Compress slides 9, 10 if behind. NEVER compress slide 11.**
 
 ---
 
@@ -72,6 +126,23 @@ updated: 2026-05-15
 12. WHY DAIRY     — engine doesn't change with commodity, rulesets do.
    ORIGIN+GRAIN     Algeria-dairy taught us. Same engine → Hakan/AFG with
                     GAFTA/FOSFA. Soft-commodities-wide, not pivot.
+13. COUNTRY RULES — Source: ADAMftd via ICTTM (ITC-backed trade
+                    transparency body) + MTech AI compliance API.
+                    User-created rulesets by origin + destination + HS code.
+                    NO continuous push — refresh on user action. Audit-
+                    trail benefit: every shipment cites the version it ran.
+14. SANCTIONS/AML — Dilisense provider. Lists: OFAC, UN, EU, UK HMT,
+                    World Bank + 130 more, plus global PEP + adverse
+                    media. Screens counterparties, beneficial owner,
+                    vessel, notify party. Auditable shipment-level
+                    exposure check. NOT a replacement for bank's own KYC.
+15. AI SAFETY     — Data leakage: GUARANTEED by design — every DB/MCP
+                    call auth-scoped to calling tenant. Per-tenant
+                    learning never pooled across customers.
+                    Hallucination: BOUNDED, not zero. Grounded execution
+                    (tool calls hit DB, not model). Read-only. Full
+                    audit trail. Learning patterns are readable rules,
+                    not opaque model weights — customer-auditable.
 ```
 
 ---
@@ -80,7 +151,7 @@ updated: 2026-05-15
 
 ```
 - Sudhakar: worked together at Hakan 2009-2021, no jury role. Disclose.
-- Oracle/Legacy: 7 customers depend on it. Won't break their stack.
+- Oracle/Legacy: existing customers depend on it. Won't break their stack.
                  TrackonAI is the cloud-native next gen.
 - DMCC sponsor: same submission portal as everyone. Tenant, not partner.
 - Azure (MS sponsor): we're on AWS / Bedrock. Don't apologise.
@@ -99,7 +170,7 @@ updated: 2026-05-15
 - Dutch commodity trader — active trial (NDA, don't name)
 - ARR                    — under $2M annualised, combined 3 products
 - Doc validations        — [WRITE NUMBER HERE: _______________]
-- MCP go-live            — April 2026
+- MCP                    — pilot Feb 2026, production end of March 2026
 - ADAMftd / ICTTM        — country rules (ITC-backed, don't name publicly)
 - Dilisense              — sanctions (named publicly OK)
 - Algeria-dairy story    — 10 consecutive clean shipments since adoption
@@ -118,17 +189,6 @@ updated: 2026-05-15
 - DO offer live demo on jury-chosen documents.
 - IF asked something you don't know: "Don't have that in front of me;
    I'll send in chat by EOC." Never bluff.
-```
-
----
-
-## IF SOMETHING BREAKS
-
-```
-- Network dies: phone hotspot, rejoin, apologise once, keep going
-- Cut off at 10 min: compress slides 10-12 into 30s, land the ASK
-- Hard question lands: pause, breathe, "Don't have that number in front
-   of me — sending in chat within the hour"
 ```
 
 **You wrote the follow-up. You built the product. They already chose to shortlist you. This is the confirmation, not the audition.**
