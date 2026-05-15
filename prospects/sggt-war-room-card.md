@@ -36,21 +36,22 @@ updated: 2026-05-15
  3. 3 PRODUCTS   — Trackon Legacy: Complete trading ERP — contracts,
                    positions, shipments, full GL and accounting — for
                    established grain & soft-commodity trading houses.
-                   TrackonAI: Cloud-native, AI-first contracting/logistics/
-                   execution platform with native MCP. Light accounting by
-                   design — integrates into the customer's existing ERP.
+                   TrackonAI: Cloud-native contracting/logistics/execution
+                   CTRM with native MCP. Light accounting by design —
+                   integrates into the customer's existing ERP.
                    TradingDocs.AI: AI document validation and LC compliance
                    engine that catches discrepancies before cargo is refused
                    at port.
                    One tenant, one data model, three surfaces.
 
- 4. TRACKONAI    — Cloud-native, AI-first platform focused on contracting,
-                   logistics, and execution. Full lifecycle: contract →
-                   position → shipment → settlement. Light accounting by
-                   design — integrates into the customer's existing ERP.
-                   AI assistant in the UI lets traders chat with their data
-                   (Bedrock Agent). Multi-tenant, multi-region. Hakan and
-                   AFG in production today.
+ 4. TRACKONAI    — Cloud-native CTRM focused on contracting, logistics,
+                   and execution. Full lifecycle: contract → position →
+                   shipment → settlement. Light accounting by design —
+                   integrates into the customer's existing ERP. Native
+                   MCP means traders use Claude or ChatGPT against their
+                   own tenant data, externally — no separate dashboard
+                   needed. Multi-tenant, multi-region. Hakan and AFG in
+                   production today.
 
  5. TRADINGDOCS  — over-flag → AI auto-resolve → 3-min HUMAN residual
                    → learns per tenant (never pooled).
@@ -143,6 +144,37 @@ updated: 2026-05-15
                     (tool calls hit DB, not model). Read-only. Full
                     audit trail. Learning patterns are readable rules,
                     not opaque model weights — customer-auditable.
+16. MCP "FIRST"   — "Great — please tell us. We'd love to learn. The
+   CHALLENGED       fact that two CTRMs are doing this means the
+                    category is moving. We are the first we know of —
+                    we'd rather collaborate on standards than fight
+                    over first place. Either way the substance is the
+                    same: grounded, scoped, audited."
+                    DO NOT walk back the claim. Pivot to substance.
+
+17. MCP COMMODITY  — If asked "can it filter by Wheat / commodity?":
+   FILTER FAILS     "Good question — and the right one for an architect
+                    to ask. The MCP layer today uses generic CRUD
+                    tools per entity. Filtering Positions by a commodity
+                    NAME requires the agent to chain two calls — find
+                    the Product entity for 'Wheat', then filter
+                    Positions by that productId. Claude doesn't always
+                    chain those reliably yet. We're refining tool
+                    descriptions and adding specialized aggregation
+                    tools (getOpenPositionsByCommodity etc.) — small
+                    polish, big quality jump. The platform is real;
+                    the prompt engineering is iterating."
+
+                    DO NOT try to run the failing query live to "prove"
+                    something. If it fails on camera you lose more than
+                    you gain. Demo what works.
+
+DEMO QUERIES — TEST EACH BEFORE GOING LIVE, write ✓ next to confirmed:
+   __ "What are my open positions?"
+   __ "Show me my biggest open positions"
+   __ "Show me unpaid invoices over 90 days"
+   __ "Show me shipments arriving this month"
+   __ Backup: __________________________________
 ```
 
 ---
@@ -155,6 +187,12 @@ updated: 2026-05-15
                  TrackonAI is the cloud-native next gen.
 - DMCC sponsor: same submission portal as everyone. Tenant, not partner.
 - Azure (MS sponsor): we're on AWS / Bedrock. Don't apologise.
+- INTERNAL AI ASSISTANT (Bedrock Agent): WE DISABLED IT — adoption was
+  low, not useful. DECK SLIDE 4 still lists "Built-in AI assistant
+  (Bedrock Agent)" as a bullet. If asked: "We removed the in-app
+  AI assistant — adoption was low. MCP is now our AI surface: traders
+  use Claude or ChatGPT externally, against the same tenant data."
+  This is a stronger story than the in-app version anyway.
 ```
 
 ---
@@ -173,7 +211,9 @@ updated: 2026-05-15
 - MCP                    — pilot Feb 2026, production end of March 2026
 - ADAMftd / ICTTM        — country rules (ITC-backed, don't name publicly)
 - Dilisense              — sanctions (named publicly OK)
-- Algeria-dairy story    — 10 consecutive clean shipments since adoption
+- Algeria-dairy story    — customer mentioned at Gulfood (Feb 2026)
+                           "last 10 shipments passed without a glitch"
+                           since adoption (testimony, not measured study)
 ```
 
 ---
@@ -184,6 +224,7 @@ updated: 2026-05-15
 - DO NOT volunteer Risk Management / Hedging in 15-min pitch
 - DO NOT show Hedge / Risk screens on any live demo
 - DO NOT claim Hedge Effectiveness IFRS-grade — not validated
+- DO NOT click into the in-app AI assistant during demo — IT'S DISABLED
 - DO NOT invent numbers; "I'll send in chat within the hour" is fine
 - DO end on the ASK. Never trail off.
 - DO offer live demo on jury-chosen documents.
