@@ -6,9 +6,9 @@ status: shortlisted
 deadline: 2026-04-30
 event_date: 2026-06-10
 event_location: International Grains Conference, London
-updated: 2026-05-15
+updated: 2026-05-21
 followup_deadline: 2026-05-14 (COB London — jury due-diligence questions, submitted 2026-05-13 14:53)
-live_pitch: 2026-05-15 13:30-17:30 CET (15-min pitch + 10-min Q&A, Zoom, preferred later slot)
+live_pitch: 2026-05-21 (rescheduled from 2026-05-15) — 15-min pitch + 10-min Q&A, Zoom
 related: [_personal/strategy/sggt-challenge-brainstorm]
 ---
 
@@ -134,8 +134,9 @@ related: [_personal/strategy/sggt-challenge-brainstorm]
 - **8 Apr 2026**: Application submitted. Full-stack pitch deck v2 (12 slides) with MCP slide added. Elevator pitch video recorded (68 seconds).
 - **13 May 2026**: Jury sent due-diligence follow-up — 11 detailed questions. Response due **14 May 2026 COB London time**. Topics: end-to-end workflow with title/money flow, evidence for 3-5hr→3min claim, per-doc accuracy (invoice/B-L/phyto/fumigation/weight/quality), grain-specific AI vs OCR (GAFTA/FOSFA terms), 193-country rules engine sources, sanctions/AML providers, MCP live-vs-demo status, plain-English query safety, defensibility, scalability proof, ARR/MRR + paying customers + paid doc checks + 3 grain references. Strategy: confidently honest, work one question at a time. See [[_personal/prospects/sggt-jury-followup-response-2026|response draft]].
 - **13 May 2026 14:53**: Sent the tight (~1,711-word) version of the 11-question response by email. Long version (~6,128 words) kept as backup. Files in `_personal/prospects/sggt-jury-followup-response-2026{,-tight}.md`.
-- **15 May 2026 00:46**: SGGT replied — **shortlisted for the next round**. Live Zoom pitch invited for **today, 15 May 2026, between 13:30–17:30 CET**. Format: 15-minute presentation + 10-minute jury Q&A. Specific slot and Zoom link to follow.
+- **15 May 2026 00:46**: SGGT replied — **shortlisted for the next round**. Live Zoom pitch invited for **15 May 2026, between 13:30–17:30 CET**. Format: 15-minute presentation + 10-minute jury Q&A.
 - **15 May 2026 04:28**: Murat confirmed participation, requested a later slot in the window to prepare properly.
+- **~15-20 May 2026**: Live pitch **rescheduled to 21 May 2026**.
 
 ## Potential IGC/IMEAA Distribution Channel
 - Sudhakar confirmed IGC can't do direct commercial partnerships (intergovernmental body)

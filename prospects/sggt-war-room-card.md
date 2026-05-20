@@ -59,7 +59,9 @@ updated: 2026-05-15
                    written response — happy to drill in Q&A.
 
  6. MCP          — Pilot Feb 2026, PRODUCTION since end of March 2026.
-                   FIRST CTRM with native MCP. Read-only, tenant-scoped.
+                   Native MCP integration. Read-only, tenant-scoped.
+                   AMONG the early commodity CTRMs to ship this.
+                   DO NOT claim "first" — we can't verify global market.
 
  7. ARCHITECTURE — Trading companies operate as GROUPS: origination
                    offices, trading hubs, subsidiaries across MULTIPLE
@@ -144,13 +146,15 @@ updated: 2026-05-15
                     (tool calls hit DB, not model). Read-only. Full
                     audit trail. Learning patterns are readable rules,
                     not opaque model weights — customer-auditable.
-16. MCP "FIRST"   — "Great — please tell us. We'd love to learn. The
-   CHALLENGED       fact that two CTRMs are doing this means the
-                    category is moving. We are the first we know of —
-                    we'd rather collaborate on standards than fight
-                    over first place. Either way the substance is the
-                    same: grounded, scoped, audited."
-                    DO NOT walk back the claim. Pivot to substance.
+16. ARE YOU FIRST? — "Honestly, we don't claim absolute first publicly
+                     because we can't verify the global market. We were
+                     early — pilot Feb 2026, production end March 2026.
+                     If you know of an earlier one, we'd love to learn.
+                     The substance is the same either way: trader speaks
+                     plain English, results grounded in tenant data,
+                     scoped, audited."
+                     This is honest framing — own the timeline, not the
+                     ranking.
 
 17. MCP COMMODITY  — If asked "can it filter by Wheat / commodity?":
    FILTER FAILS     "Good question — and the right one for an architect
@@ -169,12 +173,82 @@ updated: 2026-05-15
                     something. If it fails on camera you lose more than
                     you gain. Demo what works.
 
+18. "WHY NOT JUST  — "Honestly — for a single ad-hoc document set, you
+   USE CLAUDE        could. But three things break when you try to run
+   CODE / GENERIC    a trading business on it.
+   AI?"             (1) GENERALIST. It doesn't know Pakistan-bound wheat
+                        needs 'free from Tilletia indica' on the phyto
+                        additional declaration, or how a GAFTA 119
+                        quality clause works. Our engine has those rule
+                        libraries built in, per country, per HS code.
+                    (2) NO AUDIT TRAIL. When cargo is refused at port,
+                        a bank or customs officer wants to see 'this
+                        shipment was checked against version X of the
+                        Algerian phyto ruleset at this timestamp.' A
+                        chat session isn't that.
+                    (3) NO LEARNING LOOP. Every customer's resolutions
+                        sharpen their own auto-resolver. Claude Code
+                        starts from zero every chat.
+                    The substance overlaps in places — but you can't
+                    run a $50M shipment book on chat history."
+
+19. "HOW DO YOU    — "Through configurable rulesets. A customer creates
+   SUPPORT          a named ruleset — GAFTA 100 for CIF grain, GAFTA
+   GAFTA / FOSFA?"   119 for FOB, FOSFA 22 for CIF oilseeds — encoding
+                    the quality basis, tolerances, allowances, and
+                    rejection thresholds for that contract. The engine
+                    validates document sets against the ruleset and
+                    produces a versioned audit trail.
+                    The primitives — tolerance arithmetic, quality-
+                    basis math, weight franchise, allowance / rejection
+                    logic, notation handling — are built into the engine.
+                    We don't ship pre-baked templates because GAFTA
+                    contracts have house-specific amendments and
+                    variations. Customers encode their own. That's
+                    deliberate — a flexible engine respects that
+                    every house reads the standard slightly differently."
+                    DO NOT promise pre-built GAFTA 100/FOSFA 22 templates.
+                    Frame "customer-configurable" as the feature.
+
 DEMO QUERIES — TEST EACH BEFORE GOING LIVE, write ✓ next to confirmed:
    __ "What are my open positions?"
    __ "Show me my biggest open positions"
    __ "Show me unpaid invoices over 90 days"
    __ "Show me shipments arriving this month"
    __ Backup: __________________________________
+```
+
+---
+
+## DEMO PROMPTS — what to click in each demo
+
+```
+DEMO 1 · TRADINGDOCS · ~3 min
+  1. Upload pre-staged document set (drag-drop)
+  2. Select country ruleset → POINT: "193-country rules engine"
+  3. Start validation → wait for completion
+  4. Discrepancy list → POINT: one auto-resolved + one human-residual
+  5. Show audit trail entry
+  Skip: hedge module, in-app AI assistant (disabled)
+
+DEMO 2 · TRACKONAI · ~3 min
+  1. Open an existing contract → point at terms
+  2. Show position derived from contract
+  3. Click into shipment journey
+  4. POINT: vessel intel (port calls, ETA, ownership)
+  5. POINT: sanctions screen on counterparties + vessel
+  6. Show document set linked to shipment
+  Skip: Risk/Hedge module entirely
+
+DEMO 3 · MCP · ~2 min
+  1. Open Claude desktop (already logged in as a real user)
+  2. Type pre-tested query — KNOWN WORKING:
+     "What are my open positions?"
+  3. Show result
+  4. POINT: per-user auth — actions attributed to MY username
+  5. POINT: audit trail entry
+  Skip: "What are my Wheat positions?" (currently fails — chained
+        query). If asked, use drill #17.
 ```
 
 ---
