@@ -11,7 +11,7 @@ related: [products/tradingdocs/tradingdocs-overview, _personal/legal/msa-rollout
 
 ## Summary
 
-Mutual termination of the TradingDocs.AI MSA between Trackon Software DMCC and Shopsadiq Ltd. dba droplinked, effective **30 April 2026**.
+Mutual termination of the TradingDocs.AI MSA between Trackon Software FZCO and Shopsadiq Ltd. dba droplinked, effective **30 April 2026**.
 
 - **Original MSA**: 15 June 2025 (TradingDocs.AI platform, ISV-style)
 - **Termination Agreement signed**: 30 April 2026 via DocuSign (Envelope ID 46067CD9-0703-80BB-83DD-9A295FA99CF8)

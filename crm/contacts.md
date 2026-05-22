@@ -103,7 +103,7 @@ Related: [[_personal/commercial/deal-notes|Deal Notes]], [[_personal/intel/conta
 - **Status**: Soft rejection. Prospect said "still evaluating whether this solution is truly relevant for our day-to-day operations."
 - **History**:
   - Trial provisioned with email gateway addresses (general comparison, DI checks, LC checks)
-  - Confidentiality Undertaking signed by Murat to obtain real shipping documents for demo (one-way, Trackon Software DMCC commits)
+  - Confidentiality Undertaking signed by Murat to obtain real shipping documents for demo (one-way, Trackon Software FZCO commits)
   - Requirements: 15 shipments/month, 3 users
   - Pricing proposed: $399/month for 20 shipments, 3 users (advised against leading with annual commitment)
   - Soft rejection received January 2025; follow-up drafted asking what specifically didn't feel relevant

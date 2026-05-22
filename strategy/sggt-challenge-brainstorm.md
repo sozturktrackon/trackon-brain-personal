@@ -129,7 +129,7 @@ There are 19 sectors. The form likely allows one pick. Here's how Trackon maps:
 
 ## ADDITIONAL LEVERAGE: DMCC PARTNERSHIP
 
-**DMCC is a listed partner of the challenge.** Trackon Software DMCC is literally a DMCC company. This is not a coincidence — DMCC is promoting innovation within its own ecosystem. This strengthens the application significantly. Consider mentioning DMCC entity status in the application.
+**DMCC is a listed partner of the challenge.** Trackon Software FZCO is literally a DMCC company. This is not a coincidence — DMCC is promoting innovation within its own ecosystem. This strengthens the application significantly. Consider mentioning DMCC entity status in the application.
 
 ## MICROSOFT AI FOR GOOD LAB
 

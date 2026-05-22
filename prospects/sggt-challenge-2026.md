@@ -2,13 +2,18 @@
 title: SMART Global Grains Trade Challenge 2026
 type: opportunity
 source: Sudhakar Tomar (IMEAA contact)
-status: shortlisted
+status: finalist
 deadline: 2026-04-30
 event_date: 2026-06-10
 event_location: International Grains Conference, London
 updated: 2026-05-21
 followup_deadline: 2026-05-14 (COB London — jury due-diligence questions, submitted 2026-05-13 14:53)
 live_pitch: 2026-05-21 (rescheduled from 2026-05-15) — 15-min pitch + 10-min Q&A, Zoom
+media_assets_deadline: 2026-05-23
+ecosystem_reach_per_organizer:
+  imeaa_members: "30,000+"
+  gafta_igtc_trade_members: "8,000+ (80% of global grain trade flows)"
+  igc_member_countries: 63
 related: [_personal/strategy/sggt-challenge-brainstorm]
 ---
 
@@ -137,6 +142,8 @@ related: [_personal/strategy/sggt-challenge-brainstorm]
 - **15 May 2026 00:46**: SGGT replied — **shortlisted for the next round**. Live Zoom pitch invited for **15 May 2026, between 13:30–17:30 CET**. Format: 15-minute presentation + 10-minute jury Q&A.
 - **15 May 2026 04:28**: Murat confirmed participation, requested a later slot in the window to prepare properly.
 - **~15-20 May 2026**: Live pitch **rescheduled to 21 May 2026**.
+- **21 May 2026**: Live Zoom pitch delivered.
+- **21 May 2026 (post-pitch)**: SGGT confirmed Trackon has **reached the FINAL ROUND**. Organizer requested media assets by **23 May 2026**: company logo, founder photographs, company flyer, LinkedIn profiles (founders + company), short company write-up. Reach metrics confirmed by organizer: IMEAA 30,000+ members, GAFTA/IGTC 8,000+ trade members (80% of global grain trade flows), IGC 63 member countries.
 
 ## Potential IGC/IMEAA Distribution Channel
 - Sudhakar confirmed IGC can't do direct commercial partnerships (intergovernmental body)
