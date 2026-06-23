@@ -3,7 +3,7 @@ type: commercial
 status: active
 tags: [pricing, deals, commercial, proposals, confidential]
 created: 2026-03-30
-updated: 2026-03-30
+updated: 2026-06-21
 source: conversation-history
 related: [_personal/crm/crm-contacts.md, _personal/strategy/positioning-and-messaging.md]
 ---
@@ -26,6 +26,16 @@ Related: [[_personal/commercial/pricing|Pricing]], [[_personal/commercial/deal-n
   - Sanctions analysis: $100/month
   - Implementation: $50/hour (first 50 prepaid); $100/hour after
 - **Lesson:** Informal personal-network pricing (friend discount) was accepted without pushback. Rate should be treated as floor, not standard.
+
+### Mana / DFA — Salesforce → Trackon Integration, Phase 1 approved 2026-06-21
+- **Phase 1 (Design & Discovery): $7,500 fixed — APPROVED by Justin Evans (DFA), proceed immediately.**
+- Phase 2 (Build): $36–48k indicative, fixed after Phase 1.
+- Recurring: Integration Support & Maintenance ~$1,000/mo once live (bundles OIC/OCI platform fees).
+- **Invoicing: send invoices to Justin Evans. DFA covers the implementation for Mana** (DFA is the payer, not Mana).
+- **Working contact while Justin on vacation: Josh Hosking** (josh.hosking@mana-dmcc.com). Josh has follow-up questions on the contract-process document.
+- DFA to arrange intro between their Salesforce team and Trackon team for data-integration discussion.
+- Proposal deck: `_personal/commercial/mana-salesforce-integration-proposal.{pdf,md,html}`.
+- Origin: in-person meeting Vietnam, June 2026. See [[customers/mana/mana-health]].
 
 ---
 
