@@ -48,6 +48,8 @@ Add-ons offered: Dashboard module (9,188/mo), read-only reporting instance (10,4
 
 **Our recommendation on the deck: start lean with Option A (Shared), 10 users, no add-ons** (12,241/mo + 15,000 one-time), upgrading to dedicated/DR/add-ons as volumes grow. Option A is starred as recommended on the deployment and pricing tables.
 
+**Managed IT Support (optional): AED 5,000/mo for the initial 10 users, +500/user/month for each additional user.** Scope: email setup/management, website configuration, computer setup & installation, IT & security policy implementation, day-to-day troubleshooting. Per-head pricing is deliberate — Murat's requirement that the fee must rise with headcount since each new user adds support burden.
+
 ## Next steps
 
 - [ ] Send proposal PDF to Ayhan Yalcintas / Fatih Ziya Akdogan
