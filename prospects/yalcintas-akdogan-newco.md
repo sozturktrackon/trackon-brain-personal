@@ -46,6 +46,8 @@ Deck also cites Trackon's **measured historical uptime of 99.99% across all exis
 
 Add-ons offered: Dashboard module (9,188/mo), read-only reporting instance (10,475/mo), extended support on request.
 
+**Our recommendation on the deck: start lean with Option A (Shared), 10 users, no add-ons** (12,241/mo + 15,000 one-time), upgrading to dedicated/DR/add-ons as volumes grow. Option A is starred as recommended on the deployment and pricing tables.
+
 ## Next steps
 
 - [ ] Send proposal PDF to Ayhan Yalcintas / Fatih Ziya Akdogan
