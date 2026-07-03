@@ -109,10 +109,26 @@ Monthly subscription, in AED (excl. 5% VAT):
 | Server fee | 4,593 | 10,475 | 20,950 |
 | Users (10 × 765) | 7,648 | 7,648 | 7,648 |
 | **Total / month** | **12,241** | **18,123** | **28,598** |
-| One-time setup | Included | 25,000–35,000 | 25,000–35,000 |
+| Implementation (one-time) | **15,000*** | **15,000*** | **15,000*** |
+| Server setup (one-time) | Included | 25,000–35,000 | 25,000–35,000 |
 
+- *Discounted launch package; standard implementation fee is AED 25,000 (see next slide)
 - Additional users: **AED 765 / user / month**, add anytime
 - Upgrade between options at any time; takes effect within the term
+
+---
+
+# Implementation & Onboarding
+
+**One-time implementation package: AED 15,000** (discounted from the standard AED 25,000 for launch customers). Includes:
+
+- **Data setup**: counterparties, products, warehouses, opening balances
+- **Business process setup**: workflows configured to how you trade
+- **Standard reports**: full system report pack with your company header/footer
+- **Pending reports**: analysis and development of reports identified during implementation
+- **Training** for your team of 10
+
+> Custom-designed documents and bespoke report development beyond this scope are quoted separately under a Statement of Work.
 
 ---
 
