@@ -40,7 +40,7 @@ style: |
 <!-- _paginate: false -->
 
 # Trackon Legacy
-### Commercial Proposal — Commodity Trading ERP
+### Commercial Proposal: Commodity Trading ERP
 
 **Prepared for:** Mr. Ayhan Yalcintas & Mr. Fatih Ziya Akdogan
 **Prepared by:** Trackon Software FZCO, Dubai, UAE
@@ -50,10 +50,10 @@ style: |
 
 # Who We Are
 
-**Trackon Software FZCO** — Dubai-based (JLT/DMCC) software vendor specialised in **commodity trading and logistics**.
+**Trackon Software FZCO** is a Dubai-based (JLT/DMCC) software vendor specialised in **commodity trading and logistics**.
 
-- **Trackon Legacy** — full ERP/CTRM for commodity trading companies: contracts, positions, shipments, inventory, invoicing, and finance in one system. **Proven in production for over a decade** with active trading houses.
-- **TrackonAI** — our modern, AI-powered logistics & contract execution platform. Integrates with third-party accounting systems.
+- **Trackon Legacy**: full ERP/CTRM for commodity trading companies: contracts, positions, shipments, inventory, invoicing, and finance in one system. **Proven in production for over a decade** with active trading houses.
+- **TrackonAI**: our modern, AI-powered logistics & contract execution platform. Integrates with third-party accounting systems.
 
 > Our customers run physical trading of agri-commodities across the Gulf, Africa, Asia, and the Americas.
 
@@ -61,18 +61,18 @@ style: |
 
 # Understanding Your Needs
 
-You are launching a **new commodities trading company** — funded and ready to move. You need:
+You are launching a **new commodities trading company**, funded and ready to move. You need:
 
-- A **complete, proven back-office** from day one — no stitching together tools
+- A **complete, proven back-office** from day one, with no stitching together of tools
 - **Contract-to-cash coverage**: purchase/sale contracts, shipments, documents, stock, invoicing, accounting
 - A system that **scales with the team** as you grow beyond the initial **10 users**
 - Predictable monthly cost with **no upfront license purchase**
 
-**Our recommendation:** Trackon Legacy — all-inclusive ERP, delivered as a managed cloud subscription.
+**Our recommendation:** Trackon Legacy, the all-inclusive ERP, delivered as a managed cloud subscription.
 
 ---
 
-# What's Included — Trackon Legacy
+# What's Included in Trackon Legacy
 
 | Area | Coverage |
 |---|---|
@@ -83,13 +83,13 @@ You are launching a **new commodities trading company** — funded and ready to 
 | Reporting | Operational reports across trading, logistics, finance |
 | Delivery | Fully managed cloud (AWS), backups & DR included |
 
-All modules included in the subscription — **one system, one monthly fee**.
+All modules included in the subscription: **one system, one monthly fee**.
 
 ---
 
 # Deployment Options
 
-| | **Option A — Shared** | **Option B — Dedicated** | **Option C — Dedicated + DR** |
+| | **Option A: Shared** | **Option B: Dedicated** | **Option C: Dedicated + DR** |
 |---|---|---|---|
 | Infrastructure | Multi-tenant, isolated schema | Dedicated server, single zone | Dedicated + **automatic failover** |
 | Uptime commitment | Best efforts | **99.5% target** + service credits | **99.5% target** + service credits |
@@ -100,18 +100,18 @@ All options include daily backups, 7-day point-in-time recovery, and cross-regio
 
 ---
 
-# Pricing — 10 Users
+# Pricing for 10 Users
 
 Monthly subscription, in AED (excl. 5% VAT):
 
-| Component | **A — Shared** | **B — Dedicated** | **C — Dedicated + DR** |
+| Component | **A: Shared** | **B: Dedicated** | **C: Dedicated + DR** |
 |---|---|---|---|
 | Server fee | 4,593 | 10,475 | 20,950 |
 | Users (10 × 765) | 7,648 | 7,648 | 7,648 |
 | **Total / month** | **12,241** | **18,123** | **28,598** |
 | One-time setup | Included | 25,000–35,000 | 25,000–35,000 |
 
-- Additional users: **AED 765 / user / month** — add anytime
+- Additional users: **AED 765 / user / month**, add anytime
 - Upgrade between options at any time; takes effect within the term
 
 ---
@@ -149,7 +149,7 @@ Monthly subscription, in AED (excl. 5% VAT):
 - **Contract:** Trackon SaaS Master Service Agreement (MSA) + Order Form
 - **Initial term:** 12 months, renews annually
 - **Invoicing:** monthly in advance; payable within 30 days
-- **Your data is yours** — full ownership, CSV export rights, 30-day post-termination retrieval
+- **Your data is yours**: full ownership, CSV export rights, 30-day post-termination retrieval
 - **Data protection:** dedicated schedule covering processing roles, security safeguards, and incident notification
 - Prices exclude 5% VAT · Governed by UAE law
 
@@ -157,9 +157,9 @@ Monthly subscription, in AED (excl. 5% VAT):
 
 # Why Trackon
 
-- **Purpose-built for commodity trading** — not a generic ERP adapted later
+- **Purpose-built for commodity trading**, not a generic ERP adapted later
 - **Proven**: live with active trading companies for 10+ years
-- **Fast onboarding** — a new company can be operational in weeks, with clean master data from day one (no legacy migration!)
+- **Fast onboarding**: a new company can be operational in weeks, with clean master data from day one (no legacy migration!)
 - **Local**: Dubai-based team, GST-timezone support, UAE contracts
 - **A growth path**: TrackonAI available when you want AI-driven document and logistics automation alongside the ERP
 
@@ -172,10 +172,10 @@ Monthly subscription, in AED (excl. 5% VAT):
 1. **Select your deployment option** (A / B / C)
 2. We issue the **Order Form + MSA** for signature
 3. **Onboarding & training** for your team of 10
-4. **Go live** — typically within 2–4 weeks for a new company
+4. **Go live**, typically within 2–4 weeks for a new company
 
 **Contact**
 Murat Selim Ozturk · CEO, Trackon Software FZCO
-sozturk@trackonsoftware.com
+sozturk@trackon.com
 
 *We look forward to supporting your new venture from its first trade.*
