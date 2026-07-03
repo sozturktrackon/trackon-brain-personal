@@ -89,7 +89,7 @@ All modules included in the subscription: **one system, one monthly fee**.
 
 # Deployment Options
 
-| | **Option A: Shared** | **Option B: Dedicated** | **Option C: Dedicated + DR** |
+| | **Option A: Shared** ★ Recommended | **Option B: Dedicated** | **Option C: Dedicated + DR** |
 |---|---|---|---|
 | Infrastructure | Multi-tenant, isolated schema | Dedicated server, single zone | Dedicated + **automatic failover** |
 | Uptime commitment | Best efforts | **99.5% target** + service credits | **99.5% target** + service credits |
@@ -98,13 +98,15 @@ All modules included in the subscription: **one system, one monthly fee**.
 
 All options include daily backups, 7-day point-in-time recovery, and cross-region backup replication.
 
+> **Track record:** our measured historical uptime across all existing customers is **99.99%**.
+
 ---
 
 # Pricing for 10 Users
 
 Monthly subscription, in AED (excl. 5% VAT):
 
-| Component | **A: Shared** | **B: Dedicated** | **C: Dedicated + DR** |
+| Component | **A: Shared** ★ | **B: Dedicated** | **C: Dedicated + DR** |
 |---|---|---|---|
 | Server fee | 4,593 | 10,475 | 20,950 |
 | Users (10 × 765) | 7,648 | 7,648 | 7,648 |
@@ -112,7 +114,7 @@ Monthly subscription, in AED (excl. 5% VAT):
 | Implementation (one-time) | **15,000*** | **15,000*** | **15,000*** |
 | Server setup (one-time) | Included | 25,000–35,000 | 25,000–35,000 |
 
-- *Discounted launch package; standard implementation fee is AED 25,000 (see next slide)
+- *Discounted startup package; standard implementation for a trading company is USD 30,000–40,000 (see next slide)
 - Additional users: **AED 765 / user / month**, add anytime
 - Upgrade between options at any time; takes effect within the term
 
@@ -120,7 +122,11 @@ Monthly subscription, in AED (excl. 5% VAT):
 
 # Implementation & Onboarding
 
-**One-time implementation package: AED 15,000** (discounted from the standard AED 25,000 for launch customers). Includes:
+A standard Trackon Legacy implementation for an established trading company is **USD 30,000–40,000**: historical data migration, process re-engineering, and a backlog of custom reports.
+
+**As a new company, you start clean.** No legacy data to migrate, processes configured right from day one, and the standard report pack covers you at launch. We pass that efficiency on:
+
+## Startup implementation package: AED 15,000 (one-time)
 
 - **Data setup**: counterparties, products, warehouses, opening balances
 - **Business process setup**: workflows configured to how you trade
@@ -141,6 +147,22 @@ Monthly subscription, in AED (excl. 5% VAT):
 | **Extended Support** | Telephone / extended-hours support | On request |
 
 > Third-party integrations (accounting systems, banks, data providers) are delivered via Trackon's managed API layer under a separate ISV/integration arrangement.
+
+---
+
+# Our Recommendation: Start Lean
+
+For a new company, we recommend starting with **Option A (Shared), 10 users, no add-ons**:
+
+| Starting package | Amount |
+|---|---|
+| Monthly subscription | **AED 12,241** |
+| One-time implementation | **AED 15,000** |
+
+- Everything you need to run trading, logistics, and finance from **day one**
+- **No idle infrastructure cost** while you build the team and the book
+- **Grow when ready**: add users anytime (AED 765/user), and move to a dedicated server, DR failover, dashboards, or a reporting instance as volumes grow
+- Upgrades can take effect **during the term**, so you are never locked into the starting setup
 
 ---
 
@@ -185,7 +207,7 @@ Monthly subscription, in AED (excl. 5% VAT):
 
 # Next Steps
 
-1. **Select your deployment option** (A / B / C)
+1. **Confirm your starting setup** (our recommendation: Option A, 10 users)
 2. We issue the **Order Form + MSA** for signature
 3. **Onboarding & training** for your team of 10
 4. **Go live**, typically within 2–4 weeks for a new company

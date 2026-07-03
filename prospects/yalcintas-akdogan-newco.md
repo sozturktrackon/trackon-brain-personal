@@ -40,7 +40,9 @@ Based on latest Trackon SaaS MSA (per [[decisions/2024-msa-isv-rollout|MSA + ISV
 | B — Standalone Single-AZ | 10,475 | 7,648 | **18,123** | 25–35k |
 | C — Standalone Multi-AZ (DR) | 20,950 | 7,648 | **28,598** | 25–35k |
 
-**Implementation fee (all options): AED 15,000 one-time**, positioned as discounted from a standard AED 25,000 launch package. Covers data setup, business process setup, standard report pack with their header/footer, analysis/development of reports identified during implementation, and training for 10 users. Custom-designed documents and bespoke reports are excluded and quoted separately via SOW (Legacy reports must be built by Trackon, unlike TrackonAI where reports are self-editable — this is the cost rationale).
+**Implementation fee (all options): AED 15,000 one-time**, positioned as a discounted startup package against the standard **USD 30,000–40,000** implementation for an established trading company. Discount rationale stated on the deck: as a startup they start clean — no historical data migration, no process re-engineering, standard report pack suffices at launch. Covers data setup, business process setup, standard report pack with their header/footer, analysis/development of reports identified during implementation, and training for 10 users. Custom-designed documents and bespoke reports are excluded and quoted separately via SOW (Legacy reports must be built by Trackon, unlike TrackonAI where reports are self-editable — this is the cost rationale).
+
+Deck also cites Trackon's **measured historical uptime of 99.99% across all existing customers** as a track-record proof point (contractual SLA commitment remains 99.5% target on standalone tiers only).
 
 Add-ons offered: Dashboard module (9,188/mo), read-only reporting instance (10,475/mo), extended support on request.
 
