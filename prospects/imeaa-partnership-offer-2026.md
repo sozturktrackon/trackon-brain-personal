@@ -1,12 +1,13 @@
 ---
 title: IMEAA Partner Spotlight Program — TrackonAI Offer
 type: opportunity
-status: drafting
+status: meeting-scheduled
 owner: Murat
 counterparty: Sudhakar Tomar (IMEAA President)
-deadline: ASAP (Sudhakar awaiting since 19 June 2026)
+sent: 2026-06-26 (email to sudhakar.tomar + Ms. Cronin/IMEA, proposal PDF + revenue calculator xlsx attached)
+next-action: in-person meeting with Sudhakar in Dubai — Wed 2026-07-08 lunch or dinner proposed, awaiting his confirmation
 related: [_personal/prospects/sggt-challenge-2026]
-updated: 2026-06-22
+updated: 2026-07-06
 ---
 
 # IMEAA Partner Spotlight Program — TrackonAI Offer
@@ -107,14 +108,15 @@ If IMEAA prefers, the discount structure can be paired with a **referral fee** o
 ## Status log
 
 - **2026-06-26 15:14**: Proposal emailed to sudhakar.tomar + Ms. Cronin (IMEA). Attachments: `marketing/imeaa-partnership-offer.pdf` (4-page, institution-to-institution framing so it can circulate within IMEAA/GAFTA/IGC) + `marketing/imeaa-revenue-calculator.xlsx` (the spreadsheet matrix Sudhakar requested; three revenue-share structures side by side, hybrid recommended). Open question flagged in email: which revenue-share structure suits IMEAA's operating model.
-- **2026-07-06**: No reply after 10 days. WhatsApp nudge sent to Sudhakar: "Hi Mr. Sudhakar, any thoughts on the proposal? Would love your honest read whenever you have a minute." Awaiting response; if quiet by ~2026-07-13, next touch needs a substantive angle (e.g., a concrete member pilot), not another reminder.
+- **2026-07-06 14:38**: No reply after 10 days → WhatsApp nudge sent: "any thoughts on the proposal? Would love your honest read." **Sudhakar replied within 3 minutes** ("Ofcourse"), then: "Let's meet also. I am in town."
+- **2026-07-06 16:33**: Murat proposed **Wednesday 8 July, lunch or dinner** (Tuesday blocked by meetings). Awaiting Sudhakar's confirmation of day/time/venue.
 
 ## Next steps
 
 1. ~~Send proposal~~ — sent 2026-06-26
-2. Follow-up nudge (WhatsApp) — propose the direction call
-3. Direction call: discount-only vs. revenue-share vs. hybrid
-4. Drafting a light MoU once direction is set
+2. ~~Follow-up nudge~~ — sent 2026-07-06, meeting agreed
+3. **In-person meeting Wed 2026-07-08 (tbc)** — replaces the "direction call". Goal: settle the revenue structure (discount-only / referral-only / hybrid) and agree the light MoU as the written next step
+4. Draft light MoU once direction is set
 5. Founding-50 wave kickoff
 
 ---
