@@ -7,12 +7,19 @@ style: |
   section {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     background: #ffffff;
+    background-image: url('/Users/murat_selim_ozturk/Workspace/trackon-brain/_personal/commercial/trackon-logo.png');
+    background-repeat: no-repeat;
+    background-position: top 28px right 60px;
+    background-size: 130px auto;
     color: #1a2332;
     font-size: 26px;
     padding: 60px 70px;
   }
   section.lead {
-    background: linear-gradient(135deg, #0d1b2a 0%, #1b3a5c 100%);
+    background-image: url('/Users/murat_selim_ozturk/Workspace/trackon-brain/_personal/commercial/trackon-logo-white.png'), linear-gradient(135deg, #0d1b2a 0%, #1b3a5c 100%);
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 45px right 70px, center;
+    background-size: 210px auto, cover;
     color: #ffffff;
     text-align: left;
   }
@@ -152,20 +159,19 @@ A standard Trackon Legacy implementation for an established trading company is *
 
 # Managed IT Support (Optional)
 
-As a new company, you won't need an in-house IT team. We can run your company IT end to end:
+As a new company, you won't need an in-house IT team. We run your company IT end to end:
 
 - **Email setup & management**: domain, mailboxes, spam protection
 - **Website configuration**: hosting arrangement, domain settings, initial SEO
-- **Computer setup & installation** for every team member
+- **Computer setup & installation**, plus day-to-day troubleshooting for your staff
 - **IT & security policies**: definition, rollout, access control, passwords, device security
-- Ongoing day-to-day IT troubleshooting for your staff
 
 | Managed IT Support | Monthly (AED) |
 |---|---|
 | Initial team of 10 users | **5,000** |
 | Each additional user | **+500 / user** |
 
-Priced per head: every new joiner means device setup, accounts, and ongoing support.
+Priced per head: every new joiner means device setup, accounts, and ongoing support. **When you hire your own IT person, we transfer the knowledge to them and they take over.**
 
 > Website development itself is not included; you may outsource it, or we can provide a separate proposal.
 
