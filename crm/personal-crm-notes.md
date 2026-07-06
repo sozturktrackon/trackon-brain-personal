@@ -67,12 +67,12 @@ Related: [[_personal/crm/crm-contacts|CRM Contacts]], [[_personal/commercial/syn
 
 ## Sudhakar Tomar (IMEAA President)
 
-- **Relationship**: Worked together at Hakan (2009-2021). Sudhakar was Managing Director, Murat was CTO. 12 years.
+- **Relationship**: Known since 2009 (17+ years). Worked together at Hakan (2009-2021) — Sudhakar was Managing Director, Murat was CTO.
 - **Current role**: President of IMEAA. Organizer of SGGT Challenge 2026 with IGC.
 - **Channel**: WhatsApp
-- **Tone**: "Hi Mr. Sudhakar" — respectful, professional, not stiff. He was Murat's boss.
-- **Last contact**: 25 March 2026 — Sudhakar shared SGGT Challenge, Murat said "Will do"
-- **Pending**: Message drafted, to send 1 April 2026 — asking category advice and jury criteria
+- **Tone**: "Hi Mr. Sudhakar" — casual and warm, old-colleague register. Short messages (1-2 sentences), direct questions. NOT formal: Murat rejected formal drafts (2026-07-06) — no long recaps, no hedging like "no rush at all".
+- **Active thread**: IMEAA Partner Spotlight proposal sent 2026-06-26 (email, + Ms. Cronin at IMEA); WhatsApp nudge sent 2026-07-06 asking his honest read. See [[_personal/prospects/imeaa-partnership-offer-2026]].
+- **Last contact**: 2026-07-06 — WhatsApp nudge on Spotlight proposal.
 
 ---
 
