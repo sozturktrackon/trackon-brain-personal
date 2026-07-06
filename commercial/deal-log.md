@@ -3,7 +3,7 @@ type: commercial
 status: active
 tags: [pricing, deals, commercial, proposals, confidential]
 created: 2026-03-30
-updated: 2026-06-21
+updated: 2026-07-06
 source: conversation-history
 related: [_personal/crm/crm-contacts.md, _personal/strategy/positioning-and-messaging.md]
 ---
@@ -40,6 +40,15 @@ Related: [[_personal/commercial/pricing|Pricing]], [[_personal/commercial/deal-n
 ---
 
 ## Active Proposals
+
+### Mana — Claim Portal, proposal prepared 2026-07-06
+- **Requested by Karan** (new Mana contact, role TBD); proposal addressed to **Josh Hosking** (josh.hosking@mana-dmcc.com).
+- Wizard-based claim entry + approve/reject workflow + automatic claim creation in Mana's Trackon.
+- **Phase 1 (Design & Discovery): $4,500 fixed, ~2 weeks** → delivers fixed Phase 2 quote.
+- **Phase 2 (Build): $18–28k indicative**; lower end if built alongside the Salesforce integration (shared secure API foundation).
+- Recurring: portal hosting/monitoring/support from ~$500/mo once live.
+- Internal anchor $100/hr, NOT exposed (per pricing policy). Payer TBD — Mana direct vs DFA.
+- Proposal deck: `_personal/commercial/mana-claim-portal-proposal.{md,pdf,html}`.
 
 ### Salvia 7 — Proposal sent Mar 2026
 - **Proposed MRR:** $1,695/month

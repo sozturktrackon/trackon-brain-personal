@@ -1,0 +1,357 @@
+---
+marp: true
+theme: default
+paginate: true
+size: 16:9
+style: |
+  @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Raleway:wght@300;400;500;600&display=swap');
+
+  :root {
+    --a: #506CEA;
+    --a2: #3C96EE;
+    --bg: #F6F8FE;
+    --card: #ffffff;
+    --border: #E6EBF5;
+    --heading: #16203A;
+    --body: #45566E;
+    --label: #7286A6;
+    --muted: #9AA8C2;
+    --green: #16a34a;
+    --shadow: 0 8px 30px rgba(20,32,64,.08);
+    --shadow-sm: 0 4px 16px rgba(20,32,64,.06);
+  }
+
+  section {
+    background: radial-gradient(1100px 520px at 88% -8%, #E7EEFF 0%, rgba(231,238,255,0) 60%), var(--bg);
+    color: var(--heading);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    padding: 50px 66px;
+    font-size: 22px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  h1 { font-family: 'Outfit'; font-weight: 800; font-size: 2.3em; letter-spacing: -0.03em; line-height: 1.04; margin: 0 0 10px; color: var(--heading); }
+  strong { color: var(--a); font-weight: 600; }
+
+  section::after { font-family: 'Outfit'; font-size: 0.5em; color: var(--muted); }
+
+  .eyebrow { font-family: 'Outfit'; font-weight: 700; font-size: 0.6em; color: var(--a); letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 14px; }
+
+  .intro { max-width: 990px; font-size: 0.8em; color: var(--body); line-height: 1.6; }
+  .intro + .intro { margin-top: 14px; }
+  .caption { margin-top: 26px; text-align: center; font-size: 0.64em; color: var(--label); }
+
+  .pill { display: inline-block; background: #506CEA12; border: 1px solid #506CEA33; border-radius: 30px; padding: 7px 18px; font-family: 'Outfit'; font-size: 13px; color: var(--a); font-weight: 600; letter-spacing: 0.03em; margin: 5px 5px 0 0; }
+  .pill-green { background: #16a34a14; border-color: #16a34a3a; color: var(--green); }
+
+  .row { display: flex; gap: 24px; align-items: stretch; margin-top: 26px; }
+  .col { flex: 1; }
+
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 26px 28px; box-shadow: var(--shadow); }
+  .card-accent { border-top: 3px solid var(--a); }
+  .card-center { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; }
+  .card-title { font-family: 'Outfit'; font-weight: 700; font-size: 21px; color: var(--heading); margin-bottom: 10px; }
+  .card-body { font-size: 0.62em; color: var(--body); line-height: 1.65; }
+
+  .tag { display: inline-block; font-family: 'Outfit'; font-weight: 700; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; padding: 4px 11px; border-radius: 6px; background: #506CEA15; color: var(--a); margin-left: 6px; vertical-align: middle; }
+
+  .li { position: relative; padding-left: 22px; font-size: 0.62em; color: var(--body); margin: 11px 0; line-height: 1.45; }
+  .li::before { content: ''; position: absolute; left: 0; top: 0.5em; width: 7px; height: 7px; border-radius: 50%; background: var(--a); }
+  .li-no::before { background: var(--muted); }
+
+  .badge { width: 44px; height: 44px; border-radius: 12px; background: linear-gradient(135deg, #506CEA, #3C96EE); color: #fff; font-family: 'Outfit'; font-weight: 800; font-size: 18px; display: flex; align-items: center; justify-content: center; box-shadow: 0 6px 16px rgba(80,108,234,.32); flex: none; }
+
+  .flow { display: flex; align-items: stretch; gap: 18px; margin-top: 14px; background: transparent; }
+  .flow .node { flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 12px; box-shadow: 0 2px 10px rgba(20,32,64,.05); padding: 18px 14px; text-align: center; display: flex; flex-direction: column; justify-content: center; }
+  .flow .nt { font-family: 'Outfit'; font-weight: 700; font-size: 15px; color: var(--heading); }
+  .flow .ns { font-family: 'Raleway'; font-weight: 400; font-size: 12px; color: var(--label); margin-top: 4px; }
+  .flow .arrow { display: flex; align-items: center; font-family: 'Outfit'; font-weight: 800; color: var(--a); font-size: 22px; }
+  .flow-label { font-family: 'Outfit'; font-weight: 700; font-size: 0.55em; color: var(--label); letter-spacing: 0.14em; text-transform: uppercase; margin-top: 22px; }
+  .flow-label.first { margin-top: 8px; }
+
+  .card.step-hi { border: 2px solid var(--a); background: linear-gradient(180deg, #506CEA0c, #ffffff 62%); }
+  .step-tag { font-family: 'Outfit'; font-weight: 800; font-size: 12px; letter-spacing: 0.16em; color: var(--label); text-transform: uppercase; }
+  .step-tag.hi { color: var(--a); }
+  .step-price { font-family: 'Outfit'; font-weight: 800; font-size: 52px; letter-spacing: -0.02em; line-height: 1; margin-top: 8px; color: var(--heading); }
+  .step-price.hi { color: var(--a); }
+  .step-intro { max-width: 990px; font-size: 0.78em; color: var(--body); line-height: 1.6; margin-top: 6px; }
+
+  .recurring { margin-top: 20px; display: flex; align-items: center; justify-content: space-between; gap: 18px; background: #FAFBFF; border: 1px dashed var(--a); border-radius: 14px; padding: 16px 26px; }
+  .recurring .r-label { font-family: 'Outfit'; font-weight: 800; font-size: 11px; color: var(--a); letter-spacing: 0.16em; text-transform: uppercase; }
+  .recurring .r-title { font-family: 'Outfit'; font-weight: 700; font-size: 18px; color: var(--heading); margin-top: 3px; }
+  .recurring .r-sub { font-family: 'Raleway'; font-weight: 400; font-size: 13px; color: var(--label); margin-top: 4px; max-width: 760px; }
+  .recurring .r-price { font-family: 'Outfit'; font-weight: 800; font-size: 25px; color: var(--heading); white-space: nowrap; }
+  .steps-note { margin-top: 18px; text-align: center; font-size: 0.55em; color: var(--muted); }
+
+  .big-num { font-family: 'Outfit'; font-weight: 800; font-size: 64px; color: var(--a); letter-spacing: -0.02em; line-height: 1; }
+
+  .ws { margin-top: 14px; border: 1px solid var(--border); border-radius: 14px; overflow: hidden; box-shadow: var(--shadow-sm); font-size: 0.6em; }
+  .ws-head, .ws-row { display: flex; }
+  .ws-row { border-top: 1px solid var(--border); }
+  .ws-row:nth-child(even) { background: #FAFBFF; }
+  .ws .c1 { width: 31%; flex: none; padding: 13px 18px; font-family: 'Outfit'; font-weight: 700; color: var(--heading); }
+  .ws .c2 { flex: 1; padding: 13px 18px; color: var(--body); line-height: 1.45; }
+  .ws-head { background: linear-gradient(135deg, #16203A, #2a3858); }
+  .ws-head .c1, .ws-head .c2 { color: #fff; text-transform: uppercase; letter-spacing: 0.07em; font-family: 'Outfit'; font-weight: 700; font-size: 0.85em; }
+
+  section.dark { background: linear-gradient(140deg, #0E1526 0%, #1b2748 58%, #243561 100%); color: #fff; }
+  section.dark h1 { color: #fff; }
+  section.dark .eyebrow { color: var(--a2); }
+  section.dark .intro { color: #c7d3ec; }
+  section.dark strong { color: var(--a2); }
+  section.dark .pill { background: #ffffff14; border-color: #ffffff33; color: #dbe6ff; }
+  section.dark::after { color: #ffffff66; }
+
+  section.lead { align-items: center; text-align: center; }
+  .kicker { font-family: 'Raleway'; font-weight: 500; font-size: 15px; color: var(--label); text-transform: uppercase; letter-spacing: 0.28em; }
+  .cover-title { font-family: 'Outfit'; font-weight: 800; font-size: 44px; color: var(--heading); letter-spacing: -0.02em; line-height: 1.05; }
+  .rule { width: 60px; height: 4px; background: linear-gradient(90deg, #506CEA, #3C96EE); border-radius: 3px; margin: 14px auto 14px; }
+  .cover-sub { font-family: 'Raleway'; font-weight: 400; font-size: 17px; color: var(--body); max-width: 760px; line-height: 1.5; }
+  .cover-meta { font-family: 'Outfit'; font-weight: 600; font-size: 18px; color: var(--heading); }
+  .cover-meta-sub { font-family: 'Raleway'; font-weight: 400; font-size: 15px; color: var(--body); }
+
+  .snum { display: flex; align-items: flex-start; gap: 18px; margin: 18px 0; }
+  .snum .scontent { font-family: 'Raleway'; font-weight: 400; font-size: 18px; color: #dbe6ff; line-height: 1.5; padding-top: 9px; }
+
+header: ''
+footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared for Mana'
+---
+
+<!-- _class: lead -->
+<!-- _paginate: false -->
+<!-- _footer: '' -->
+
+<div class="kicker">Implementation Proposal · July 2026</div>
+
+<img src="./trackon-logo.png" style="height: 40px; margin: 6px 0 2px;" />
+
+<div class="cover-title">Claim Portal<br/>for Mana</div>
+
+<div class="rule"></div>
+
+<div class="cover-sub">A guided, wizard-based portal where Mana's users raise claims step by step, claims are reviewed and approved or rejected in a controlled workflow, and approved claims land in Mana's Trackon system automatically — no re-keying.</div>
+
+<div class="cover-meta" style="margin-top: 20px;">Prepared for Josh Hosking · Mana</div>
+<div class="cover-meta-sub" style="margin-top: 6px;">Murat Selim Ozturk · CEO, Trackon Software FZCO</div>
+
+---
+
+<div class="eyebrow">The objective</div>
+
+# What we are solving
+
+<div class="intro">Today, raising a claim depends on emails, spreadsheets and manual entry. Details arrive incomplete, supporting evidence is scattered, and someone still has to key the final claim into the system by hand.</div>
+
+<div class="intro">The <strong>Claim Portal</strong> replaces that with a guided wizard: the user is walked through the claim step by step, required details and supporting documents are collected up front, and nothing can be submitted incomplete.</div>
+
+<div class="intro">Every claim then passes through a formal <strong>approve / reject</strong> step. Only approved claims are created in Mana's Trackon system — automatically, through Trackon's own business rules.</div>
+
+<div style="margin-top: 30px;">
+<span class="pill">Guided, step-by-step entry</span><span class="pill">Complete claims only</span><span class="pill">Controlled approval</span><span class="pill">No re-keying</span>
+</div>
+
+---
+
+<div class="eyebrow">How it works</div>
+
+# From first entry to a claim in Trackon
+
+<div class="flow-label first">The claim journey</div>
+<div class="flow">
+<div class="node"><div class="nt">Wizard</div><div class="ns">guided claim entry, step by step</div></div>
+<div class="arrow">→</div>
+<div class="node"><div class="nt">Evidence</div><div class="ns">details &amp; documents attached</div></div>
+<div class="arrow">→</div>
+<div class="node"><div class="nt">Review</div><div class="ns">approve or reject, with comments</div></div>
+<div class="arrow">→</div>
+<div class="node"><div class="nt">Trackon</div><div class="ns">claim created automatically</div></div>
+</div>
+
+<div style="margin-top: 26px;">
+<div class="li">The wizard validates as the user goes — mandatory fields, amounts, references and attachments are checked <strong>before</strong> submission, not after.</div>
+<div class="li">Reviewers see the full claim with its evidence in one place and approve or <strong>reject with a reason</strong>; the submitter is notified either way.</div>
+<div class="li">Rejected claims never touch the Trackon system. Approved claims are created through Trackon's real business rules, so what lands is always valid.</div>
+</div>
+
+---
+
+<div class="eyebrow">The experience</div>
+
+# Built for the people filing claims
+
+<div class="row">
+<div class="col card card-accent">
+<div class="card-title">For submitters</div>
+<div class="li">A wizard that asks one thing at a time — no blank forms, no guesswork</div>
+<div class="li">Upload supporting documents directly into the claim</div>
+<div class="li">See the status of every claim: submitted, in review, approved, rejected</div>
+<div class="li">Clear rejection reasons, so a claim can be corrected and resubmitted</div>
+</div>
+<div class="col card card-accent">
+<div class="card-title">For reviewers</div>
+<div class="li">A single queue of pending claims, complete with evidence</div>
+<div class="li">Approve or reject with comments in one click</div>
+<div class="li">Full audit trail — who filed, who decided, when and why</div>
+<div class="li">Approved claims appear in Trackon with zero manual entry</div>
+</div>
+</div>
+
+<div class="caption">Claim types, required fields, evidence rules and the approval chain are confirmed with your team in the design phase.</div>
+
+---
+
+<!-- _class: dark -->
+
+<div class="eyebrow">The foundation</div>
+
+# One foundation, two projects
+
+<div class="intro">Creating a claim in Mana's Trackon system safely requires the same <strong>secure API foundation</strong> we scoped in the Salesforce → Trackon integration: an authenticated layer that creates records through Trackon's own business rules rather than writing raw data.</div>
+
+<div class="intro">That foundation is <strong>built once and shared</strong>. Running the Claim Portal alongside the Salesforce integration means the two projects split the cost of the hardest part — and every future integration inherits it for free.</div>
+
+<div style="margin-top: 30px;">
+<span class="pill">Shared with the Salesforce integration</span><span class="pill">Built through Trackon's real business rules</span><span class="pill">Reusable for future projects</span>
+</div>
+
+---
+
+<div class="eyebrow">Clear boundaries</div>
+
+# What sits where
+
+<div class="row">
+<div class="col card card-accent">
+<div class="card-title">Trackon delivers</div>
+<div class="li">The wizard-based Claim Portal (web, secure sign-in)</div>
+<div class="li">Approval / rejection workflow &amp; notifications</div>
+<div class="li">Document upload &amp; storage with the claim</div>
+<div class="li">Automatic claim creation in Mana's Trackon system</div>
+<div class="li">Audit trail, monitoring and support</div>
+<div class="li">Testing, go-live and training</div>
+</div>
+<div class="col card">
+<div class="card-title" style="color: #7286A6;">Mana provides</div>
+<div class="li li-no">Claim types, required fields and business rules</div>
+<div class="li li-no">The approval chain — who reviews, who decides</div>
+<div class="li li-no">The list of portal users and their roles</div>
+<div class="li li-no">Sample historical claims for testing</div>
+<div class="li li-no">A working session or two during design</div>
+<div class="li li-no">UAT participation before go-live</div>
+</div>
+</div>
+
+---
+
+<div class="eyebrow">Your investment</div>
+
+# A simple two-step path
+
+<div class="step-intro">The same model as the Salesforce integration: a small, fixed design step first; the build is priced firmly only once the design has removed the unknowns. You never sign off a padded number.</div>
+
+<div class="row">
+<div class="col card step-hi">
+<div class="step-tag hi">Step 1 · Start here</div>
+<div class="card-title" style="margin-top: 8px;">Design &amp; Discovery</div>
+<div class="step-price hi">$4,500</div>
+<div class="card-body" style="margin-top: 10px;">Fixed price · ≈ 2 weeks · delivers a fixed Step 2 quote</div>
+</div>
+<div class="col card">
+<div class="step-tag">Step 2 · Build &amp; go-live</div>
+<div class="card-title" style="margin-top: 8px;">Portal build</div>
+<div class="step-price">$18k &ndash; $28k</div>
+<div class="card-body" style="margin-top: 10px;">Indicative · fixed after Step 1 · lower end applies if built alongside the Salesforce integration foundation</div>
+</div>
+</div>
+
+<div class="recurring">
+<div><div class="r-label">Once live · recurring</div><div class="r-title">Portal Hosting, Monitoring &amp; Support</div><div class="r-sub">Secure hosting, monitoring, error handling, user support and minor adjustments.</div></div>
+<div class="r-price">from ~$500/mo</div>
+</div>
+
+<div class="steps-note">Prices in USD, exclusive of any applicable taxes. Indicative range firms up at the end of Step 1.</div>
+
+---
+
+<div class="eyebrow">Phase 1 · Design &amp; Discovery</div>
+
+# Scope & investment
+
+<div class="row">
+<div class="col" style="flex: 1.6;">
+<div class="step-tag hi" style="display: block; margin-bottom: 16px;">Deliverables</div>
+<div class="li">Claim types, fields and validation rules specified with your team</div>
+<div class="li">Wizard flow designed screen by screen</div>
+<div class="li">Approval workflow defined — reviewers, decisions, notifications</div>
+<div class="li">Claim-creation mapping into Mana's Trackon system</div>
+<div class="li">User roles, access and document-handling rules confirmed</div>
+<div class="li">Solution design document and a <strong>fixed, itemised Phase 2 quote</strong></div>
+</div>
+<div class="col card step-hi card-center">
+<div class="step-tag hi">Fixed price</div>
+<div class="big-num" style="margin-top: 8px;">$4,500</div>
+<div class="step-tag" style="margin-top: 22px;">Duration</div>
+<div style="font-family: 'Outfit'; font-weight: 700; font-size: 26px; color: #16203A; margin-top: 6px;">≈ 2 weeks</div>
+<div style="margin-top: 18px;"><span class="pill">Delivers a fixed Phase 2 quote</span></div>
+</div>
+</div>
+
+---
+
+<div class="eyebrow">Phase 2 · Build &amp; Go-Live</div>
+
+# Workstreams & estimate
+
+<div class="ws">
+<div class="ws-head"><div class="c1">Workstream</div><div class="c2">Scope</div></div>
+<div class="ws-row"><div class="c1">Claim wizard</div><div class="c2">Guided multi-step entry with live validation and document upload</div></div>
+<div class="ws-row"><div class="c1">Approval workflow</div><div class="c2">Review queue, approve / reject with comments, notifications, audit trail</div></div>
+<div class="ws-row"><div class="c1">Claim creation</div><div class="c2">Approved claims created in Mana's Trackon system through its business rules</div></div>
+<div class="ws-row"><div class="c1">Users &amp; access</div><div class="c2">Secure sign-in, roles for submitters and reviewers</div></div>
+<div class="ws-row"><div class="c1">Test &amp; go-live</div><div class="c2">End-to-end testing with real claim samples, UAT, deployment, training</div></div>
+</div>
+
+<div class="row">
+<div class="col card card-accent card-center">
+<div class="step-tag hi">Indicative estimate</div>
+<div class="step-price">$18k &ndash; $28k</div>
+</div>
+<div class="col card">
+<div class="card-body">Range shown for planning. <strong>Fixed and itemised at the end of Phase 1.</strong> The lower end applies when the portal shares the secure API foundation built for the Salesforce integration.</div>
+</div>
+</div>
+
+---
+
+<div class="eyebrow">For clarity</div>
+
+# Assumptions
+
+<div style="margin-top: 18px;">
+<div class="li">Portal users are <strong>Mana's users</strong>; the user list and roles are provided by Mana.</div>
+<div class="li">Claim types, mandatory fields and the approval chain are confirmed in Phase 1 and form the baseline for the fixed Phase 2 quote.</div>
+<div class="li">Approved claims are created in Mana's Trackon system through its business rules; everything downstream of claim creation works as it does today.</div>
+<div class="li">The portal shares the secure API foundation scoped in the Salesforce → Trackon integration; if that project does not proceed, the foundation is built within this one and the estimate lands at the upper end of the range.</div>
+<div class="li">Mana provides sample historical claims for testing and participates in UAT.</div>
+<div class="li">Changes to claim types or workflow after the Phase 1 sign-off are scoped and priced as amendments.</div>
+</div>
+
+---
+
+<!-- _class: dark -->
+<!-- _footer: '' -->
+
+<div class="eyebrow">Next steps</div>
+
+# Let's get started
+
+<div class="snum"><div class="badge">1</div><div class="scontent">Approve Phase 1 (Design &amp; Discovery): <strong>$4,500</strong>, ≈ 2 weeks.</div></div>
+<div class="snum"><div class="badge">2</div><div class="scontent">Working session with your team to walk through claim types, fields and the approval chain.</div></div>
+<div class="snum"><div class="badge">3</div><div class="scontent">Phase 1 delivers the design and a <strong>fixed Phase 2 quote</strong>, then we build.</div></div>
+
+<div style="margin-top: 38px; font-family: 'Outfit'; font-weight: 600; font-size: 18px; color: #fff;">Murat Selim Ozturk · CEO, Trackon Software FZCO</div>
+<div style="margin-top: 4px; font-family: 'Raleway'; font-weight: 400; font-size: 15px; color: #ffffff99;">sozturk@trackon.com</div>
