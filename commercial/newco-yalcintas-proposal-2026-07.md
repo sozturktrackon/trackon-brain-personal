@@ -51,7 +51,7 @@ style: |
 
 **Prepared for:** Mr. Ayhan Yalcintas & Mr. Fatih Ziya Akdogan
 **Prepared by:** Trackon Software FZCO, Dubai, UAE
-**Date:** 3 July 2026 · Valid for 30 days
+**Date:** 6 July 2026 · Valid for 30 days
 
 ---
 
