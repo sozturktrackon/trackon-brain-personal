@@ -118,7 +118,7 @@ style: |
   .snum .scontent { font-family: 'Raleway'; font-weight: 400; font-size: 18px; color: #dbe6ff; line-height: 1.5; padding-top: 9px; }
 
 header: ''
-footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared for Mana'
+footer: 'Trackon Software FZCO  ·  Claims Console  ·  Confidential · Prepared for Mana'
 ---
 
 <!-- _class: lead -->
@@ -127,13 +127,13 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 
 <div class="kicker">Implementation Proposal · July 2026</div>
 
-<img src="./trackon-logo.png" style="height: 40px; margin: 6px 0 2px;" />
+![h:110](./trackon-logo.png)
 
-<div class="cover-title">Claim Portal<br/>for Mana</div>
+<div class="cover-title">Claims Console<br/>for Mana</div>
 
 <div class="rule"></div>
 
-<div class="cover-sub">A guided, wizard-based portal where Mana's users raise claims step by step, claims are reviewed and approved or rejected in a controlled workflow, and approved claims land in Mana's Trackon system automatically — no re-keying.</div>
+<div class="cover-sub">A new Claims Console in Trackon, working like the Logistics Console your team already knows. An Add button opens a guided wizard for claim details and supporting documents, and approved claims become claim records automatically.</div>
 
 <div class="cover-meta" style="margin-top: 20px;">Prepared for Josh Hosking · Mana</div>
 <div class="cover-meta-sub" style="margin-top: 6px;">Murat Selim Ozturk · CEO, Trackon Software FZCO</div>
@@ -146,12 +146,12 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 
 <div class="intro">Today, raising a claim depends on emails, spreadsheets and manual entry. Details arrive incomplete, supporting evidence is scattered, and someone still has to key the final claim into the system by hand.</div>
 
-<div class="intro">The <strong>Claim Portal</strong> replaces that with a guided wizard: the user is walked through the claim step by step, required details and supporting documents are collected up front, and nothing can be submitted incomplete.</div>
+<div class="intro">The <strong>Claims Console</strong> replaces that: a new console in Trackon, sitting alongside the consoles your team already uses, such as the Logistics Console. It lists every claim with its status, and an <strong>Add</strong> button opens a guided wizard that walks the user through the claim step by step. Required details and supporting documents are collected up front; nothing can be submitted incomplete.</div>
 
-<div class="intro">Every claim then passes through a formal <strong>approve / reject</strong> step. Only approved claims are created in Mana's Trackon system — automatically, through Trackon's own business rules.</div>
+<div class="intro">Every claim then passes through a formal <strong>approve / reject</strong> step. Only approved claims become claim records in Trackon, created automatically with no re-keying. No separate system, no new sign-in: it all lives where your team already works.</div>
 
 <div style="margin-top: 30px;">
-<span class="pill">Guided, step-by-step entry</span><span class="pill">Complete claims only</span><span class="pill">Controlled approval</span><span class="pill">No re-keying</span>
+<span class="pill">Inside Trackon, no new system</span><span class="pill">Guided, step-by-step entry</span><span class="pill">Complete claims only</span><span class="pill">Controlled approval</span>
 </div>
 
 ---
@@ -162,19 +162,19 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 
 <div class="flow-label first">The claim journey</div>
 <div class="flow">
-<div class="node"><div class="nt">Wizard</div><div class="ns">guided claim entry, step by step</div></div>
+<div class="node"><div class="nt">Add</div><div class="ns">opens the guided wizard from the console</div></div>
 <div class="arrow">→</div>
-<div class="node"><div class="nt">Evidence</div><div class="ns">details &amp; documents attached</div></div>
+<div class="node"><div class="nt">Wizard</div><div class="ns">details &amp; documents, step by step</div></div>
 <div class="arrow">→</div>
 <div class="node"><div class="nt">Review</div><div class="ns">approve or reject, with comments</div></div>
 <div class="arrow">→</div>
-<div class="node"><div class="nt">Trackon</div><div class="ns">claim created automatically</div></div>
+<div class="node"><div class="nt">Claim record</div><div class="ns">created in Trackon automatically</div></div>
 </div>
 
 <div style="margin-top: 26px;">
-<div class="li">The wizard validates as the user goes — mandatory fields, amounts, references and attachments are checked <strong>before</strong> submission, not after.</div>
+<div class="li">The wizard validates as the user goes: mandatory fields, amounts, references and attachments are checked <strong>before</strong> submission, not after.</div>
 <div class="li">Reviewers see the full claim with its evidence in one place and approve or <strong>reject with a reason</strong>; the submitter is notified either way.</div>
-<div class="li">Rejected claims never touch the Trackon system. Approved claims are created through Trackon's real business rules, so what lands is always valid.</div>
+<div class="li">Rejected claims never become claim records. Approved claims are created through Trackon's real business rules, so what lands is always valid.</div>
 </div>
 
 ---
@@ -186,37 +186,21 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 <div class="row">
 <div class="col card card-accent">
 <div class="card-title">For submitters</div>
-<div class="li">A wizard that asks one thing at a time — no blank forms, no guesswork</div>
+<div class="li">A wizard that asks one thing at a time, with no blank forms and no guesswork</div>
 <div class="li">Upload supporting documents directly into the claim</div>
-<div class="li">See the status of every claim: submitted, in review, approved, rejected</div>
+<div class="li">The console shows every claim and its status: submitted, in review, approved, rejected</div>
 <div class="li">Clear rejection reasons, so a claim can be corrected and resubmitted</div>
 </div>
 <div class="col card card-accent">
 <div class="card-title">For reviewers</div>
-<div class="li">A single queue of pending claims, complete with evidence</div>
+<div class="li">Pending claims in one console view, complete with evidence</div>
 <div class="li">Approve or reject with comments in one click</div>
-<div class="li">Full audit trail — who filed, who decided, when and why</div>
-<div class="li">Approved claims appear in Trackon with zero manual entry</div>
+<div class="li">Full audit trail of who filed, who decided, when and why</div>
+<div class="li">Approved claims become claim records with zero manual entry</div>
 </div>
 </div>
 
 <div class="caption">Claim types, required fields, evidence rules and the approval chain follow what we defined together in our working sessions.</div>
-
----
-
-<!-- _class: dark -->
-
-<div class="eyebrow">The foundation</div>
-
-# One foundation, two projects
-
-<div class="intro">Creating a claim in Mana's Trackon system safely requires the same <strong>secure API foundation</strong> we scoped in the Salesforce → Trackon integration: an authenticated layer that creates records through Trackon's own business rules rather than writing raw data.</div>
-
-<div class="intro">That foundation is <strong>built once and shared</strong>. The Claim Portal and the Salesforce integration run on the same foundation — and every future integration inherits it for free.</div>
-
-<div style="margin-top: 30px;">
-<span class="pill">Shared with the Salesforce integration</span><span class="pill">Built through Trackon's real business rules</span><span class="pill">Reusable for future projects</span>
-</div>
 
 ---
 
@@ -227,20 +211,19 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 <div class="row">
 <div class="col card card-accent">
 <div class="card-title">Trackon delivers</div>
-<div class="li">The wizard-based Claim Portal (web, secure sign-in)</div>
+<div class="li">The new Claims Console in Trackon, alongside your existing consoles</div>
+<div class="li">The Add-button wizard for guided claim entry</div>
 <div class="li">Approval / rejection workflow &amp; notifications</div>
 <div class="li">Document upload &amp; storage with the claim</div>
-<div class="li">Automatic claim creation in Mana's Trackon system</div>
-<div class="li">Audit trail, monitoring and support</div>
+<div class="li">Claim records created automatically on approval, with a full audit trail</div>
 <div class="li">Testing, go-live and training</div>
 </div>
 <div class="col card">
 <div class="card-title" style="color: #7286A6;">Mana provides</div>
 <div class="li li-no">Claim types, required fields and business rules</div>
-<div class="li li-no">The approval chain — who reviews, who decides</div>
-<div class="li li-no">The list of portal users and their roles</div>
+<div class="li li-no">The approval chain: who reviews, who decides</div>
+<div class="li li-no">Which Trackon users submit and which approve</div>
 <div class="li li-no">Sample historical claims for testing</div>
-<div class="li li-no">A working session or two during design</div>
 <div class="li li-no">UAT participation before go-live</div>
 </div>
 </div>
@@ -249,9 +232,9 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 
 <div class="eyebrow">Your investment</div>
 
-# Capped hours. You never pay more.
+# Capped hours. You won't pay more.
 
-<div class="step-intro">The design is already clear from our working sessions together, so we go straight to build. The whole engagement — meetings, development, testing and go-live — is billed on actual time at <strong>$100/hour</strong>, capped at <strong>160 hours</strong>.</div>
+<div class="step-intro">The design is already clear from our working sessions together, so we go straight to build. The whole engagement, including meetings, development, testing and go-live, is billed on actual time at <strong>$100/hour</strong>, capped at <strong>160 hours</strong>.</div>
 
 <div class="row">
 <div class="col card step-hi">
@@ -264,16 +247,11 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 <div class="step-tag">Pay only for time used</div>
 <div class="card-title" style="margin-top: 8px;">Actual hours billed</div>
 <div class="step-price">&le; 160 h</div>
-<div class="card-body" style="margin-top: 10px;">Finish in fewer hours and you are invoiced only the time spent. Take longer for any reason within this scope — the overrun is <strong>ours</strong>, the cap holds.</div>
+<div class="card-body" style="margin-top: 10px;">Finish in fewer hours and you are invoiced only the time spent. Take longer for any reason within this scope and the overrun is <strong>ours</strong>; the cap holds.</div>
 </div>
 </div>
 
-<div class="recurring">
-<div><div class="r-label">Once live · recurring</div><div class="r-title">Portal Hosting, Monitoring &amp; Support</div><div class="r-sub">Secure hosting, monitoring, error handling, user support and minor adjustments.</div></div>
-<div class="r-price">from ~$500/mo</div>
-</div>
-
-<div class="steps-note">Prices in USD, exclusive of any applicable taxes.</div>
+<div class="steps-note">Prices in USD, exclusive of any applicable taxes. Once live, the Claims Console is supported like the rest of your Trackon system.</div>
 
 ---
 
@@ -283,10 +261,11 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 
 <div class="ws">
 <div class="ws-head"><div class="c1">Workstream</div><div class="c2">Scope</div></div>
-<div class="ws-row"><div class="c1">Claim wizard</div><div class="c2">Guided multi-step entry with live validation and document upload</div></div>
-<div class="ws-row"><div class="c1">Approval workflow</div><div class="c2">Review queue, approve / reject with comments, notifications, audit trail</div></div>
-<div class="ws-row"><div class="c1">Claim creation</div><div class="c2">Approved claims created in Mana's Trackon system through its business rules</div></div>
-<div class="ws-row"><div class="c1">Users &amp; access</div><div class="c2">Secure sign-in, roles for submitters and reviewers</div></div>
+<div class="ws-row"><div class="c1">Claims Console</div><div class="c2">New console in Trackon, like the Logistics Console, listing every claim with its status</div></div>
+<div class="ws-row"><div class="c1">Add wizard</div><div class="c2">Guided multi-step entry dialog with live validation and document upload</div></div>
+<div class="ws-row"><div class="c1">Approval workflow</div><div class="c2">Review from the console, approve / reject with comments, notifications, audit trail</div></div>
+<div class="ws-row"><div class="c1">Claim creation</div><div class="c2">Approved claims become claim records in Trackon through its business rules</div></div>
+<div class="ws-row"><div class="c1">Roles &amp; access</div><div class="c2">Submitter and reviewer roles for existing Trackon users</div></div>
 <div class="ws-row"><div class="c1">Test &amp; go-live</div><div class="c2">End-to-end testing with real claim samples, UAT, deployment, training</div></div>
 </div>
 
@@ -296,7 +275,7 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 <div class="step-price">$16,000</div>
 </div>
 <div class="col card">
-<div class="card-body">Everything above is covered by the <strong>160-hour cap</strong> — meetings, development, testing and go-live included. Actual hours are reported transparently and invoiced as spent, never beyond the cap.</div>
+<div class="card-body">Everything above is covered by the <strong>160-hour cap</strong>, with meetings, development, testing and go-live included. Actual hours are reported transparently and invoiced as spent, never beyond the cap.</div>
 </div>
 </div>
 
@@ -307,10 +286,10 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 # Assumptions
 
 <div style="margin-top: 18px;">
-<div class="li">The scope baseline is what we defined together in our working sessions: wizard-based claim entry, approve / reject workflow, and automatic claim creation in Mana's Trackon system.</div>
+<div class="li">The scope baseline is what we defined together in our working sessions: a new <strong>Claims Console</strong> in Trackon with an Add-button wizard, an approve / reject workflow, and claim records created automatically on approval.</div>
 <div class="li">The <strong>160-hour / $16,000 cap</strong> applies to this scope, including meetings, development, testing and go-live. Time is billed at $100/hour on actual hours spent, never beyond the cap.</div>
-<div class="li">Portal users are <strong>Mana's users</strong>; the user list and roles are provided by Mana.</div>
-<div class="li">Approved claims are created in Mana's Trackon system through its business rules; everything downstream of claim creation works as it does today.</div>
+<div class="li">The console is used by <strong>existing Trackon users</strong>; Mana confirms who can submit and who approves.</div>
+<div class="li">Approved claims become claim records through Trackon's business rules; everything downstream of claim creation works as it does today.</div>
 <div class="li">Mana provides sample historical claims for testing and participates in UAT.</div>
 <div class="li">Changes to claim types or workflow beyond this scope are quoted separately as amendments.</div>
 </div>
@@ -325,8 +304,8 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 # Let's get started
 
 <div class="snum"><div class="badge">1</div><div class="scontent">Confirm the go-ahead: maximum <strong>$16,000</strong>, capped at 160 hours, this scope delivered.</div></div>
-<div class="snum"><div class="badge">2</div><div class="scontent">Short kickoff to lock the wizard screens and the approval chain from our working sessions.</div></div>
-<div class="snum"><div class="badge">3</div><div class="scontent">We build, test with your team, and go live — <strong>actual hours invoiced, never beyond the cap</strong>.</div></div>
+<div class="snum"><div class="badge">2</div><div class="scontent">Short kickoff to lock the console layout, wizard steps and the approval chain from our working sessions.</div></div>
+<div class="snum"><div class="badge">3</div><div class="scontent">We build, test with your team, and go live, with <strong>actual hours invoiced and never beyond the cap</strong>.</div></div>
 
 <div style="margin-top: 38px; font-family: 'Outfit'; font-weight: 600; font-size: 18px; color: #fff;">Murat Selim Ozturk · CEO, Trackon Software FZCO</div>
 <div style="margin-top: 4px; font-family: 'Raleway'; font-weight: 400; font-size: 15px; color: #ffffff99;">sozturk@trackon.com</div>
