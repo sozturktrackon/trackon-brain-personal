@@ -200,7 +200,7 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 </div>
 </div>
 
-<div class="caption">Claim types, required fields, evidence rules and the approval chain are confirmed with your team in the design phase.</div>
+<div class="caption">Claim types, required fields, evidence rules and the approval chain follow what we defined together in our working sessions.</div>
 
 ---
 
@@ -212,7 +212,7 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 
 <div class="intro">Creating a claim in Mana's Trackon system safely requires the same <strong>secure API foundation</strong> we scoped in the Salesforce → Trackon integration: an authenticated layer that creates records through Trackon's own business rules rather than writing raw data.</div>
 
-<div class="intro">That foundation is <strong>built once and shared</strong>. Running the Claim Portal alongside the Salesforce integration means the two projects split the cost of the hardest part — and every future integration inherits it for free.</div>
+<div class="intro">That foundation is <strong>built once and shared</strong>. The Claim Portal and the Salesforce integration run on the same foundation — and every future integration inherits it for free.</div>
 
 <div style="margin-top: 30px;">
 <span class="pill">Shared with the Salesforce integration</span><span class="pill">Built through Trackon's real business rules</span><span class="pill">Reusable for future projects</span>
@@ -249,22 +249,22 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 
 <div class="eyebrow">Your investment</div>
 
-# A simple two-step path
+# Capped hours. You never pay more.
 
-<div class="step-intro">The same model as the Salesforce integration: a small, fixed design step first; the build is priced firmly only once the design has removed the unknowns. You never sign off a padded number.</div>
+<div class="step-intro">The design is already clear from our working sessions together, so we go straight to build. The whole engagement — meetings, development, testing and go-live — is billed on actual time at <strong>$100/hour</strong>, capped at <strong>160 hours</strong>.</div>
 
 <div class="row">
 <div class="col card step-hi">
-<div class="step-tag hi">Step 1 · Start here</div>
-<div class="card-title" style="margin-top: 8px;">Design &amp; Discovery</div>
-<div class="step-price hi">$4,500</div>
-<div class="card-body" style="margin-top: 10px;">Fixed price · ≈ 2 weeks · delivers a fixed Step 2 quote</div>
+<div class="step-tag hi">Maximum investment</div>
+<div class="card-title" style="margin-top: 8px;">This scope, delivered</div>
+<div class="step-price hi">$16,000</div>
+<div class="card-body" style="margin-top: 10px;">Hard cap · 160 hours · includes meetings, development, testing and go-live</div>
 </div>
 <div class="col card">
-<div class="step-tag">Step 2 · Build &amp; go-live</div>
-<div class="card-title" style="margin-top: 8px;">Portal build</div>
-<div class="step-price">$18k &ndash; $28k</div>
-<div class="card-body" style="margin-top: 10px;">Indicative · fixed after Step 1 · lower end applies if built alongside the Salesforce integration foundation</div>
+<div class="step-tag">Pay only for time used</div>
+<div class="card-title" style="margin-top: 8px;">Actual hours billed</div>
+<div class="step-price">&le; 160 h</div>
+<div class="card-body" style="margin-top: 10px;">Finish in fewer hours and you are invoiced only the time spent. Take longer for any reason within this scope — the overrun is <strong>ours</strong>, the cap holds.</div>
 </div>
 </div>
 
@@ -273,38 +273,13 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 <div class="r-price">from ~$500/mo</div>
 </div>
 
-<div class="steps-note">Prices in USD, exclusive of any applicable taxes. Indicative range firms up at the end of Step 1.</div>
+<div class="steps-note">Prices in USD, exclusive of any applicable taxes.</div>
 
 ---
 
-<div class="eyebrow">Phase 1 · Design &amp; Discovery</div>
+<div class="eyebrow">Build &amp; Go-Live</div>
 
-# Scope & investment
-
-<div class="row">
-<div class="col" style="flex: 1.6;">
-<div class="step-tag hi" style="display: block; margin-bottom: 16px;">Deliverables</div>
-<div class="li">Claim types, fields and validation rules specified with your team</div>
-<div class="li">Wizard flow designed screen by screen</div>
-<div class="li">Approval workflow defined — reviewers, decisions, notifications</div>
-<div class="li">Claim-creation mapping into Mana's Trackon system</div>
-<div class="li">User roles, access and document-handling rules confirmed</div>
-<div class="li">Solution design document and a <strong>fixed, itemised Phase 2 quote</strong></div>
-</div>
-<div class="col card step-hi card-center">
-<div class="step-tag hi">Fixed price</div>
-<div class="big-num" style="margin-top: 8px;">$4,500</div>
-<div class="step-tag" style="margin-top: 22px;">Duration</div>
-<div style="font-family: 'Outfit'; font-weight: 700; font-size: 26px; color: #16203A; margin-top: 6px;">≈ 2 weeks</div>
-<div style="margin-top: 18px;"><span class="pill">Delivers a fixed Phase 2 quote</span></div>
-</div>
-</div>
-
----
-
-<div class="eyebrow">Phase 2 · Build &amp; Go-Live</div>
-
-# Workstreams & estimate
+# Workstreams
 
 <div class="ws">
 <div class="ws-head"><div class="c1">Workstream</div><div class="c2">Scope</div></div>
@@ -317,11 +292,11 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 
 <div class="row">
 <div class="col card card-accent card-center">
-<div class="step-tag hi">Indicative estimate</div>
-<div class="step-price">$18k &ndash; $28k</div>
+<div class="step-tag hi">Maximum · all workstreams</div>
+<div class="step-price">$16,000</div>
 </div>
 <div class="col card">
-<div class="card-body">Range shown for planning. <strong>Fixed and itemised at the end of Phase 1.</strong> The lower end applies when the portal shares the secure API foundation built for the Salesforce integration.</div>
+<div class="card-body">Everything above is covered by the <strong>160-hour cap</strong> — meetings, development, testing and go-live included. Actual hours are reported transparently and invoiced as spent, never beyond the cap.</div>
 </div>
 </div>
 
@@ -332,12 +307,12 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 # Assumptions
 
 <div style="margin-top: 18px;">
+<div class="li">The scope baseline is what we defined together in our working sessions: wizard-based claim entry, approve / reject workflow, and automatic claim creation in Mana's Trackon system.</div>
+<div class="li">The <strong>160-hour / $16,000 cap</strong> applies to this scope, including meetings, development, testing and go-live. Time is billed at $100/hour on actual hours spent, never beyond the cap.</div>
 <div class="li">Portal users are <strong>Mana's users</strong>; the user list and roles are provided by Mana.</div>
-<div class="li">Claim types, mandatory fields and the approval chain are confirmed in Phase 1 and form the baseline for the fixed Phase 2 quote.</div>
 <div class="li">Approved claims are created in Mana's Trackon system through its business rules; everything downstream of claim creation works as it does today.</div>
-<div class="li">The portal shares the secure API foundation scoped in the Salesforce → Trackon integration; if that project does not proceed, the foundation is built within this one and the estimate lands at the upper end of the range.</div>
 <div class="li">Mana provides sample historical claims for testing and participates in UAT.</div>
-<div class="li">Changes to claim types or workflow after the Phase 1 sign-off are scoped and priced as amendments.</div>
+<div class="li">Changes to claim types or workflow beyond this scope are quoted separately as amendments.</div>
 </div>
 
 ---
@@ -349,9 +324,9 @@ footer: 'Trackon Software FZCO  ·  Claim Portal  ·  Confidential · Prepared f
 
 # Let's get started
 
-<div class="snum"><div class="badge">1</div><div class="scontent">Approve Phase 1 (Design &amp; Discovery): <strong>$4,500</strong>, ≈ 2 weeks.</div></div>
-<div class="snum"><div class="badge">2</div><div class="scontent">Working session with your team to walk through claim types, fields and the approval chain.</div></div>
-<div class="snum"><div class="badge">3</div><div class="scontent">Phase 1 delivers the design and a <strong>fixed Phase 2 quote</strong>, then we build.</div></div>
+<div class="snum"><div class="badge">1</div><div class="scontent">Confirm the go-ahead: maximum <strong>$16,000</strong>, capped at 160 hours, this scope delivered.</div></div>
+<div class="snum"><div class="badge">2</div><div class="scontent">Short kickoff to lock the wizard screens and the approval chain from our working sessions.</div></div>
+<div class="snum"><div class="badge">3</div><div class="scontent">We build, test with your team, and go live — <strong>actual hours invoiced, never beyond the cap</strong>.</div></div>
 
 <div style="margin-top: 38px; font-family: 'Outfit'; font-weight: 600; font-size: 18px; color: #fff;">Murat Selim Ozturk · CEO, Trackon Software FZCO</div>
 <div style="margin-top: 4px; font-family: 'Raleway'; font-weight: 400; font-size: 15px; color: #ffffff99;">sozturk@trackon.com</div>

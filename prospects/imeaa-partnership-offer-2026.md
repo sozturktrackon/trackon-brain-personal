@@ -104,12 +104,18 @@ If IMEAA prefers, the discount structure can be paired with a **referral fee** o
 
 ---
 
+## Status log
+
+- **2026-06-26 15:14**: Proposal emailed to sudhakar.tomar + Ms. Cronin (IMEA). Attachments: `marketing/imeaa-partnership-offer.pdf` (4-page, institution-to-institution framing so it can circulate within IMEAA/GAFTA/IGC) + `marketing/imeaa-revenue-calculator.xlsx` (the spreadsheet matrix Sudhakar requested; three revenue-share structures side by side, hybrid recommended). Open question flagged in email: which revenue-share structure suits IMEAA's operating model.
+- **2026-07-06**: No reply after 10 days. Follow-up nudge due — WhatsApp to Sudhakar (his channel), not another email.
+
 ## Next steps
 
-1. Sudhakar reviews this offer
-2. We discuss structure, especially: discount-only vs. revenue-share vs. hybrid
-3. Drafting a light MoU once direction is set
-4. Founding-50 wave kickoff
+1. ~~Send proposal~~ — sent 2026-06-26
+2. Follow-up nudge (WhatsApp) — propose the direction call
+3. Direction call: discount-only vs. revenue-share vs. hybrid
+4. Drafting a light MoU once direction is set
+5. Founding-50 wave kickoff
 
 ---
 

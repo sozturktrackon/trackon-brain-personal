@@ -44,10 +44,10 @@ Related: [[_personal/commercial/pricing|Pricing]], [[_personal/commercial/deal-n
 ### Mana — Claim Portal, proposal prepared 2026-07-06
 - **Requested by Karan** (new Mana contact, role TBD); proposal addressed to **Josh Hosking** (josh.hosking@mana-dmcc.com).
 - Wizard-based claim entry + approve/reject workflow + automatic claim creation in Mana's Trackon.
-- **Phase 1 (Design & Discovery): $4,500 fixed, ~2 weeks** → delivers fixed Phase 2 quote.
-- **Phase 2 (Build): $18–28k indicative**; lower end if built alongside the Salesforce integration (shared secure API foundation).
+- **Capped T&M, single phase (no design phase — 3 meetings already done): $100/hr on actual hours, hard cap 160h / $16,000** including meetings, development, testing, go-live. Less time → bill actual; overrun for any reason within scope → cap holds (Trackon absorbs, e.g. 300h still bills 160h).
 - Recurring: portal hosting/monitoring/support from ~$500/mo once live.
-- Internal anchor $100/hr, NOT exposed (per pricing policy). Payer TBD — Mana direct vs DFA.
+- NOTE: this deal deliberately **exposes the $100/hr rate** (exception to the no-rate-exposure policy) — Murat chose transparency + cap as the trust play after the phased quote felt too expensive.
+- Scope changes beyond baseline = amendments, quoted separately. Payer TBD — Mana direct vs DFA.
 - Proposal deck: `_personal/commercial/mana-claim-portal-proposal.{md,pdf,html}`.
 
 ### Salvia 7 — Proposal sent Mar 2026
