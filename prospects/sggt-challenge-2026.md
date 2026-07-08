@@ -6,7 +6,7 @@ status: finalist-not-selected-partnership-opened
 deadline: 2026-04-30
 event_date: 2026-06-10
 event_location: International Grains Conference, London
-updated: 2026-07-06
+updated: 2026-07-07
 followup_deadline: 2026-05-14 (COB London — jury due-diligence questions, submitted 2026-05-13 14:53)
 live_pitch: 2026-05-21 (rescheduled from 2026-05-15) — 15-min pitch + 10-min Q&A, Zoom
 media_assets_deadline: 2026-05-23
@@ -148,6 +148,7 @@ related: [_personal/strategy/sggt-challenge-brainstorm]
 - **19 June 2026**: Murat reached out to Sudhakar with a **partnership offer angle**: discount TrackonAI's standard $299/user/month for IMEAA member companies. **Sudhakar accepted immediately** and requested "a detailed offer with breakdown (spreadsheet matrix with different levels of subscription bouquet)" so they can "work out some kind of partners spotlight program." See [[_personal/prospects/imeaa-partnership-offer-2026]] for the offer.
 - **26 June 2026 15:14**: Proposal **sent by email** to Sudhakar + Ms. Cronin (IMEA): 4-page Partner Spotlight Program PDF + revenue calculator xlsx (the requested matrix). Open question posed: preferred revenue-share structure (discount-only / referral-only / hybrid, hybrid recommended).
 - **6 July 2026**: No reply after 10 days. WhatsApp nudge sent asking Sudhakar's honest read of the proposal. He replied within minutes — "Let's meet also. I am in town." In-person meeting proposed for **Wed 8 July** (lunch or dinner), awaiting confirmation.
+- **7 July 2026**: **In-person meeting held.** (1) IMEAA has an existing paid Partner Spotlight program — $4,900 fee for featuring to 30K members. (2) Sudhakar requested and got an IMEAA TrackonAI tenant to trial personally; WhatsApp support group created (Kuzuturk + Hamza). (3) He flagged ~450 GAFTA disputes/year costing ~$250M, nearly all under ~10 standard GAFTA contract forms — he'll share them; dispute-prevention product angle. Details in [[_personal/prospects/imeaa-partnership-offer-2026]].
 
 ## Potential IGC/IMEAA Distribution Channel
 - Sudhakar confirmed IGC can't do direct commercial partnerships (intergovernmental body)

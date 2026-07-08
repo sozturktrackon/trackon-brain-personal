@@ -1,13 +1,13 @@
 ---
 title: IMEAA Partner Spotlight Program — TrackonAI Offer
 type: opportunity
-status: meeting-scheduled
+status: active-trial-and-negotiation
 owner: Murat
 counterparty: Sudhakar Tomar (IMEAA President)
 sent: 2026-06-26 (email to sudhakar.tomar + Ms. Cronin/IMEA, proposal PDF + revenue calculator xlsx attached)
-next-action: in-person meeting with Sudhakar in Dubai — Wed 2026-07-08 lunch or dinner proposed, awaiting his confirmation
+next-action: support Sudhakar's hands-on trial of the IMEAA tenant; await the 10 dispute-prone GAFTA contracts he will share; decide on the $4,900 Partner Spotlight listing
 related: [_personal/prospects/sggt-challenge-2026]
-updated: 2026-07-06
+updated: 2026-07-07
 ---
 
 # IMEAA Partner Spotlight Program — TrackonAI Offer
@@ -110,14 +110,19 @@ If IMEAA prefers, the discount structure can be paired with a **referral fee** o
 - **2026-06-26 15:14**: Proposal emailed to sudhakar.tomar + Ms. Cronin (IMEA). Attachments: `marketing/imeaa-partnership-offer.pdf` (4-page, institution-to-institution framing so it can circulate within IMEAA/GAFTA/IGC) + `marketing/imeaa-revenue-calculator.xlsx` (the spreadsheet matrix Sudhakar requested; three revenue-share structures side by side, hybrid recommended). Open question flagged in email: which revenue-share structure suits IMEAA's operating model.
 - **2026-07-06 14:38**: No reply after 10 days → WhatsApp nudge sent: "any thoughts on the proposal? Would love your honest read." **Sudhakar replied within 3 minutes** ("Ofcourse"), then: "Let's meet also. I am in town."
 - **2026-07-06 16:33**: Murat proposed **Wednesday 8 July, lunch or dinner** (Tuesday blocked by meetings). Awaiting Sudhakar's confirmation of day/time/venue.
+- **2026-07-07: IN-PERSON MEETING HELD.** Three outcomes:
+  1. **IMEAA's existing Partner Spotlight program**: IMEAA already runs a paid "Partner Spotlight" — company + product featured to the 30,000-member ecosystem for a **$4,900 fee**. Sudhakar says "it can work for us." Note: this reframes part of "What IMEAA brings" in our proposal (newsletter/visibility) as a paid product rather than a barter for member discounts — factor into the revenue-structure negotiation. Decision pending on our side.
+  2. **Hands-on trial**: Sudhakar asked for an IMEAA tenant to log in and try TrackonAI himself. **Tenant created same day.** Dedicated WhatsApp support group set up for Sudhakar + his team; **Murat Kuzuturk and Hamza added** as Trackon-side support.
+  3. **GAFTA dispute-prevention angle**: Sudhakar: ~**450 GAFTA arbitration disputes/year**, resolution cost ~**$250M USD**, and "basically all are related to 10 contracts" (i.e., ~10 standard GAFTA contract forms generate nearly all disputes). He will **share those 10 contracts** — implied ask: encode them in TradingDocs/TrackonAI so document/clause checks catch the discrepancies that trigger arbitrations. Potential flagship pitch to the GAFTA ecosystem (8,000+ traders).
 
 ## Next steps
 
 1. ~~Send proposal~~ — sent 2026-06-26
-2. ~~Follow-up nudge~~ — sent 2026-07-06, meeting agreed
-3. **In-person meeting Wed 2026-07-08 (tbc)** — replaces the "direction call". Goal: settle the revenue structure (discount-only / referral-only / hybrid) and agree the light MoU as the written next step
-4. Draft light MoU once direction is set
-5. Founding-50 wave kickoff
+2. ~~Follow-up nudge / meeting~~ — met 2026-07-07
+3. **Support Sudhakar's trial** — he logs into the IMEAA tenant personally; Kuzuturk + Hamza on the WhatsApp group. His first-hand impression will drive the whole partnership.
+4. **Receive the 10 GAFTA contracts** from Sudhakar → scope encoding them as templates + dispute-prevention rule checks (extends the GAFTA 48/49/64/80 starter set already in the Spotlight Edition)
+5. **Decide on the $4,900 Partner Spotlight listing** — and renegotiate the revenue structure in light of it (our proposal assumed visibility was IMEAA's contribution, not a paid service)
+6. Light MoU once structure is settled → Founding-50 wave
 
 ---
 
