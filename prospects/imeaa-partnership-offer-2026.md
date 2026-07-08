@@ -116,6 +116,8 @@ If IMEAA prefers, the discount structure can be paired with a **referral fee** o
   3. **GAFTA dispute-prevention angle**: Sudhakar: ~**450 GAFTA arbitration disputes/year**, resolution cost ~**$250M USD**, and "basically all are related to 10 contracts" (i.e., ~10 standard GAFTA contract forms generate nearly all disputes). He will **share those 10 contracts** — implied ask: encode them in TradingDocs/TrackonAI so document/clause checks catch the discrepancies that trigger arbitrations. Potential flagship pitch to the GAFTA ecosystem (8,000+ traders).
   4. **White-label floated (Murat's offer)**: Murat raised doing a **white-label product together** — an IMEAA-branded version of the platform for the member ecosystem. Sudhakar engaged immediately with a concrete question: **"what would the address be?"** Murat: we'll register a domain when we decide. Signal: he's already picturing it shipped.
 
+- **2026-07-07 (post-meeting)**: White-label summary sent to Sudhakar via WhatsApp: "Mr Sudhakar, on whitelabeling the app: we run it on AWS Mumbai, IMEAA brands and sells it, members log in at their own address like goldengrain.app.imeaa.org, and IMEAA pays only for usage. Numbers whenever you're ready." Ball in his court on the white-label thread; "numbers" = wholesale usage pricing, still to be defined internally.
+
 ## White-label concept (Murat's working model, 2026-07-07)
 
 **Commercial model — wholesale/OEM:**
