@@ -114,7 +114,28 @@ If IMEAA prefers, the discount structure can be paired with a **referral fee** o
   1. **IMEAA's existing Partner Spotlight program**: IMEAA already runs a paid "Partner Spotlight" — company + product featured to the 30,000-member ecosystem for a **$4,900 fee**. Sudhakar says "it can work for us." Note: this reframes part of "What IMEAA brings" in our proposal (newsletter/visibility) as a paid product rather than a barter for member discounts — factor into the revenue-structure negotiation. Decision pending on our side.
   2. **Hands-on trial**: Sudhakar asked for an IMEAA tenant to log in and try TrackonAI himself. **Tenant created same day.** Dedicated WhatsApp support group set up for Sudhakar + his team; **Murat Kuzuturk and Hamza added** as Trackon-side support.
   3. **GAFTA dispute-prevention angle**: Sudhakar: ~**450 GAFTA arbitration disputes/year**, resolution cost ~**$250M USD**, and "basically all are related to 10 contracts" (i.e., ~10 standard GAFTA contract forms generate nearly all disputes). He will **share those 10 contracts** — implied ask: encode them in TradingDocs/TrackonAI so document/clause checks catch the discrepancies that trigger arbitrations. Potential flagship pitch to the GAFTA ecosystem (8,000+ traders).
-  4. **White-label floated (Murat's offer)**: Murat raised doing a **white-label product together** — an IMEAA-branded version of the platform for the member ecosystem. Sudhakar engaged immediately with a concrete question: **"what would the address be?"** (i.e., the domain/URL it would live at). Murat: we'll register a domain when we decide. Signal: he's already picturing it shipped — buying-signal-level interest, not politeness. No terms discussed yet; sits alongside (or beyond) the Spotlight Edition co-branding in the proposal. If pursued, needs its own commercial structure (branding scope, who owns the customer relationship, support ownership, pricing/margin split) — materially bigger than the discount/referral structures currently on the table.
+  4. **White-label floated (Murat's offer)**: Murat raised doing a **white-label product together** — an IMEAA-branded version of the platform for the member ecosystem. Sudhakar engaged immediately with a concrete question: **"what would the address be?"** Murat: we'll register a domain when we decide. Signal: he's already picturing it shipped.
+
+## White-label concept (Murat's working model, 2026-07-07)
+
+**Commercial model — wholesale/OEM:**
+- Trackon hosts and operates the system on **Trackon's AWS** (fresh dedicated account within our control)
+- **IMEAA brands it and sells it** to their members — they own the member-facing relationship and set member pricing
+- **IMEAA pays Trackon for usage** (wholesale usage-based fees)
+
+**Architecture sketch:**
+- Dedicated AWS account, deployed in **Mumbai (ap-south-1)** — fits IMEAA's India-heavy membership (latency + data-residency optics)
+- Route 53 hosted zone for **app.imeaa.org** (IMEAA delegates the subdomain via NS records — they keep imeaa.org, we control DNS under app.)
+- Tenants get **`<companyName>.app.imeaa.org`** (wildcard ACM cert on *.app.imeaa.org)
+- **De-risked**: trackon-aws-backend prod deploy matrix already includes ap-south-1 alongside us-east-1 — Mumbai deployment is proven, not new ground (verified in repo 2026-07-07)
+
+**To nail in the MoU/agreement if this proceeds:**
+- Usage pricing to IMEAA + minimum commitment (a dedicated stack has fixed infra + ops cost — don't spin it up on hope)
+- Support split: Trackon runs the platform, but who fronts member support? (Founding-50 WhatsApp model won't scale to a reseller channel)
+- SLA between Trackon and IMEAA (they're now reselling our uptime)
+- Data ownership + exit terms (what happens to member tenants if the partnership ends; imeaa.org DNS is their kill-switch)
+- Trademark/branding licence both directions
+- How this coexists with the Spotlight discount proposal (white-label likely *replaces* it for members who buy via IMEAA)
 
 ## Next steps
 
@@ -123,7 +144,7 @@ If IMEAA prefers, the discount structure can be paired with a **referral fee** o
 3. **Support Sudhakar's trial** — he logs into the IMEAA tenant personally; Kuzuturk + Hamza on the WhatsApp group. His first-hand impression will drive the whole partnership.
 4. **Receive the 10 GAFTA contracts** from Sudhakar → scope encoding them as templates + dispute-prevention rule checks (extends the GAFTA 48/49/64/80 starter set already in the Spotlight Edition)
 5. **Decide on the $4,900 Partner Spotlight listing** — and renegotiate the revenue structure in light of it (our proposal assumed visibility was IMEAA's contribution, not a paid service)
-6. **White-label**: decide internally how far we'd go (brand-only skin vs. IMEAA-owned customer relationships) BEFORE Sudhakar comes back on it — don't let his enthusiasm define the scope
+6. **White-label**: working model defined (see "White-label concept" section) — Trackon-hosted wholesale, IMEAA brands/sells, usage-based fees to us. Before re-engaging Sudhakar: put a number on wholesale usage pricing + minimum commitment, and decide the support split
 7. Light MoU once structure is settled → Founding-50 wave
 
 ---
