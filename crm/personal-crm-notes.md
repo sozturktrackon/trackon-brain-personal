@@ -71,7 +71,7 @@ Related: [[_personal/crm/crm-contacts|CRM Contacts]], [[_personal/commercial/syn
 - **Current role**: President of IMEAA. Organizer of SGGT Challenge 2026 with IGC.
 - **Channel**: WhatsApp
 - **Tone**: "Hi Mr. Sudhakar" — casual and warm, old-colleague register. Short messages (1-2 sentences), direct questions. NOT formal: Murat rejected formal drafts (2026-07-06) — no long recaps, no hedging like "no rush at all".
-- **Active thread**: Met in person 2026-07-07. He's trialing TrackonAI himself on a new IMEAA tenant (WhatsApp support group: Kuzuturk + Hamza). Offered IMEAA's paid Partner Spotlight listing ($4,900, 30K members) — decision pending. Will share the ~10 GAFTA contract forms behind ~450 disputes/year (~$250M) for a dispute-prevention angle. See [[_personal/prospects/imeaa-partnership-offer-2026]].
+- **Active thread**: Met in person 2026-07-07. He's trialing TrackonAI himself on a new IMEAA tenant (WhatsApp support group: Kuzuturk + Hamza). Offered IMEAA's paid Partner Spotlight listing ($4,900, 30K members) — decision pending. Will share the ~10 GAFTA contract forms behind ~450 disputes/year (~$250M) for a dispute-prevention angle. Murat also floated a **white-label product together** — no terms yet. See [[_personal/prospects/imeaa-partnership-offer-2026]].
 - **Last contact**: 2026-07-07 — in-person meeting, Dubai.
 - **Buying style note**: Wants to touch the product himself before championing it — give him a great first-run experience, not slideware.
 

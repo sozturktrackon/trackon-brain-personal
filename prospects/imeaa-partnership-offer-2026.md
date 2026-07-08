@@ -114,6 +114,7 @@ If IMEAA prefers, the discount structure can be paired with a **referral fee** o
   1. **IMEAA's existing Partner Spotlight program**: IMEAA already runs a paid "Partner Spotlight" — company + product featured to the 30,000-member ecosystem for a **$4,900 fee**. Sudhakar says "it can work for us." Note: this reframes part of "What IMEAA brings" in our proposal (newsletter/visibility) as a paid product rather than a barter for member discounts — factor into the revenue-structure negotiation. Decision pending on our side.
   2. **Hands-on trial**: Sudhakar asked for an IMEAA tenant to log in and try TrackonAI himself. **Tenant created same day.** Dedicated WhatsApp support group set up for Sudhakar + his team; **Murat Kuzuturk and Hamza added** as Trackon-side support.
   3. **GAFTA dispute-prevention angle**: Sudhakar: ~**450 GAFTA arbitration disputes/year**, resolution cost ~**$250M USD**, and "basically all are related to 10 contracts" (i.e., ~10 standard GAFTA contract forms generate nearly all disputes). He will **share those 10 contracts** — implied ask: encode them in TradingDocs/TrackonAI so document/clause checks catch the discrepancies that trigger arbitrations. Potential flagship pitch to the GAFTA ecosystem (8,000+ traders).
+  4. **White-label floated (Murat's offer)**: Murat raised doing a **white-label product together** — an IMEAA-branded version of the platform for the member ecosystem. Sudhakar engaged immediately with a concrete question: **"what would the address be?"** (i.e., the domain/URL it would live at). Murat: we'll register a domain when we decide. Signal: he's already picturing it shipped — buying-signal-level interest, not politeness. No terms discussed yet; sits alongside (or beyond) the Spotlight Edition co-branding in the proposal. If pursued, needs its own commercial structure (branding scope, who owns the customer relationship, support ownership, pricing/margin split) — materially bigger than the discount/referral structures currently on the table.
 
 ## Next steps
 
@@ -122,7 +123,8 @@ If IMEAA prefers, the discount structure can be paired with a **referral fee** o
 3. **Support Sudhakar's trial** — he logs into the IMEAA tenant personally; Kuzuturk + Hamza on the WhatsApp group. His first-hand impression will drive the whole partnership.
 4. **Receive the 10 GAFTA contracts** from Sudhakar → scope encoding them as templates + dispute-prevention rule checks (extends the GAFTA 48/49/64/80 starter set already in the Spotlight Edition)
 5. **Decide on the $4,900 Partner Spotlight listing** — and renegotiate the revenue structure in light of it (our proposal assumed visibility was IMEAA's contribution, not a paid service)
-6. Light MoU once structure is settled → Founding-50 wave
+6. **White-label**: decide internally how far we'd go (brand-only skin vs. IMEAA-owned customer relationships) BEFORE Sudhakar comes back on it — don't let his enthusiasm define the scope
+7. Light MoU once structure is settled → Founding-50 wave
 
 ---
 
