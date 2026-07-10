@@ -38,10 +38,13 @@ Draft ordering document (watermarked "NOT FOR SIGNATURE") received 2026-07-10 fr
 ## Flags before signing
 
 1. **Wrong legal entity**: order names "TRACKON SOFTWARE DMCC" — the DMCC→FZCO suffix change is in progress (certificate + Mashreq request in ~/Downloads, Jul 2026). Ask Oracle to reissue under the FZCO name or the invoice/VAT chain will mismatch.
-2. **Zero discount**: 15k/year commitment at 0% discount — Oracle routinely discounts annual Universal Credit commitments; worth pushing back.
-3. **Quarterly in advance** payment vs. monthly PAYG — commitment only makes sense if forecast OCI spend ≥ ~$1,250/month.
-4. Offer expires 15-JUL-2026 — but expiry dates on Oracle quotes are a sales lever; a reissued quote is trivial for them.
+2. ~~Zero discount~~ — **resolved 2026-07-10**: Oracle confirmed discounts start at much larger commitments (~$100K+). At $15K, list price is normal; Murat accepts this.
+3. Offer expires 15-JUL-2026 — but expiry dates on Oracle quotes are a sales lever; a reissued quote is trivial for them.
+
+## Rationale (Murat, 2026-07-10)
+
+The $15K/year commitment covers all cloud infrastructure needs for the legacy product ([[products/trackon-legacy|Trackon Legacy]]) — this replaces/covers what was on AWS for legacy. At that spend level the commit is justified and the 0% discount is acceptable; Oracle's discount tiers only kick in around $100K+ commitments.
 
 ## Status
 
-Pending review — no decision made. Draft copy only (not signable).
+Commercially acceptable — Murat OK with $15K at list price. Remaining action before signing: get the order reissued under **Trackon Software FZCO** (not DMCC). Draft copy only (not signable).
