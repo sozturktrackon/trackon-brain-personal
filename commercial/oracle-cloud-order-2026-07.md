@@ -50,6 +50,13 @@ The $15K/year commitment covers all cloud infrastructure needs for the legacy pr
 - **No exit**: the 12-month commit is non-cancellable (OCSA v062223 allows termination for cause only). If business is lost mid-year, the full $15K is still owed; quarterly billing spreads cash flow but creates no exit points. Unused credits are non-refundable.
 - **PAYG alternative**: since the order carries 0% discount, unit prices equal Pay-As-You-Go list prices. PAYG gives identical rates with zero commitment and cancel-anytime flexibility. Question for Oracle rep before signing: what does the annual commit give us at 0% discount that PAYG doesn't?
 
-## Status
+## Status (2026-07-11)
 
-Commercially acceptable — Murat OK with $15K at list price. Remaining action before signing: get the order reissued under **Trackon Software FZCO** (not DMCC). Draft copy only (not signable).
+**SIGNED** — Murat signed the agreement (confirmed 2026-07-11). $15K/12-month Universal Credits commitment is live. Notes that no longer apply: PAYG-instead-of-commit consideration (moot). Still worth checking: whether the signed order was issued to FZCO or DMCC — if DMCC, ask Oracle to correct the entity for invoicing/VAT.
+
+## End-of-term playbook (services period ends ~Jul 2027)
+
+- Commitment does **not** auto-renew into another year. Default behavior: auto-converts to **Pay As You Go** (usage billing, no commitment).
+- To terminate fully: email **cloudterminations_ww@oracle.com** at end of the services period and tear down resources.
+- Unused credits forfeited; full $15K owed regardless of consumption. **Check consumption at month 9–10 (~Apr–May 2027)** — if under-using, shift eligible legacy workloads onto OCI to burn paid credits.
+- **Decision point ~Jun 2027**: replenish (negotiate discount then) / drift to PAYG / terminate.
