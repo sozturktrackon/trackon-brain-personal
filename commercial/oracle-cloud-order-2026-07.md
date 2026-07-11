@@ -3,7 +3,7 @@ type: vendor-quote
 status: pending-review
 tags: [oracle, oci, vendor, cloud, quote, confidential]
 created: 2026-07-10
-updated: 2026-07-10
+updated: 2026-07-11
 source: Oracle ordering document PDF (1224634431.a1_OrderingDocumentWatermarked.pdf, ~/Downloads)
 related: [_personal/commercial/syncfusion-renewal.md, _personal/commercial/deal-log.md]
 ---
@@ -44,6 +44,11 @@ Draft ordering document (watermarked "NOT FOR SIGNATURE") received 2026-07-10 fr
 ## Rationale (Murat, 2026-07-10)
 
 The $15K/year commitment covers all cloud infrastructure needs for the legacy product ([[products/trackon-legacy|Trackon Legacy]]) — this replaces/covers what was on AWS for legacy. At that spend level the commit is justified and the 0% discount is acceptable; Oracle's discount tiers only kick in around $100K+ commitments.
+
+## Early termination / cancellation (reviewed 2026-07-11)
+
+- **No exit**: the 12-month commit is non-cancellable (OCSA v062223 allows termination for cause only). If business is lost mid-year, the full $15K is still owed; quarterly billing spreads cash flow but creates no exit points. Unused credits are non-refundable.
+- **PAYG alternative**: since the order carries 0% discount, unit prices equal Pay-As-You-Go list prices. PAYG gives identical rates with zero commitment and cancel-anytime flexibility. Question for Oracle rep before signing: what does the annual commit give us at 0% discount that PAYG doesn't?
 
 ## Status
 
