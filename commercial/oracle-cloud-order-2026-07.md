@@ -69,6 +69,13 @@ Fixed $15K commit vs PAYG means customer churn risk is Murat's for this contract
 - Trackon-initiated terminations (e.g., Agrisar) can be timed near contract year-end (~spring 2027) to minimize stranded credits.
 - Next cycle: PAYG, or commit only to a certain floor (overage prices identically to PAYG anyway).
 
+## Consumption forecast vs commit (2026-07-12)
+
+- Baseline: current Oracle-on-AWS spend ≈ **$1,200/month** (incl. EC2). Migration to OCI planned ~Aug–Sep 2026, i.e. ~10 consumption months inside the contract year → need **$1,500/mo** burn to fully use $15K.
+- If OCI is on-par with AWS: ~$12K consumed → ~$3K stranded. If rep's "OCI 40% cheaper" claim holds (~$720/mo): only ~$7.2K consumed → **~$7.8K stranded**. The cheaper OCI is, the worse the fixed commit performs.
+- Mitigations: migrate ASAP (each pre-migration month strands $1,250); soak surplus credits with ORDS Salesforce API, APEX pilot, staging env, DR/backups (see [[products/trackon-legacy/legacy-apex-modernization-assessment|APEX assessment]]).
+- Renewal Jul 2027: commit only to observed run-rate, or PAYG.
+
 ## End-of-term playbook (services period ends ~Jul 2027)
 
 - Commitment does **not** auto-renew into another year. Default behavior: auto-converts to **Pay As You Go** (usage billing, no commitment).
