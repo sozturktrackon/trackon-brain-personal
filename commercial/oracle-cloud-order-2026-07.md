@@ -54,6 +54,12 @@ The $15K/year commitment covers all cloud infrastructure needs for the legacy pr
 
 **SIGNED** — Murat signed the agreement (confirmed 2026-07-11). $15K/12-month Universal Credits commitment is live. Notes that no longer apply: PAYG-instead-of-commit consideration (moot). Still worth checking: whether the signed order was issued to FZCO or DMCC — if DMCC, ask Oracle to correct the entity for invoicing/VAT.
 
+## What the contract does / does NOT include (clarified 2026-07-12)
+
+- **Does NOT** grant any Oracle DB license rights: no on-prem, no embedded/redistribution (ESL/ASFU), no perpetual licenses. It is a plain cloud subscription under OCSA v062223.
+- **Does** allow running Oracle DB for customers *within OCI* via license-included DB services (e.g., Base Database Enterprise $0.4301/OCPU/hr; BYOL rate $0.1935 for license owners) — but that is available on any paid OCI account incl. PAYG, not a benefit of the commit.
+- Net benefit of commit vs PAYG: quarterly Net-60 invoicing (vs card billing) + Support Rewards eligibility (only if paying Oracle on-prem support).
+
 ## End-of-term playbook (services period ends ~Jul 2027)
 
 - Commitment does **not** auto-renew into another year. Default behavior: auto-converts to **Pay As You Go** (usage billing, no commitment).
