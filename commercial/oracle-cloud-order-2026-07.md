@@ -60,6 +60,15 @@ The $15K/year commitment covers all cloud infrastructure needs for the legacy pr
 - **Does** allow running Oracle DB for customers *within OCI* via license-included DB services (e.g., Base Database Enterprise $0.4301/OCPU/hr; BYOL rate $0.1935 for license owners) — but that is available on any paid OCI account incl. PAYG, not a benefit of the commit.
 - Net benefit of commit vs PAYG: quarterly Net-60 invoicing (vs card billing) + Support Rewards eligibility (only if paying Oracle on-prem support).
 
+## Churn risk exposure (2026-07-12)
+
+Fixed $15K commit vs PAYG means customer churn risk is Murat's for this contract year (e.g., a Legacy customer cancels, or Trackon terminates Agrisar). Mitigations:
+
+- Exposure = unused portion only (churned share × remaining months), not the full $15K.
+- Credits are fungible across ALL OCI services — redirect freed credits to staging/dev, backups/DR, AWS workload migration, OCI GenAI, etc.
+- Trackon-initiated terminations (e.g., Agrisar) can be timed near contract year-end (~spring 2027) to minimize stranded credits.
+- Next cycle: PAYG, or commit only to a certain floor (overage prices identically to PAYG anyway).
+
 ## End-of-term playbook (services period ends ~Jul 2027)
 
 - Commitment does **not** auto-renew into another year. Default behavior: auto-converts to **Pay As You Go** (usage billing, no commitment).
