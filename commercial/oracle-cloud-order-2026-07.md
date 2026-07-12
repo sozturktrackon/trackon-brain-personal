@@ -71,7 +71,7 @@ Fixed $15K commit vs PAYG means customer churn risk is Murat's for this contract
 
 ## Consumption forecast vs commit (2026-07-12)
 
-- Baseline: current Oracle-on-AWS spend ≈ **$1,200/month**, mostly AWS Reserved Instances: staging DB prepaid ~60 days (to ~mid-Sep 2026), UDA prod DB prepaid ~120 days (to ~mid-Nov 2026).
+- Baseline: current Oracle-on-AWS spend ≈ **$1,200/month**, mostly AWS **RDS Reserved DB Instances** (Oracle SE2 License Included, us-west-1): staging db.t3.medium All-Upfront, expires **~Sep 10 2026** (59d as of 2026-07-12); UDA prod db.r5.large No-Upfront (monthly billing committed), expires **~Nov 10 2026** (121d). **RDS RIs cannot be sold/cancelled** (RI Marketplace is EC2-only). They don't auto-renew — after expiry instances roll to on-demand rates, so expiry dates are hard migration deadlines. Do NOT renew RIs this cycle.
 - **All three commitments (AWS staging prepay, AWS UDA prepay, OCI $15K) are sunk** — timing should minimize AWS *on-demand* exposure only. True deadlines: staging → OCI by mid-Sep; UDA prod → OCI by mid-Nov; on-demand bits ASAP. Migrating staging earlier is fine (rehearses runbook, costs nothing marginal).
 - Full OCI run-rate only from ~month 5 → est. **$8–10K consumed by Jul 2027, $5–7K stranded**. Worse if "OCI 40% cheaper than AWS" (rep claim) holds. Soak surplus: OCI staging env now, ORDS Salesforce API, APEX pilot, DR/backups (see [[products/trackon-legacy/legacy-apex-modernization-assessment|APEX assessment]]).
 - **UDA caveat**: UDA is a TrackonAI migration candidate ([[products/trackon-legacy/legacy-roadmap|roadmap]]) — its OCI workload may disappear next contract year. Renewal Jul 2027: PAYG or much smaller commit, based on observed run-rate.
