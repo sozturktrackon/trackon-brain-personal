@@ -54,6 +54,14 @@ The $15K/year commitment covers all cloud infrastructure needs for the legacy pr
 
 **SIGNED** — Murat signed the agreement (confirmed 2026-07-11). $15K/12-month Universal Credits commitment is live. Notes that no longer apply: PAYG-instead-of-commit consideration (moot). Still worth checking: whether the signed order was issued to FZCO or DMCC — if DMCC, ask Oracle to correct the entity for invoicing/VAT.
 
+## Oracle rep answers (Aby Roy, WhatsApp 2026-07-13)
+
+- **Rate lock (true, real benefit)**: the signed order fixes the attached rate card for the 12-month term; PAYG bills at each month's current list prices with no protection against increases. Revised commit-vs-PAYG scorecard: price lock + quarterly Net-60 invoicing + Support Rewards eligibility.
+- **PAYG service limits (half true)**: PAYG accounts have lower default limits / gated resources, but production on PAYG is possible via limit-increase requests. "Enterprise contract for production" is sales policy, not a technical requirement.
+- **Discounts confirmed**: 5% on rate card once annual commit crosses $100K.
+- **Renewal (asked 2026-07-13, awaiting answer)**: expectation — renewal = new order at then-current list prices; lock does not carry over. Follow-up to push: renewal price-protection clause (same rate card or ~3% cap). Get it in writing now for June 2027 leverage.
+- Oracle rep contact: **Aby Roy** (WhatsApp).
+
 ## What the contract does / does NOT include (clarified 2026-07-12)
 
 - **Does NOT** grant any Oracle DB license rights: no on-prem, no embedded/redistribution (ESL/ASFU), no perpetual licenses. It is a plain cloud subscription under OCSA v062223.
