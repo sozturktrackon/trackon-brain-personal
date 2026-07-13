@@ -59,7 +59,7 @@ The $15K/year commitment covers all cloud infrastructure needs for the legacy pr
 - **Rate lock (true, real benefit)**: the signed order fixes the attached rate card for the 12-month term; PAYG bills at each month's current list prices with no protection against increases. Revised commit-vs-PAYG scorecard: price lock + quarterly Net-60 invoicing + Support Rewards eligibility.
 - **PAYG service limits (half true)**: PAYG accounts have lower default limits / gated resources, but production on PAYG is possible via limit-increase requests. "Enterprise contract for production" is sales policy, not a technical requirement.
 - **Discounts confirmed**: 5% on rate card once annual commit crosses $100K.
-- **Renewal (confirmed by Aby 2026-07-13)**: renewal picks up the **rate card in effect at renewal time** — the current price lock does not carry over. Implication: the commit's rate-lock benefit is one term only; each renewal is a fresh pricing event. Open ask: renewal price-protection clause (same rate card or ~3% cap) in writing — leverage for June 2027.
+- **Renewal (confirmed by Aby 2026-07-13)**: renewal picks up the **rate card in effect at renewal time** — the current price lock does not carry over. Implication: the commit's rate-lock benefit is one term only; each renewal is a fresh pricing event. No price cap obtained (realistic at $15K account size). Thread closed 2026-07-13: Murat put on record that a 1-year lock is weak protection and that all options will be reconsidered at renewal — signals renewal is not automatic. Default fallback needs no action: account auto-converts to PAYG at term end (order §B.4).
 - Oracle rep contact: **Aby Roy** (WhatsApp).
 
 ## What the contract does / does NOT include (clarified 2026-07-12)
