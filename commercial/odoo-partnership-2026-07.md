@@ -36,10 +36,21 @@ Murat told Diana the integration project has started and a trial database was cr
 
 - Learning Partner discount conditions: partnership subscription must stay running, own database only, hosted **Odoo Online/Odoo.sh only — no on-premise**. Renewal ≈ $140+VAT/yr if partnership active; $306 if it lapses. Discount ties dev DB to the partnership fee.
 - No refunds — all sales final. Major dev (Python modules) would need Odoo.sh; external-API integration doesn't.
-- ⚠️ Before paying: quote addressed to "Trackon Software DMCC, Dubai DU" — confirm correct legal entity and provide our TRN (needed to reclaim the 5% input VAT).
+- If ever paid: quote addressed to "Trackon Software DMCC, Dubai DU" — confirm correct legal entity and provide our TRN (needed to reclaim the 5% input VAT).
+
+## DECISION 2026-07-16: Do NOT pay — partnership already covers dev/test
+
+Murat's position: partnership fee (~$450/yr) was paid specifically to build this integration; no further payment on principle. **Verified against the [Odoo Partnership Agreement v11](https://www.odoo.com/documentation/19.0/odoo_partnership_agreement.pdf) — he's contractually right.** Learning Partner benefits include:
+
+- §3.1: "ODOO grants PARTNER free access to the ODOO.SH platform for testing and development purposes" (confirmed for Learning tier in §4.2 benefits table)
+- §4.2: "Odoo Enterprise trial extension code" — solves the 15-day trial expiry without payment
+- Appendix A: Enterprise may be run/modified with a valid partnership agreement "as long as the usage is limited to a testing or development environment" — self-hosting the downloaded Enterprise source for dev is permitted
+- §4.2: Learning Partner earns **10% commission on Odoo Enterprise sales** (+10% on Odoo.sh, capped €150/mo per subscription) — leverage for the August GTM/pricing meeting
+
+The quote SO2026/8064511 is a production license, only needed if we run Odoo productively (e.g., own accounting) — not for integration dev/E2E testing. Response to Diana: request free Odoo.sh dev access / trial extension code per §3.1 instead of paying.
 
 ## Open actions
 
-- [ ] Confirm billing entity + TRN with Diana, then pay quote (before 2026-07-31 expiry / trial death)
+- [ ] Reply to Diana: request trial extension code / free Odoo.sh dev access per partnership agreement §3.1 — decline quote for now
 - [ ] Decide real integration timeline with Bibeesh/Kuzuturk (vs Logo Tiger priority) and reply to Diana's recap
-- [ ] Define our go-to-market/referral terms before the August meeting
+- [ ] Define our go-to-market/referral terms before the August meeting — remember the 10% commission flowing OUR way on Odoo seats we bring
