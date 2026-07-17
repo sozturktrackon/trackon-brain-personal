@@ -2,7 +2,7 @@
 type: commercial
 status: active
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-17
 tags: [odoo, partnership, integration, pricing]
 related: [products/trackonai/trackonai-integrations, decisions/2026-integration-engine, _personal/prospects/boss-turkish-patron, _personal/commercial/deal-log]
 ---
