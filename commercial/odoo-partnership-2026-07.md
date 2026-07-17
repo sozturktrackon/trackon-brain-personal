@@ -49,8 +49,21 @@ Murat's position: partnership fee (~$450/yr) was paid specifically to build this
 
 The quote SO2026/8064511 is a production license, only needed if we ran Odoo productively — which will never happen: Trackon uses [[products/trackon-legacy/legacy-overview|Trackon Legacy]] as its own internal accounting system. Production Odoo lives with customers, who pay their own subscriptions. Response to Diana: request free Odoo.sh dev access / trial extension code per §3.1 instead of paying. Never signal to Odoo that we might buy a production license ourselves.
 
+## RESOLVED 2026-07-17: Free dev environment via partner benefits — quote NOT paid
+
+Diana conceded (email 2026-07-17): partners get Odoo.sh for testing/development/prototyping. Quote SO2026/8064511 dead.
+
+**Odoo.sh partner deployment (from Diana's email):**
+- Partnership Subscription Code: `M260218282608367` (also on Partner Dashboard on odoo.com)
+- Deploy at www.odoo.sh → "Deploy your platform" → sign in with GitHub → paste partnership code (bypasses payment screen)
+- Limits: 1 worker, 2 staging environments, 1GB storage per DB build, **30-day trial per project**
+- 30-day expiry mitigation: code lives in GitHub repo, so redeploy a fresh project with the same code as needed; keep an API seed script so a new env is reproducible in minutes. For a clockless local dev env: run Enterprise source in Docker (Appendix A partner right).
+- GitHub: authorize with an account that can create the repo under the trackon-software org, not a personal account
+- Production rule (her words): a client going live buys their own Odoo Enterprise subscription and their code replaces ours in project Settings — confirms the model: customers pay Odoo, we never do
+- Docs: https://www.odoo.com/documentation/19.0/administration/odoo_sh/getting_started/create.html
+
 ## Open actions
 
-- [ ] Reply to Diana: request trial extension code / free Odoo.sh dev access per partnership agreement §3.1 — decline quote for now
+- [ ] Deploy Odoo.sh dev project with partnership code (repo under trackon-software org) + write API seed script
 - [ ] Decide real integration timeline with Bibeesh/Kuzuturk (vs Logo Tiger priority) and reply to Diana's recap
 - [ ] Define our go-to-market/referral terms before the August meeting — remember the 10% commission flowing OUR way on Odoo seats we bring
