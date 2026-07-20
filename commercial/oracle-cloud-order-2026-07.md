@@ -3,7 +3,7 @@ type: vendor-quote
 status: pending-review
 tags: [oracle, oci, vendor, cloud, quote, confidential]
 created: 2026-07-10
-updated: 2026-07-11
+updated: 2026-07-20
 source: Oracle ordering document PDF (1224634431.a1_OrderingDocumentWatermarked.pdf, ~/Downloads)
 related: [_personal/commercial/syncfusion-renewal.md, _personal/commercial/deal-log.md]
 ---
@@ -83,6 +83,13 @@ Fixed $15K commit vs PAYG means customer churn risk is Murat's for this contract
 - **All three commitments (AWS staging prepay, AWS UDA prepay, OCI $15K) are sunk** — timing should minimize AWS *on-demand* exposure only. True deadlines: staging → OCI by mid-Sep; UDA prod → OCI by mid-Nov; on-demand bits ASAP. Migrating staging earlier is fine (rehearses runbook, costs nothing marginal).
 - Full OCI run-rate only from ~month 5 → est. **$8–10K consumed by Jul 2027, $5–7K stranded**. Worse if "OCI 40% cheaper than AWS" (rep claim) holds. Soak surplus: OCI staging env now, ORDS Salesforce API, APEX pilot, DR/backups (see [[products/trackon-legacy/legacy-apex-modernization-assessment|APEX assessment]]).
 - **UDA caveat**: UDA is a TrackonAI migration candidate ([[products/trackon-legacy/legacy-roadmap|roadmap]]) — its OCI workload may disappear next contract year. Renewal Jul 2027: PAYG or much smaller commit, based on observed run-rate.
+
+## POC→contract conversion limbo (2026-07-20)
+
+- Production DBs already live on the OCI tenancy, but the tenancy is still running on **POC credits, ~10 days from exhaustion** (early Aug 2026). Oracle said they will convert the account to the signed $15K contract and asked Murat **not** to self-convert to PAYG — no news since.
+- Risk: if credits hit zero before the order is provisioned, the tenancy enters expired-trial state (services suspended; Oracle policy allows resource reclamation ~30 days after expiry). Production data at stake.
+- Safety valve: self-upgrade to PAYG preserves the tenancy and data instantly. Order carries 0% discount, so PAYG rates are identical; "don't convert" protects Oracle's order-booking, not Trackon's data. If ≤2–3 days of credit remain with no conversion, convert anyway (confirm with Aby Roy that the signed order can still be attached to a paid tenancy).
+- Mitigation in progress: nightly cross-cloud DB + document backups from OCI to AWS S3 (see [[products/trackon-legacy/oci-migration-plan|OCI migration plan]]).
 
 ## End-of-term playbook (services period ends ~Jul 2027)
 
