@@ -13,8 +13,10 @@ tags: [prospect, trackon-legacy, commodities, uae, new-company]
 
 ## Contacts
 
-- **Fatih Ziya Akdogan** — senior commodity trader. First contact; Murat explained Trackon products and solutions.
-- **Ayhan Yalcintas** — met with Murat (2026-07-03 or shortly before); walked through product options.
+- **Fatih Ziya Akdogan** — senior commodity trader. First contact; Murat explained Trackon products and solutions. Email: fzakdogan@gmail.com
+- **Ayhan Yalcintas** — met with Murat (2026-07-03 or shortly before); walked through product options. Email: ayhan@thadubai.ae · WhatsApp: +971 50 532 6040
+
+Ayhan's domain **thadubai.ae** suggests the company may already be incorporated under a name like "THA" — verify before next meeting.
 
 ## Situation
 
@@ -50,9 +52,18 @@ Add-ons offered: Dashboard module (9,188/mo), read-only reporting instance (10,4
 
 **Managed IT Support (optional): AED 5,000/mo for the initial 10 users, +500/user/month for each additional user.** Scope: email setup/management, website configuration (hosting arrangement, domain settings, initial SEO — **excludes website development**, which they can outsource or Trackon can quote separately), computer setup & installation, IT & security policy implementation, day-to-day troubleshooting. Per-head pricing is deliberate — Murat's requirement that the fee must rise with headcount since each new user adds support burden. Exit path stated on deck: when they hire their own IT person, Trackon transfers the knowledge and they continue in-house.
 
+## Follow-up timeline
+
+- **2026-07-06**: Proposal PDF emailed to both (ayhan@thadubai.ae, fzakdogan@gmail.com). No email reply as of 2026-07-21.
+- **2026-07-13**: WhatsApp check-in to Ayhan — read, no reply.
+- **2026-07-21**: Third-touch plan: WhatsApp to Ayhan offering a 30-min demo + reminding pricing validity ends **2026-08-05**; parallel direct message/email to Fatih (may be the real decision-maker).
+- If still silent: one final validity-expiry note around **2026-08-04**, then park the prospect.
+
 ## Next steps
 
-- [ ] Send proposal PDF to Ayhan Yalcintas / Fatih Ziya Akdogan
+- [x] Send proposal PDF to Ayhan Yalcintas / Fatih Ziya Akdogan (2026-07-06)
+- [ ] Demo-offer follow-up to Ayhan + direct contact to Fatih
+- [ ] Verify company name behind thadubai.ae domain
 - [ ] Follow up on deployment option choice (A/B/C)
 - [ ] On acceptance: issue Order Form + MSA (Trackon Software FZCO entity name)
 - [ ] Get company name once incorporated — update this file and the proposal
