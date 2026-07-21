@@ -58,6 +58,7 @@ Add-ons offered: Dashboard module (9,188/mo), read-only reporting instance (10,4
 - **2026-07-13**: WhatsApp check-in to Ayhan — read, no reply.
 - **2026-07-21**: Third touch SENT: WhatsApp to Ayhan offering a 30-min demo, pricing validity reminder (ends **2026-08-05**).
 - **2026-07-21 (same day, replied in 28 min)**: POSITIVE response from Ayhan: still working on incorporation, "niyetimiz insallah beraber hareket etmek" (intent to move together), thanked for proposal, will revert soon, and explicitly wants the demo. Deal is alive; delay was their setup timeline, not disinterest.
+- **2026-07-21**: Murat replied warmly (no pressure, demo whenever they're ready); Ayhan acknowledged with thanks. Waiting mode.
 - Next: wait for their demo date. If nothing by early August, use the validity extension as the natural touchpoint (gracious extension rather than a chase). Direct contact to Fatih no longer urgent given stated intent.
 
 ## Next steps
