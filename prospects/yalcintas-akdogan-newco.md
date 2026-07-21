@@ -1,10 +1,10 @@
 ---
 type: prospect
-status: proposal-sent
+status: engaged-positive
 stage: proposal
 product: trackon-legacy
 created: 2026-07-03
-updated: 2026-07-03
+updated: 2026-07-21
 related: [_personal/legal/msa-rollout-strategy, _personal/commercial/newco-yalcintas-proposal-2026-07, decisions/2024-msa-isv-rollout]
 tags: [prospect, trackon-legacy, commodities, uae, new-company]
 ---
@@ -56,8 +56,9 @@ Add-ons offered: Dashboard module (9,188/mo), read-only reporting instance (10,4
 
 - **2026-07-06**: Proposal PDF emailed to both (ayhan@thadubai.ae, fzakdogan@gmail.com). No email reply as of 2026-07-21.
 - **2026-07-13**: WhatsApp check-in to Ayhan — read, no reply.
-- **2026-07-21**: Third touch SENT: WhatsApp to Ayhan offering a 30-min demo, pricing validity reminder (ends **2026-08-05**). Awaiting response. Still pending: parallel direct contact to Fatih (may be the real decision-maker).
-- If still silent: one final validity-expiry note around **2026-08-04**, then park the prospect.
+- **2026-07-21**: Third touch SENT: WhatsApp to Ayhan offering a 30-min demo, pricing validity reminder (ends **2026-08-05**).
+- **2026-07-21 (same day, replied in 28 min)**: POSITIVE response from Ayhan: still working on incorporation, "niyetimiz insallah beraber hareket etmek" (intent to move together), thanked for proposal, will revert soon, and explicitly wants the demo. Deal is alive; delay was their setup timeline, not disinterest.
+- Next: wait for their demo date. If nothing by early August, use the validity extension as the natural touchpoint (gracious extension rather than a chase). Direct contact to Fatih no longer urgent given stated intent.
 
 ## Next steps
 
