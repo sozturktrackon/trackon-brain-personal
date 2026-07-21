@@ -56,7 +56,7 @@ Add-ons offered: Dashboard module (9,188/mo), read-only reporting instance (10,4
 
 - **2026-07-06**: Proposal PDF emailed to both (ayhan@thadubai.ae, fzakdogan@gmail.com). No email reply as of 2026-07-21.
 - **2026-07-13**: WhatsApp check-in to Ayhan — read, no reply.
-- **2026-07-21**: Third-touch plan: WhatsApp to Ayhan offering a 30-min demo + reminding pricing validity ends **2026-08-05**; parallel direct message/email to Fatih (may be the real decision-maker).
+- **2026-07-21**: Third touch SENT: WhatsApp to Ayhan offering a 30-min demo, pricing validity reminder (ends **2026-08-05**). Awaiting response. Still pending: parallel direct contact to Fatih (may be the real decision-maker).
 - If still silent: one final validity-expiry note around **2026-08-04**, then park the prospect.
 
 ## Next steps
