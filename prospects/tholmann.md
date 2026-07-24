@@ -22,14 +22,16 @@ related:
 
 | Package | Price | Scope |
 |---|---|---|
-| Standard | $2,900 | 6 pages, responsive, contact form, essential SEO, EN |
-| Corporate (recommended) | $4,900 | Custom 10+ pages, EN+TR, quote/WhatsApp forms, advanced SEO + Analytics, news module |
-| Premium | $7,500 | Corporate + AR, CMS panel, shipment-tracking-integration ready, priority support |
+| Standard | $1,500 | 6 pages, responsive, contact form, essential SEO, EN |
+| Corporate (recommended) | $2,900 | Custom 10+ pages, EN+TR, quote/WhatsApp forms, advanced SEO + Analytics, news module |
+| Premium | $4,900 | Corporate + AR, CMS panel, shipment-tracking-integration ready, priority support |
 
-Hosting + maintenance $100/month optional. Payment 40/40/20. 6-week timeline.
+**All packages include 4 years of free hosting** (static site on global CDN, SSL included; after 4 years hosting continues at cost). Payment 40/40/20. 6-week timeline.
 
-> Note: package prices were drafted by Claude on 2026-07-24 with no prior website-project pricing in the vault — Murat to confirm/adjust before or after sending.
+Pricing rationale (2026-07-24): first draft ($2,900/$4,900/$7,500) was within Dubai agency range (corporate sites AED 12k–55k) but Murat judged it too high — Ozgur bey will likely also collect a Turkish quote (typical $700–$3,500 for bilingual corporate). Revised to sit at the top of the Turkish range / bottom of the Dubai range; free hosting + CDN performance is the differentiator a budget quote can't match.
 
 ## Angle
 
 Referral warmth is the main asset — deck leads the references slide with agrisar.com tagged "Your referral". Same-profile references: mana-dmcc.com (also DMCC). Next step proposed: 30-min scope call.
+
+**Upsell card (NOT in the deck, by design):** Murat floated offering the website free with a TrackonAI subscription. Kept out of the written quote — it would anchor the site's value at zero and muddy the offer; Tholmann is a forwarder (not a trader), so TrackonAI fit is unproven. Raise verbally on the scope call only if their ops/tracking needs come up.

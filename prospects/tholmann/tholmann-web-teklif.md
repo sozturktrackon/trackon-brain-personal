@@ -23,10 +23,10 @@ footer: ''
 
 <!-- _paginate: false -->
 
-![bg brightness:0.25](https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1400)
+![bg brightness:0.16](https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1400)
 
 <div style="display: flex; flex-direction: column; justify-content: center; height: 100%; padding: 0 40px;">
-  <div style="font-family: 'Raleway'; font-weight: 100; font-size: 0.65em; color: #ff6b1a; text-transform: uppercase; letter-spacing: 0.3em; margin-bottom: 14px;">Website Redesign Proposal</div>
+  <div style="font-family: 'Outfit'; font-weight: 700; font-size: 0.72em; color: #ff8c4a; text-transform: uppercase; letter-spacing: 0.3em; margin-bottom: 14px;">Website Redesign Proposal</div>
   <div style="font-family: 'Outfit'; font-weight: 800; font-size: 3.8em; color: #fff; line-height: 1.05; letter-spacing: -0.03em;">Tholmann DMCC</div>
   <div style="width: 60px; height: 2px; background: #ff6b1a; border-radius: 1px; margin: 22px 0;"></div>
   <div style="font-family: 'Raleway'; font-weight: 100; font-size: 0.85em; color: #ffffff99;">Prepared by <b>Trackon Software FZCO</b> &nbsp;·&nbsp; July 2026 &nbsp;·&nbsp; For the attention of Mr. H. Ozgur Erdogan</div>
@@ -135,6 +135,37 @@ footer: ''
 
 ---
 
+### Performance & Hosting
+
+# Fast everywhere — and hosting is on us for 4 years
+
+<div style="display: flex; gap: 14px; margin-top: 18px;">
+  <div style="flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px 22px;">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+    <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.8em; margin: 10px 0 8px;">Static Architecture</div>
+    <div style="font-size: 0.66em; color: var(--body); line-height: 1.8;">No database, no plugins — nothing to hack, nothing to break. Pages load in under a second.</div>
+  </div>
+  <div style="flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px 22px;">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
+    <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.8em; margin: 10px 0 8px;">Global CDN</div>
+    <div style="font-size: 0.66em; color: var(--body); line-height: 1.8;">Served from 300+ edge locations on every continent — equally fast in Dubai, Istanbul, Singapore or Sydney.</div>
+  </div>
+  <div style="flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px 22px;">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+    <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.8em; margin: 10px 0 8px;">Speed-Optimized</div>
+    <div style="font-size: 0.66em; color: var(--body); line-height: 1.8;">Optimized images and code — targeting a Google PageSpeed score of 95+. Speed is an SEO ranking factor.</div>
+  </div>
+  <div style="flex: 1; background: var(--card); border: 1px solid var(--accent); border-radius: 10px; padding: 20px 22px;">
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+    <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.8em; margin: 10px 0 8px; color: var(--accent);">4 Years Free Hosting</div>
+    <div style="font-size: 0.66em; color: var(--body); line-height: 1.8;">Hosting included until 2030 — no monthly fees, SSL certificate and CDN included.</div>
+  </div>
+</div>
+
+<div style="text-align: center; margin-top: 20px; font-size: 0.65em; color: var(--muted);">After 4 years, hosting continues at cost — no lock-in, the site and domain stay fully yours.</div>
+
+---
+
 ### Our Work
 
 # Sites we've built
@@ -178,7 +209,7 @@ footer: ''
 <div style="display: flex; gap: 14px; margin-top: 16px;">
   <div style="flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px;">
     <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.75em; color: var(--body);">STANDARD</div>
-    <div style="font-family: 'Outfit'; font-weight: 800; font-size: 1.8em; margin: 10px 0 2px;">$2,900</div>
+    <div style="font-family: 'Outfit'; font-weight: 800; font-size: 1.8em; margin: 10px 0 2px;">$1,500</div>
     <div style="font-size: 0.6em; color: var(--muted); margin-bottom: 14px;">one-time</div>
     <div style="font-size: 0.65em; color: var(--body); line-height: 2;">
       6-page modern design<br>
@@ -191,7 +222,7 @@ footer: ''
   <div style="flex: 1.15; background: var(--card); border: 1px solid var(--accent); border-radius: 12px; padding: 24px; position: relative;">
     <div style="position: absolute; top: -10px; left: 50%; transform: translateX(-50%);"><span class="tag" style="background: var(--accent); color: #000;">Recommended</span></div>
     <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.75em; color: var(--accent);">CORPORATE</div>
-    <div style="font-family: 'Outfit'; font-weight: 800; font-size: 1.8em; margin: 10px 0 2px;">$4,900</div>
+    <div style="font-family: 'Outfit'; font-weight: 800; font-size: 1.8em; margin: 10px 0 2px;">$2,900</div>
     <div style="font-size: 0.6em; color: var(--muted); margin-bottom: 14px;">one-time</div>
     <div style="font-size: 0.65em; color: var(--body); line-height: 2;">
       Custom design, 10+ pages<br>
@@ -203,7 +234,7 @@ footer: ''
   </div>
   <div style="flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px;">
     <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.75em; color: var(--body);">PREMIUM</div>
-    <div style="font-family: 'Outfit'; font-weight: 800; font-size: 1.8em; margin: 10px 0 2px;">$7,500</div>
+    <div style="font-family: 'Outfit'; font-weight: 800; font-size: 1.8em; margin: 10px 0 2px;">$4,900</div>
     <div style="font-size: 0.6em; color: var(--muted); margin-bottom: 14px;">one-time</div>
     <div style="font-size: 0.65em; color: var(--body); line-height: 2;">
       Everything in Corporate<br>
@@ -215,7 +246,7 @@ footer: ''
   </div>
 </div>
 
-<div style="text-align: center; margin-top: 16px; font-size: 0.62em; color: var(--muted);">Hosting + maintenance: <span style="color: var(--body);">$100/month</span> (optional) · Prices exclude VAT · Quote valid for 30 days</div>
+<div style="text-align: center; margin-top: 16px; font-size: 0.62em; color: var(--muted);">All packages include <span style="color: var(--accent);">4 years of free hosting</span> on a global CDN · Prices exclude VAT · Quote valid for 30 days</div>
 
 ---
 
