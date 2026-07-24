@@ -34,9 +34,9 @@ footer: ''
 
 ---
 
-### Current State — tholmann.com
+### Current State: tholmann.com
 
-# Your site describes the business — but it doesn't sell it
+# Your site describes the business, but it doesn't sell it
 
 <div style="display: flex; gap: 14px; margin-top: 18px;">
   <div style="flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px 22px;">
@@ -50,10 +50,10 @@ footer: ''
   <div style="flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px 22px;">
     <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.62em; color: var(--muted); letter-spacing: 0.15em; margin-bottom: 12px;">WHAT HOLDS IT BACK</div>
     <div style="font-size: 0.72em; color: var(--body); line-height: 2.1;">
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" style="vertical-align: -2px;"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg> Generic Wix template — not built around your brand<br>
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" style="vertical-align: -2px;"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg> No contact or quote form — enquiries walk away<br>
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" style="vertical-align: -2px;"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg> Generic Wix template, not built around your brand<br>
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" style="vertical-align: -2px;"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg> No contact or quote form, so enquiries walk away<br>
       <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#ef4444" stroke-width="2" style="vertical-align: -2px;"><circle cx="12" cy="12" r="10"/><line x1="15" y1="9" x2="9" y2="15"/><line x1="9" y1="9" x2="15" y2="15"/></svg> Social media icons are non-functional placeholders<br>
-      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#f5a623" stroke-width="2" style="vertical-align: -2px;"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Single language, weak SEO — hard to find on Google
+      <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="#f5a623" stroke-width="2" style="vertical-align: -2px;"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg> Single language and weak SEO make it hard to find on Google
     </div>
   </div>
 </div>
@@ -137,32 +137,32 @@ footer: ''
 
 ### Performance & Hosting
 
-# Fast everywhere — and hosting is on us for 4 years
+# Fast everywhere, and hosting is on us for 4 years
 
 <div style="display: flex; gap: 14px; margin-top: 18px;">
   <div style="flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px 22px;">
     <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
     <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.8em; margin: 10px 0 8px;">Static Architecture</div>
-    <div style="font-size: 0.66em; color: var(--body); line-height: 1.8;">No database, no plugins — nothing to hack, nothing to break. Pages load in under a second.</div>
+    <div style="font-size: 0.66em; color: var(--body); line-height: 1.8;">No database, no plugins. Nothing to hack, nothing to break. Pages load in under a second.</div>
   </div>
   <div style="flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px 22px;">
     <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><line x1="2" y1="12" x2="22" y2="12"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/></svg>
     <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.8em; margin: 10px 0 8px;">Global CDN</div>
-    <div style="font-size: 0.66em; color: var(--body); line-height: 1.8;">Served from 300+ edge locations on every continent — equally fast in Dubai, Istanbul, Singapore or Sydney.</div>
+    <div style="font-size: 0.66em; color: var(--body); line-height: 1.8;">Served from 300+ edge locations on every continent, equally fast in Dubai, Istanbul, Singapore or Sydney.</div>
   </div>
   <div style="flex: 1; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px 22px;">
     <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
     <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.8em; margin: 10px 0 8px;">Speed-Optimized</div>
-    <div style="font-size: 0.66em; color: var(--body); line-height: 1.8;">Optimized images and code — targeting a Google PageSpeed score of 95+. Speed is an SEO ranking factor.</div>
+    <div style="font-size: 0.66em; color: var(--body); line-height: 1.8;">Optimized images and code, targeting a Google PageSpeed score of 95+. Speed is an SEO ranking factor.</div>
   </div>
   <div style="flex: 1; background: var(--card); border: 1px solid var(--accent); border-radius: 10px; padding: 20px 22px;">
     <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
     <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.8em; margin: 10px 0 8px; color: var(--accent);">4 Years Free Hosting</div>
-    <div style="font-size: 0.66em; color: var(--body); line-height: 1.8;">Hosting included until 2030 — no monthly fees, SSL certificate and CDN included.</div>
+    <div style="font-size: 0.66em; color: var(--body); line-height: 1.8;">Hosting included until 2030. No monthly fees, SSL certificate and CDN included.</div>
   </div>
 </div>
 
-<div style="text-align: center; margin-top: 20px; font-size: 0.65em; color: var(--muted);">After 4 years, hosting continues at cost — no lock-in, the site and domain stay fully yours.</div>
+<div style="text-align: center; margin-top: 20px; font-size: 0.65em; color: var(--muted);">After 4 years, hosting continues at cost. No lock-in, the site and domain stay fully yours.</div>
 
 ---
 
@@ -173,32 +173,32 @@ footer: ''
 <div style="margin-top: 14px;">
   <div class="row" style="display: flex; align-items: center; padding: 12px 14px; border-bottom: 1px solid #111; font-size: 0.72em; background: #ff6b1a08; border-radius: 6px;">
     <div style="flex: 2; font-family: 'Outfit'; font-weight: 600; color: var(--light);">agrisar.com</div>
-    <div style="flex: 3; color: var(--body);">Agrisar — the site we built for Mr. Can Tekin's company, who referred you</div>
+    <div style="flex: 3; color: var(--body);">Agrisar, the site we built for Mr. Can Tekin's company, who referred you</div>
     <div style="flex: 1; text-align: right;"><span class="tag" style="background: var(--accent); color: #000;">Your referral</span></div>
   </div>
   <div class="row" style="display: flex; align-items: center; padding: 12px 14px; border-bottom: 1px solid #111; font-size: 0.72em;">
     <div style="flex: 2; font-family: 'Outfit'; font-weight: 600; color: var(--light);">mana-dmcc.com</div>
-    <div style="flex: 3; color: var(--body);">Mana DMCC — corporate site for a Dubai-based commodity trading firm</div>
+    <div style="flex: 3; color: var(--body);">Mana DMCC, corporate site for a Dubai-based commodity trading firm</div>
     <div style="flex: 1; text-align: right;"><span class="tag" style="background: #ff6b1a12; color: var(--accent); border: 1px solid #ff6b1a22;">DMCC</span></div>
   </div>
   <div class="row" style="display: flex; align-items: center; padding: 12px 14px; border-bottom: 1px solid #111; font-size: 0.72em;">
     <div style="flex: 2; font-family: 'Outfit'; font-weight: 600; color: var(--light);">trackon.com</div>
-    <div style="flex: 3; color: var(--body);">Trackon Software — our own enterprise software company site</div>
+    <div style="flex: 3; color: var(--body);">Trackon Software, our own enterprise software company site</div>
     <div style="flex: 1; text-align: right;"><span class="tag" style="background: #ff6b1a12; color: var(--accent); border: 1px solid #ff6b1a22;">Corporate</span></div>
   </div>
   <div class="row" style="display: flex; align-items: center; padding: 12px 14px; border-bottom: 1px solid #111; font-size: 0.72em;">
     <div style="flex: 2; font-family: 'Outfit'; font-weight: 600; color: var(--light);">tradingdocs.ai</div>
-    <div style="flex: 3; color: var(--body);">TradingDocs.AI — AI-powered SaaS product site</div>
+    <div style="flex: 3; color: var(--body);">TradingDocs.AI, AI-powered SaaS product site</div>
     <div style="flex: 1; text-align: right;"><span class="tag" style="background: #ff6b1a12; color: var(--accent); border: 1px solid #ff6b1a22;">SaaS</span></div>
   </div>
   <div class="row" style="display: flex; align-items: center; padding: 12px 14px; font-size: 0.72em;">
     <div style="flex: 2; font-family: 'Outfit'; font-weight: 600; color: var(--light);">trackon.ai</div>
-    <div style="flex: 3; color: var(--body);">TrackonAI — cloud CTRM product site</div>
+    <div style="flex: 3; color: var(--body);">TrackonAI, cloud CTRM product site</div>
     <div style="flex: 1; text-align: right;"><span class="tag" style="background: #ff6b1a12; color: var(--accent); border: 1px solid #ff6b1a22;">SaaS</span></div>
   </div>
 </div>
 
-<div style="text-align: center; margin-top: 16px; font-size: 0.65em; color: var(--muted);">Two of these are Dubai-based trading companies — the same profile as Tholmann. Feel free to browse them live.</div>
+<div style="text-align: center; margin-top: 16px; font-size: 0.65em; color: var(--muted);">Two of these are Dubai-based trading companies, the same profile as Tholmann. Feel free to browse them live.</div>
 
 ---
 
@@ -281,7 +281,7 @@ footer: ''
 </div>
 
 <div style="background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 22px; margin-top: 40px; font-size: 0.68em; color: var(--body);">
-  <strong>Payment plan:</strong> 40% to start · 40% on design approval · 20% at launch — your current site stays online throughout, zero downtime.
+  <strong>Payment plan:</strong> 40% to start · 40% on design approval · 20% at launch. Your current site stays online throughout, zero downtime.
 </div>
 
 ---
