@@ -23,13 +23,13 @@ footer: ''
 
 <!-- _paginate: false -->
 
-![bg brightness:0.16](https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1400)
+![bg brightness:0.35](https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=1400)
 
 <div style="display: flex; flex-direction: column; justify-content: center; height: 100%; padding: 0 40px;">
   <div style="font-family: 'Outfit'; font-weight: 700; font-size: 0.72em; color: #ff8c4a; text-transform: uppercase; letter-spacing: 0.3em; margin-bottom: 14px;">Website Redesign Proposal</div>
   <div style="font-family: 'Outfit'; font-weight: 800; font-size: 3.8em; color: #fff; line-height: 1.05; letter-spacing: -0.03em;">Tholmann DMCC</div>
   <div style="width: 60px; height: 2px; background: #ff6b1a; border-radius: 1px; margin: 22px 0;"></div>
-  <div style="font-family: 'Raleway'; font-weight: 100; font-size: 0.85em; color: #ffffff99;">Prepared by <b>Trackon Software FZCO</b> &nbsp;·&nbsp; July 2026 &nbsp;·&nbsp; For the attention of Mr. H. Ozgur Erdogan</div>
+  <div style="font-family: 'Raleway'; font-weight: 300; font-size: 0.85em; color: #ffffffee; text-shadow: 0 1px 8px rgba(0,0,0,0.8);">Prepared by <b>Trackon Software FZCO</b> &nbsp;·&nbsp; July 2026 &nbsp;·&nbsp; For the attention of Mr. H. Ozgur Erdogan</div>
 </div>
 
 ---
