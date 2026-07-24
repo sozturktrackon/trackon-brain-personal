@@ -131,7 +131,7 @@ footer: ''
   </div>
 </div>
 
-<div style="text-align: center; margin-top: 20px; font-size: 0.68em; color: var(--muted);">Every page built mobile-first, multi-language ready and search-engine friendly.</div>
+<div style="text-align: center; margin-top: 20px; font-size: 0.68em; color: var(--muted);">Every page built mobile-first, multi-language ready and search-engine friendly.<br>All photography, icons and fonts are licensed for commercial use, so you carry no copyright risk, ever.</div>
 
 ---
 
@@ -252,28 +252,28 @@ footer: ''
 
 ### Timeline
 
-# Live in 6 weeks
+# Live in 4 weeks
 
 <div style="margin-top: 30px; position: relative;">
   <div style="position: absolute; top: 19px; left: 5%; right: 5%; height: 1px; background: #1a1a1a;"></div>
   <div style="display: flex; justify-content: space-between; position: relative;">
     <div style="text-align: center; flex: 1;">
-      <div style="width: 38px; height: 38px; border-radius: 50%; background: var(--card); border: 1px solid var(--accent); display: flex; align-items: center; justify-content: center; margin: 0 auto; font-family: 'Outfit'; font-weight: 700; font-size: 0.7em; color: var(--accent);">1-2</div>
+      <div style="width: 38px; height: 38px; border-radius: 50%; background: var(--card); border: 1px solid var(--accent); display: flex; align-items: center; justify-content: center; margin: 0 auto; font-family: 'Outfit'; font-weight: 700; font-size: 0.7em; color: var(--accent);">1</div>
       <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.72em; margin-top: 12px;">Design</div>
       <div style="font-size: 0.6em; color: var(--muted); margin-top: 4px; line-height: 1.6;">Visual concept<br>2 revision rounds</div>
     </div>
     <div style="text-align: center; flex: 1;">
-      <div style="width: 38px; height: 38px; border-radius: 50%; background: var(--card); border: 1px solid var(--accent); display: flex; align-items: center; justify-content: center; margin: 0 auto; font-family: 'Outfit'; font-weight: 700; font-size: 0.7em; color: var(--accent);">3-4</div>
+      <div style="width: 38px; height: 38px; border-radius: 50%; background: var(--card); border: 1px solid var(--accent); display: flex; align-items: center; justify-content: center; margin: 0 auto; font-family: 'Outfit'; font-weight: 700; font-size: 0.7em; color: var(--accent);">2</div>
       <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.72em; margin-top: 12px;">Development</div>
       <div style="font-size: 0.6em; color: var(--muted); margin-top: 4px; line-height: 1.6;">Build & forms<br>Multi-language setup</div>
     </div>
     <div style="text-align: center; flex: 1;">
-      <div style="width: 38px; height: 38px; border-radius: 50%; background: var(--card); border: 1px solid var(--accent); display: flex; align-items: center; justify-content: center; margin: 0 auto; font-family: 'Outfit'; font-weight: 700; font-size: 0.7em; color: var(--accent);">5</div>
+      <div style="width: 38px; height: 38px; border-radius: 50%; background: var(--card); border: 1px solid var(--accent); display: flex; align-items: center; justify-content: center; margin: 0 auto; font-family: 'Outfit'; font-weight: 700; font-size: 0.7em; color: var(--accent);">3</div>
       <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.72em; margin-top: 12px;">Content & QA</div>
       <div style="font-size: 0.6em; color: var(--muted); margin-top: 4px; line-height: 1.6;">Content entry, SEO<br>Mobile & speed tests</div>
     </div>
     <div style="text-align: center; flex: 1;">
-      <div style="width: 38px; height: 38px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center; margin: 0 auto; font-family: 'Outfit'; font-weight: 700; font-size: 0.7em; color: #000;">6</div>
+      <div style="width: 38px; height: 38px; border-radius: 50%; background: var(--accent); display: flex; align-items: center; justify-content: center; margin: 0 auto; font-family: 'Outfit'; font-weight: 700; font-size: 0.7em; color: #000;">4</div>
       <div style="font-family: 'Outfit'; font-weight: 600; font-size: 0.72em; margin-top: 12px; color: var(--accent);">Launch</div>
       <div style="font-size: 0.6em; color: var(--muted); margin-top: 4px; line-height: 1.6;">Domain migration<br>Go-live</div>
     </div>
@@ -281,7 +281,8 @@ footer: ''
 </div>
 
 <div style="background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 16px 22px; margin-top: 40px; font-size: 0.68em; color: var(--body);">
-  <strong>Payment plan:</strong> 40% to start · 40% on design approval · 20% at launch. Your current site stays online throughout, zero downtime.
+  <strong>Payment plan:</strong> 40% to start · 40% on design approval · 20% at launch. Your current site stays online throughout, zero downtime.<br>
+  <span style="font-size: 0.9em; color: var(--muted);">The 4-week schedule assumes content and feedback reach us within 2 business days at each step.</span>
 </div>
 
 ---
@@ -296,6 +297,6 @@ footer: ''
   <div style="width: 60px; height: 2px; background: #ff6b1a; border-radius: 1px; margin: 24px auto;"></div>
   <div style="font-family: 'Raleway'; font-weight: 200; font-size: 0.8em; color: #ffffff99; line-height: 2;">
     Murat Selim Ozturk · Trackon Software FZCO<br>
-    sozturk@trackonsoftware.com
+    sozturk@trackon.com
   </div>
 </div>

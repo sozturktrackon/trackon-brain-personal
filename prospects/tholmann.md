@@ -26,7 +26,7 @@ related:
 | Corporate (recommended) | $2,900 | Custom 10+ pages, EN+TR, quote/WhatsApp forms, advanced SEO + Analytics, news module |
 | Premium | $4,900 | Corporate + AR, CMS panel, shipment-tracking-integration ready, priority support |
 
-**All packages include 4 years of free hosting** (static site on global CDN, SSL included; after 4 years hosting continues at cost). Payment 40/40/20. 6-week timeline.
+**All packages include 4 years of free hosting** (static site on global CDN, SSL included; after 4 years hosting continues at cost) and **all imagery/fonts licensed for commercial use** (no copyright risk, a differentiator vs budget agencies). Payment 40/40/20. **4-week timeline** (revised down from 6 on 2026-07-24; deck states it assumes client content/feedback within 2 business days per step).
 
 Pricing rationale (2026-07-24): first draft ($2,900/$4,900/$7,500) was within Dubai agency range (corporate sites AED 12k–55k) but Murat judged it too high — Ozgur bey will likely also collect a Turkish quote (typical $700–$3,500 for bilingual corporate). Revised to sit at the top of the Turkish range / bottom of the Dubai range; free hosting + CDN performance is the differentiator a budget quote can't match.
 
