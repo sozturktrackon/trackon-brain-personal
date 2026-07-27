@@ -11,7 +11,7 @@ related: [_personal/crm/personal-crm-notes.md, _personal/strategy/strategic-deci
 
 # ID Syncfusion Renewal - Price locked at $1,188/year through 2030 (confirmed)
 
-Related: [[_personal/crm/personal-crm-notes|CRM Notes]], [[_personal/strategy/strategic-decisions|Strategic Decisions]]
+Related: [[_personal/crm/personal-crm-notes|CRM Notes]], [[_personal/strategy/strategic-decisions|Strategic Decisions]], [[_personal/commercial/google-workspace-econz-offer-2026-07|Google Workspace Econz Offer]]
 
 | | |
 |---|---|
