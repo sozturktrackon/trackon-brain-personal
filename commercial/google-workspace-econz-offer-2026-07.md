@@ -30,6 +30,15 @@ Related: [[_personal/commercial/syncfusion-renewal|Syncfusion Renewal]], [[_pers
 | Google direct annual | ~€1,134 | −€227 (17%) |
 | Econz 12-mo commit | ~€1,022 (AED 4,284) | −€339 (25%) |
 
+## Counterparty risk (Murat's question, 2026-07-27)
+
+**Q: If Econz closes 2-3 months after we prepay a year, do we pay Google again?**
+
+- The Workspace subscription belongs to the domain, not the reseller. If a reseller stops providing/paying, Google emails a warning and the customer sets up direct billing or moves to another reseller — data and service continue (per Google's transfer docs). A billing transfer grants the reseller NO admin access to the domain.
+- BUT the payment contract is with Econz, not Google. Google does not credit money paid to a failed reseller — the unused prepaid portion becomes an unsecured claim in liquidation. Worst case at month 3: lose ~9 months prepaid (~€800) and pay again for the remainder.
+- Exposure capped at AED 4,498 (~€1,073). Break-even failure probability ≈ saving/exposure ≈ ~35%. Econz: founded 2006 Bangalore, Google Premier Partner since 2012, operations in India/UAE/UK — collapse within 12 months is very unlikely, so risk-adjusted the deal stays favorable.
+- Mitigations: (1) negotiate quarterly/semi-annual payment (they advertise "credit days" — use it); (2) contract + invoice from the UAE entity (econz.ae) with valid trade license; (3) pay by credit card for chargeback rights; (4) act immediately on any Google billing warning email — transfer back to direct billing.
+
 ## Status
 
-**OPEN** — offer received 2026-07-27 from Sandhya Narain (Econz). Awaiting Murat's decision.
+**OPEN** — offer received 2026-07-27 from Sandhya Narain (Econz). Counterparty risk assessed 2026-07-27: bounded (~€1k max), acceptable given Econz's 20-year track record; prefer quarterly payment if negotiable. Awaiting Murat's decision.
