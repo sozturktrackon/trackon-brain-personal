@@ -68,6 +68,16 @@ Mitigation (proportionate to a ~€1k deal):
 
 Fallback if terms feel wrong: switch to Google direct annual plan (~€1,134/yr, −€227 vs today, monthly billing, no reseller).
 
+## Negotiation log (WhatsApp with Sandhya, 2026-07-27/28)
+
+- **Yearly advance payment is non-negotiable** — semi-annual refused.
+- Offered instead: **transfer first, then 7-day payment window** ("special approval") — useful: invoice can be verified (entity, TRN, domain, subscription reference) BEFORE paying, and there's no pay-but-no-transfer scenario.
+- **Renewal answer is vague**: "we'll reach out before term expires... process the renewal if you'd like." No auto-renewal stated, but no price commitment either. → Get in writing: no renewal without explicit written approval; ask what pricing basis applies at renewal.
+- Sales pressure: "up to 35% OFF ends 30 July" — marketing urgency; actual quoted discount is ~18% off their stated list (51 vs 62). Do not let the deadline skip the checks; commit pricing like this is standard reseller fare, re-obtainable.
+- Murat asked (2026-07-28): trade license (establishment card ≠ trade license) + **card payment** — pending. Card acceptance materially matters: chargeback rights would largely replace the protection lost with semi-annual refusal.
+
+Decision tree: card accepted → proceed. Bank transfer only → still proceed IF paper conditions met (correct domain, LLC tax invoice with TRN + reseller ID + subscription spec, written no-auto-renewal, entity-of-record answer); else fall back to Google direct annual (~€1,134/yr).
+
 ## Status
 
 **OPEN — recommended ACCEPT with conditions (2026-07-28).** Offer from Sandhya Narain (Econz). Counterparty risk bounded (~€1k max); UAE billing entity newly VAT-registered (Mar 2026) → prefer quarterly/semi-annual payment. Awaiting Murat's decision.
