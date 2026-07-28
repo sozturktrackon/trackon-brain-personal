@@ -80,6 +80,23 @@ Decision tree: card accepted → proceed. Bank transfer only → still proceed I
 
 - **2026-07-28: card payment CONFIRMED by Sandhya** → decision tree resolves to PROCEED. Chargeback rights cover the counterparty risk that yearly-advance created. Check for card surcharge (some UAE vendors add 2–3%; ~AED 90–135 on this invoice — acceptable, chargeback protection is worth it).
 
+## Head-to-head: Econz commit vs Google direct annual (2026-07-28, Murat asked)
+
+| Dimension | Econz 12-mo commit | Google direct annual |
+|---|---|---|
+| Cost/yr (7 seats, ex-VAT) | ~€1,022 (AED 4,284) | ~€1,134 (verify exact price in Admin Console) |
+| Payment | Full year advance, by card | Monthly, existing card on file — no prepay |
+| Counterparty risk | New UAE LLC (mitigated by chargeback) | None |
+| Switch effort | Checklist: written no-auto-renewal, domain fix, license/entity docs, token, invoice verify | ~10 min self-serve plan switch in Admin Console |
+| Renewal | Vague ("we'll reach out"); active management needed ~Jun 2027 | Transparent list-price auto-renewal, self-serve |
+| Seat reduction | Not allowed during term | Not allowed during term (same) |
+| Currency | AED (home currency, no FX fees) | EUR card charges → ~1–2% FX on AED card (~€15–25/yr) |
+| Extras | Local partner, 24/7 support claim, future GCP/Gemini discounts | Standard Google support |
+
+**Net cost gap: ~€110/yr (≈ €9/mo), narrowing to ~€85–95 after FX fees.** Both share the same 12-month/7-seat commitment; the only structural differences are the prepayment+counterparty on one side vs ~€100/yr on the other.
+
+**Revised lean: Google direct annual at this seat count.** Rationale: the remaining Econz execution cost (checklist emails, invoice verification, renewal negotiation in 2027) exceeds ~€100/yr of CEO attention; Google direct captures €227 of the €339 saving in 10 minutes with zero new risk. Econz becomes clearly worthwhile at ~15–20+ seats (gap scales to €250–350+/yr) or if the GCP/Gemini partner relationship gains strategic value. Both options defensible — Murat to decide.
+
 ## Status
 
-**OPEN — recommendation firm: ACCEPT (2026-07-28).** Card payment confirmed → chargeback protection in place. Remaining pre-token steps: (1) written no-auto-renewal, (2) corrected domain on proposal, (3) trade license + entity-of-record for C012slhu9. Then: generate token → verify invoice in 7-day window → pay by card. Awaiting Murat's execution.
+**OPEN (2026-07-28).** Econz path fully de-risked (card payment confirmed, checklist defined) and viable. However, head-to-head vs Google direct annual shows the true gap is only ~€100/yr at 7 seats → revised lean: **Google direct annual** for simplicity/zero counterparty, unless Murat values the local partner relationship. If Econz: pre-token steps (1) written no-auto-renewal, (2) corrected domain, (3) trade license + entity-of-record for C012slhu9 → token → verify invoice in 7-day window → pay by card. Awaiting Murat's decision.
