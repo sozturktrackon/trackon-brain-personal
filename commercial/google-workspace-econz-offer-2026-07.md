@@ -47,6 +47,18 @@ Econz sent a UAE Establishment Card + VAT Registration Certificate:
 - **TRN: 105295422700003** — VAT registration **effective only 01/03/2026**; certificate issued 14/07/2026. First VAT return period Mar–May 2026.
 - ⚠️ Finding: the UAE billing entity is effectively brand new (or only recently crossed the VAT threshold). The 20-year track record belongs to the Indian parent (Econz IT Services Pvt Ltd, Bangalore, Premier Partner since 2012) — NOT to the entity we would prepay. Establishment card ≠ trade license; license 998367 is verifiable on the Dubai DET portal.
 
+## Entity-of-record question (Murat, 2026-07-28)
+
+Admin Console verified reseller ID `C012slhu9` — but the console shows the reseller *account* (display name/domain, econz.ae) as registered with Google, NOT the legal entity's registration papers. Google Partner Directory lists the Premier Partner as **Econz IT Services Pvt Ltd (India)**; the UAE LLC (VAT-reg Mar 2026) almost certainly is NOT the reseller of record — likely structure: India/econz.ae entity holds the Google reseller agreement, new UAE LLC does the invoicing. Console verification proves an authorized reseller exists behind the ID; it does NOT prove the invoicing LLC is that same legal person.
+
+Impact: Workspace continuity is unaffected either way (Google's transfer-back works regardless). The gap is contractual — if you pay entity A and entity B holds the Google relationship, recovering money or enforcing delivery gets murkier.
+
+Mitigation (proportionate to a ~€1k deal):
+1. One written question to Econz: "Which legal entity holds the Google reseller agreement for public identifier C012slhu9? Confirm the relationship between it and ECONZ IT CLOUD SERVICE & DATACENTERS PROVIDERS L.L.C S.O.C (TRN 105295422700003)."
+2. The signed proposal/tax invoice must reference: reseller ID C012slhu9, Workspace Business Standard, 7 seats, AED 612/user/yr, 12-month term — ties the payment contractually to the subscription regardless of group structure.
+3. After transfer, verify in Admin Console → Billing that the subscription's listed reseller is Econz.
+4. Payment terms (semi-annual/quarterly) remain the main financial protection.
+
 ## Recommendation (2026-07-28)
 
 **TAKE the deal, on three conditions:**
