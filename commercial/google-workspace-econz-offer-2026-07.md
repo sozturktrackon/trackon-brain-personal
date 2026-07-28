@@ -3,7 +3,7 @@ type: decision
 status: open
 tags: [google-workspace, econz, vendor, licensing, cost-saving, confidential]
 created: 2026-07-27
-updated: 2026-07-27
+updated: 2026-07-28
 email-ref: "Econz commitment offer — Sandhya Narain <sandhya.n@econz.net>, 2026-07-27"
 source: conversation
 related: [_personal/commercial/syncfusion-renewal.md, _personal/commercial/pricing.md]
@@ -39,6 +39,23 @@ Related: [[_personal/commercial/syncfusion-renewal|Syncfusion Renewal]], [[_pers
 - Exposure capped at AED 4,498 (~€1,073). Break-even failure probability ≈ saving/exposure ≈ ~35%. Econz: founded 2006 Bangalore, Google Premier Partner since 2012, operations in India/UAE/UK — collapse within 12 months is very unlikely, so risk-adjusted the deal stays favorable.
 - Mitigations: (1) negotiate quarterly/semi-annual payment (they advertise "credit days" — use it); (2) contract + invoice from the UAE entity (econz.ae) with valid trade license; (3) pay by credit card for chargeback rights; (4) act immediately on any Google billing warning email — transfer back to direct billing.
 
+## Documents received (2026-07-28)
+
+Econz sent a UAE Establishment Card + VAT Registration Certificate:
+
+- Contracting entity: **ECONZ IT CLOUD SERVICE & DATACENTERS PROVIDERS L.L.C S.O.C** (single-owner LLC, owner: Moby Karedath Babu Karedath Mathew Babu), Burjuman Business Tower, Bur Dubai. Trade license 998367 (Dubai Economy and Tourism).
+- **TRN: 105295422700003** — VAT registration **effective only 01/03/2026**; certificate issued 14/07/2026. First VAT return period Mar–May 2026.
+- ⚠️ Finding: the UAE billing entity is effectively brand new (or only recently crossed the VAT threshold). The 20-year track record belongs to the Indian parent (Econz IT Services Pvt Ltd, Bangalore, Premier Partner since 2012) — NOT to the entity we would prepay. Establishment card ≠ trade license; license 998367 is verifiable on the Dubai DET portal.
+
+## Recommendation (2026-07-28)
+
+**TAKE the deal, on three conditions:**
+1. Proposal corrected to domain **trackonsoftware.com** and issued by the LLC with TRN 105295422700003 on the tax invoice.
+2. Reseller identity confirmed in Admin Console: entering `C012slhu9` must display Econz as the transfer target BEFORE generating the authorization token.
+3. Push for **semi-annual or quarterly payment** citing the newly-registered UAE entity — legitimate ask, cuts max exposure from ~AED 4.5k to ~AED 1.1–2.2k. If refused: still acceptable (saving €340/yr vs bounded worst-case ~€800, brand is a genuine Google Premier Partner and Google's transfer-back mechanism limits damage), but decide with eyes open.
+
+Fallback if terms feel wrong: switch to Google direct annual plan (~€1,134/yr, −€227 vs today, monthly billing, no reseller).
+
 ## Status
 
-**OPEN** — offer received 2026-07-27 from Sandhya Narain (Econz). Counterparty risk assessed 2026-07-27: bounded (~€1k max), acceptable given Econz's 20-year track record; prefer quarterly payment if negotiable. Awaiting Murat's decision.
+**OPEN — recommended ACCEPT with conditions (2026-07-28).** Offer from Sandhya Narain (Econz). Counterparty risk bounded (~€1k max); UAE billing entity newly VAT-registered (Mar 2026) → prefer quarterly/semi-annual payment. Awaiting Murat's decision.
