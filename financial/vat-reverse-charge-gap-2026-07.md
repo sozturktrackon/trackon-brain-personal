@@ -20,19 +20,22 @@ Note the distinction Murat's statement conflated:
 - **Expense deduction** = corporate tax (9%) treatment — this was done and is correct in both scenarios.
 - **VAT RCM** = separate 5% mechanism: a VAT-registered UAE business receiving services from abroad must self-declare 5% output VAT and simultaneously deduct the same 5% as input VAT in the same return. Net tax = zero, but the declaration is mandatory.
 
-## Two scenarios — establish which applies
+## Status confirmed (Murat, 2026-07-28)
 
-**A. Trackon FZCO is NOT VAT-registered:** No RCM obligation; expensing was fully correct. Check registration obligation though: mandatory threshold (AED 375k/12mo) counts taxable supplies AND imports; zero-rated exports count as taxable supplies (exception from registration available if supplies are wholly zero-rated — worth confirming status with accountant).
+- **Trackon FZCO IS VAT-registered.**
+- **AWS charges 5% UAE VAT on its invoices** → AWS is normal input VAT, NOT an RCM case.
 
-**B. Trackon FZCO IS VAT-registered:** Non-declaration of RCM is a compliance gap. Substantively net-zero (output 5% = input 5% when input recovery is full), so no unpaid tax — exposure is administrative (incorrect-return penalties). Fix: start declaring RCM going forward; accountant to judge whether voluntary disclosure for past periods is warranted.
+So the RCM gap applies to suppliers whose invoices carry **no UAE VAT line**: Google Workspace confirmed (~€68/yr of net-zero undeclared RCM — immaterial per year); check the rest (Anthropic/OpenAI, GitHub, Atlassian, Syncfusion, Oracle Cloud, etc.). Gap is real but administrative: no unpaid tax (output 5% = input 5% in same return); fix going forward, accountant judges voluntary disclosure for past periods.
 
-## The bigger fish
+## NEW question — potentially real money: is AWS input VAT being reclaimed?
 
-Workspace is ~AED 250/yr of VAT — immaterial. But the same treatment applies to **every foreign supplier that doesn't charge UAE VAT**. AWS is the big one (TrackonAI infra) — note AWS EMEA SARL may charge UAE VAT directly on invoices (check invoices: if 5% VAT line present → input VAT, recoverable, no RCM needed; if absent → RCM applies). Same check for: Anthropic/OpenAI, GitHub, Atlassian, Syncfusion, Oracle Cloud, etc.
+Murat's description ("paid the whole fee as an expense, deducted all as expense") raises the question of whether the 5% VAT AWS charges is being **reclaimed as input VAT in the returns** or just expensed gross. If expensed gross and unreclaimed: that's recoverable cash equal to 5% of the entire AWS spend (TrackonAI production infra — likely the largest single recoverable amount), plus the same for any other VAT-charging supplier. Input VAT can typically be recovered via voluntary disclosure/adjustment within the statutory time limits — the older it gets, the more falls out of reach.
 
 ## Action
 
-One question to the accountant: *"Are we VAT-registered, and if so, are we declaring reverse charge on foreign software/cloud invoices that carry no UAE VAT? If we haven't been, do past periods need a voluntary disclosure?"*
+Two questions to the accountant:
+1. *"Are we reclaiming input VAT on AWS (and other 5%-VAT supplier) invoices in our returns, or expensing them gross? If unreclaimed, how much of the past spend is still recoverable?"*
+2. *"Are we declaring reverse charge on foreign invoices with no UAE VAT line (Google Workspace etc.)? If not, start now — do past periods need a voluntary disclosure?"*
 
 ## Impact on Econz vs Google decision
 
