@@ -95,6 +95,8 @@ Decision tree: card accepted → proceed. Bank transfer only → still proceed I
 
 **Net cost gap: ~€110/yr (≈ €9/mo), narrowing to ~€85–95 after FX fees.** Both share the same 12-month/7-seat commitment; the only structural differences are the prepayment+counterparty on one side vs ~€100/yr on the other.
 
+**VAT (Murat asked 2026-07-28): neutral in both options, NOT an Econz advantage.** Econz: pay 5% (AED 214.20) in cash, reclaim as input VAT in next return → net zero with a cash-flow lag. Google direct: charges no UAE VAT (confirmed by our own invoices — €113.40 has no VAT line, and Google's EMEA billing policy puts non-Irish customers on self-assessment) → **reverse charge mechanism**: self-account 5% output VAT + deduct same 5% input VAT in the same return → net zero, no cash movement. Compliance note: accountant must actually be declaring RCM on imported services (Google, AWS, etc.) in the VAT return — verify this is happening. If Trackon FZCO were ever NOT VAT-registered, Econz's 5% becomes a hard cost while Google stays VAT-free.
+
 **Revised lean: Google direct annual at this seat count.** Rationale: the remaining Econz execution cost (checklist emails, invoice verification, renewal negotiation in 2027) exceeds ~€100/yr of CEO attention; Google direct captures €227 of the €339 saving in 10 minutes with zero new risk. Econz becomes clearly worthwhile at ~15–20+ seats (gap scales to €250–350+/yr) or if the GCP/Gemini partner relationship gains strategic value. Both options defensible — Murat to decide.
 
 ## Status
