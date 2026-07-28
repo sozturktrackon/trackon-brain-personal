@@ -1,6 +1,6 @@
 ---
 type: decision
-status: open
+status: resolved
 tags: [google-workspace, econz, vendor, licensing, cost-saving, confidential]
 created: 2026-07-27
 updated: 2026-07-28
@@ -103,4 +103,10 @@ Decision tree: card accepted → proceed. Bank transfer only → still proceed I
 
 ## Status
 
-**OPEN (2026-07-28).** Econz path fully de-risked (card payment confirmed, checklist defined) and viable. However, head-to-head vs Google direct annual shows the true gap is only ~€100/yr at 7 seats → revised lean: **Google direct annual** for simplicity/zero counterparty, unless Murat values the local partner relationship. If Econz: pre-token steps (1) written no-auto-renewal, (2) corrected domain, (3) trade license + entity-of-record for C012slhu9 → token → verify invoice in 7-day window → pay by card. Awaiting Murat's decision.
+**RESOLVED (2026-07-28): Econz offer DECLINED — going Google direct annual plan.** Murat decided after full evaluation: at 7 seats the true gap vs Google direct annual is only ~€100/yr, not worth the billing migration, counterparty exposure, prepayment, and renewal management. Polite decline sent to Sandhya (door left open for seat growth / GCP-Gemini needs).
+
+Follow-through:
+1. Switch plan in Admin Console → Billing → Subscriptions → Business Standard → change Flexible to Annual plan (verify exact EUR price shown; expect ~€13.50/user/mo, saving ~€227/yr).
+2. Diarize ~June 2027: annual plan renewal review (seat count still right?).
+3. Accountant questions from [[_personal/financial/vat-reverse-charge-gap-2026-07|VAT reverse-charge gap]] — RCM going forward + AWS input VAT reclaim (independent of this decision, potentially real money).
+4. Revisit reseller option if team grows past ~15 seats.
