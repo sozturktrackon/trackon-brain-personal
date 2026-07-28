@@ -78,6 +78,8 @@ Fallback if terms feel wrong: switch to Google direct annual plan (~€1,134/yr,
 
 Decision tree: card accepted → proceed. Bank transfer only → still proceed IF paper conditions met (correct domain, LLC tax invoice with TRN + reseller ID + subscription spec, written no-auto-renewal, entity-of-record answer); else fall back to Google direct annual (~€1,134/yr).
 
+- **2026-07-28: card payment CONFIRMED by Sandhya** → decision tree resolves to PROCEED. Chargeback rights cover the counterparty risk that yearly-advance created. Check for card surcharge (some UAE vendors add 2–3%; ~AED 90–135 on this invoice — acceptable, chargeback protection is worth it).
+
 ## Status
 
-**OPEN — recommended ACCEPT with conditions (2026-07-28).** Offer from Sandhya Narain (Econz). Counterparty risk bounded (~€1k max); UAE billing entity newly VAT-registered (Mar 2026) → prefer quarterly/semi-annual payment. Awaiting Murat's decision.
+**OPEN — recommendation firm: ACCEPT (2026-07-28).** Card payment confirmed → chargeback protection in place. Remaining pre-token steps: (1) written no-auto-renewal, (2) corrected domain on proposal, (3) trade license + entity-of-record for C012slhu9. Then: generate token → verify invoice in 7-day window → pay by card. Awaiting Murat's execution.
