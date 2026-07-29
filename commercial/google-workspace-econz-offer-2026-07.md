@@ -1,6 +1,6 @@
 ---
 type: decision
-status: open
+status: resolved
 tags: [google-workspace, econz, vendor, licensing, cost-saving, confidential]
 created: 2026-07-27
 updated: 2026-07-28
@@ -103,7 +103,9 @@ Decision tree: card accepted → proceed. Bank transfer only → still proceed I
 
 ## Status
 
-**REOPENED (2026-07-29).** Google's self-serve annual plan turned out to be yearly-prepay only (no monthly payment) → prepayment advantage over Econz gone; real gap ~€120–145/yr in Econz's favor (incl. FX). Murat's (correct) observation: renewal price is structurally capped — transfer-back to Google at list price costs ~30 min, so a reseller quoting above list loses the customer; renewal quotes drift toward list, not above. → Ask trimmed to the single clause that matters: **no renewal/re-commitment without written approval** (prevents silent rollover into a new 12-mo commitment before comparing). Leaning ECONZ. Path: written no-auto-renew → corrected domain on proposal → token → verify invoice in 7-day window → pay by card. Escape hatch either way: transfer back to Google direct at term end is a 15-min billing-only process.
+**RESOLVED (2026-07-29): ACCEPTING ECONZ.** Sandhya confirmed in writing (WhatsApp 2026-07-29, email to follow — verify it): (1) renewal pricing NOT guaranteed — based on Google pricing at renewal, quoted in advance, freedom to switch provider preserved (the honest answer; ceiling = Google list, exit = 30-min transfer back); (2) **no renewal/re-commitment without written approval — CONFIRMED explicitly.** Murat's condition (#2) met. Multi-year lock offered by Econz — declined (would trade the yearly exit option for prepay exposure). Execution: email with approval clause → corrected domain on proposal → token (console must show Econz for C012slhu9) → verify invoice in 7-day window (LLC + TRN 105295422700003, 7 × AED 612/yr, 12 mo) → pay by card → confirm Econz shows as reseller in Billing + Google's final prorated invoice → tax invoice to accountant (AED 214.20 input VAT reclaim). **Renewal review: May–Jun 2027** — compare Econz quote vs Google list vs seat count.
+
+~~**REOPENED (2026-07-29).**~~ Google's self-serve annual plan turned out to be yearly-prepay only (no monthly payment) → prepayment advantage over Econz gone; real gap ~€120–145/yr in Econz's favor (incl. FX). Murat's (correct) observation: renewal price is structurally capped — transfer-back to Google at list price costs ~30 min, so a reseller quoting above list loses the customer; renewal quotes drift toward list, not above. → Ask trimmed to the single clause that matters: **no renewal/re-commitment without written approval** (prevents silent rollover into a new 12-mo commitment before comparing). Leaning ECONZ. Path: written no-auto-renew → corrected domain on proposal → token → verify invoice in 7-day window → pay by card. Escape hatch either way: transfer back to Google direct at term end is a 15-min billing-only process.
 
 ~~**RESOLVED (2026-07-28): Econz offer DECLINED — going Google direct annual plan.**~~ (superseded 2026-07-29) Murat decided after full evaluation: at 7 seats the true gap vs Google direct annual is only ~€100/yr, not worth the billing migration, counterparty exposure, prepayment, and renewal management. Polite decline sent to Sandhya (door left open for seat growth / GCP-Gemini needs).
 
