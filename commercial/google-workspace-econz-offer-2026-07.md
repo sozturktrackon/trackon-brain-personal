@@ -1,6 +1,6 @@
 ---
 type: decision
-status: resolved
+status: open
 tags: [google-workspace, econz, vendor, licensing, cost-saving, confidential]
 created: 2026-07-27
 updated: 2026-07-28
@@ -103,7 +103,9 @@ Decision tree: card accepted → proceed. Bank transfer only → still proceed I
 
 ## Status
 
-**RESOLVED (2026-07-28): Econz offer DECLINED — going Google direct annual plan.** Murat decided after full evaluation: at 7 seats the true gap vs Google direct annual is only ~€100/yr, not worth the billing migration, counterparty exposure, prepayment, and renewal management. Polite decline sent to Sandhya (door left open for seat growth / GCP-Gemini needs).
+**REOPENED (2026-07-29).** Google's self-serve annual plan turned out to be yearly-prepay only (no monthly payment) → prepayment advantage over Econz gone; real gap ~€120–145/yr in Econz's favor (incl. FX). Murat's (correct) observation: renewal price is structurally capped — transfer-back to Google at list price costs ~30 min, so a reseller quoting above list loses the customer; renewal quotes drift toward list, not above. → Ask trimmed to the single clause that matters: **no renewal/re-commitment without written approval** (prevents silent rollover into a new 12-mo commitment before comparing). Leaning ECONZ. Path: written no-auto-renew → corrected domain on proposal → token → verify invoice in 7-day window → pay by card. Escape hatch either way: transfer back to Google direct at term end is a 15-min billing-only process.
+
+~~**RESOLVED (2026-07-28): Econz offer DECLINED — going Google direct annual plan.**~~ (superseded 2026-07-29) Murat decided after full evaluation: at 7 seats the true gap vs Google direct annual is only ~€100/yr, not worth the billing migration, counterparty exposure, prepayment, and renewal management. Polite decline sent to Sandhya (door left open for seat growth / GCP-Gemini needs).
 
 Follow-through:
 1. Switch plan in Admin Console → Billing → Subscriptions → Business Standard → change Flexible to Annual plan. **2026-07-29: actual checkout price confirmed — €163.20/user/yr (€13.60/user/mo) = €1,142.40/yr for 7 users, saving €218.40/yr (16%). Contract start 29 Jul 2026, renewal Jul 2027. Monthly-payment annual variant NOT offered in self-serve flow for this account (only yearly prepay) — confirmed 2026-07-29; proceeded with yearly prepay. Note: this removed the "no prepayment" advantage over Econz; decision held anyway on simplicity/zero-counterparty grounds (~€120/yr premium accepted).** After checkout: verify renewal settings in Billing.
