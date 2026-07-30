@@ -129,7 +129,7 @@ Decision tree: card accepted → proceed. Bank transfer only → still proceed I
 
 **2026-07-30: new BoldSign envelope (ID 3b7c1fad-fc76-4fab-b355-2b32f4cf91e8) verified — matches the approved revision clause-for-clause (3.3 ✓, A1 ✓, signature entity ✓; only cosmetic diffs). CLEARED TO SIGN. Then: pay via Stripe → final tax invoice (Econz TRN 105295422700003 as supplier, ours as recipient) → confirm reseller in Admin Console.**
 
-**2026-07-30: TRANSFER ACTIVE — Admin Console shows econz.ae as reseller, SKU Business Standard ✓. Post-transfer hardening advised: (1) turn OFF "Reseller access" toggle (Google defaults it ON = full Admin console access for the reseller; billing-only relationship + contract cl. 2.1 says no data access; no billing impact; can re-enable temporarily for support); (2) restrict "Purchase consent" to Google Workspace product group only, so Econz cannot provision Gemini/GCP/other SKUs without explicit consent.**
+**2026-07-30: TRANSFER ACTIVE — Admin Console shows econz.ae as reseller, SKU Business Standard ✓. Post-transfer hardening DONE (2026-07-30, verified by screenshot): Reseller access toggle OFF ✓; Purchase consent restricted to Google Workspace only ✓. Econz = billing only, no console access, no other SKUs.**
 
 **Execution status: transfer authorization generated and sent 2026-07-29** (Murat, via admin.google.com/ac/resellermanagement). Awaiting: Econz activation → tax invoice (verify in 7-day window before paying by card) → Sandhya's email with the no-auto-renewal clause (chase if it doesn't arrive) → Google's final prorated flexible invoice (~€105, 1–29 Jul, expected) → Billing page shows Econz as reseller. Then hand tax invoice to accountant (AED 214.20 input VAT reclaim).
 
