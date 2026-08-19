@@ -17,7 +17,8 @@ Package: these two emails + [[_personal/commercial/mana-sf-phase1-closure-sdd|SD
 - [ ] **STILL OPEN**: Hamza runs the reference SQLs from his TLB-2859 comment against Mana prod → one Excel workbook `Trackon-DropDown-Options.xlsx`, one sheet per field (Currency, Product, Packing, Loading Port/Place, Destination Port/Place, Payment Terms), columns: `Trackon ID`, `Value`, plus attributes where relevant (payment terms: days / percent split). Active values only, Dubai-branch scope (consistent with the live API).
 - [x] Price DECIDED (Murat, 2026-08-19): **$34,500 fixed, deliberately BELOW the accepted $36–48k range** so approval is easy/fast (total build incl. Phase 1 = $42k, under even the June proposal's lowest indicative total). Payment schedule still drafted 40/40/20.
 - [x] PDFs rendered: `Trackon-SF-Integration-Solution-Design.pdf` + `Trackon-SF-Integration-Phase2-Proposal.pdf` (customer-facing names, in this folder).
-- [ ] Bibeesh sends Email 1 (reply-all on Justin's thread) with the Excel + SDD; Murat sends Email 2 in the same thread ~1–2 hours later, same day, with the proposal.
+- [x] Bibeesh sent Email 1 (reply-all on the technical thread) with the SDD; Excel follow-up pending (Email 1b).
+- [ ] Murat sends Email 2 as a **SEPARATE, PRIVATE email to Justin only** (NOT on the technical thread — Bibeesh, Chad, Prisha, Sean must not see pricing; cc Josh only if Murat wants him in). Same day as Bibeesh's email.
 
 ---
 
@@ -64,9 +65,11 @@ Bibeesh
 
 ---
 
-## Email 2: Murat → Justin (same thread, same day)
+## Email 2: Murat → Justin ONLY (new private email, NOT on the thread)
 
-**Subject:** Re: Drop Down Fields
+**To:** Justin Evans. No cc, or cc Josh Hosking at Murat's discretion. Never the technical thread.
+
+**Subject:** Trackon: Phase 2 Proposal
 
 Hi Justin,
 
@@ -92,5 +95,6 @@ CEO, Trackon Software FZCO
 
 - Email 1 deliberately makes the reference API visible as *Phase 2 value* (the staleness argument sells the live endpoints) while answering Justin's operational question in full, including Murat's admin-refresh-button design (2026-08-19).
 - Email 2 lands the quote the same day the last free deliverable goes out; nothing further ships until acceptance ([[customers/mana/mana-health|standing order 2026-08-19]]).
+- **Commercial correspondence NEVER goes to the technical thread** (Murat, 2026-08-19): pricing reaches Justin (the commercial decision-maker) privately; Bibeesh, Chad and DFA operational staff never see amounts. The technical audience still sees the schedule pressure through the SDD's closing slide ("Phase 2 acceptance by 4 September"), which carries the deadline without any pricing.
 - The Sep-4 acceptance date is derived: Dec go-live − ~10 wks dev − UAT/training/contingency. It makes DFA's own deadline carry the urgency.
 - Do NOT attach or reference any Legacy table names / data dictionary: endpoints only (dependency directive).
