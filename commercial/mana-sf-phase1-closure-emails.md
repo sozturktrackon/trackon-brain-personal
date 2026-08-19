@@ -18,7 +18,7 @@ Package: these two emails + [[_personal/commercial/mana-sf-phase1-closure-sdd|SD
 - [x] Price DECIDED (Murat, 2026-08-19): **$34,500 fixed, deliberately BELOW the accepted $36–48k range** so approval is easy/fast (total build incl. Phase 1 = $42k, under even the June proposal's lowest indicative total). Payment schedule still drafted 40/40/20.
 - [x] PDFs rendered: `Trackon-SF-Integration-Solution-Design.pdf` + `Trackon-SF-Integration-Phase2-Proposal.pdf` (customer-facing names, in this folder).
 - [x] Bibeesh sent Email 1 (reply-all on the technical thread) with the SDD; Excel follow-up pending (Email 1b).
-- [ ] Murat sends Email 2 as a **SEPARATE, PRIVATE email to Justin only** (NOT on the technical thread — Bibeesh, Chad, Prisha, Sean must not see pricing; cc Josh only if Murat wants him in). Same day as Bibeesh's email.
+- [x] **Email 2 FINALIZED and sent 2026-08-19** (Murat's own wording, evolved from the draft below): private email **to Justin Evans + Josh Hosking**, subject "Salesforce - Trackon Project: Phase 2 Proposal", attachment `Trackon-SF-Integration-Phase2-Proposal.pdf`. Key lines in the sent version: $34,500 fixed below the June range / efficiency passed on; master-data live + reference API included; contract creation built on **staging** so nothing hits Mana production until switched on at go-live; **"To ensure the December go-live date, we need your approval by September 4."** Timed for the Kansas City morning (sent ~5:30-7PM Dubai).
 
 ---
 
