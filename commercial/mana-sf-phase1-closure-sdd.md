@@ -39,7 +39,7 @@ style: |
 
   section::after { font-family: 'Outfit'; font-size: 0.5em; color: var(--muted); }
 
-  img.logo { height: 185px; width: auto; margin: 4px 0 0; }
+  img.logo { height: 205px; width: auto; margin: 4px 0 0; }
 
   .eyebrow { font-family: 'Outfit'; font-weight: 700; font-size: 0.6em; color: var(--a); letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 14px; }
 
@@ -105,7 +105,7 @@ style: |
 
   section.lead { align-items: center; text-align: center; }
   .kicker { font-family: 'Raleway'; font-weight: 500; font-size: 15px; color: var(--label); text-transform: uppercase; letter-spacing: 0.28em; }
-  .cover-title { font-family: 'Outfit'; font-weight: 800; font-size: 44px; color: var(--heading); letter-spacing: -0.02em; line-height: 1.05; }
+  .cover-title { font-family: 'Outfit'; font-weight: 800; font-size: 35px; color: var(--heading); letter-spacing: -0.02em; line-height: 1.1; }
   .rule { width: 60px; height: 4px; background: linear-gradient(90deg, #506CEA, #3C96EE); border-radius: 3px; margin: 14px auto 14px; }
   .cover-sub { font-family: 'Raleway'; font-weight: 400; font-size: 17px; color: var(--body); max-width: 760px; line-height: 1.5; }
   .cover-meta { font-family: 'Outfit'; font-weight: 600; font-size: 18px; color: var(--heading); }
