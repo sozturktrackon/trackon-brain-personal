@@ -121,7 +121,7 @@ header: ''
 footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phase 2 Proposal · Confidential · Prepared for DFA / Mana'
 ---
 
-<!-- INTERNAL DRAFT 2026-08-19 — not sent. MURAT TO DECIDE: (1) final fixed price — drafted $46,500, itemisation below sums to it; (2) payment schedule — drafted 40/40/20; (3) quote validity — drafted "valid to 4 September" which doubles as the acceptance deadline. Anchor from accepted June proposal: $36–48k. -->
+<!-- INTERNAL DRAFT 2026-08-19 — not sent. Price DECIDED by Murat 2026-08-19: BELOW the accepted $36–48k range to accelerate approval → $34,500 fixed (itemisation sums to it). Still open: payment schedule (drafted 40/40/20), validity (drafted 4 September = acceptance deadline). -->
 
 <!-- _class: lead -->
 <!-- _paginate: false -->
@@ -186,20 +186,20 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 
 | Item | Detail | Price |
 |---|---|---|
-| Contract-creation API — the core build | validation, business rules, idempotency &amp; retry | **$28,500** |
-| Exceptions console in Trackon | resolve &amp; re-process failed contracts in place | **$6,500** |
-| Integration backbone &amp; monitoring | incl. coordination with DFA IT | **$4,500** |
-| Sandbox testing, UAT &amp; go-live support | through December go-live | **$7,000** |
+| Contract-creation API — the core build | validation, business rules, idempotency &amp; retry | **$21,500** |
+| Exceptions console in Trackon | resolve &amp; re-process failed contracts in place | **$5,500** |
+| Integration backbone &amp; monitoring | incl. coordination with DFA IT | **$3,000** |
+| Sandbox testing, UAT &amp; go-live support | through December go-live | **$4,500** |
 | Reference-data API (all picklist endpoints) | scheduled + on-demand refresh support | *Included* |
 | Master-data feed (customers &amp; vendors) | already live | *Included* |
 
 <div class="row" style="margin-top: 14px;">
 <div class="col card step-hi card-center" style="padding: 18px;">
 <div class="step-tag hi">Phase 2 · Fixed price</div>
-<div class="step-price hi" style="font-size: 44px;">$46,500</div>
+<div class="step-price hi" style="font-size: 44px;">$34,500</div>
 </div>
 <div class="col card" style="display:flex; flex-direction:column; justify-content:center;">
-<div class="card-body">Within the <strong>$36–48k</strong> range from the accepted June proposal — now firm and itemised, as committed. Fixed on the assumptions on the next pages.</div>
+<div class="card-body"><strong>Below the $36–48k range</strong> indicated in the June proposal. Phase 1 ran smoothly and part of the platform is already live — we are passing that efficiency on. Firm and itemised, fixed on the assumptions on the next pages.</div>
 </div>
 </div>
 
@@ -258,7 +258,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 # Let's build it
 
 <div class="snum"><div class="badge">1</div><div class="scontent">Review call — walk through the design document and this quote; lock the approval flow. <strong>This week or early next.</strong></div></div>
-<div class="snum"><div class="badge">2</div><div class="scontent">Accept Phase 2: <strong>$46,500 fixed</strong> — 40% on acceptance, 40% at UAT start, 20% at go-live.</div></div>
+<div class="snum"><div class="badge">2</div><div class="scontent">Accept Phase 2: <strong>$34,500 fixed</strong> — 40% on acceptance, 40% at UAT start, 20% at go-live.</div></div>
 <div class="snum"><div class="badge">3</div><div class="scontent">Build starts immediately — platform, credentials and design are already in place. <strong>Live in December.</strong></div></div>
 
 <div style="margin-top: 38px; font-family: 'Outfit'; font-weight: 600; font-size: 18px; color: #fff;">Murat Selim Ozturk · CEO, Trackon Software FZCO</div>
