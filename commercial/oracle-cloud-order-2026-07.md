@@ -3,7 +3,7 @@ type: vendor-quote
 status: pending-review
 tags: [oracle, oci, vendor, cloud, quote, confidential]
 created: 2026-07-10
-updated: 2026-07-20
+updated: 2026-08-19
 source: Oracle ordering document PDF (1224634431.a1_OrderingDocumentWatermarked.pdf, ~/Downloads)
 related: [_personal/commercial/syncfusion-renewal.md, _personal/commercial/deal-log.md]
 ---
@@ -97,3 +97,25 @@ Fixed $15K commit vs PAYG means customer churn risk is Murat's for this contract
 - To terminate fully: email **cloudterminations_ww@oracle.com** at end of the services period and tear down resources.
 - Unused credits forfeited; full $15K owed regardless of consumption. **Check consumption at month 9–10 (~Apr–May 2027)** — if under-using, shift eligible legacy workloads onto OCI to burn paid credits.
 - **Decision point ~Jun 2027**: replenish (negotiate discount then) / drift to PAYG / terminate.
+
+## Renewal negotiation stance (Murat + analysis, 2026-08-19)
+
+Murat expects under-consumption ("we will overshoot") and Oracle pushing for equal-or-larger renewal. Position: **Oracle has no leverage.**
+
+- 0% discount means our committed rates = PAYG rates; a renewal commit buys nothing on price. Rate lock doesn't carry over to renewal anyway (Aby, 2026-07-13). Auto-convert to PAYG at term end is the default and requires no action or negotiation.
+- Script when pushed for "same amount": "We'll run PAYG. If you want a commitment, price it: a real discount or multi-year rate cap on a smaller commit." Expected answer at our size: no → PAYG happens by default. Rep unhappiness is a sales-comp problem, not ours; renewal-not-automatic already on record (2026-07-13).
+- If any commit next year: size = observed run-rate minus UDA-departure risk. Overage bills at identical rates, so under-committing has zero downside; over-committing repeats this year's stranding.
+- Only real reasons to re-commit: quarterly Net-60 invoicing value, or Oracle offers something genuinely new.
+
+## Credit-utilization list (2026-08-19 — Murat "can't think of ways to use unspent credits"; ranked)
+
+Two legitimate kinds: replaces money spent elsewhere, or improves the product free. Do NOT invent make-work burn.
+
+1. **Upsize prod** (Base DB / app VM 1→2 OCPU): customer-visible performance from credits that would strand. Easiest, biggest absorber.
+2. **Move GitHub runner to OCI A1.Flex at its AWS RI expiry (Jun 2027)** + WireGuard rebuild on OCI (already planned) — replaces future AWS spend. No gain before Jun 2027 (AWS boxes prepaid).
+3. **Deeper DR**: longer retention, cross-region Object Storage copies of nightly dumps + document archive, standing monthly test-restore instance.
+4. **Standing demo tenant + per-developer test instances** (ORDS runbook already wants a demo workspace).
+5. **APEX modernization pilot** dev instance (see APEX assessment).
+6. **OCI GenAI experiments** (batch doc processing, Legacy AI features).
+
+Whatever strands after 1–4 is sunk; its only lesson is the renewal number. Consumption check stays at month 9–10 (Apr–May 2027).
