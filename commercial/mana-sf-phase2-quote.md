@@ -192,6 +192,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 | Sandbox testing, UAT &amp; go-live support | through December go-live | **$4,500** |
 | Reference-data API (all picklist endpoints) | scheduled + on-demand refresh support | *Included* |
 | Master-data feed (customers &amp; vendors) | already live | *Included* |
+| API documentation &amp; training | contract API reference for DFA IT, exceptions-console training | *Included* |
 
 <div class="row" style="margin-top: 14px;">
 <div class="col card step-hi card-center" style="padding: 18px;">
@@ -203,6 +204,8 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 </div>
 </div>
 
+<div class="steps-note">Payment schedule: 40% on acceptance · 40% at UAT start · 20% at go-live. Prices in USD, exclusive of any applicable taxes.</div>
+
 ---
 
 <div class="eyebrow">Once live</div>
@@ -212,7 +215,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 <div class="intro">From go-live, the integration runs under a monthly support arrangement, as set out in the June proposal.</div>
 
 <div class="recurring">
-<div><div class="r-label">Recurring · from go-live</div><div class="r-title">Integration Support &amp; Maintenance</div><div class="r-sub">Hosting and TLS/certificate management, monitoring and error handling, exceptions support, API upkeep and additive improvements within v1, and support to DFA IT, including underlying cloud platform fees.</div></div>
+<div><div class="r-label">Recurring · from go-live</div><div class="r-title">Integration Support</div><div class="r-sub">Ticket support for integration issues (contracts that fail to arrive in Trackon, validation and API errors), exception investigation and resolution, hosting, monitoring, and underlying platform fees. Covers routine integration support; new development and scope changes are quoted separately.</div></div>
 <div class="r-price">$1,000/mo</div>
 </div>
 

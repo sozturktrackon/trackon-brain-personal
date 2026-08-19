@@ -78,6 +78,10 @@ Customers: [[customers/agrisar/agrisar-health|Agrisar]], [[customers/mana/mana-h
 
 ---
 
+## Legacy API — Monetization Stance (2026-08-19)
+
+The Trackon Legacy API is a **Trackon product surface, not a DFA deliverable** (framing decided 2026-07-29). DFA/Mana pays for their integration services + recurring support; Trackon retains the platform IP. **Every future Legacy customer wanting the API is charged again**: per-tenant enablement + their integration/endpoint work + their own recurring support fee. The reuse advantage is Trackon's margin (delivery gets faster/cheaper per customer), not a discount obligation. No exclusivity, royalty, or co-ownership is granted to DFA anywhere in the proposal or SDD; keep it that way, and do not advertise other tenants' use of the platform to DFA.
+
 ## Product Pricing Anchors (2026)
 
 - **Pikiflow** (Murat, 2026-08-13): first few customers free (design partners); at go-live price **Jira-comparable, ~$15/user/month** as anchor. Open refinements: small platform minimum per tenant (real per-tenant infra: S3 Tables, DDB vector indexes, AVP); fetch-only workers possibly below the anchor.
