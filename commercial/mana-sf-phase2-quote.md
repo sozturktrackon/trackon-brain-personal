@@ -121,7 +121,7 @@ header: ''
 footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phase 2 Proposal · Confidential · Prepared for DFA / Mana'
 ---
 
-<!-- INTERNAL DRAFT 2026-08-19 — not sent. Price DECIDED by Murat 2026-08-19: BELOW the accepted $36–48k range to accelerate approval → $34,500 fixed (itemisation sums to it). Still open: payment schedule (drafted 40/40/20), validity (drafted 4 September = acceptance deadline). -->
+<!-- INTERNAL DRAFT 2026-08-19, not sent. Price DECIDED by Murat 2026-08-19: BELOW the accepted $36–48k range to accelerate approval → $34,500 fixed (itemisation sums to it). Still open: payment schedule (drafted 40/40/20), validity (drafted 4 September = acceptance deadline). -->
 
 <!-- _class: lead -->
 <!-- _paginate: false -->
@@ -135,7 +135,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 
 <div class="rule"></div>
 
-<div class="cover-sub">Phase 1 (Design &amp; Discovery) is complete. This is the fixed, itemised Phase 2 quote committed in the June proposal — the full integration build, tested and live before the end of December.</div>
+<div class="cover-sub">Phase 1 (Design &amp; Discovery) is complete. This is the fixed, itemised Phase 2 quote committed in the June proposal: the full integration build, tested and live before the end of December.</div>
 
 <div class="cover-meta" style="margin-top: 20px;">Prepared for Justin Evans · DFA / Mana</div>
 <div class="cover-meta-sub" style="margin-top: 6px;">Murat Selim Ozturk · CEO, Trackon Software FZCO</div>
@@ -144,22 +144,22 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 
 <div class="eyebrow">Phase 1 · closed</div>
 
-# Delivered — and ahead of schedule
+# Delivered ahead of schedule
 
 <div class="row" style="margin-top: 14px;">
 <div class="col">
-<div class="li li-done"><strong>Live, secured API platform</strong> — delivered two days ahead of the committed date, verified end-to-end from the public internet.</div>
-<div class="li li-done"><strong>Master-data feed live</strong> — customers &amp; vendors served to Salesforce with the same IDs as DFA's reference files.</div>
-<div class="li li-done"><strong>Credentials with DFA</strong> — issued and handed over at the 14 August working session.</div>
+<div class="li li-done"><strong>Live, secured API platform</strong>: delivered two days ahead of the committed date, verified end-to-end from the public internet.</div>
+<div class="li li-done"><strong>Master-data feed live</strong>: customers &amp; vendors served to Salesforce with the same IDs as DFA's reference files.</div>
+<div class="li li-done"><strong>Credentials with DFA</strong>: issued and handed over at the 14 August working session.</div>
 </div>
 <div class="col">
-<div class="li li-done"><strong>Field mapping settled</strong> — ownership agreed per field; option lists delivered with Trackon IDs.</div>
-<div class="li li-done"><strong>Security &amp; integration pattern confirmed</strong> — OAuth 2.0 direct Salesforce callouts, no middleware needed.</div>
-<div class="li li-done"><strong>Solution Design Document</strong> — the full design, including the contract-creation API and reference-data refresh patterns.</div>
+<div class="li li-done"><strong>Field mapping settled</strong>: ownership agreed per field; option lists delivered with Trackon IDs.</div>
+<div class="li li-done"><strong>Security &amp; integration pattern confirmed</strong>: OAuth 2.0 direct Salesforce callouts, no middleware needed.</div>
+<div class="li li-done"><strong>Solution Design Document</strong>: the full design, including the contract-creation API and reference-data refresh patterns.</div>
 </div>
 </div>
 
-<div class="caption">Phase 1 was quoted at ≈ 3 weeks of design work — it closed with part of the integration already running in production.</div>
+<div class="caption">Phase 1 was quoted at ≈ 3 weeks of design work. It closed with part of the integration already running in production.</div>
 
 ---
 
@@ -169,14 +169,14 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 
 | Workstream | Scope | Status |
 |---|---|---|
-| **Contract-creation API** | Single-payload contract creation through Trackon's business rules — validation, mapping, idempotent retries, per-field error responses | |
-| **Exceptions console** | In-Trackon screen to resolve and re-process any contract that fails validation — never silently rejected | |
-| **Reference-data API** | Payment terms, currencies, products, packing, ports — live endpoints so Salesforce picklists never go stale | *Included* |
-| **Master-data feed** | Customers &amp; vendors — status, terms, credit limits, addresses | *Live* |
+| **Contract-creation API** | Single-payload contract creation through Trackon's business rules: validation, mapping, idempotent retries, per-field error responses | |
+| **Exceptions console** | In-Trackon screen to resolve and re-process any contract that fails validation, never silently rejected | |
+| **Reference-data API** | Payment terms, currencies, products, packing, ports: live endpoints so Salesforce picklists never go stale | *Included* |
+| **Master-data feed** | Customers &amp; vendors: status, terms, credit limits, addresses | *Live* |
 | **Integration backbone** | Monitoring, logging, coordination with DFA IT on the Salesforce connection | |
 | **Test &amp; go-live** | Sandbox testing with DFA's Salesforce team, UAT support, deployment, go-live support | |
 
-<div class="caption">Everything in the Solution Design Document — no scope gaps between the design and the quote.</div>
+<div class="caption">Everything in the Solution Design Document: no scope gaps between the design and the quote.</div>
 
 ---
 
@@ -186,7 +186,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 
 | Item | Detail | Price |
 |---|---|---|
-| Contract-creation API — the core build | validation, business rules, idempotency &amp; retry | **$21,500** |
+| Contract-creation API, the core build | validation, business rules, idempotency &amp; retry | **$21,500** |
 | Exceptions console in Trackon | resolve &amp; re-process failed contracts in place | **$5,500** |
 | Integration backbone &amp; monitoring | incl. coordination with DFA IT | **$3,000** |
 | Sandbox testing, UAT &amp; go-live support | through December go-live | **$4,500** |
@@ -199,7 +199,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 <div class="step-price hi" style="font-size: 44px;">$34,500</div>
 </div>
 <div class="col card" style="display:flex; flex-direction:column; justify-content:center;">
-<div class="card-body"><strong>Below the $36–48k range</strong> indicated in the June proposal. Phase 1 ran smoothly and part of the platform is already live — we are passing that efficiency on. Firm and itemised, fixed on the assumptions on the next pages.</div>
+<div class="card-body"><strong>Below the $36–48k range</strong> indicated in the June proposal. Phase 1 ran smoothly and part of the platform is already live, so we are passing that efficiency on. Firm and itemised, fixed on the assumptions on the next pages.</div>
 </div>
 </div>
 
@@ -209,10 +209,10 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 
 # Support &amp; maintenance
 
-<div class="intro">From go-live, the integration runs under a monthly support arrangement — as set out in the June proposal.</div>
+<div class="intro">From go-live, the integration runs under a monthly support arrangement, as set out in the June proposal.</div>
 
 <div class="recurring">
-<div><div class="r-label">Recurring · from go-live</div><div class="r-title">Integration Support &amp; Maintenance</div><div class="r-sub">Hosting and TLS/certificate management, monitoring and error handling, exceptions support, API upkeep and additive improvements within v1, and support to DFA IT — including underlying cloud platform fees.</div></div>
+<div><div class="r-label">Recurring · from go-live</div><div class="r-title">Integration Support &amp; Maintenance</div><div class="r-sub">Hosting and TLS/certificate management, monitoring and error handling, exceptions support, API upkeep and additive improvements within v1, and support to DFA IT, including underlying cloud platform fees.</div></div>
 <div class="r-price">$1,000/mo</div>
 </div>
 
@@ -225,7 +225,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 # Protecting the December go-live
 
 <div class="tl">
-<div class="seg hi"><div class="sd">By 4 Sep</div><div class="st">Acceptance</div><div class="ss">quote accepted · approval flow locked at review call</div></div>
+<div class="seg hi"><div class="sd">By 4 Sep</div><div class="st">Acceptance</div><div class="ss">quote accepted · approval flow confirmed</div></div>
 <div class="seg"><div class="sd">Sep → mid-Nov</div><div class="st">Build</div><div class="ss">~10 weeks · contract API, exceptions console, reference endpoints</div></div>
 <div class="seg"><div class="sd">mid-Nov</div><div class="st">Sandbox &amp; UAT</div><div class="ss">joint testing with DFA's Salesforce team</div></div>
 <div class="seg"><div class="sd">Dec</div><div class="st">Go-live</div><div class="ss">deployment, training, go-live support · contingency inside</div></div>
@@ -244,7 +244,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 <div class="li">DFA IT delivers the Salesforce side: approval trigger, outbound callout, field/picklist setup, the refresh job &amp; admin refresh button, sandbox, and Salesforce-side credentials.</div>
 <div class="li">The dedicated Salesforce sandbox is available at build start; DFA's Salesforce build progresses in parallel so UAT can begin mid-November.</div>
 <div class="li">Clauses selected by reference; clause wording, document generation and printing remain in Trackon.</div>
-<div class="li">Approval flow Option 1 or 2 (per the design document) — either is covered by this price.</div>
+<div class="li">Approval flow Option 1 or 2 (per the design document): either is covered by this price.</div>
 <div class="li">Quote valid to <strong>4 September 2026</strong>; the December timeline is achievable within that window.</div>
 </div>
 
@@ -257,9 +257,9 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 
 # Let's build it
 
-<div class="snum"><div class="badge">1</div><div class="scontent">Review call — walk through the design document and this quote; lock the approval flow. <strong>This week or early next.</strong></div></div>
-<div class="snum"><div class="badge">2</div><div class="scontent">Accept Phase 2: <strong>$34,500 fixed</strong> — 40% on acceptance, 40% at UAT start, 20% at go-live.</div></div>
-<div class="snum"><div class="badge">3</div><div class="scontent">Build starts immediately — platform, credentials and design are already in place. <strong>Live in December.</strong></div></div>
+<div class="snum"><div class="badge">1</div><div class="scontent">Accept Phase 2 by <strong>4 September</strong>: <strong>$34,500 fixed</strong>. 40% on acceptance, 40% at UAT start, 20% at go-live.</div></div>
+<div class="snum"><div class="badge">2</div><div class="scontent">Confirm the approval flow with your acceptance (Option 1 or 2 in the design document). Either is covered by this price.</div></div>
+<div class="snum"><div class="badge">3</div><div class="scontent">Build starts immediately. Platform, credentials and design are already in place. <strong>Live in December.</strong></div></div>
 
 <div style="margin-top: 38px; font-family: 'Outfit'; font-weight: 600; font-size: 18px; color: #fff;">Murat Selim Ozturk · CEO, Trackon Software FZCO</div>
 <div style="margin-top: 4px; font-family: 'Raleway'; font-weight: 400; font-size: 15px; color: #ffffff99;">sozturk@trackon.com</div>

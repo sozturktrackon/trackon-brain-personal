@@ -117,7 +117,7 @@ header: ''
 footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solution Design · Confidential · Prepared for DFA / Mana'
 ---
 
-<!-- INTERNAL DRAFT 2026-08-19 — not sent. Review before rendering: approval-flow recommendation wording (slide 11), field-mapping assumption list (slide 13). No Legacy table names anywhere — endpoints and payload groups only. -->
+<!-- INTERNAL DRAFT 2026-08-19, not sent. Review before rendering: approval-flow wording (slide 11), field-mapping assumption list (slide 13). No Legacy table names anywhere: endpoints and payload groups only. No em-dashes, no meeting proposals (Murat, 2026-08-19). -->
 
 <!-- _class: lead -->
 <!-- _paginate: false -->
@@ -131,7 +131,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 
 <div class="rule"></div>
 
-<div class="cover-sub">Phase 1 (Design &amp; Discovery) closure — the confirmed architecture, security model, live master-data feed, reference-data design, and the contract-creation API design for the Phase 2 build.</div>
+<div class="cover-sub">Phase 1 (Design &amp; Discovery) closure: the confirmed architecture, security model, live master-data feed, reference-data design, and the contract-creation API design for the Phase 2 build.</div>
 
 <div class="cover-meta" style="margin-top: 20px;">Prepared for Justin Evans &amp; Chad Shumate · DFA / Mana</div>
 <div class="cover-meta-sub" style="margin-top: 6px;">Trackon Software FZCO · Bibeesh Rathnapal · Murat Selim Ozturk</div>
@@ -144,16 +144,16 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 
 <div class="row" style="margin-top: 18px;">
 <div class="col">
-<div class="li li-done">Integration pattern &amp; security model confirmed with DFA IT — <strong>and already live</strong></div>
-<div class="li li-done">Master-data feed (customers &amp; vendors) — <strong>live, verified end-to-end with DFA credentials</strong></div>
+<div class="li li-done">Integration pattern &amp; security model confirmed with DFA IT, <strong>and already live</strong></div>
+<div class="li li-done">Master-data feed (customers &amp; vendors): <strong>live, verified end-to-end with DFA credentials</strong></div>
 <div class="li li-done">API credentials issued and handed to DFA (14 Aug working session)</div>
 <div class="li li-done">Field-mapping ownership settled per field (14 Aug working session)</div>
 </div>
 <div class="col">
 <div class="li li-done">Drop-down option lists delivered with Trackon IDs</div>
-<div class="li li-done">Reference-data design — how picklists stay current (this document)</div>
+<div class="li li-done">Reference-data design: how picklists stay current (this document)</div>
 <div class="li li-done">Contract-creation API design (this document)</div>
-<div class="li">Contract approval flow — <strong>two options, joint decision at the review call</strong></div>
+<div class="li">Contract approval flow: <strong>two options, confirmed with your Phase 2 acceptance</strong></div>
 </div>
 </div>
 
@@ -163,7 +163,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 
 <div class="eyebrow">Confirmed scope</div>
 
-# The agreed model — unchanged
+# The agreed model, unchanged
 
 <div class="row">
 <div class="col card card-accent">
@@ -176,7 +176,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 </div>
 </div>
 
-<div class="caption">One way in each direction. No two-way sync, no conflicting edits to reconcile — exactly as agreed in June and confirmed at kickoff.</div>
+<div class="caption">One way in each direction. No two-way sync, no conflicting edits to reconcile, exactly as agreed in June and confirmed at kickoff.</div>
 
 ---
 
@@ -205,7 +205,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 </div>
 
 <div style="margin-top: 24px;">
-<span class="pill">One API host</span><span class="pill">One credential set — already with DFA</span><span class="pill">Direct Salesforce callouts — no middleware required</span>
+<span class="pill">One API host</span><span class="pill">One credential set, already with DFA</span><span class="pill">Direct Salesforce callouts, no middleware required</span>
 </div>
 
 ---
@@ -216,18 +216,18 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 
 <div class="row" style="margin-top: 16px;">
 <div class="col">
-<div class="li"><strong>OAuth 2.0 client-credentials</strong> — Salesforce obtains a short-lived token from the token endpoint, then calls the data endpoints. Standard Named Credential setup on the Salesforce side.</div>
-<div class="li"><strong>TLS everywhere</strong> — all traffic over HTTPS on <strong>api.trackonsoftware.com</strong>; plain HTTP redirects to HTTPS.</div>
-<div class="li"><strong>Dedicated integration credentials</strong> — the DFA/Salesforce client is scoped to this integration's endpoints only, revocable independently of any other consumer.</div>
+<div class="li"><strong>OAuth 2.0 client-credentials</strong>: Salesforce obtains a short-lived token from the token endpoint, then calls the data endpoints. Standard Named Credential setup on the Salesforce side.</div>
+<div class="li"><strong>TLS everywhere</strong>: all traffic over HTTPS on <strong>api.trackonsoftware.com</strong>; plain HTTP redirects to HTTPS.</div>
+<div class="li"><strong>Dedicated integration credentials</strong>: the DFA/Salesforce client is scoped to this integration's endpoints only, revocable independently of any other consumer.</div>
 </div>
 <div class="col">
-<div class="li"><strong>Minimal surface</strong> — the API host serves only the integration endpoints; everything else returns 404. Only the agreed business fields are exposed.</div>
-<div class="li"><strong>Rate limiting</strong> — request-rate protection at the edge; well within normal integration traffic.</div>
-<div class="li"><strong>Scoped data serving</strong> — active, Dubai-branch counterparties only, matching the reference files DFA already holds.</div>
+<div class="li"><strong>Minimal surface</strong>: the API host serves only the integration endpoints; everything else returns 404. Only the agreed business fields are exposed.</div>
+<div class="li"><strong>Rate limiting</strong>: request-rate protection at the edge; well within normal integration traffic.</div>
+<div class="li"><strong>Scoped data serving</strong>: active, Dubai-branch counterparties only, matching the reference files DFA already holds.</div>
 </div>
 </div>
 
-<div class="caption">This posture is live and was verified end-to-end with DFA's own credentials — token issuance, authenticated reads, and correct 401/404 behavior from the public internet.</div>
+<div class="caption">This posture is live and was verified end-to-end with DFA's own credentials: token issuance, authenticated reads, and correct 401/404 behavior from the public internet.</div>
 
 ---
 
@@ -236,19 +236,19 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 # Customers &amp; vendors feed
 
 <div class="code">
-<span class="m">POST</span> /mana/oauth/token &nbsp;&nbsp;<span class="c">— OAuth 2.0 token (client credentials)</span><br/>
+<span class="m">POST</span> /mana/oauth/token &nbsp;&nbsp;<span class="c">· OAuth 2.0 token (client credentials)</span><br/>
 <span class="m">GET</span>&nbsp; /mana/v1/customers &nbsp;·&nbsp; /mana/v1/customers/{id}<br/>
 <span class="m">GET</span>&nbsp; /mana/v1/vendors &nbsp;&nbsp;&nbsp;·&nbsp; /mana/v1/vendors/{id}
 </div>
 
 <div class="row" style="margin-top: 20px;">
 <div class="col">
-<div class="li"><strong>Pull model</strong> — Salesforce pulls on its own schedule; pagination and delta filtering supported for efficient syncs.</div>
-<div class="li"><strong>Same keys as your reference files</strong> — records carry the same Main Account / Sub Account / Contact IDs as the Excel files DFA already mapped against.</div>
+<div class="li"><strong>Pull model</strong>: Salesforce pulls on its own schedule; pagination and delta filtering supported for efficient syncs.</div>
+<div class="li"><strong>Same keys as your reference files</strong>: records carry the same Main Account / Sub Account / Contact IDs as the Excel files DFA already mapped against.</div>
 </div>
 <div class="col">
-<div class="li"><strong>Active records only</strong> — a counterparty absent from a full pull has been deactivated in Trackon; Salesforce should deactivate its copy.</div>
-<div class="li"><strong>Fields per agreed scope</strong> — names, status, payment terms, credit limits, addresses. Changes always originate in Trackon.</div>
+<div class="li"><strong>Active records only</strong>: a counterparty absent from a full pull has been deactivated in Trackon; Salesforce should deactivate its copy.</div>
+<div class="li"><strong>Fields per agreed scope</strong>: names, status, payment terms, credit limits, addresses. Changes always originate in Trackon.</div>
 </div>
 </div>
 
@@ -266,7 +266,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 | **Department / Sub Department** | In Trackon | Derived from the trader Salesforce sends |
 | **Branch** | In Trackon | Mapped inside Trackon |
 | **Trader** | Done | Mapping already with DFA's Salesforce team |
-| **Container Type** | None needed | Salesforce values match Trackon — sent as-is |
+| **Container Type** | None needed | Salesforce values match Trackon, sent as-is |
 | **Currency · Product · Packing** | Trackon lists | Picklists in SF from Trackon option lists, ID recorded |
 | **Loading / Destination Port** | Trackon lists | Picklists in SF from Trackon option lists, ID recorded |
 | **Payment Terms** | Trackon lists | Recorded in SF, sent to Trackon as Trackon ID |
@@ -279,15 +279,15 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 
 # Picklists that never go stale
 
-<div class="intro">The option lists delivered today are a <strong>snapshot</strong>. Payment terms are added by Trackon users from time to time; ports and products evolve with trade patterns. Maintaining these by hand in Salesforce would drift within weeks — so Phase 2 exposes them as <strong>reference-data endpoints</strong> on the same API:</div>
+<div class="intro">The option lists delivered today are a <strong>snapshot</strong>. Payment terms are added by Trackon users from time to time; ports and products evolve with trade patterns. Maintaining these by hand in Salesforce would drift within weeks, so Phase 2 exposes them as <strong>reference-data endpoints</strong> on the same API:</div>
 
 <div class="code">
 <span class="m">GET</span> /mana/v1/reference/payment-terms &nbsp;·&nbsp; currencies &nbsp;·&nbsp; products &nbsp;·&nbsp; packing &nbsp;·&nbsp; ports<br/>
-<span class="c">— each returns the current option set: Trackon ID, display value, attributes</span>
+<span class="c">· each returns the current option set: Trackon ID, display value, attributes</span>
 </div>
 
 <div style="margin-top: 20px;">
-<span class="pill">Same host &amp; credentials as today</span><span class="pill">Full set per call — simple to consume</span><span class="pill">IDs stable over time</span>
+<span class="pill">Same host &amp; credentials as today</span><span class="pill">Full set per call, simple to consume</span><span class="pill">IDs stable over time</span>
 </div>
 
 ---
@@ -299,15 +299,15 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 <div class="row">
 <div class="col card">
 <div class="card-title">Option A · Live lookup</div>
-<div class="card-body">Salesforce queries the reference API <strong>at contract-entry time</strong>. Values are always current, but every picklist interaction depends on an external callout inside the data-entry flow — added latency, and entry blocks if the connection is briefly unavailable.</div>
+<div class="card-body">Salesforce queries the reference API <strong>at contract-entry time</strong>. Values are always current, but every picklist interaction depends on an external callout inside the data-entry flow: added latency, and entry blocks if the connection is briefly unavailable.</div>
 </div>
 <div class="col card card-accent">
 <div class="card-title">Option B · Scheduled + on-demand <span class="tag">Recommended</span></div>
-<div class="card-body">A <strong>nightly Salesforce job</strong> refreshes the picklists from the API. Alongside it, a <strong>"Refresh from Trackon" button</strong> for the Salesforce admin: when a trader needs a payment term just created in Trackon, the admin clicks refresh and it is available <strong>within a minute</strong> — no waiting for the nightly run, no manual maintenance ever.</div>
+<div class="card-body">A <strong>nightly Salesforce job</strong> refreshes the picklists from the API. Alongside it, a <strong>"Refresh from Trackon" button</strong> for the Salesforce admin: when a trader needs a payment term just created in Trackon, the admin clicks refresh and it is available <strong>within a minute</strong>: no waiting for the nightly run, no manual maintenance ever.</div>
 </div>
 </div>
 
-<div class="caption">We recommend Option B: reference values change occasionally, not constantly — a cached picklist with a one-click urgent refresh gives traders a fast entry form <em>and</em> same-day access to new values.</div>
+<div class="caption">We recommend Option B: reference values change occasionally, not constantly. A cached picklist with a one-click urgent refresh gives traders a fast entry form <em>and</em> same-day access to new values.</div>
 
 ---
 
@@ -315,7 +315,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 
 # The contract-creation API
 
-<div class="intro">A single endpoint accepts the complete contract in <strong>one JSON payload</strong> and creates it in <strong>one transaction</strong> — through Trackon's own business rules, exactly as a contract entered on a Trackon screen. Either the whole contract is created, or nothing is.</div>
+<div class="intro">A single endpoint accepts the complete contract in <strong>one JSON payload</strong> and creates it in <strong>one transaction</strong>: through Trackon's own business rules, exactly as a contract entered on a Trackon screen. Either the whole contract is created, or nothing is.</div>
 
 <div class="ws">
 <div class="ws-head"><div class="c1">Payload group</div><div class="c2">Contents</div></div>
@@ -324,50 +324,50 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 <div class="ws-row"><div class="c1">Pricing &amp; payment</div><div class="c2">Price terms, payment terms (Trackon ID), premiums where applicable</div></div>
 <div class="ws-row"><div class="c1">Quality</div><div class="c2">Quality parameters per product, defaults from the product master where not sent</div></div>
 <div class="ws-row"><div class="c1">Logistics</div><div class="c2">Loading / destination ports (Trackon IDs), container type, shipment periods</div></div>
-<div class="ws-row"><div class="c1">Clauses</div><div class="c2">Selected <strong>by reference</strong> — Salesforce sends clause IDs; wording, documents and printing stay in Trackon</div></div>
+<div class="ws-row"><div class="c1">Clauses</div><div class="c2">Selected <strong>by reference</strong>: Salesforce sends clause IDs; wording, documents and printing stay in Trackon</div></div>
 </div>
 
 <div style="margin-top: 16px;">
-<span class="pill">Idempotent — safe retries via a Salesforce-supplied reference ID</span><span class="pill">Clear per-field validation errors back to Salesforce</span>
+<span class="pill">Idempotent: safe retries via a Salesforce-supplied reference ID</span><span class="pill">Clear per-field validation errors back to Salesforce</span>
 </div>
 
 ---
 
-<div class="eyebrow">Design decision · review call</div>
+<div class="eyebrow">Design decision · your choice</div>
 
-# Approval flow — two options
+# Approval flow: two options
 
 <div class="row">
 <div class="col card">
 <div class="card-title">Option 1 · Approved on arrival</div>
-<div class="card-body">Salesforce sends the contract <strong>after SF approval</strong>; Trackon creates it directly in approved status. Simplest flow — but the contract document (clauses, print) is only produced <em>after</em> approval, so any clause adjustment means handling it in Trackon post-approval.</div>
+<div class="card-body">Salesforce sends the contract <strong>after SF approval</strong>; Trackon creates it directly in approved status. Simplest flow, but the contract document (clauses, print) is only produced <em>after</em> approval, so any clause adjustment means handling it in Trackon post-approval.</div>
 </div>
 <div class="col card">
 <div class="card-title">Option 2 · Draft, then approve in Trackon</div>
-<div class="card-body">Salesforce sends the contract at SF approval; Trackon creates it as a <strong>draft</strong>, the team finalises clauses and prints, then approves in Trackon. One extra step — but the printed contract is reviewed before it becomes binding in the system of record.</div>
+<div class="card-body">Salesforce sends the contract at SF approval; Trackon creates it as a <strong>draft</strong>, the team finalises clauses and prints, then approves in Trackon. One extra step, but the printed contract is reviewed before it becomes binding in the system of record.</div>
 </div>
 </div>
 
-<div class="caption">Both are fully supported by the same API — this is a <strong>workflow choice, not a cost difference</strong>. We'll walk through both at the review call and lock one before the build starts.</div>
+<div class="caption">Both are fully supported by the same API. This is a <strong>workflow choice, not a cost difference</strong>. Confirm your preference with the Phase 2 acceptance and we build accordingly.</div>
 
 ---
 
 <div class="eyebrow">When something fails</div>
 
-# Exceptions — never silent
+# No silent failures
 
 <div class="row" style="margin-top: 14px;">
 <div class="col">
-<div class="li"><strong>Immediate response to Salesforce</strong> — validation failures return specific, per-field errors so DFA's side can log and surface them.</div>
-<div class="li"><strong>Exceptions console in Trackon</strong> — any contract that arrives but cannot be created cleanly (e.g. a blocked counterparty, missing reference value) is queued on a Trackon screen for a user to resolve and re-process in place.</div>
+<div class="li"><strong>Immediate response to Salesforce</strong>: validation failures return specific, per-field errors so DFA's side can log and surface them.</div>
+<div class="li"><strong>Exceptions console in Trackon</strong>: any contract that arrives but cannot be created cleanly (e.g. a blocked counterparty, missing reference value) is queued on a Trackon screen for a user to resolve and re-process in place.</div>
 </div>
 <div class="col">
-<div class="li"><strong>Safe retries</strong> — the Salesforce reference ID makes re-sends idempotent: a retried contract is never created twice.</div>
-<div class="li"><strong>Monitoring</strong> — integration traffic and failures are monitored on the Trackon side as part of the support arrangement.</div>
+<div class="li"><strong>Safe retries</strong>: the Salesforce reference ID makes re-sends idempotent: a retried contract is never created twice.</div>
+<div class="li"><strong>Monitoring</strong>: integration traffic and failures are monitored on the Trackon side as part of the support arrangement.</div>
 </div>
 </div>
 
-<div class="caption">The principle from the June proposal, unchanged: flagged for a person to resolve — never silently rejected.</div>
+<div class="caption">The principle from the June proposal, unchanged: flagged for a person to resolve, never silently rejected.</div>
 
 ---
 
@@ -376,11 +376,11 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 # Assumptions &amp; open items
 
 <div style="margin-top: 12px;">
-<div class="li"><strong>Field-mapping workbook</strong> — the Phase 2 fixed price assumes the field set per this document (14 Aug session). DFA's field-mapping workbook and functional spec, mentioned at kickoff, will be used to confirm it; material additions would be scoped separately.</div>
-<div class="li"><strong>Approval flow</strong> — Option 1 or 2 to be locked at the review call; no cost impact either way.</div>
-<div class="li"><strong>Salesforce side</strong> — DFA IT builds the approval trigger, the callout, picklist setup and the refresh job/button; Trackon provides the endpoints and documentation.</div>
-<div class="li"><strong>Sandbox</strong> — the dedicated Salesforce sandbox for integration testing (Chad, kickoff) available at the start of the build.</div>
-<div class="li"><strong>Clauses &amp; documents</strong> — clause wording, document generation and printing remain in Trackon; Salesforce selects by reference.</div>
+<div class="li"><strong>Field-mapping workbook</strong>: the Phase 2 fixed price assumes the field set per this document (14 Aug session). DFA's field-mapping workbook and functional spec, mentioned at kickoff, will be used to confirm it; material additions would be scoped separately.</div>
+<div class="li"><strong>Approval flow</strong>: Option 1 or 2, confirmed with the Phase 2 acceptance; no cost impact either way.</div>
+<div class="li"><strong>Salesforce side</strong>: DFA IT builds the approval trigger, the callout, picklist setup and the refresh job/button; Trackon provides the endpoints and documentation.</div>
+<div class="li"><strong>Sandbox</strong>: the dedicated Salesforce sandbox for integration testing (Chad, kickoff) available at the start of the build.</div>
+<div class="li"><strong>Clauses &amp; documents</strong>: clause wording, document generation and printing remain in Trackon; Salesforce selects by reference.</div>
 </div>
 
 ---
@@ -394,9 +394,9 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 
 <div class="intro" style="margin-bottom: 8px;">Phase 1 is complete. Three steps take us to the December go-live:</div>
 
-<div class="li" style="color: #dbe6ff; font-size: 0.72em;"><strong>Review call</strong> — walk through this document and the Phase 2 proposal; lock the approval flow; confirm the field mapping against DFA's workbook.</div>
-<div class="li" style="color: #dbe6ff; font-size: 0.72em;"><strong>Phase 2 acceptance by 4 September</strong> — protects ~10 weeks of development plus UAT, training and contingency before December.</div>
-<div class="li" style="color: #dbe6ff; font-size: 0.72em;"><strong>Build starts immediately on acceptance</strong> — the API platform, credentials and sandbox path are already in place.</div>
+<div class="li" style="color: #dbe6ff; font-size: 0.72em;"><strong>Field-mapping workbook from DFA IT</strong>: confirms the mapping assumptions in this document before the build.</div>
+<div class="li" style="color: #dbe6ff; font-size: 0.72em;"><strong>Phase 2 acceptance by 4 September</strong>: protects ~10 weeks of development plus UAT, training and contingency before December. The approval-flow choice (Option 1 or 2) comes with it.</div>
+<div class="li" style="color: #dbe6ff; font-size: 0.72em;"><strong>Build starts immediately on acceptance</strong>: the API platform, credentials and sandbox path are already in place.</div>
 
 <div style="margin-top: 34px; font-family: 'Outfit'; font-weight: 600; font-size: 18px; color: #fff;">Trackon Software FZCO</div>
 <div style="margin-top: 4px; font-family: 'Raleway'; font-weight: 400; font-size: 15px; color: #ffffff99;">Bibeesh Rathnapal · bibeeshar@trackon.com &nbsp;·&nbsp; Murat Selim Ozturk · sozturk@trackon.com</div>
