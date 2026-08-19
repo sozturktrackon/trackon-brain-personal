@@ -26,7 +26,7 @@ style: |
     color: var(--heading);
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    padding: 50px 66px;
+    padding: 62px 96px;
     font-size: 22px;
     line-height: 1.5;
     display: flex;
@@ -38,6 +38,8 @@ style: |
   strong { color: var(--a); font-weight: 600; }
 
   section::after { font-family: 'Outfit'; font-size: 0.5em; color: var(--muted); }
+
+  img.logo { height: 110px; width: auto; margin: 6px 0 2px; }
 
   .eyebrow { font-family: 'Outfit'; font-weight: 700; font-size: 0.6em; color: var(--a); letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 14px; }
 
@@ -125,7 +127,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Solu
 
 <div class="kicker">Solution Design Document · August 2026</div>
 
-<img src="./trackon-logo.png" style="height: 40px; margin: 6px 0 2px;" />
+<img class="logo" src="./trackon-logo.png" />
 
 <div class="cover-title">Salesforce → Trackon<br/>Contract Integration</div>
 
