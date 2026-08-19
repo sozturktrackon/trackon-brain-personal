@@ -39,7 +39,7 @@ style: |
 
   section::after { font-family: 'Outfit'; font-size: 0.5em; color: var(--muted); }
 
-  img.logo { height: 110px; width: auto; margin: 6px 0 2px; }
+  img.logo { height: 185px; width: auto; margin: 4px 0 0; }
 
   .eyebrow { font-family: 'Outfit'; font-weight: 700; font-size: 0.6em; color: var(--a); letter-spacing: 0.2em; text-transform: uppercase; margin-bottom: 14px; }
 
