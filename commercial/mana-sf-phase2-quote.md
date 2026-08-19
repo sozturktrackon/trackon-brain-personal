@@ -210,9 +210,9 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 
 <div class="eyebrow">Once live</div>
 
-# Support &amp; maintenance
+# Integration support
 
-<div class="intro">From go-live, the integration runs under a monthly support arrangement, as set out in the June proposal.</div>
+<div class="intro">From go-live, the integration runs under a monthly support arrangement, as set out in the June proposal. This covers the day-to-day reality of an integration: user tickets, failed contracts, and error investigation.</div>
 
 <div class="recurring">
 <div><div class="r-label">Recurring · from go-live</div><div class="r-title">Integration Support</div><div class="r-sub">Ticket support for integration issues (contracts that fail to arrive in Trackon, validation and API errors), exception investigation and resolution, hosting, monitoring, and underlying platform fees. Covers routine integration support; new development and scope changes are quoted separately.</div></div>
