@@ -11,10 +11,10 @@ related: [customers/mana/mana-health, _personal/commercial/mana-sf-phase2-quote,
 
 Package: these two emails + [[_personal/commercial/mana-sf-phase1-closure-sdd|SDD deck]] + [[_personal/commercial/mana-sf-phase2-quote|Phase 2 quote deck]] + the option-list Excel.
 
-**Status 2026-08-19: Email 1 SENT by Bibeesh, but WITHOUT the Excel attachment — the workbook was never generated (checked: file does not exist). Hamza must produce it, then Bibeesh sends the follow-up below.**
+**Status 2026-08-19 EOD: ALL SENT. Package fully delivered.** Email 1 (SDD, missing Excel) → Email 1b follow-up WITH the option-list Excel (Bibeesh) → Email 2 (Phase 2 proposal, Murat → Justin + Josh, private). Ball is with DFA: acceptance by Sep 4 + field-mapping workbook.
 
-**Before sending, prep checklist:**
-- [ ] **STILL OPEN**: Hamza runs the reference SQLs from his TLB-2859 comment against Mana prod → one Excel workbook `Trackon-DropDown-Options.xlsx`, one sheet per field (Currency, Product, Packing, Loading Port/Place, Destination Port/Place, Payment Terms), columns: `Trackon ID`, `Value`, plus attributes where relevant (payment terms: days / percent split). Active values only, Dubai-branch scope (consistent with the live API).
+**Prep checklist (all closed):**
+- [x] Option-list Excel produced and sent with Bibeesh's follow-up (2026-08-19).
 - [x] Price DECIDED (Murat, 2026-08-19): **$34,500 fixed, deliberately BELOW the accepted $36–48k range** so approval is easy/fast (total build incl. Phase 1 = $42k, under even the June proposal's lowest indicative total). Payment schedule still drafted 40/40/20.
 - [x] PDFs rendered: `Trackon-SF-Integration-Solution-Design.pdf` + `Trackon-SF-Integration-Phase2-Proposal.pdf` (customer-facing names, in this folder).
 - [x] Bibeesh sent Email 1 (reply-all on the technical thread) with the SDD; Excel follow-up pending (Email 1b).
