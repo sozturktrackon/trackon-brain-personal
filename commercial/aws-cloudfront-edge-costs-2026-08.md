@@ -40,3 +40,10 @@ Legacy traffic (handful of tenants, web app + document up/downloads) is almost c
 Net: Option A is strictly cheaper than the current stack — roughly $15–20/mo total vs the GA+ALB fixed fees alone, before counting EC2.
 
 **Action before deciding: read actual monthly volume from ALB `ProcessedBytes` / request-count CloudWatch metrics to confirm the free-tier / Pro-plan fit.**
+
+## EC2 RI Marketplace economics (assessed 2026-08-19, updated same day from live inventory — decision: don't sell, repurpose)
+
+- Live inventory (us-west-1): 2× r6g.medium Standard **No Upfront → 2028-12-25** (prod + UDA Tomcats), 1× t4g.medium + 1× t3.micro Standard Partial Upfront → 2027-06-18 (runner + wireguard, stay regardless). The ~Sep/~Nov 2026 expiries are the RDS RIs, not EC2.
+- Marketplace: only Standard RIs sellable (Convertible excluded); seller registration requires **US bank account + W-9** — hard blocker for the FZCO (bank verification ~2 weeks). Sale recovers only remaining upfront value minus **AWS 12% service fee**; No Upfront → proceeds ≈ $0; the only value would be the buyer assuming ~2.3 yrs of recurring payments on the r6g pair — unreachable given the registration blocker.
+- **RI→credit conversion: no such AWS mechanism** (Murat asked 2026-08-19). Credits come from programs (Activate, MAP, account-team POC grants), never from RI buy-backs. Cross-product absorption also fails: RIs discount EC2 in us-west-1 (+ same-org accounts) only; TrackonAI/TradingDocs are serverless, mostly ap-south-1.
+- Decision: repurpose the r6g pair as free warm DR (CloudFront failover origin) until Dec 2028; let everything lapse at term, never renew.
