@@ -26,6 +26,16 @@ Cost analysis for fronting the OCI Tomcat with CloudFront + WAF (replacing GA + 
 - Business $200/mo (125M req, advanced WAF, private VPC origins), Premium $1,000/mo — irrelevant at our scale
 - Caveat: verify flat plans support custom public origins (OCI) with all HTTP methods before committing; PAYG definitely does.
 
+## Full-migration economics (Murat's calculation, 2026-08-19 — verified against live account data)
+
+- AWS before (everything incl. Legacy RDS Oracle LI DBs + serverless products): **≈ $2,200/mo**
+- AWS after full Legacy migration: serverless software $350–400 + EC2 estate ~$100 (measured: $94 → $65–70 post-cleanup, leaving room for CloudFront+WAF $15–20) = **≈ $500/mo** → **$1,700/mo AWS reduction**
+- OCI: $15K/yr Universal Credits ≈ **$1,250/mo** (committed, fixed regardless of usage)
+- **Net total infrastructure reduction ≈ $450–500/mo** ($2,200 → ~$1,750)
+- Understated: the $2,200 baseline would have RISEN at the Sep/Nov RDS RI expiries (on-demand rollover), so savings vs the do-nothing world are larger.
+- Non-cash win: cures the Oracle licensing exposure from serving customers on AWS RDS License-Included databases.
+- Lever for next contract year: UDA→TrackonAI migration would let the OCI commitment renew smaller than $15K.
+
 ## Expected bill for Legacy tenants
 
 Legacy traffic (handful of tenants, web app + document up/downloads) is almost certainly under 1 TB and 10M requests/month → **PAYG CloudFront ≈ $0 + a few cents of upload-to-origin transfer + $10–20 WAF, or simply the Pro plan at flat $15/mo.** OCI-side egress to CloudFront is covered by OCI's 10 TB/month free egress.
