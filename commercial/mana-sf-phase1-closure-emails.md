@@ -34,18 +34,11 @@ Apologies for the wait. Please find attached the option lists for the remaining 
 - Destination Port / Place
 - Payment Terms
 
-Each sheet contains the **Trackon ID** and the display value. Salesforce should store the Trackon ID on the contract record. The label is for display only. (Container Type needs no action since your values already match Trackon, and the Trader mapping is with your Salesforce team, as discussed.)
+Each sheet contains the **Trackon ID** and the display value. Salesforce should store the Trackon ID on the contract record. (Container Type needs no action since your values already match Trackon, and the Trader mapping is with your Salesforce team, as discussed.)
 
-**One important note on Payment Terms** (and to a lesser degree Products and the Port lists): these values are not fixed. Trackon users occasionally add new payment terms, and new loading/discharge ports appear as trade patterns change. The attached lists are a snapshot to unblock your Salesforce setup, but they should not be maintained by hand going forward.
+One note on Payment Terms: Trackon users add new payment terms from time to time, so the attached lists are a snapshot and should not be maintained by hand going forward. These lists will be served by the Trackon API, and the attached **Solution Design Document** describes two ways Salesforce can keep the picklists current, including an on-demand refresh for urgent additions. The document also covers the rest of the Phase 1 design: architecture, security, the live master-data feed, the contract-creation API, and the two approval-flow options.
 
-These same lists will be available through the Trackon API, the same authenticated API your team already holds credentials for. Your Salesforce team can then keep the picklists current in one of two ways:
-
-1. **Live lookup**: Salesforce queries the API at contract-entry time. Always current, but adds an external callout inside the data-entry flow.
-2. **Scheduled refresh + on-demand refresh (our recommendation)**: a nightly Salesforce job pulls the current values from the API, plus a *"Refresh from Trackon"* button available to your Salesforce admin. If a trader needs a payment term that was just created in Trackon, the admin clicks refresh and it is available within a minute, with no waiting for the nightly run and no manual re-typing of values on the Salesforce side.
-
-Both patterns are described in the attached **Solution Design Document**, which records the full technical design: the confirmed architecture, the security model (live), the master-data feed (live and already in your team's hands), the reference-data design above, the contract-creation API design, and the two contract approval-flow options still to be settled together.
-
-One technical request for Chad's team: could you share the **field-mapping workbook and functional spec** mentioned at kickoff? We'd like to cross-check it against the field set we've designed the contract interface around, so any gaps surface now rather than during testing.
+One request for Chad's team: could you share the **field-mapping workbook and functional spec** mentioned at kickoff, so we can cross-check it against the contract interface field set before testing?
 
 Best regards,
 Bibeesh
