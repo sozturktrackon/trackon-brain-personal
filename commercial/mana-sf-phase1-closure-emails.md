@@ -11,8 +11,10 @@ related: [customers/mana/mana-health, _personal/commercial/mana-sf-phase2-quote,
 
 Package: these two emails + [[_personal/commercial/mana-sf-phase1-closure-sdd|SDD deck]] + [[_personal/commercial/mana-sf-phase2-quote|Phase 2 quote deck]] + the option-list Excel.
 
+**Status 2026-08-19: Email 1 SENT by Bibeesh, but WITHOUT the Excel attachment — the workbook was never generated (checked: file does not exist). Hamza must produce it, then Bibeesh sends the follow-up below.**
+
 **Before sending, prep checklist:**
-- [ ] Hamza runs the reference SQLs from his TLB-2859 comment against Mana prod → one Excel workbook, one sheet per field (Currency, Product, Packing, Loading Port/Place, Destination Port/Place, Payment Terms), columns: `Trackon ID`, `Value`, plus attributes where relevant (payment terms: days / percent split).
+- [ ] **STILL OPEN**: Hamza runs the reference SQLs from his TLB-2859 comment against Mana prod → one Excel workbook `Trackon-DropDown-Options.xlsx`, one sheet per field (Currency, Product, Packing, Loading Port/Place, Destination Port/Place, Payment Terms), columns: `Trackon ID`, `Value`, plus attributes where relevant (payment terms: days / percent split). Active values only, Dubai-branch scope (consistent with the live API).
 - [x] Price DECIDED (Murat, 2026-08-19): **$34,500 fixed, deliberately BELOW the accepted $36–48k range** so approval is easy/fast (total build incl. Phase 1 = $42k, under even the June proposal's lowest indicative total). Payment schedule still drafted 40/40/20.
 - [x] PDFs rendered: `Trackon-SF-Integration-Solution-Design.pdf` + `Trackon-SF-Integration-Phase2-Proposal.pdf` (customer-facing names, in this folder).
 - [ ] Bibeesh sends Email 1 (reply-all on Justin's thread) with the Excel + SDD; Murat sends Email 2 in the same thread ~1–2 hours later, same day, with the proposal.
@@ -44,6 +46,21 @@ Best regards,
 Bibeesh
 
 **Attachments:** `Trackon-DropDown-Options.xlsx` · `Trackon-SF-Integration-Solution-Design.pdf`
+
+---
+
+## Email 1b: Bibeesh → Justin (follow-up, missing attachment)
+
+**Subject:** Re: Drop Down Fields
+
+Hi Justin,
+
+Apologies, the option lists were missing from my earlier email. Please find them attached now.
+
+Best regards,
+Bibeesh
+
+**Attachment:** `Trackon-DropDown-Options.xlsx`
 
 ---
 
