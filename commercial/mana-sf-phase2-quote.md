@@ -176,7 +176,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 | **Reference-data API** | Payment terms, currencies, products, packing, ports: live endpoints so Salesforce picklists never go stale | *Included* |
 | **Master-data feed** | Customers &amp; vendors: status, terms, credit limits, addresses | *Live* |
 | **Integration backbone** | Monitoring, logging, coordination with DFA IT on the Salesforce connection | |
-| **Test &amp; go-live** | Sandbox testing with DFA's Salesforce team, UAT support, deployment, go-live support | |
+| **Test &amp; go-live** | Joint testing: DFA's Salesforce sandbox against a dedicated **Trackon staging environment**, then UAT, deployment and go-live support | |
 
 <div class="caption">Everything in the Solution Design Document: no scope gaps between the design and the quote.</div>
 
@@ -232,7 +232,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 <div class="tl">
 <div class="seg hi"><div class="sd">By 4 Sep</div><div class="st">Acceptance</div><div class="ss">quote accepted · approval flow confirmed</div></div>
 <div class="seg"><div class="sd">Sep → mid-Nov</div><div class="st">Build</div><div class="ss">~10 weeks · contract API, exceptions console, reference endpoints</div></div>
-<div class="seg"><div class="sd">mid-Nov</div><div class="st">Sandbox &amp; UAT</div><div class="ss">joint testing with DFA's Salesforce team</div></div>
+<div class="seg"><div class="sd">mid-Nov</div><div class="st">Sandbox &amp; UAT</div><div class="ss">DFA sandbox against Trackon staging</div></div>
 <div class="seg"><div class="sd">Dec</div><div class="st">Go-live</div><div class="ss">deployment, training, go-live support · contingency inside</div></div>
 </div>
 
@@ -248,6 +248,7 @@ footer: 'Trackon Software FZCO  ·  Salesforce → Trackon Integration  ·  Phas
 <div class="li">The field set per the Solution Design Document (14 Aug session). DFA's field-mapping workbook confirms it; <strong>material additions beyond it are scoped and priced separately</strong>.</div>
 <div class="li">DFA IT delivers the Salesforce side: approval trigger, outbound callout, field/picklist setup, the refresh job &amp; admin refresh button, sandbox, and Salesforce-side credentials.</div>
 <div class="li">The dedicated Salesforce sandbox is available at build start; DFA's Salesforce build progresses in parallel so UAT can begin mid-November.</div>
+<div class="li">Trackon provides a <strong>staging environment</strong> for all integration testing: no test contract ever touches the production system. Production endpoints are switched on at go-live.</div>
 <div class="li">Clauses selected by reference; clause wording, document generation and printing remain in Trackon.</div>
 <div class="li">Approval flow Option 1 or 2 (per the design document): either is covered by this price.</div>
 <div class="li">Quote valid to <strong>4 September 2026</strong>; the December timeline is achievable within that window.</div>
