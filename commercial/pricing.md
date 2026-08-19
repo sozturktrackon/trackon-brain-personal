@@ -78,12 +78,20 @@ Customers: [[customers/agrisar/agrisar-health|Agrisar]], [[customers/mana/mana-h
 
 ---
 
+## Product Pricing Anchors (2026)
+
+- **Pikiflow** (Murat, 2026-08-13): first few customers free (design partners); at go-live price **Jira-comparable, ~$15/user/month** as anchor. Open refinements: small platform minimum per tenant (real per-tenant infra: S3 Tables, DDB vector indexes, AVP); fetch-only workers possibly below the anchor.
+- **TradingDocs LC Comparison**: standalone line was **$399/month**; strategic direction is bundling into TrackonAI to remove that line for SME deals ([[products/tradingdocs/tradingdocs-roadmap]]).
+- **Longulf proposal (TradingDocs, Feb 2026)**: $22K year-1 = $10K implementation + $1K/mo — expired Mar 20; detail in [[_personal/prospects/longulf]].
+
+---
+
 ## Mana / DFA — Buyer Behaviour & Salesforce Integration (Jun 2026)
 
 **Price sensitivity lesson — Power BI proposal (earlier 2026):** Murat sent DFA a proposal to expose Trackon data for DFA's Power BI dashboards. Two options: (1) Daily CSV transfer — $20–50k setup + $2.5–7.5k/mo; (2) Dedicated DB — $35–70k setup + $5–5.5k/mo. **Justin found the cost huge and backed off the request entirely.** Takeaway: large upfront totals trigger retreat; lead with small, low-risk first steps.
 
 **Salesforce → Trackon integration (active, quote due Jun 24 2026):**
-- Quote structure: Phase 1 Design **$7,500 fixed**; Phase 2 Build **$36–48k**, fixed after Phase 1. Total ~$43.5–55.5k one-time. Anchored on $100/hr internal rate.
+- Quote structure: Phase 1 Design **$7,500 fixed** (PAID 2026-08); Phase 2 Build **$36–48k**, fixed after Phase 1. Total ~$43.5–55.5k one-time. Anchored on $100/hr internal rate. **UPDATE 2026-08-19: Phase 2 fixed quote set at $34,500 — deliberately below range for fast approval; full itemisation + support fee in [[_personal/commercial/mana-commercials]].**
 - **Do NOT expose the $100/hr rate in the proposal** — invites hours-haggling ($48k ÷ $100 = "480 hours?"). Quote fixed/value tied to scope.
 - **Do NOT bundle a standalone-instance migration.** Mana stays schema-per-tenant in shared Oracle DB; integration runs in front of the schema, low volume, no isolation forced. Bundling unrelated infra is what spooked Justin on Power BI.
 - **Mitigating factor:** integration was discussed in person in Vietnam (Jun 2026) with Justin + Josh together. Justin personally invested this time, more inclined to approve — lower back-fire risk than Power BI. Phased structure still recommended, but sticker-shock fear is reduced.

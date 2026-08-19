@@ -37,6 +37,16 @@ Single home for every monetary figure related to Mana/DFA. [[customers/mana/mana
 - Defederate + Exchange Online Archiving: $3/user/mo.
 - Custom build (journaling → SES → S3 → Athena): infra ~$10–20/mo; build ~80–160h → **$8–16k capped T&M candidate**.
 
+## Shipment tracking service (TradingDocs/SeaRates)
+
+- **Mana pays EUR 500/month (~$6,000/yr)** for shipment tracking; earlier structure was $580/month API pass-through (Feb-2026 decision moved it to a bundled fee — see [[_personal/commercial/pricing]]).
+- SeaRates costs us **$6,600/yr** (cross-month double counting) → margin **−$600/yr, cash-negative**. **$2.50/shipment restructure proposal** sent to Josh 2026-03-30 — no response.
+- Carrier-direct strategy ([[decisions/2026-carrier-direct-api-strategy]]): top-5 direct + SeaRates base plan $1,650/yr → margin **+$4,350**; top-9 direct (~$800/yr) → **+$5,200**. Even the current fee becomes profitable — Josh negotiation moot.
+
+## Customer facts
+
+- **Mana revenue ≈ $700M/yr** (2026) — well above the AED 50M Tier-1 e-invoicing threshold.
+
 ## Other
 
 - Mac Ross (Mana's e-invoicing ASP + tax consultant): **~$3k/yr for 3 services**, negotiated by Prashant/CFO.
