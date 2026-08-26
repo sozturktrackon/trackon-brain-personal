@@ -43,6 +43,7 @@ Implementation itemisation (A / B): discovery & process design 10,000 / 10,000; 
 
 ## Open before sending
 - Mr. Shilpen's surname and email (for the send).
+- **Vaibhav** (Spectrum, role unknown as of 2026-08-26): Murat asked whether to copy him. Rule applies: full proposal with pricing only if he is a commercial decision-maker; otherwise a scope-only cut (slides 1 to 7) goes to him separately and pricing goes to Mr. Shilpen alone.
 - Confirm the HO/shop user split if known; deck states 10/30 as an assumption.
 
 ## Delivery scope committed on the deck (if accepted)
