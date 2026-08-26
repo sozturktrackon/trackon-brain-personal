@@ -43,7 +43,13 @@ Implementation itemisation (A / B): discovery & process design 10,000 / 10,000; 
 
 ## Open before sending
 - Mr. Shilpen's surname and email (for the send).
-- **Vaibhav** (Spectrum, role unknown as of 2026-08-26): Murat asked whether to copy him. Rule applies: full proposal with pricing only if he is a commercial decision-maker; otherwise a scope-only cut (slides 1 to 7) goes to him separately and pricing goes to Mr. Shilpen alone.
+- **Decision 2026-08-26: proposal goes to Mr. Shilpen ONLY.** Vaibhav gets a personal heads-up (WhatsApp/call), not the commercial email.
+
+## Referral: Vaibhav (accountant)
+- **Who**: Vaibhav is Spectrum's accountant. Spectrum asked him for a good software; he promoted Trackon. He is the origin of this lead. He said he did not want a commission.
+- **Murat's intent (2026-08-26)**: pay him ~20% commission anyway, "even from my pocket"; no referral mechanism exists yet.
+- **Assessment given**: base it on **collected first-year subscription** (Option A: AED 188,403 → 20% = AED 37,680; year-1 total incl. 45k implementation would be 233,403 → 46,680; implementation-only 9,000), paid **quarterly as collected**, **from Trackon** under a one-page referral agreement (deductible, auditable, reusable), never personally (buyer's-advisor kickback optics). His refusal is probably conflict-of-interest, so the clean route is a one-sentence disclosure by Vaibhav to Shilpen ("Trackon has an advisor referral programme, I am part of it"); if he won't disclose, then gift + free Trackon access for his practice instead of cash.
+- **Status**: recommendation given, not decided. Nothing payable until Spectrum accepts and the first invoice is collected. If adopted, this becomes Trackon's first referral-partner mechanism (log it in [[_personal/commercial/pricing]] when decided).
 - Confirm the HO/shop user split if known; deck states 10/30 as an assumption.
 
 ## Delivery scope committed on the deck (if accepted)
