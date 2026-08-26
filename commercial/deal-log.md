@@ -3,7 +3,7 @@ type: commercial
 status: active
 tags: [pricing, deals, commercial, proposals, confidential]
 created: 2026-03-30
-updated: 2026-07-06
+updated: 2026-08-26
 source: conversation-history
 related: [_personal/crm/crm-contacts.md, _personal/strategy/positioning-and-messaging.md]
 ---
@@ -40,6 +40,14 @@ Related: [[_personal/commercial/pricing|Pricing]], [[_personal/commercial/deal-n
 ---
 
 ## Active Proposals
+
+### Spectrum DMCC — Trackon Legacy + mobile POS (Africa shops), proposal prepared 2026-08-26 (not yet sent)
+- 40 users: Dubai head office + shops in Africa (Kinshasa). Two options on one deck: **A: Trackon Legacy + APEX POS app (recommended)**, **B: TrackonAI**.
+- **New price tier introduced: Africa shop / POS-only user at AED 190/user/month (75% off the standard AED 765).** Same shop rate on both options.
+- Option A (10 HO + 30 shop assumed): platform 4,593 + 10 × 765 + 30 × 190 = **AED 17,943/mo**; implementation **AED 30,000** one-time; 6 weeks to go-live.
+- Option B: 10 × 1,098 + 30 × 190 = **AED 16,680/mo**; implementation **AED 45,000** (includes building shop screens on TrackonAI); 10 to 12 weeks.
+- Standard onboarding offer applied (50% off first 3 months); subscription starts at go-live; implementation invoiced on acceptance. Valid to 2026-09-25.
+- Deck: `_personal/commercial/spectrum/Trackon-Spectrum-Proposal.{md,pdf}`. Full notes: [[_personal/prospects/spectrum]].
 
 ### Mana — Claims Console, proposal prepared 2026-07-06
 - **Requested by Karan** (new Mana contact, role TBD); proposal addressed to **Josh Hosking** (josh.hosking@mana-dmcc.com).
