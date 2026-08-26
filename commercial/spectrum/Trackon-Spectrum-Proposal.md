@@ -453,7 +453,7 @@ footer: 'Trackon Software FZCO  ·  Spectrum DMCC  ·  Commercial Proposal · Co
 <div class="row" style="margin-top: 10px;">
 <div class="col card card-accent">
 <div class="card-title">Hosting</div>
-<div class="card-body">Your system runs on <strong>Oracle Cloud Infrastructure in the UAE (Dubai region)</strong>, on Trackon's managed shared estate, in your own isolated database. Head office and shops connect over encrypted HTTPS. A dedicated server in the same region is available as an option.</div>
+<div class="card-body">Your demo environment runs today in the <strong>continental United States</strong>. For production we place your system in the <strong>region best connected to your head office and shops</strong>: <strong>Dubai</strong> by default, or Johannesburg, Mumbai or a European region if connectivity tests from your shops show a better result. We run the tests in week 1 and confirm the location with you. Your data sits in your own isolated database on Trackon's managed estate, reached over encrypted HTTPS.</div>
 </div>
 <div class="col card card-accent">
 <div class="card-title">Backups and your data</div>
