@@ -98,6 +98,12 @@ style: |
   section.tcmp th:first-child, section.tcmp td:first-child { width: 24%; }
   section.tcmp th:nth-child(2), section.tcmp td:nth-child(2) { width: 38%; }
   section.tcmp th:last-child, section.tcmp td:last-child { width: 38%; text-align: left; }
+  section.t4 th:first-child, section.t4 td:first-child { width: 28%; }
+  section.t4 th:nth-child(2), section.t4 td:nth-child(2) { width: 44%; }
+  section.t4 th:nth-child(3), section.t4 td:nth-child(3) { width: 14%; text-align: right; }
+  section.t4 th:last-child, section.t4 td:last-child { width: 14%; text-align: right; }
+  section.t4 table { font-size: 0.54em; }
+  section.t4 td, section.t4 th { padding: 8px 14px; }
   section.tprice table { font-size: 0.5em; margin-top: 4px; }
   section.tprice td, section.tprice th { padding: 6px 14px; }
   section.tprice h1 { font-size: 1.9em; }
@@ -168,7 +174,7 @@ footer: 'Trackon Software FZCO  ·  Spectrum DMCC  ·  Commercial Proposal · Co
 
 <div class="cover-sub">Head-office trading, shipping and finance on Trackon, with a mobile Point of Sale app for your shop staff on any Android or iPhone. Scope, implementation plan and pricing for 40 users, with two platform options.</div>
 
-<div class="cover-meta" style="margin-top: 20px;">Prepared for Spectrum DMCC</div>
+<div class="cover-meta" style="margin-top: 20px;">Prepared for Mr. Shilpen · Spectrum DMCC</div>
 <div class="cover-meta-sub" style="margin-top: 6px;">Murat Selim Ozturk · CEO, Trackon Software FZCO</div>
 
 ---
@@ -281,28 +287,47 @@ footer: 'Trackon Software FZCO  ·  Spectrum DMCC  ·  Commercial Proposal · Co
 
 | Workstream | What we do | Input from Spectrum |
 |---|---|---|
+| **Discovery and process design** | Requirements workshops with head office and shop managers; how goods, money and information flow today; the target process written down and agreed before configuration starts | Workshop time, sample documents |
 | **Company and shop setup** | Dubai head office, the depot and every shop as a branch with its own warehouse; currencies, tax, chart of accounts, users and roles | List of shops and staff |
 | **Master data and opening balances** | Products, suppliers, customers, opening stock per shop and opening balances loaded from your Excel files | Data in our Excel templates |
 | **Head-office processes** | Purchase contracts, international shipments, landed cost, transfers to the depot and shops, configured to how you work | Two working sessions |
 | **Shop app rollout** | POS app configured per shop; the new Record Expenses screen built and approved; your branding; home-screen install on staff phones | Approval of the expenses screen |
 | **Reports** | Standard report pack with your header and footer; sales, stock, expenses and profitability per shop and per product | Sign-off |
-| **Training and go-live** | Head-office training online; short sessions for shop staff with one-page guides; go-live support and two weeks of hypercare | Availability of staff |
+| **Testing, training and go-live** | Four weeks of testing with your team on real data; head-office training online; short sessions for shop staff with one-page guides; go-live support and hypercare | Testers, availability of staff |
 
 ---
 
 <div class="eyebrow">Timeline</div>
 
-# Live in six weeks
+# Live in three months
 
 <div class="tl">
-<div class="seg hi"><div class="sd">Week 1</div><div class="st">Kick-off and setup</div><div class="ss">branches, shops, warehouses, users, currencies, accounts</div></div>
-<div class="seg"><div class="sd">Weeks 2 to 3</div><div class="st">Data and processes</div><div class="ss">master data and opening stock loaded · head-office processes configured</div></div>
-<div class="seg"><div class="sd">Weeks 3 to 4</div><div class="st">Shop app</div><div class="ss">per-shop configuration · Record Expenses screen · branding</div></div>
-<div class="seg"><div class="sd">Week 5</div><div class="st">Training</div><div class="ss">head office online · shop staff by shop</div></div>
-<div class="seg"><div class="sd">Week 6</div><div class="st">Go-live</div><div class="ss">first live sales · two weeks hypercare</div></div>
+<div class="seg hi"><div class="sd">Week 1</div><div class="st">Kick-off</div><div class="ss">your environment provisioned · discovery workshops start</div></div>
+<div class="seg"><div class="sd">Weeks 2 to 6</div><div class="st">Build and configure</div><div class="ss">processes, master data, opening stock, shop app, Record Expenses screen, reports · <strong>system ready end of week 6</strong></div></div>
+<div class="seg"><div class="sd">Weeks 7 to 10</div><div class="st">Testing and training</div><div class="ss">your team tests on real data · corrections · head office and shop staff trained</div></div>
+<div class="seg"><div class="sd">Weeks 11 to 13</div><div class="st">Go-live</div><div class="ss">first live sales · hypercare through the end of the period</div></div>
 </div>
 
-<div class="caption">The mobile app already exists and runs on your own environment, so the timeline is driven by data readiness and staff availability, not development. <strong>Your monthly subscription starts at go-live, not at signature.</strong></div>
+<div class="caption">Six weeks to a ready system, four weeks of testing with your people, then go-live: about three months end to end. The mobile app already exists on your environment, so the plan is driven by requirements, data readiness and staff availability, not development.</div>
+
+---
+
+<!-- _class: t4 -->
+
+<div class="eyebrow">Implementation</div>
+
+# What the implementation fee covers
+
+| Item | Detail | Option A (AED) | Option B (AED) |
+|---|---|---|---|
+| Discovery and process design | Workshops, current and target process, agreed design | **10,000** | **10,000** |
+| Company and shop setup, data load | Branches, warehouses, users, currencies, accounts; master data and opening stock from Excel | **10,000** | **10,000** |
+| Shop app rollout | Per-shop configuration, branding, Record Expenses screen, phone installation | **12,000** | **32,000** |
+| Reports | Standard pack with your header and footer; sales, stock, expenses and profitability per shop | **5,000** | **5,000** |
+| Testing, training and go-live | Four weeks of testing support, training for 40 users, go-live and hypercare | **8,000** | **8,000** |
+| **Total, one-time** | | **45,000** | **65,000** |
+
+<div class="caption">Option B is higher because the shop screens are built on TrackonAI for you; on Option A they already exist. Invoiced on acceptance. Prices in AED, exclusive of 5% VAT.</div>
 
 ---
 
@@ -324,21 +349,21 @@ footer: 'Trackon Software FZCO  ·  Spectrum DMCC  ·  Commercial Proposal · Co
 
 <div class="row">
 <div class="col card step-hi card-center">
-<div class="step-tag hi">Monthly · from go-live</div>
+<div class="step-tag hi">Monthly · from environment ready</div>
 <div class="step-price hi">AED 17,943</div>
-<div class="step-sub">first 3 months at 50%: AED 8,972 per month</div>
+<div class="step-sub">months 1 to 3 at 50%: AED 8,972 per month</div>
 </div>
 <div class="col card card-center">
 <div class="step-tag">One-time · implementation</div>
-<div class="step-price">AED 30,000</div>
-<div class="step-sub">all six workstreams, incl. the expenses screen</div>
+<div class="step-price">AED 45,000</div>
+<div class="step-sub">all workstreams, incl. the expenses screen</div>
 </div>
 <div class="col card" style="display:flex; flex-direction:column; justify-content:center;">
 <div class="card-body"><strong>Africa shops rate: AED 190 per user, 75% below the standard AED 765.</strong> Shop staff need one focused app, not a full ERP seat. Add users any time at the same rates.</div>
 </div>
 </div>
 
-<div class="steps-note">Implementation invoiced on acceptance. Subscription monthly in advance from go-live. Prices in AED, exclusive of 5% VAT. Dedicated server available on request.</div>
+<div class="steps-note">Implementation invoiced on acceptance. Subscription monthly in advance from the week your environment is provisioned: 50% for months 1 to 3, full rate from month 4. Prices in AED, exclusive of 5% VAT. Dedicated server available on request.</div>
 
 ---
 
@@ -359,7 +384,7 @@ footer: 'Trackon Software FZCO  ·  Spectrum DMCC  ·  Commercial Proposal · Co
 <div class="col card">
 <div class="card-title">What is different for Spectrum</div>
 <div class="li">The shop screens (sell, receive, expenses) exist today on Trackon. On TrackonAI they are <strong>built for you during implementation</strong> on its mobile-friendly interface</div>
-<div class="li">Go-live in <strong>10 to 12 weeks</strong> instead of six</div>
+<div class="li">Go-live in <strong>four to five months</strong> instead of three</div>
 <div class="li">A younger product: fewer years in production, a faster release cycle</div>
 <div class="li">A migration path from Trackon to TrackonAI exists, so choosing Option A today does not close this door</div>
 </div>
@@ -383,21 +408,21 @@ footer: 'Trackon Software FZCO  ·  Spectrum DMCC  ·  Commercial Proposal · Co
 
 <div class="row">
 <div class="col card card-center">
-<div class="step-tag">Monthly · from go-live</div>
+<div class="step-tag">Monthly · from environment ready</div>
 <div class="step-price">AED 16,680</div>
-<div class="step-sub">first 3 months at 50%: AED 8,340 per month</div>
+<div class="step-sub">months 1 to 3 at 50%: AED 8,340 per month</div>
 </div>
 <div class="col card card-center">
 <div class="step-tag">One-time · implementation</div>
-<div class="step-price">AED 45,000</div>
+<div class="step-price">AED 65,000</div>
 <div class="step-sub">incl. building the shop screens on TrackonAI</div>
 </div>
 <div class="col card" style="display:flex; flex-direction:column; justify-content:center;">
-<div class="card-body">Lower monthly, higher one-time, longer to go live. <strong>Our recommendation is Option A</strong>: the shop app is ready, you have seen it, and your shops can be selling on it in six weeks.</div>
+<div class="card-body">Lower monthly, higher one-time, longer to go live. <strong>Our recommendation is Option A</strong>: the shop app is ready, you have seen it, and your shops can be selling on it within three months.</div>
 </div>
 </div>
 
-<div class="steps-note">Implementation invoiced on acceptance. Subscription monthly in advance from go-live. Prices in AED, exclusive of 5% VAT.</div>
+<div class="steps-note">Implementation invoiced on acceptance. Subscription monthly in advance from the week your environment is provisioned: 50% for months 1 to 3, full rate from month 4. Prices in AED, exclusive of 5% VAT.</div>
 
 ---
 
@@ -411,11 +436,11 @@ footer: 'Trackon Software FZCO  ·  Spectrum DMCC  ·  Commercial Proposal · Co
 |---|---|---|
 | **Maturity** | In production with trading houses for over ten years | Newer platform, live with first customers since 2025 |
 | **Shop app** | Ready and demonstrated on your environment | Built for you during implementation |
-| **Time to go-live** | 6 weeks | 10 to 12 weeks |
+| **Time to go-live** | About 3 months | 4 to 5 months |
 | **Reports** | Standard pack, built by Trackon to your needs | Self-service designer plus AI assistant |
 | **Monthly, 40 users** | AED 17,943 | AED 16,680 |
-| **One-time** | AED 30,000 | AED 45,000 |
-| **Best for** | Selling from your shops this quarter | A longer runway and a preference for the newest platform |
+| **One-time** | AED 45,000 | AED 65,000 |
+| **Best for** | Selling from your shops before year end | A longer runway and a preference for the newest platform |
 
 <div class="caption">Both options use the same Africa shops rate of AED 190 per shop user. Confirm your choice with your acceptance.</div>
 
@@ -432,7 +457,8 @@ footer: 'Trackon Software FZCO  ·  Spectrum DMCC  ·  Commercial Proposal · Co
 <div class="li">Reports are the standard pack with your header and footer plus the shop reports listed. Bespoke documents and reports beyond that are quoted separately.</div>
 <div class="li">Support: ticketing portal and email, Monday to Friday 09:00 to 18:00 Dubai time; response within 4 business hours for system-down issues.</div>
 <div class="li">Contract: Trackon SaaS agreement, 12-month initial term, annual renewal. Your data is yours, with export rights. UAE law.</div>
-<div class="li">Proposal valid to <strong>25 September 2026</strong>; the six-week timeline holds for acceptance within that window.</div>
+<div class="li"><strong>Subscription starts the week your environment is provisioned</strong> (week 1), at 50% for months 1 to 3, full rate from month 4. Implementation is invoiced on acceptance.</div>
+<div class="li">Proposal valid to <strong>25 September 2026</strong>; the three-month timeline holds for acceptance within that window.</div>
 </div>
 
 ---
@@ -445,8 +471,8 @@ footer: 'Trackon Software FZCO  ·  Spectrum DMCC  ·  Commercial Proposal · Co
 # Let's put your shops on it
 
 <div class="snum"><div class="badge">1</div><div class="scontent">Accept by <strong>25 September 2026</strong> and confirm Option A or B, plus your head-office and shop user counts.</div></div>
-<div class="snum"><div class="badge">2</div><div class="scontent">We issue the agreement and the implementation invoice, and send the Excel templates for your shops, products and stock.</div></div>
-<div class="snum"><div class="badge">3</div><div class="scontent">Kick-off the following week. With Option A your shops are selling on the app <strong>six weeks later</strong>.</div></div>
+<div class="snum"><div class="badge">2</div><div class="scontent">We issue the agreement and the implementation invoice, provision your environment, and send the Excel templates for your shops, products and stock.</div></div>
+<div class="snum"><div class="badge">3</div><div class="scontent">Kick-off the following week: system ready in six weeks, four weeks of testing, and with Option A your shops are selling on the app <strong>within three months</strong>.</div></div>
 
 <div style="margin-top: 38px; font-family: 'Outfit'; font-weight: 600; font-size: 18px; color: #fff;">Murat Selim Ozturk · CEO, Trackon Software FZCO</div>
 <div style="margin-top: 4px; font-family: 'Raleway'; font-weight: 400; font-size: 15px; color: #ffffff99;">sozturk@trackon.com</div>

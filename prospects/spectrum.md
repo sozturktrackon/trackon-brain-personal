@@ -18,8 +18,8 @@ related: [products/trackon-legacy/apex-pos-project.md, products/trackon-legacy/l
 - They stated **40 users**. They asked for a **commercial proposal**. Murat: "good feeling about them."
 - Scope they described (Murat, 2026-08-26): shops **record their own expenses**, **accept goods**, **execute sales**; shops **add their own customers** = future. Head office handles international shipping and goods movement to the shops.
 
-## Proposal (prepared 2026-08-26, not yet sent)
-Deck + PDF: `_personal/commercial/spectrum/Trackon-Spectrum-Proposal.{md,pdf}` (built from `_templates/customer-deck-marp.md`). 13 slides: understanding, solution flow, HO coverage, POS app (ready + Record Expenses added + customers later), the work (6 workstreams), 6-week timeline, Option A pricing, Option B TrackonAI, Option B pricing, side-by-side, assumptions, next steps.
+## Proposal (prepared 2026-08-26, revised same day after Murat's review; not yet sent)
+Contact: **Mr. Shilpen** (Spectrum DMCC; surname/email not yet on file). Deck + PDF: `_personal/commercial/spectrum/Trackon-Spectrum-Proposal.{md,pdf}` (built from `_templates/customer-deck-marp.md`). 14 slides: understanding, solution flow, HO coverage, POS app (ready + Record Expenses added + customers later), the work (7 workstreams incl. discovery), 3-month timeline, itemised implementation fee (A vs B), Option A pricing, Option B TrackonAI, Option B pricing, side-by-side, assumptions, next steps.
 
 **Pricing (AED, excl. 5% VAT), assumed split 10 HO + 30 shop users (stated on deck; totals adjust at unit rates):**
 
@@ -29,19 +29,21 @@ Deck + PDF: `_personal/commercial/spectrum/Trackon-Spectrum-Proposal.{md,pdf}` (
 | HO user | 765 (standard) | 1,098 (= USD 299 list) |
 | **Africa shop user** | **190 (new tier, 75% off 765)** | **190 (same rate)** |
 | Monthly, 40 users | **17,943** | **16,680** |
-| Onboarding offer | first 3 months at 50% (8,972) | first 3 months at 50% (8,340) |
-| Implementation, one-time | **30,000** (incl. Record Expenses screen) | **45,000** (incl. building shop screens on TrackonAI) |
-| Go-live | 6 weeks | 10 to 12 weeks |
+| Months 1 to 3 at 50% | 8,972 | 8,340 |
+| Implementation, one-time | **45,000** | **65,000** |
+| Go-live | ~3 months (6 wk ready + 4 wk testing + go-live) | 4 to 5 months |
 
-- Payment: implementation invoiced on acceptance (standard: always in advance); subscription monthly in advance **from go-live, not signature**.
+Implementation itemisation (A / B): discovery & process design 10,000 / 10,000; setup + data load 10,000 / 10,000; shop app rollout incl. Record Expenses 12,000 / 32,000 (B builds shop screens on TrackonAI); reports 5,000 / 5,000; testing, training, go-live 8,000 / 8,000.
+
+- **Murat's review decisions (2026-08-26)**: (1) implementation fee bumped from 30k to 45k (A) because requirements discovery on an established multi-shop business takes real time; B 45k → 65k; (2) timeline lengthened from 6 weeks to ~3 months: "6 weeks system ready, 4 weeks testing, ~3 months total"; (3) **subscription starts when the environment is provisioned (week 1, i.e. effectively at signing), NOT at go-live**, at 50% for months 1 to 3 then full rate: otherwise the customer pays implementation and drags the project. The 50% period deliberately coincides with the implementation period.
+- Payment: implementation invoiced on acceptance (standard: always in advance).
 - Validity / acceptance deadline: **25 September 2026**.
 - Dedicated server: "available on request" only, no figure on the deck.
 - Rationale: two-tier user pricing so the 30 shop users don't carry a full ERP seat; ~AED 450/user blended (~USD 122), in line with the Agrisar benchmark in [[_personal/commercial/pricing]]. TrackonAI shown honestly as the newer platform: lower run-rate, higher one-time, longer timeline; recommendation stays Option A because the POS app is built and demoed.
 
 ## Open before sending
-- Contact name for the "Prepared for" line (deck currently says "Prepared for Spectrum DMCC" only; no email trail found in Gmail).
+- Mr. Shilpen's surname and email (for the send).
 - Confirm the HO/shop user split if known; deck states 10/30 as an assumption.
-- Decide whether the 50%-first-3-months onboarding offer stays (standard for smaller prospects per [[_personal/strategy/strategic-decisions]]).
 
 ## Delivery scope committed on the deck (if accepted)
 - New POS screen **Record Expenses** (shop expense entry, HO approval, flows into shop profitability). Backlog line in [[products/trackon-legacy/trackon-legacy-backlog]].
