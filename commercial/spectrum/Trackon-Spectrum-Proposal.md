@@ -446,6 +446,29 @@ footer: 'Trackon Software FZCO  ·  Spectrum DMCC  ·  Commercial Proposal · Co
 
 ---
 
+<div class="eyebrow">Hosting, data and connectivity</div>
+
+# Where your system runs and what we are responsible for
+
+<div class="row" style="margin-top: 10px;">
+<div class="col card card-accent">
+<div class="card-title">Hosting</div>
+<div class="card-body">Your system runs on <strong>Oracle Cloud Infrastructure in the United States</strong>, on Trackon's managed estate, in your own isolated database. Head office and shops connect over encrypted HTTPS. Hosting in the <strong>UAE (Dubai region)</strong> is available under the dedicated-server option.</div>
+</div>
+<div class="col card card-accent">
+<div class="card-title">Backups and your data</div>
+<div class="card-body"><strong>Nightly encrypted backups</strong> (AES-256) are copied to an independent cloud provider in the United States and kept for 35 days, with a monthly locked archive retained for over a year. Restores are tested every quarter. Your data is your property, with export rights at any time.</div>
+</div>
+<div class="col card card-accent">
+<div class="card-title">Connectivity at the shops</div>
+<div class="card-body">Each shop connects through its <strong>local mobile network operator</strong> on the staff phones' data plans. Trackon is responsible for the system being available; <strong>network coverage, outages and data costs at the shops are between Spectrum and its operators</strong>. The app uses short, one-step submissions so it copes with weak signal, but it needs a connection to work.</div>
+</div>
+</div>
+
+<div class="caption">Head office uses its normal internet connection. Working without connectivity is possible as a separate, scoped piece of work.</div>
+
+---
+
 <div class="eyebrow">For clarity</div>
 
 # The prices assume

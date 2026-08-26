@@ -41,6 +41,11 @@ Implementation itemisation (A / B): discovery & process design 10,000 / 10,000; 
 - Dedicated server: "available on request" only, no figure on the deck.
 - Rationale: two-tier user pricing so the 30 shop users don't carry a full ERP seat; ~AED 450/user blended (~USD 122), in line with the Agrisar benchmark in [[_personal/commercial/pricing]]. TrackonAI shown honestly as the newer platform: lower run-rate, higher one-time, longer timeline; recommendation stays Option A because the POS app is built and demoed.
 
+## Hosting / connectivity statements on the deck (added 2026-08-26)
+- Murat asked to state "server hosted in Dubai, backups to continental US encrypted" + a shop-connectivity disclaimer. **Fact check against [[products/trackon-legacy/oci-migration-plan]] and the OCI→S3 backup runbook**: Spectrum's tenant (PDB_UTC) is in **Oracle Cloud San Jose (US)**, app tier AWS N. California, ORDS/APEX POS same US region. Dubai (me-dubai-1) is only a future candidate for a dedicated Mana instance. Deck therefore says: hosted on OCI in the United States; **UAE/Dubai hosting available under the dedicated-server option** (would mean a dedicated instance in me-dubai-1 + regional app/ORDS node; not on the shared price).
+- Backups stated as they are: nightly AES-256 encrypted dumps to independent cloud (AWS US), 35-day retention, monthly locked archive 400 days, quarterly restore drills.
+- Connectivity: shops connect via their mobile network operator on staff phones' data plans; Trackon responsible for system availability, not for coverage/outages/data costs at shops; online-first, offline = separately scoped. Legal wording lives in the MSA; the deck states it as an assumption.
+
 ## Open before sending
 - Mr. Shilpen's surname and email (for the send).
 - **Decision 2026-08-26: proposal goes to Mr. Shilpen ONLY.** Vaibhav gets a personal heads-up (WhatsApp/call), not the commercial email.
