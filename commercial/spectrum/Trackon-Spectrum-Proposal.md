@@ -3,6 +3,8 @@ marp: true
 theme: default
 paginate: true
 size: 16:9
+title: Trackon Proposal for Spectrum DMCC
+author: Trackon Software FZCO
 style: |
   @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Raleway:wght@300;400;500;600&display=swap');
 
