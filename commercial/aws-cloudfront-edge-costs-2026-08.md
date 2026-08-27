@@ -38,7 +38,16 @@ Cost analysis for fronting the OCI Tomcat with CloudFront + WAF (replacing GA + 
 
 ## MEASURED cost impact of the CloudFront cutover (2026-08-27, from live account data)
 
-**Free-tier headroom check (the thing that decides everything).** CloudFront's perpetual free tier (1 TB egress + 10 M requests/month) is **per account and shared across all distributions**. Account has 7 distributions; month-to-date (27 days of Aug): trackon.com 0.63 GB/235 K, agrisar 6.61 GB/227 K, mana-dmcc 4.53 GB/105 K, trackon.ai 0.58 GB/63 K, tradingdocs.ai 0.36 GB/65 K, legacy-edge 0.30 GB/6 K → **≈ 13 GB and ≈ 0.70 M requests total**. Legacy adds ≈ 80 GB and ≈ 1.0 M req/month (measured on the ALB) → account total ≈ **93 GB (9 % of allowance) and 1.7 M requests (17 %)**. So CloudFront egress and request charges = **$0**, with ~10× headroom on transfer and ~6× on requests.
+**Free-tier headroom check (the thing that decides everything).** CloudFront's perpetual free tier (1 TB egress + 10 M requests/month) applies **per AWS Organization, not per account** — with consolidated billing AWS treats all member accounts as one for free-tier purposes (Murat flagged this 2026-08-27; the earlier per-account note was wrong). Organization has **9 accounts**: trackon software (payer, 313765565642), TrackonAI, TradingDocs, PikiFlow, tdocs-sandbox, Sandbox, pikiflow-sandbox, Fitness, Payments.
+
+**Measured org-wide via Cost Explorer, 1–27 Aug 2026 (all accounts, all distributions, incl. every product website):**
+- Data transfer out to internet: **20.94 GB of 1,024 GB free (2.0 %)**
+- Requests (Tier1+Tier2): **626,226 of 10,000,000 free (6.3 %)**
+- Proxy (POST/PUT) requests: 33,998
+- Transfer TO origin (the one billable line, not in free tier): 0.042 GB = $0.0009
+- **Total CloudFront spend org-wide this month: $0.0025** — i.e. the free tier currently covers essentially everything.
+
+**Adding Legacy (≈ 80 GB, ≈ 1.0 M requests/month, measured on the ALB): transfer 20.9 → 100.9 GB (9.9 % of allowance), requests 0.63 M → 1.63 M (16.3 %).** Still an order of magnitude inside the free tier, so CloudFront egress and request charges remain **$0** even counted across the whole organization.
 
 **New monthly costs**
 | item | est. |
@@ -66,7 +75,7 @@ Cost analysis for fronting the OCI Tomcat with CloudFront + WAF (replacing GA + 
 
 **Where it could inflate instead — watch these:**
 1. **Decommission must actually happen.** During the overlap we pay BOTH stacks (~+$11/mo). Forgetting step 2–4 of the decommission checklist turns a saving into an increase.
-2. **Free tier is shared and finite.** Six other distributions draw on it. If Legacy traffic grew ~6× (or another product spikes), requests cross 10 M and egress starts billing at $0.085/GB (NA/EU) / $0.11 (ME/Africa). Set a billing alarm rather than discovering it on an invoice.
+2. **Free tier is shared ORG-WIDE and finite.** Every account (TrackonAI, TradingDocs, PikiFlow, all product websites, sandboxes) draws on the same 1 TB / 10 M. After Legacy joins we sit at ~10 % transfer / ~16 % requests, so the realistic trigger is not Legacy growth but a **product launch or marketing spike on one of the SaaS sites** — e.g. TradingDocs going viral, or a video/asset-heavy page. Crossing the line bills at $0.085/GB (NA/EU), $0.11 (ME/Africa), $0.12 (APAC) and ~$0.01/10 K HTTPS requests. Set a CloudFront usage/billing alarm at ~60 % of both dimensions rather than discovering it on an invoice.
 3. **Origin Shield scales with cache misses** — all `.doms` traffic is uncacheable by design, so this line grows with user activity, not with page weight. Still cents at current volume.
 4. **WAF request charges** scale linearly with traffic ($0.60/1 M).
 5. Enabling CloudFront standard access logging later adds S3 storage/PUT costs (not enabled).
