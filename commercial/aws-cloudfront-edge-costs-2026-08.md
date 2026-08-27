@@ -36,6 +36,41 @@ Cost analysis for fronting the OCI Tomcat with CloudFront + WAF (replacing GA + 
 - Non-cash win: cures the Oracle licensing exposure from serving customers on AWS RDS License-Included databases.
 - Lever for next contract year: UDA→TrackonAI migration would let the OCI commitment renew smaller than $15K.
 
+## MEASURED cost impact of the CloudFront cutover (2026-08-27, from live account data)
+
+**Free-tier headroom check (the thing that decides everything).** CloudFront's perpetual free tier (1 TB egress + 10 M requests/month) is **per account and shared across all distributions**. Account has 7 distributions; month-to-date (27 days of Aug): trackon.com 0.63 GB/235 K, agrisar 6.61 GB/227 K, mana-dmcc 4.53 GB/105 K, trackon.ai 0.58 GB/63 K, tradingdocs.ai 0.36 GB/65 K, legacy-edge 0.30 GB/6 K → **≈ 13 GB and ≈ 0.70 M requests total**. Legacy adds ≈ 80 GB and ≈ 1.0 M req/month (measured on the ALB) → account total ≈ **93 GB (9 % of allowance) and 1.7 M requests (17 %)**. So CloudFront egress and request charges = **$0**, with ~10× headroom on transfer and ~6× on requests.
+
+**New monthly costs**
+| item | est. |
+|---|---|
+| CloudFront egress + requests | $0 (free tier, shared, ample headroom) |
+| Origin Shield (per-request, NOT in free tier; scales with cache-MISS traffic) | ~$0.30–0.75 |
+| CloudFront → origin transfer (POST/upload bodies, $0.02/GB NA) | ~$0.20 |
+| WAF CLOUDFRONT ACL ($5 ACL + $1×5 rules + $0.60/1 M req) | ~$10.60 |
+| Invalidations (`/*` = 1 path; 1,000/mo free) | $0 |
+| ALB access-log bucket (temporary, 30-day expiry) | ~$0.10 |
+| **total added** | **≈ $11–12** |
+
+**Costs removed once decommissioned**
+| item | est. |
+|---|---|
+| ALB `TrackonErp` (fixed + LCU + $0.09/GB × 80 GB egress) | ~$24 |
+| Global Accelerator `Trackon` (fixed + premium DT) | ~$19 |
+| Regional WAF ACL + 4 rule groups | ~$9.60 |
+| 4 unattached Elastic IPs | ~$14.60 |
+| Stopped `staging-ubuntu` + `al2023` EBS | ~$4 |
+| `prod-ubuntu` EIP (optional, if not kept as failover) | ~$3.65 |
+| **total removed** | **≈ $71–75** |
+
+**Net ≈ $60/month saved (~$720/year)**, and note the WAF line is really a lateral move (regional ACL → CloudFront ACL), so almost all the "added" cost is spend we already had.
+
+**Where it could inflate instead — watch these:**
+1. **Decommission must actually happen.** During the overlap we pay BOTH stacks (~+$11/mo). Forgetting step 2–4 of the decommission checklist turns a saving into an increase.
+2. **Free tier is shared and finite.** Six other distributions draw on it. If Legacy traffic grew ~6× (or another product spikes), requests cross 10 M and egress starts billing at $0.085/GB (NA/EU) / $0.11 (ME/Africa). Set a billing alarm rather than discovering it on an invoice.
+3. **Origin Shield scales with cache misses** — all `.doms` traffic is uncacheable by design, so this line grows with user activity, not with page weight. Still cents at current volume.
+4. **WAF request charges** scale linearly with traffic ($0.60/1 M).
+5. Enabling CloudFront standard access logging later adds S3 storage/PUT costs (not enabled).
+
 ## Expected bill for Legacy tenants
 
 Legacy traffic (handful of tenants, web app + document up/downloads) is almost certainly under 1 TB and 10M requests/month → **PAYG CloudFront ≈ $0 + a few cents of upload-to-origin transfer + $10–20 WAF, or simply the Pro plan at flat $15/mo.** OCI-side egress to CloudFront is covered by OCI's 10 TB/month free egress.
