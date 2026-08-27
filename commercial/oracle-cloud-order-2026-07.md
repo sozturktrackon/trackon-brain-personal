@@ -3,7 +3,7 @@ type: vendor-quote
 status: pending-review
 tags: [oracle, oci, vendor, cloud, quote, confidential]
 created: 2026-07-10
-updated: 2026-08-19
+updated: 2026-08-27
 source: Oracle ordering document PDF (1224634431.a1_OrderingDocumentWatermarked.pdf, ~/Downloads)
 related: [_personal/commercial/syncfusion-renewal.md, _personal/commercial/deal-log.md]
 ---
@@ -98,7 +98,7 @@ Fixed $15K commit vs PAYG means customer churn risk is Murat's for this contract
 - Unused credits forfeited; full $15K owed regardless of consumption. **Check consumption at month 9–10 (~Apr–May 2027)** — if under-using, shift eligible legacy workloads onto OCI to burn paid credits.
 - **Decision point ~Jun 2027**: replenish (negotiate discount then) / drift to PAYG / terminate.
 
-## Renewal negotiation stance (Murat + analysis, 2026-08-19)
+## Renewal negotiation stance (Murat + analysis, 2026-08-27)
 
 Murat expects under-consumption ("we will overshoot") and Oracle pushing for equal-or-larger renewal. Position: **Oracle has no leverage.**
 
@@ -107,7 +107,7 @@ Murat expects under-consumption ("we will overshoot") and Oracle pushing for equ
 - If any commit next year: size = observed run-rate minus UDA-departure risk. Overage bills at identical rates, so under-committing has zero downside; over-committing repeats this year's stranding.
 - Only real reasons to re-commit: quarterly Net-60 invoicing value, or Oracle offers something genuinely new.
 
-## Credit-utilization list (2026-08-19 — Murat "can't think of ways to use unspent credits"; ranked)
+## Credit-utilization list (2026-08-27 — Murat "can't think of ways to use unspent credits"; ranked)
 
 Two legitimate kinds: replaces money spent elsewhere, or improves the product free. Do NOT invent make-work burn.
 
