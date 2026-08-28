@@ -82,3 +82,24 @@ Google Meet, 60 min, English. Deck (bookends only, live system in between):
 
 - Same day: WhatsApp Ayhan, thank, send PDF and recording, propose the hands-on session date, and separately restate the commercial proposal (validity expired 2026-08-05, offer a fresh validity date rather than a chase).
 - Update [[_personal/prospects/yalcintas-akdogan-newco]] with outcome, attendee roles, commodities and flows learned, objections.
+
+## Talk track (added 2026-08-28 evening)
+
+**Thesis, first 60 seconds, before slides:** "You are building a trading house from zero with ten people. Your question is not which software. It is: how do ten people run cargoes worth millions without a thirty-person back office, and how does Ayhan bey know the numbers are true in front of a bank or investor. One cargo, one hour."
+
+**UI, one sentence while the screen loads:** "The screens are functional, not pretty. Every number has been audited by trading houses for twenty years. Judge the numbers."
+
+**The cargo, same name all hour:** "Fatih bey buys 10,000 t granular urea FOB Gulf, sells 7,000 t CFR Mersin."
+
+1. Purchase contract (4 min): estimated costs per tonne, "remember this number"; approval flow in one click.
+2. Sale + positions (5 min) **PEAK 1**: long 3,000 t; MTM with a changed market price. Ask Fatih: "how do you see this today?" Wait.
+3. Shipment (7 min) **PEAK 2**: enter one expense (demurrage) live, reopen trade P&L. "Nobody waited for month end or the shipowner's invoice in 45 days. Trading houses lose money on the freight invoice that arrives after the bonus was paid."
+4. Documents + invoice (5 min): LC/bank checklist ("presentation vs discrepancy fee plus three weeks"); invoice history = estimate vs actual, "the number from day one next to reality".
+5. Payment + finance (4 min): request -> approve -> treasury; advances. GL/accruals 2 min only if Nikhil is finance.
+6. Security (3 min) **PEAK 3**: second trader login, counterparties invisible, hidden prices. "When someone leaves, he leaves with nothing, and the cargo continues." Ayhan's moment.
+
+Owner's view (10 min): dashboards, monthly/shipment P&L, limits per payment term, blacklist. "Ten-minute morning look; no second version for the bank."
+
+Close (8 min, slides 6-8): "Nothing to migrate, nothing to unlearn." The ask with a date: "Send product list, flows, ten users with roles. We load this environment with your data; in one week your team runs one of your own urea trades hands on. Week of 7 September?" Get the date. No commercials in the room; call Ayhan after.
+
+Craft rules: one cargo one name; every feature ends in a money sentence or is skipped; ask the room exactly three times (Fatih after MTM, Nikhil/Emrah after the expense, Ayhan after security); use names; a Trackon colleague owns the chat; at minute 35 skip finance, never skip peaks or close; fallbacks open in tabs.
