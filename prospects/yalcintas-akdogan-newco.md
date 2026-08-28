@@ -13,13 +13,13 @@ tags: [prospect, trackon-legacy, commodities, uae, new-company]
 
 ## Contacts
 
-- **Fatih Ziya Akdogan** — senior commodity trader. First contact; Murat explained Trackon products and solutions. Email: fzakdogan@gmail.com
+- **Fatih Ziya Akdogan** — senior commodity trader (fertilizers, petrochemicals, base oils; ex Sun International FZE per LinkedIn). First contact; Murat explained Trackon products and solutions. Email: fzakdogan@gmail.com
 - **Ayhan Yalcintas** — met with Murat (2026-07-03 or shortly before); walked through product options. Email: ayhan@thadubai.ae · WhatsApp: +971 50 532 6040
 - **Emrah** — team member, emrahcy@gmail.com (role unknown, added to demo 2026-08-27)
 - **Nikhil** — Indian colleague, nikhilrdesh@zohomail.com (role unknown; reason the demo is in English)
 - **"Our group" (bizim grup)** — Ayhan said up to ~10 more people from their group may join the demo, active or observing. The group behind thadubai.ae is larger than the 10-user newco; potential for more than one entity.
 
-**thadubai.ae = THA Trading and Consultancy** (verified 2026-08-28 via web): Ayhan's own Dubai firm, he is founder and CEO. Services: business/financial consultancy, company establishment, project financing and capital raising, wealth/asset management, real estate advisory, commodities trading, international commerce. Ayhan's profile: ~30 years in finance, CFO/CEO roles, company formation and fund raising, Istanbul and Dubai (LinkedIn also lists AL Sharaa). Read: Ayhan is the finance/founder side, Fatih is the trader. The newco may be a THA venture; "our group" observers at the demo are likely THA's network or clients, so the demo doubles as a channel opportunity. **Commodities they will trade: NOT known as of 2026-08-28.** Neither the brain nor their websites say; ask Ayhan on WhatsApp before the demo so the example trade can be staged.
+**thadubai.ae = THA Trading and Consultancy** (verified 2026-08-28 via web): Ayhan's own Dubai firm, he is founder and CEO. Services: business/financial consultancy, company establishment, project financing and capital raising, wealth/asset management, real estate advisory, commodities trading, international commerce. Ayhan's profile: ~30 years in finance, CFO/CEO roles, company formation and fund raising, Istanbul and Dubai (LinkedIn also lists AL Sharaa). Read: Ayhan is the finance/founder side, Fatih is the trader. The newco may be a THA venture; "our group" observers at the demo are likely THA's network or clients, so the demo doubles as a channel opportunity. **Commodities: fertilizers and petrochemicals (high confidence, 2026-08-28).** Fatih's LinkedIn headline: Senior Commodity Trader / Regional Manager, base oils, phosphoric acid, ammonia, sulphur, urea, NPK, fertilizer compounds, aromatics and olefins; 15 years total, 8 in the GCC; associated with Sun International FZE. Murat's read was fertilizer; profile confirms. Expect bulk vessel cargoes (urea, sulphur, NPK, phos acid) Gulf origin to Turkey, India, Africa, Brazil, plus base oils in drums/flexitanks/containers. Payment mostly LC and CAD, advances to producers. Still confirm with Ayhan before the demo.
 
 ## Situation
 
