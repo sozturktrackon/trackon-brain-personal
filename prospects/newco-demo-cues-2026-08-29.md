@@ -76,6 +76,7 @@ Google Meet, 60 min, English. Deck (bookends only, live system in between):
 - "Can we see it on mobile?" Web based, works in browser; the iPad app covers warehouse acceptance. Do not promise a mobile app.
 - "Where is the data hosted, is it safe?" Cloud, UAE (Dubai region) available for new customers per [[decisions/2026-legacy-new-customers-shared-dubai-instance]]. Never name data-centre cities.
 - "How long to go live?" Startup package (setup, processes, report pack, training) is short because there is no migration. Give a range only after they send the product list and flows.
+- "Why not build it ourselves / with AI?" (decided 2026-08-28: do NOT pre-empt this, do NOT quote build cost or a "$400K even with AI" floor; a number invites a debate on the number). Answer only if asked: "The code is the cheap part. What you cannot buy or generate is knowing what to build: FX averaging on origination payments, accruals before the freight invoice, how a shortage claim hits the cargo P&L, which document kills an LC presentation. That took thirty years and five million tonnes of mistakes. You would spend two years discovering those rules by losing money on them." Battle-proven credibility is said ONCE, on slide 2, then the screens prove it.
 - "What about AI?" MCP gives their own reports to an AI assistant with per-user permissions; TrackonAI modules (document extraction, vessel tracking, sanctions screening) are the growth path.
 
 ## After the call
