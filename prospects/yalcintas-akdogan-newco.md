@@ -1,11 +1,11 @@
 ---
 type: prospect
 status: engaged-positive
-stage: proposal
+stage: demo
 product: trackon-legacy
 created: 2026-07-03
-updated: 2026-07-21
-related: [_personal/legal/msa-rollout-strategy, _personal/commercial/newco-yalcintas-proposal-2026-07, decisions/2024-msa-isv-rollout]
+updated: 2026-08-28
+related: [_personal/legal/msa-rollout-strategy, _personal/commercial/newco-yalcintas-proposal-2026-07, decisions/2024-msa-isv-rollout, _personal/prospects/newco-demo-cues-2026-08-29]
 tags: [prospect, trackon-legacy, commodities, uae, new-company]
 ---
 
@@ -15,6 +15,9 @@ tags: [prospect, trackon-legacy, commodities, uae, new-company]
 
 - **Fatih Ziya Akdogan** — senior commodity trader. First contact; Murat explained Trackon products and solutions. Email: fzakdogan@gmail.com
 - **Ayhan Yalcintas** — met with Murat (2026-07-03 or shortly before); walked through product options. Email: ayhan@thadubai.ae · WhatsApp: +971 50 532 6040
+- **Emrah** — team member, emrahcy@gmail.com (role unknown, added to demo 2026-08-27)
+- **Nikhil** — Indian colleague, nikhilrdesh@zohomail.com (role unknown; reason the demo is in English)
+- **"Our group" (bizim grup)** — Ayhan said up to ~10 more people from their group may join the demo, active or observing. The group behind thadubai.ae is larger than the 10-user newco; potential for more than one entity.
 
 Ayhan's domain **thadubai.ae** suggests the company may already be incorporated under a name like "THA" — verify before next meeting.
 
@@ -59,12 +62,17 @@ Add-ons offered: Dashboard module (9,188/mo), read-only reporting instance (10,4
 - **2026-07-21**: Third touch SENT: WhatsApp to Ayhan offering a 30-min demo, pricing validity reminder (ends **2026-08-05**).
 - **2026-07-21 (same day, replied in 28 min)**: POSITIVE response from Ayhan: still working on incorporation, "niyetimiz insallah beraber hareket etmek" (intent to move together), thanked for proposal, will revert soon, and explicitly wants the demo. Deal is alive; delay was their setup timeline, not disinterest.
 - **2026-07-21**: Murat replied warmly (no pressure, demo whenever they're ready); Ayhan acknowledged with thanks. Waiting mode.
-- Next: wait for their demo date. If nothing by early August, use the validity extension as the natural touchpoint (gracious extension rather than a chase). Direct contact to Fatih no longer urgent given stated intent.
+- **2026-08-26**: Ayhan reopened contact on WhatsApp, asked for an online demo with his team. Friday or Saturday proposed; Murat confirmed Saturday works.
+- **2026-08-27**: Demo fixed for **Saturday 2026-08-29, 11:00 Dubai, Google Meet** (meet.google.com/dtx-ckgj-ker), 60 min. Murat offered 4 to 5 hours for the full flow; Ayhan cannot do that in one session, so standard 60-min demo with live screens on request. Invites: Ayhan, Emrah, Fatih, Nikhil. Demo language English (Indian colleague); Murat bringing team members.
+- **2026-08-28**: Ayhan asked for the Meet link to forward on WhatsApp; ~10 more from their group may attend. Pricing validity (2026-08-05) passed without a chase; deal alive on their timeline. Demo plan and cue sheet: [[_personal/prospects/newco-demo-cues-2026-08-29]]. Old generic Legacy deck (trackon_presentation.pdf) retired for this prospect; new bookend deck in `newco-demo-2026-08-29/`.
+- Next: run the demo; same day send PDF + recording to Ayhan; propose a hands-on session with their own products; restate commercials privately to Ayhan with a fresh validity date.
 
 ## Next steps
 
 - [x] Send proposal PDF to Ayhan Yalcintas / Fatih Ziya Akdogan (2026-07-06)
-- [ ] Demo-offer follow-up to Ayhan + direct contact to Fatih
+- [x] Demo-offer follow-up to Ayhan (demo booked 2026-08-29)
+- [ ] Run demo 2026-08-29, then hands-on session with their products
+- [ ] Learn roles of Emrah and Nikhil, and what "our group" is
 - [ ] Verify company name behind thadubai.ae domain
 - [ ] Follow up on deployment option choice (A/B/C)
 - [ ] On acceptance: issue Order Form + MSA (Trackon Software FZCO entity name)
