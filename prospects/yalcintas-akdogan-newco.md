@@ -19,7 +19,7 @@ tags: [prospect, trackon-legacy, commodities, uae, new-company]
 - **Nikhil** — Indian colleague, nikhilrdesh@zohomail.com (role unknown; reason the demo is in English)
 - **"Our group" (bizim grup)** — Ayhan said up to ~10 more people from their group may join the demo, active or observing. The group behind thadubai.ae is larger than the 10-user newco; potential for more than one entity.
 
-Ayhan's domain **thadubai.ae** suggests the company may already be incorporated under a name like "THA" — verify before next meeting.
+**thadubai.ae = THA Trading and Consultancy** (verified 2026-08-28 via web): Ayhan's own Dubai firm, he is founder and CEO. Services: business/financial consultancy, company establishment, project financing and capital raising, wealth/asset management, real estate advisory, commodities trading, international commerce. Ayhan's profile: ~30 years in finance, CFO/CEO roles, company formation and fund raising, Istanbul and Dubai (LinkedIn also lists AL Sharaa). Read: Ayhan is the finance/founder side, Fatih is the trader. The newco may be a THA venture; "our group" observers at the demo are likely THA's network or clients, so the demo doubles as a channel opportunity. **Commodities they will trade: NOT known as of 2026-08-28.** Neither the brain nor their websites say; ask Ayhan on WhatsApp before the demo so the example trade can be staged.
 
 ## Situation
 
@@ -73,7 +73,8 @@ Add-ons offered: Dashboard module (9,188/mo), read-only reporting instance (10,4
 - [x] Demo-offer follow-up to Ayhan (demo booked 2026-08-29)
 - [ ] Run demo 2026-08-29, then hands-on session with their products
 - [ ] Learn roles of Emrah and Nikhil, and what "our group" is
-- [ ] Verify company name behind thadubai.ae domain
+- [x] Verify company name behind thadubai.ae (THA Trading and Consultancy, Ayhan's firm)
+- [ ] Learn their commodities and trade flows (ask before demo) domain
 - [ ] Follow up on deployment option choice (A/B/C)
 - [ ] On acceptance: issue Order Form + MSA (Trackon Software FZCO entity name)
 - [ ] Get company name once incorporated — update this file and the proposal
