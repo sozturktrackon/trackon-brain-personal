@@ -38,6 +38,8 @@ style: |
   strong { color: var(--a); font-weight: 600; }
 
   section::after { font-family: 'Outfit'; font-size: 0.5em; color: var(--muted); }
+  footer { font-family: 'Raleway'; font-size: 11px; color: var(--muted); letter-spacing: 0.02em; }
+  section.dark footer { color: #ffffff55; }
 
   img.logo { height: 205px; width: auto; margin: 4px 0 0; }
 
@@ -132,7 +134,7 @@ style: |
   .snum .scontent { font-family: 'Raleway'; font-weight: 400; font-size: 18px; color: #dbe6ff; line-height: 1.5; padding-top: 9px; }
 
 header: ''
-footer: 'Trackon Software FZCO  ·  Trackon Legacy  ·  Live Demo · Confidential · Prepared for Mr Ayhan Yalcintas and Mr Fatih Ziya Akdogan'
+footer: 'Trackon Software FZCO · Trackon Legacy · Live Demo · Confidential'
 ---
 
 <!-- _class: lead -->
@@ -302,9 +304,9 @@ footer: 'Trackon Software FZCO  ·  Trackon Legacy  ·  Live Demo · Confidentia
 
 # From this demo to your first cargo in the system
 
-<div class="snum"><div class="badge">1</div><div class="scontent">You send us your product list, your typical trade flows and the list of users with their roles.</div></div>
-<div class="snum"><div class="badge">2</div><div class="scontent">We configure this environment with your products and counterparties, and your team works one of your own trades through it hands-on.</div></div>
-<div class="snum"><div class="badge">3</div><div class="scontent">Go-live plan agreed with Mr Yalcintas and Mr Akdogan: setup, training, first live trade.</div></div>
+<div class="snum"><div class="badge">1</div><div class="scontent">Sign the agreement with Trackon Software FZCO: order form and service agreement, agreed with Mr Yalcintas and Mr Akdogan.</div></div>
+<div class="snum"><div class="badge">2</div><div class="scontent">Implementation starts on your staging environment: company and branches, products, counterparties, approval flows, document and cost templates, report pack with your header.</div></div>
+<div class="snum"><div class="badge">3</div><div class="scontent">Training for your users on staging, acceptance, then production and your first live cargo in the system.</div></div>
 
 <div style="margin-top: 38px; font-family: 'Outfit'; font-weight: 600; font-size: 18px; color: #fff;">Murat Selim Ozturk · CEO, Trackon Software FZCO</div>
 <div style="margin-top: 4px; font-family: 'Raleway'; font-weight: 400; font-size: 15px; color: #ffffff99;">sozturk@trackonsoftware.com</div>

@@ -46,7 +46,7 @@ Google Meet, 60 min, English. Deck (bookends only, live system in between):
 
 **0:35 to 0:50 · Owner's view (slide 5 as the map).** QuickSight dashboards from the demo system, then: open positions, monthly P&L, shipment P&L, limits per customer/vendor (open/CAD/LC), blacklist, the security model (log in as a second trader and show that the first trader's counterparties are invisible), hidden prices, email alerts. Optional wow if pre-tested: Claude with the Legacy MCP, "what are my open positions?", then show it was attributed to the logged-in user. Only if tested on the demo tenant in the morning.
 
-**0:50 to 1:00 · Questions and close (slides 6 to 8).** Slide 6 recap, slide 7 the greenfield argument, slide 8 the ask: they send products, trade flows and user list; we configure this environment with their data and their team works one of their own trades through it. Get a date for that hands-on session before leaving the call.
+**0:50 to 1:00 · Questions and close (slides 6 to 8).** Slide 6 recap, slide 7 the greenfield argument, slide 8 the ask: sign the agreement (order form + MSA), implementation starts on their staging environment (setup, flows, templates, report pack), training, acceptance, production. Configuring the system IS the implementation effort; no free "we load your data in a week" offer (Murat, 2026-08-28). Ask for a decision date on the call; commercials with Ayhan privately after.
 
 ## Rules for this call
 
@@ -80,7 +80,7 @@ Google Meet, 60 min, English. Deck (bookends only, live system in between):
 
 ## After the call
 
-- Same day: WhatsApp Ayhan, thank, send PDF and recording, propose the hands-on session date, and separately restate the commercial proposal (validity expired 2026-08-05, offer a fresh validity date rather than a chase).
+- Same day: WhatsApp Ayhan, thank, send PDF and recording, and separately restate the commercial proposal (validity expired 2026-08-05, offer a fresh validity date rather than a chase).
 - Update [[_personal/prospects/yalcintas-akdogan-newco]] with outcome, attendee roles, commodities and flows learned, objections.
 
 ## Talk track (added 2026-08-28 evening)
@@ -100,6 +100,6 @@ Google Meet, 60 min, English. Deck (bookends only, live system in between):
 
 Owner's view (10 min): dashboards, monthly/shipment P&L, limits per payment term, blacklist. "Ten-minute morning look; no second version for the bank."
 
-Close (8 min, slides 6-8): "Nothing to migrate, nothing to unlearn." The ask with a date: "Send product list, flows, ten users with roles. We load this environment with your data; in one week your team runs one of your own urea trades hands on. Week of 7 September?" Get the date. No commercials in the room; call Ayhan after.
+Close (8 min, slides 6-8): "Nothing to migrate, nothing to unlearn." The ask: "Next step is the agreement. Once signed, implementation starts on your staging environment: your company, products, counterparties, approval flows, document templates and report pack. Your team is trained on staging, you accept, and the first live cargo goes into production. Ayhan bey, when can we sit down to finalise the agreement?" Get a date for that private conversation. No commercials in the room.
 
 Craft rules: one cargo one name; every feature ends in a money sentence or is skipped; ask the room exactly three times (Fatih after MTM, Nikhil/Emrah after the expense, Ayhan after security); use names; a Trackon colleague owns the chat; at minute 35 skip finance, never skip peaks or close; fallbacks open in tabs.

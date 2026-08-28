@@ -65,13 +65,13 @@ Add-ons offered: Dashboard module (9,188/mo), read-only reporting instance (10,4
 - **2026-08-26**: Ayhan reopened contact on WhatsApp, asked for an online demo with his team. Friday or Saturday proposed; Murat confirmed Saturday works.
 - **2026-08-27**: Demo fixed for **Saturday 2026-08-29, 11:00 Dubai, Google Meet** (meet.google.com/dtx-ckgj-ker), 60 min. Murat offered 4 to 5 hours for the full flow; Ayhan cannot do that in one session, so standard 60-min demo with live screens on request. Invites: Ayhan, Emrah, Fatih, Nikhil. Demo language English (Indian colleague); Murat bringing team members.
 - **2026-08-28**: Ayhan asked for the Meet link to forward on WhatsApp; ~10 more from their group may attend. Pricing validity (2026-08-05) passed without a chase; deal alive on their timeline. Demo plan and cue sheet: [[_personal/prospects/newco-demo-cues-2026-08-29]]. Old generic Legacy deck (trackon_presentation.pdf) retired for this prospect; new bookend deck in `newco-demo-2026-08-29/`.
-- Next: run the demo; same day send PDF + recording to Ayhan; propose a hands-on session with their own products; restate commercials privately to Ayhan with a fresh validity date.
+- Next: run the demo; same day send PDF + recording to Ayhan; restate commercials privately to Ayhan with a fresh validity date; on signature, implementation starts on staging (configuration is the implementation effort, not a pre-sales freebie).
 
 ## Next steps
 
 - [x] Send proposal PDF to Ayhan Yalcintas / Fatih Ziya Akdogan (2026-07-06)
 - [x] Demo-offer follow-up to Ayhan (demo booked 2026-08-29)
-- [ ] Run demo 2026-08-29, then hands-on session with their products
+- [ ] Run demo 2026-08-29, then agreement with Ayhan (private), then implementation on staging
 - [ ] Learn roles of Emrah and Nikhil, and what "our group" is
 - [x] Verify company name behind thadubai.ae (THA Trading and Consultancy, Ayhan's firm)
 - [ ] Learn their commodities and trade flows (ask before demo) domain
