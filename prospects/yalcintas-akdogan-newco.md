@@ -21,6 +21,19 @@ tags: [prospect, trackon-legacy, commodities, uae, new-company]
 
 **thadubai.ae = THA Trading and Consultancy** (verified 2026-08-28 via web): Ayhan's own Dubai firm, he is founder and CEO. Services: business/financial consultancy, company establishment, project financing and capital raising, wealth/asset management, real estate advisory, commodities trading, international commerce. Ayhan's profile: ~30 years in finance, CFO/CEO roles, company formation and fund raising, Istanbul and Dubai (LinkedIn also lists AL Sharaa). Read: Ayhan is the finance/founder side, Fatih is the trader. The newco may be a THA venture; "our group" observers at the demo are likely THA's network or clients, so the demo doubles as a channel opportunity. **Commodities: fertilizers and petrochemicals (high confidence, 2026-08-28).** Fatih's LinkedIn headline: Senior Commodity Trader / Regional Manager, base oils, phosphoric acid, ammonia, sulphur, urea, NPK, fertilizer compounds, aromatics and olefins; 15 years total, 8 in the GCC; associated with Sun International FZE. Murat's read was fertilizer; profile confirms. Expect bulk vessel cargoes (urea, sulphur, NPK, phos acid) Gulf origin to Turkey, India, Africa, Brazil, plus base oils in drums/flexitanks/containers. Payment mostly LC and CAD, advances to producers. Still confirm with Ayhan before the demo.
 
+## Attendee research (web, 2026-08-29; LinkedIn profiles not fetchable, headlines via search snippets)
+
+| Person | What we know | Read for us |
+|---|---|---|
+| **Ayhan Yalcintas** | Founder/CEO THA Trading and Consultancy (thadubai.ae). ~30 yrs finance, CFO/CEO roles, company formation, fund raising, real estate; Istanbul, Manchester NH, Dubai since 2016. | Money and governance side. Decision-maker, signs. Cares about controls, investor/bank-grade numbers, budgeting. |
+| **Fatih Ziya Akdogan** | Senior Commodity Trader / Regional Manager; base oils, phosphoric acid, ammonia, sulphur, urea, NPK, aromatics, olefins; 15 yrs, 8 in GCC; ex Sun International FZE (Area Business Manager). | The trader. Fertilizer/petchem flows. Asked about late claims and business-trip governance. |
+| **Mehmet Elmaagacli** | Director of Business Development, **Tiryaki Agro** (major Turkish agri trader: grains, pulses, oilseeds, organic; ~USD 1.5bn, ops in Russia, Iraq, UAE), Dubai-based, PMP. Previously ITOCHU International, Sanko Holding, Akbank. | Explains "grains" in their scope. Operations/BD heavyweight; owns the demo-account data (products, counterparties). Likely COO-type in the newco. Strong reference-quality professional; treat the trial as his evaluation. |
+| **Nikhil Deshpande** | Best match: Dubai-based, self-employed "business leader and strategist", 30+ yrs, Savitribai Phule Pune University; career at TCS, ADNOC Group, Shell, DuPont, Reliance (per LinkedIn snippet). Identity not 100% confirmed (a second Dubai Nikhil Deshpande exists, Blue Planet Environmental, ex RAK Gas/ADNOC Distribution). | Probably their systems/IT and strategy advisor, not finance. Reason the demo was in English. Expect integration, data and process questions. |
+| **Emrah Cay** | No public footprint found. On the call: asked the storage-cost allocation question (bulk stock over months, remaining vs original quantity). | Operations/finance analyst mindset; the one who will test the numbers in the trial. Owns the profitability simulation values. |
+| **Ege Dogus Cetin** | LinkedIn profile exists (tr.linkedin.com/in/ege-dogus-cetin-677056193), content not accessible. On the call: asked about bid/tender tracking. | Junior/mid commercial; tender business suggests government or institutional buyers (fertilizer tenders, e.g. India/Africa state tenders). |
+
+Group picture: THA (Ayhan) provides capital and structure; Fatih brings fertilizer/petchem; Mehmet brings grains and Tiryaki-grade operations; Nikhil is the systems/strategy advisor; Emrah and Ege are the operating team. Scope stated on the call: fertilizers, petrochemicals, grains, minerals.
+
 ## Situation
 
 - Starting a **new commodities trading company** — company name TBD
@@ -107,7 +120,7 @@ Source: Gemini meeting notes (AI-generated, reviewed by Murat) + Meet recording.
 - [x] Send proposal PDF to Ayhan Yalcintas / Fatih Ziya Akdogan (2026-07-06)
 - [x] Demo-offer follow-up to Ayhan (demo booked 2026-08-29)
 - [ ] Run demo 2026-08-29, then agreement with Ayhan (private), then implementation on staging
-- [ ] Learn roles of Emrah and Nikhil, and what "our group" is
+- [~] Roles researched 2026-08-29 (see Attendee research); confirm Nikhil identity and Emrah/Ege titles in the WhatsApp group
 - [x] Verify company name behind thadubai.ae (THA Trading and Consultancy, Ayhan's firm)
 - [ ] Learn their commodities and trade flows (ask before demo) domain
 - [ ] Follow up on deployment option choice (A/B/C)
