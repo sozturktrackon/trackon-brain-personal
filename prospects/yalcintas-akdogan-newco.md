@@ -93,7 +93,7 @@ Source: Gemini meeting notes (AI-generated, reviewed by Murat) + Meet recording.
 **Decided next step (changed from "sign then staging")**: a **3-to-5-day demo account** for Mehmet Elmaagacli and Ayhan, configured with their product list and customer/vendor details, supported through a **WhatsApp group**, BEFORE the MSA + order form is finalised. Murat agreed on the call.
 
 **Actions**:
-- [ ] Murat: create the demo tenant access (Mehmet, Ayhan) once Mehmet sends products + counterparties
+- [ ] Murat: create the demo tenant (Mehmet, Ayhan) once Mehmet sends products + counterparties. Hosting: on the existing shared prod CDB in San Jose (PDB_UTC); the Dubai shared instance from [[decisions/2026-legacy-new-customers-shared-dubai-instance]] is decided but not built. Move later if/when Dubai exists. Ask for company name + logo in the WhatsApp group as part of setup (also yields the entity name for the order form).
 - [ ] Murat: WhatsApp support group (Trackon: Murat, Kuzuturk, Bibeesh, Ozan)
 - [ ] Murat: follow-up message to Ayhan with next steps (today)
 - [ ] Murat: profitability simulation with Emrah's values, present reports
