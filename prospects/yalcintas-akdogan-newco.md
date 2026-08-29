@@ -14,7 +14,7 @@ tags: [prospect, trackon-legacy, commodities, uae, new-company]
 ## Contacts
 
 - **Fatih Ziya Akdogan** — senior commodity trader (fertilizers, petrochemicals, base oils; ex Sun International FZE per LinkedIn). First contact; Murat explained Trackon products and solutions. Email: fzakdogan@gmail.com
-- **Ayhan Yalcintas** — met with Murat (2026-07-03 or shortly before); walked through product options. Email: ayhan@thadubai.ae · WhatsApp: +971 50 532 6040
+- **Ayhan Yalcintas** — met with Murat (2026-07-03 or shortly before); walked through product options. Email: ayhan@thadubai.ae (not a Google account) · personal Gmail for Drive shares: ayalcint1@gmail.com (given 2026-08-29) · WhatsApp: +971 50 532 6040
 - **Emrah** — team member, emrahcy@gmail.com (role unknown, added to demo 2026-08-27)
 - **Nikhil** — Indian colleague, nikhilrdesh@zohomail.com (role unknown; reason the demo is in English)
 - **"Our group" (bizim grup)** — Ayhan said up to ~10 more people from their group may join the demo, active or observing. The group behind thadubai.ae is larger than the 10-user newco; potential for more than one entity.
