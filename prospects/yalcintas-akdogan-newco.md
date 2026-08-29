@@ -84,7 +84,7 @@ Source: Gemini meeting notes (AI-generated, reviewed by Murat) + Meet recording.
 - Fatih: business trip approvals and expenses. Answered: business trip module exists, posts to personal account statement.
 - Ege: bid/tender tracking. Answered: a tender/bid module can be built on the platform (implementation scope).
 
-**Feature commitments made on the call (all scoped as implementation work, to be priced in the agreement, figures in [[_personal/commercial/newco-yalcintas-proposal-2026-07]] follow-up)**:
+**Feature commitments made on the call. Decision (Murat, 2026-08-29 afternoon): items 1 and 2 are INCLUDED in the existing implementation fee from [[_personal/commercial/newco-yalcintas-proposal-2026-07]], not priced separately; communicated to Ayhan by WhatsApp. Index DATA subscription (Argus/Platts) remains theirs; we include the integration work only. Items 3 and 4 not priced yet.**
 1. API-driven feed for external index prices (Argus/Platts) into price formulas; FX already automatic.
 2. Operational budgeting module: monthly planned quantities, unit prices, cash cycle per product group; gross profitability and opex variance monthly. Ayhan to provide the budget structure/data.
 3. Tender/bid management module (Ege's ask), lower priority.
@@ -113,7 +113,7 @@ Source: Gemini meeting notes (AI-generated, reviewed by Murat) + Meet recording.
 - **2026-08-27**: Demo fixed for **Saturday 2026-08-29, 11:00 Dubai, Google Meet** (meet.google.com/dtx-ckgj-ker), 60 min. Murat offered 4 to 5 hours for the full flow; Ayhan cannot do that in one session, so standard 60-min demo with live screens on request. Invites: Ayhan, Emrah, Fatih, Nikhil. Demo language English (Indian colleague); Murat bringing team members.
 - **2026-08-28**: Ayhan asked for the Meet link to forward on WhatsApp; ~10 more from their group may attend. Pricing validity (2026-08-05) passed without a chase; deal alive on their timeline. Demo plan and cue sheet: [[_personal/prospects/newco-demo-cues-2026-08-29]]. Old generic Legacy deck (trackon_presentation.pdf) retired for this prospect; new bookend deck in `newco-demo-2026-08-29/`.
 - **2026-08-29**: Demo held (see Demo outcome above). Outcome: 3-5 day demo account trial before contract, WhatsApp support group, four implementation-scope feature asks (index feed, budgeting, tender module, mobile alarms demo).
-- Next: send PDF + recording + next-steps message to Ayhan today; commercials privately with a fresh validity date, now including the index feed and budgeting module as priced implementation items.
+- Next: send PDF + recording + next-steps message to Ayhan today (trial framed as standard-system demo account, 3 to 5 days; configuration to their processes is implementation; index feed + budgeting module included in the implementation fee). Then fresh validity date on the commercials, privately.
 
 ## Next steps
 
