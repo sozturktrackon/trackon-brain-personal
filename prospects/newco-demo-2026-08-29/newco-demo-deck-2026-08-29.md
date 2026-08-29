@@ -143,6 +143,13 @@ footer: 'Trackon Software FZCO · Trackon Legacy · Live Demo · Confidential'
 
 <div class="kicker">Live Demo · August 2026</div>
 
+<!--
+OPEN (60 seconds, before anything else). Names first: ask Nikhil and Emrah their roles.
+Thesis: "You are building a trading house from zero with ten people. Your question is not which software. It is: how do ten people run cargoes worth millions without a thirty-person back office, and how does Ayhan bey know the numbers are true in front of a bank or an investor. I will show you with one cargo, in one hour."
+Ask the room: which products and routes, and how do you pay and get paid (LC, CAD, open account, advances). Use the answer for the example.
+Ask permission to record.
+-->
+
 <img class="logo" src="./trackon-logo.png" />
 
 <div class="cover-title">One cargo, from contract to profit.<br/>Everything in one place.</div>
@@ -159,6 +166,13 @@ footer: 'Trackon Software FZCO · Trackon Legacy · Live Demo · Confidential'
 <div class="eyebrow">Who we are</div>
 
 # Built by traders, for trading
+
+<!--
+30 seconds, no more. Credibility said ONCE, then the screens prove it.
+Written inside a trading house (Hakan), about USD 2 billion and 5 million tonnes a year, Africa to Russia, Canada to India.
+Live today at trading and processing companies in the US, the Gulf and Turkey. Measured uptime 99.99 percent.
+Do NOT mention build cost, do NOT mention AI build comparisons, do NOT name customers unless already public.
+-->
 
 <div class="row">
 <div class="col card card-accent">
@@ -182,6 +196,12 @@ footer: 'Trackon Software FZCO · Trackon Legacy · Live Demo · Confidential'
 <div class="eyebrow">The next 60 minutes</div>
 
 # One trade, start to finish. Then the owner's view.
+
+<!--
+20 seconds. "One cargo through every desk, then what the founders look at every morning, then your questions."
+Then switch to the system. While the screen loads, the UI sentence: "The screens are functional, not pretty. Every number on them has been audited by trading houses for twenty years. Judge the numbers."
+Name the cargo and keep the name all hour: "Fatih bey buys 10,000 t granular urea FOB Gulf, sells 7,000 t CFR Mersin."
+-->
 
 <div class="row">
 <div class="col card">
@@ -207,6 +227,18 @@ footer: 'Trackon Software FZCO · Trackon Legacy · Live Demo · Confidential'
 
 # The contract is the source. Everything downstream inherits from it.
 
+<!--
+Keep this slide as the map in a second window, or show it for 15 seconds before the live screens.
+LIVE SCRIPT (30 min):
+1. Purchase contract (4 min): estimated costs per tonne, "remember this number, we come back to it". Approval flow in one click: nothing binding until the people you choose approve.
+2. Sale contract + positions (5 min) PEAK 1: long 3,000 t. Mark to market with a changed price. Ask Fatih: "how do you see this today?" WAIT.
+3. Shipment (7 min) PEAK 2: steps, documents, checklists. At the first shipment screen: "Every field here exists because a trader once lost money without it." Enter ONE expense (demurrage) live, reopen trade P&L: "Fifteen seconds ago this cargo made X per tonne, now X minus two. Nobody waited for month end or the shipowner's invoice in 45 days." If claim console tested OK: buyer at Mersin claims 120 t short on outturn, raise claim, debit note hits this cargo.
+4. Documents + invoice (5 min): LC/bank checklist ("presentation vs discrepancy fee plus three weeks"). Invoice history: estimate vs actual, "the day-one number next to reality".
+5. Payment + finance (4 min): request, approve, treasury pays, advances. GL/accruals 2 min only if Nikhil is finance.
+6. Security (3 min) PEAK 3: second trader login, counterparties invisible, hidden prices. "When someone leaves, he leaves with nothing, and the cargo continues." Ayhan's moment.
+At minute 35, skip finance. Never skip the peaks.
+-->
+
 <div class="flow-label first">One trade thread</div>
 <div class="flow">
 <div class="node"><div class="nt">Contracts</div><div class="ns">Purchase and sale, approvals, estimated costs, e-signature</div></div>
@@ -229,6 +261,12 @@ footer: 'Trackon Software FZCO · Trackon Legacy · Live Demo · Confidential'
 <div class="eyebrow">Who sees what</div>
 
 # Four desks, one record, four different screens
+
+<!--
+Use as the map for the OWNER'S VIEW (10 min): dashboards, monthly P&L, shipment P&L, limits per counterparty and payment term (urea buyers push for open account), blacklist.
+Framing for Ayhan and the observers: "This is the ten-minute morning look. Every number here is the sum of what you just watched. There is no second version prepared for the bank."
+Optional only if tested this morning: Claude with the Legacy MCP, "what are my open positions", attributed to the logged-in user.
+-->
 
 <div class="row">
 <div class="col card">
@@ -257,6 +295,12 @@ footer: 'Trackon Software FZCO · Trackon Legacy · Live Demo · Confidential'
 
 # Six things that protect a trading house
 
+<!--
+Recap in one breath, 60 seconds. Point at the ones they reacted to.
+If "why not build it ourselves / with AI" comes up: "The code is the cheap part. What you cannot buy or generate is knowing what to build: FX averaging on origination payments, accruals before the freight invoice, how a shortage claim hits the cargo P&L, which document kills an LC presentation. That took thirty years and five million tonnes of mistakes."
+No dollar figures. No "soul". No 911 vs Taycan.
+-->
+
 <div class="row">
 <div class="col">
 <div class="li"><strong>No double entry.</strong> One contract feeds shipment, invoice, payment and ledger. Fewer people do more, with fewer mistakes.</div>
@@ -275,6 +319,12 @@ footer: 'Trackon Software FZCO · Trackon Legacy · Live Demo · Confidential'
 <div class="eyebrow">Why day one</div>
 
 # A new company has an advantage: nothing to unlearn
+
+<!--
+"You have an advantage none of our customers had: nothing to migrate, nothing to unlearn. Approval flows, cost estimates and document checklists are how the team works from the first day."
+Startup package: setup, processes, report pack with your header, training. Do NOT give a go-live duration; say it follows the product list and flows.
+If "why Legacy not TrackonAI": "Legacy is the complete trading house in one system. TrackonAI is the logistics and contracting layer built to sit on an existing accounting system. You have no accounting system yet, so you need the whole house, not the top floor."
+-->
 
 <div class="row">
 <div class="col card card-accent">
@@ -303,6 +353,14 @@ footer: 'Trackon Software FZCO · Trackon Legacy · Live Demo · Confidential'
 <div class="eyebrow">Next steps</div>
 
 # From this demo to your first cargo in the system
+
+<!--
+THE ASK, said out loud: "Next step is the agreement. Once signed, implementation starts on your staging environment: your company, products, counterparties, approval flows, document templates and report pack. Your team is trained on staging, you accept, and the first live cargo goes into production."
+Then: "Ayhan bey, when can we sit down to finalise the agreement?" Get a date for that private conversation.
+Ask naturally: "which company will sign?" (we do not have the entity name).
+NO pricing, NO deployment options in this room. Commercials with Ayhan privately, today, with a fresh validity date.
+After the call: WhatsApp thanks + PDF + recording to Ayhan.
+-->
 
 <div class="snum"><div class="badge">1</div><div class="scontent">Sign the agreement with Trackon Software FZCO: order form and service agreement, agreed with Mr Yalcintas and Mr Akdogan.</div></div>
 <div class="snum"><div class="badge">2</div><div class="scontent">Implementation starts on your staging environment: company and branches, products, counterparties, approval flows, document and cost templates, report pack with your header.</div></div>

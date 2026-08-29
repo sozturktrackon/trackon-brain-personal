@@ -4,7 +4,7 @@ status: active
 stage: demo
 product: trackon-legacy
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-08-29
 related: [_personal/prospects/yalcintas-akdogan-newco, _personal/commercial/newco-yalcintas-proposal-2026-07, _personal/prospects/sggt-demo-cues, products/trackon-legacy/legacy-overview]
 tags: [prospect, trackon-legacy, demo, cue-sheet]
 ---
@@ -111,3 +111,7 @@ Craft rules: one cargo one name; every feature ends in a money sentence or is sk
 - **POS: do not demo.** Retail shop tool (Spectrum, Africa); irrelevant to a bulk fertilizer trader and it breaks the one-cargo story. Only use: one sentence + one screenshot in a tab if the "dated UI" objection comes up ("the modern mobile layer is live for other customers on the same database").
 - **Claims: demo if it works in the demo tenant.** Fertilizer traders live with outturn shortage, caking/moisture and demurrage claims. Slot: right after the live expense (Peak 2): "buyer at Mersin claims 120 t short on outturn; logistics raises it with the checklist for that claim type; approval stays with you; the debit note hits this cargo's P&L." Precondition: Legacy claim console (TLB-2817) configured with claim types in the demo schema AND tested Saturday morning; otherwise one sentence at the shipment step. Mana APEX claim app = screenshot only, same modern-UI proof as POS.
 - [ ] Saturday morning: test claim console on demo tenant (types, checklist, debit note posting to P&L). Keep one POS and one APEX claim screenshot in a tab.
+
+## Outcome (2026-08-29)
+
+Demo ran ~60 min as planned; full notes in [[_personal/prospects/yalcintas-akdogan-newco]]. What worked: the bank/investor-numbers thesis matched their stated driver word for word; the three cost dimensions, payment-request module, trader-scoped visibility and locked monthly P&L drew the questions. What changed: the close became a 3-5 day demo account trial with a WhatsApp group instead of "sign then staging". New asks to price as implementation: index price API feed, operational budgeting module, tender/bid module. Lesson: the hardest questions came from the operations people (Emrah on storage cost allocation, Fatih on late claims), not from the founders; next demo, prepare a worked inventory-costing example up front.

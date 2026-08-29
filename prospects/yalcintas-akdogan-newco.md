@@ -1,10 +1,10 @@
 ---
 type: prospect
 status: engaged-positive
-stage: demo
+stage: trial
 product: trackon-legacy
 created: 2026-07-03
-updated: 2026-08-28
+updated: 2026-08-29
 related: [_personal/legal/msa-rollout-strategy, _personal/commercial/newco-yalcintas-proposal-2026-07, decisions/2024-msa-isv-rollout, _personal/prospects/newco-demo-cues-2026-08-29]
 tags: [prospect, trackon-legacy, commodities, uae, new-company]
 ---
@@ -55,6 +55,40 @@ Add-ons offered: Dashboard module (9,188/mo), read-only reporting instance (10,4
 
 **Managed IT Support (optional): AED 5,000/mo for the initial 10 users, +500/user/month for each additional user.** Scope: email setup/management, website configuration (hosting arrangement, domain settings, initial SEO — **excludes website development**, which they can outsource or Trackon can quote separately), computer setup & installation, IT & security policy implementation, day-to-day troubleshooting. Per-head pricing is deliberate — Murat's requirement that the fee must rise with headcount since each new user adds support burden. Exit path stated on deck: when they hire their own IT person, Trackon transfers the knowledge and they continue in-house.
 
+## Demo outcome (2026-08-29, Sat 11:00 Dubai, Google Meet, ~60 min, English)
+
+Source: Gemini meeting notes (AI-generated, reviewed by Murat) + Meet recording. Trackon side: Murat, Murat Kuzuturk, Bibeesh, Ozan.
+
+**Their side, names learned**: Ayhan Yalcintas, Fatih Ziya Akdogan, Emrah Cay (asked the hard cost-allocation questions), Nikhil Deshpande, **Mehmet Elmaagacli** (will send product list and customer/vendor data; gets demo access with Ayhan), **Ege Dogus Cetin** (asked about bid/tender tracking).
+
+**Commodity scope (confirmed on the call)**: fertilizers, petrochemicals, grains and minerals. ~10 people. Multimillion-dollar volumes; accurate numbers for banks and investors is the stated driver (matches the thesis we opened with).
+
+**What resonated**: role-based dashboards and audit trail; contract templates with clauses/doc sets by origin-destination; approval flows above thresholds; pro-forma from approved contract; three cost dimensions (estimate / accrual / actual); LC checklists and bank submissions; payment request module preventing double payment; trader-scoped data visibility; shipment-wise and locked monthly P&L; credit insurance limits (AIG/Atradius red zone); email gateway attaching mails to contracts/shipments; 195 shipping-line tracking; SCB host-to-host; MCP/AI interest from Ayhan; offers home screen for open positions.
+
+**Questions that need answers / follow-up**:
+- Emrah: storage cost on bulk stock over months, divided by remaining or original quantity. Answered: floating inventory costing tied to lot number, cost basis refreshes. **Action: run a profitability simulation with Emrah's own numbers and present the reports.**
+- Fatih: late invoices/claims arriving months after close. Answered: entered on the shipment, adjusts that shipment and the trader's monthly P&L if still employed. Ayhan's response: THEY will set a company payment policy with a ~3-month grace period (their internal policy, not a system change).
+- Fatih: business trip approvals and expenses. Answered: business trip module exists, posts to personal account statement.
+- Ege: bid/tender tracking. Answered: a tender/bid module can be built on the platform (implementation scope).
+
+**Feature commitments made on the call (all scoped as implementation work, to be priced in the agreement, figures in [[_personal/commercial/newco-yalcintas-proposal-2026-07]] follow-up)**:
+1. API-driven feed for external index prices (Argus/Platts) into price formulas; FX already automatic.
+2. Operational budgeting module: monthly planned quantities, unit prices, cash cycle per product group; gross profitability and opex variance monthly. Ayhan to provide the budget structure/data.
+3. Tender/bid management module (Ege's ask), lower priority.
+4. Mobile app + alarms demo for leadership (separate short session).
+
+**Decided next step (changed from "sign then staging")**: a **3-to-5-day demo account** for Mehmet Elmaagacli and Ayhan, configured with their product list and customer/vendor details, supported through a **WhatsApp group**, BEFORE the MSA + order form is finalised. Murat agreed on the call.
+
+**Actions**:
+- [ ] Murat: create the demo tenant access (Mehmet, Ayhan) once Mehmet sends products + counterparties
+- [ ] Murat: WhatsApp support group (Trackon: Murat, Kuzuturk, Bibeesh, Ozan)
+- [ ] Murat: follow-up message to Ayhan with next steps (today)
+- [ ] Murat: profitability simulation with Emrah's values, present reports
+- [ ] Murat: mobile app + alarms demo for leadership
+- [ ] Mehmet Elmaagacli: send product list and customer/vendor details
+- [ ] Ayhan: budget data (planned quantities, unit prices, cash cycle per product group)
+- [ ] After trial: MSA + order form; entity name still unknown (ask "which company signs")
+
 ## Follow-up timeline
 
 - **2026-07-06**: Proposal PDF emailed to both (ayhan@thadubai.ae, fzakdogan@gmail.com). No email reply as of 2026-07-21.
@@ -65,7 +99,8 @@ Add-ons offered: Dashboard module (9,188/mo), read-only reporting instance (10,4
 - **2026-08-26**: Ayhan reopened contact on WhatsApp, asked for an online demo with his team. Friday or Saturday proposed; Murat confirmed Saturday works.
 - **2026-08-27**: Demo fixed for **Saturday 2026-08-29, 11:00 Dubai, Google Meet** (meet.google.com/dtx-ckgj-ker), 60 min. Murat offered 4 to 5 hours for the full flow; Ayhan cannot do that in one session, so standard 60-min demo with live screens on request. Invites: Ayhan, Emrah, Fatih, Nikhil. Demo language English (Indian colleague); Murat bringing team members.
 - **2026-08-28**: Ayhan asked for the Meet link to forward on WhatsApp; ~10 more from their group may attend. Pricing validity (2026-08-05) passed without a chase; deal alive on their timeline. Demo plan and cue sheet: [[_personal/prospects/newco-demo-cues-2026-08-29]]. Old generic Legacy deck (trackon_presentation.pdf) retired for this prospect; new bookend deck in `newco-demo-2026-08-29/`.
-- Next: run the demo; same day send PDF + recording to Ayhan; restate commercials privately to Ayhan with a fresh validity date; on signature, implementation starts on staging (configuration is the implementation effort, not a pre-sales freebie).
+- **2026-08-29**: Demo held (see Demo outcome above). Outcome: 3-5 day demo account trial before contract, WhatsApp support group, four implementation-scope feature asks (index feed, budgeting, tender module, mobile alarms demo).
+- Next: send PDF + recording + next-steps message to Ayhan today; commercials privately with a fresh validity date, now including the index feed and budgeting module as priced implementation items.
 
 ## Next steps
 
