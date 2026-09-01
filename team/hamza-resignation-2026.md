@@ -78,6 +78,12 @@ Full item list:
 
 - The **UDA sale was achieved thanks to Hamza's efforts** — Murat credits him with it explicitly in the acceptance email.
 - His other defining contribution: the diligent build-out of the comprehensive report suite across the journey.
+- Beyond the headline items: **day-to-day customer work as an "unknown soldier"** — quiet, constant, largely invisible support of customers. Murat had been actively trying to make this work more visible before the resignation.
+
+## Gmail connector incident (2026-09-01) — process note
+
+- The claude.ai Gmail connector on Murat's Claude account is authorized against **sales@trackonsoftware.com**, NOT his personal mailbox. An acceptance-letter draft was mistakenly created there (never sent); Murat deleted it himself.
+- Rule going forward: **never use the Gmail connector without Murat's explicit instruction**, and verify the connected mailbox identity before any write. Murat to decide whether to disconnect the connector (claude.ai Settings → Connectors, or myaccount.google.com/connections as sales@).
 
 ## Knowledge-loss risk if he leaves
 
