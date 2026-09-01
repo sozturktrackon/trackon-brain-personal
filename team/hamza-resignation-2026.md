@@ -48,6 +48,19 @@ Staging:
 - **During September**: narrow as each handover item completes (GitHub after code/SQL handover, Jira/Zendesk after ticket handover).
 - **Sep 30**: suspend Google account (kills SSO incl. AWS if federated), final salary paid.
 
+### Audit findings (2026-09-01, live recon — read from AWS + GitHub this session)
+
+- **GitHub**: org member as `hamzayb` (trackon-software org)
+- **TrackonAI portal**: Cognito user `hamzayb@trackonsoftware.com` in prod pool `ap-south-1_y1OhTgLij` — ENABLED/CONFIRMED
+- **AWS TrackonAI acct (980921753434)**: NO personal IAM user for Hamza; only shared IAM user `deploy` with one active access key (created 2025-02-07). If Hamza did Athena/CLI work he used these SHARED keys → rotate on exit. No IAM Identity Center instance found.
+- **AWS TradingDocs acct (871773732706)**: IAM users agrisars3, cloudfronts3, sozturk — no Hamza.
+- **Not verifiable from here**: Oracle DB accounts per customer, SSH authorized_keys on legacy EC2s (tenant inventory is runner-side in db_deploy_prod.sh), APEX workspace users, Legacy app users, Google Workspace, Jira/Zendesk, DeskTime.
+
+### Scripts (in `_personal/team/offboarding/`)
+
+- `hamza-access-audit.sh` — read-only, run anytime to see current state
+- `hamza-access-revoke.sh stage1|stage2|stage3 [--execute]` — dry-run by default; stage1 = day-1 portal cutoff + manual same-day list, stage2 = GitHub removal after handover, stage3 = final-day checklist
+
 Full item list:
 
 - [ ] Customer Oracle DB logins (Legacy, per tenant instance) + rotate shared schema/app passwords he knows — LARGEST exposure
