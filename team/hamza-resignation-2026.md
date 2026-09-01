@@ -28,6 +28,7 @@ Notes on the letter itself:
 
 ## Open questions / to decide
 
+- [ ] Murat's inclination (2026-09-01, same day): does NOT want to prolong it — considering making the exit effective immediately instead of running the 30-day notice. Options: (a) mutual written waiver of notice (cheapest, needs Hamza's signature), (b) unilateral early release = pay in lieu of remaining notice under UAE law, plus arbitrary-dismissal exposure if framed as employer termination, (c) garden leave through 30-09 (paid, no duties, access revoked day one).
 - [ ] Accept as-is, or talk first? The argument immediately preceded the email — this may be heat-of-the-moment rather than a settled decision.
 - [x] Phantom equity: NOT an issue. Murat confirmed (2026-09-01) no equity was ever actually shared or formalized; the 5% in [[_personal/team/equity-arrangements]] was a planned allocation only. Hamza holds nothing.
 - [ ] Verify contractual entity (DMCC vs FZCO) and notice-period terms.
