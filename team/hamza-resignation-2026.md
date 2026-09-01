@@ -74,6 +74,11 @@ Full item list:
 - [ ] Check DB audit logs + CloudTrail for unusual exports/bulk queries since the argument
 - [ ] Data clause in the waiver/settlement: deletion of company + customer data from personal devices (he's in Pune on own hardware — contract is the only lever over local copies), reaffirm confidentiality
 
+## Legacy / credit (Murat, 2026-09-01)
+
+- The **UDA sale was achieved thanks to Hamza's efforts** — Murat credits him with it explicitly in the acceptance email.
+- His other defining contribution: the diligent build-out of the comprehensive report suite across the journey.
+
 ## Knowledge-loss risk if he leaves
 
 Hamza is the sole owner of ([[company/team/hamza]]):
