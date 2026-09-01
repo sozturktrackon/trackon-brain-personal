@@ -10,7 +10,7 @@ related: [company/team/hamza, _personal/team/equity-arrangements, _personal/stra
 
 ## What happened
 
-This is the **first resignation in Trackon's history**. Murat took it hard — he did not want to lose Hamza this way and wished it had worked out otherwise.
+This is the **first actual departure in Trackon's history**, but it is **Hamza's SECOND resignation** — he resigned once before and Murat talked him into staying. That history is why Murat feels he has to accept it this time (confirmed by Murat, 2026-09-01). He took it hard — he did not want to lose Hamza this way and wished it had worked out otherwise.
 
 - 2026-09-01: Argument between Murat and Hamza in the team group chat (same day as the resignation email).
 - 2026-09-01 11:17: Hamza sent a formal resignation email to Murat.
