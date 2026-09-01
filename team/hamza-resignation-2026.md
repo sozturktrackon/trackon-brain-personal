@@ -34,7 +34,7 @@ Notes on the letter itself:
 
 ## Open questions / to decide
 
-- [ ] Accept as-is, or talk first? The argument immediately preceded the email — this may be heat-of-the-moment rather than a settled decision.
+- [x] Decided (2026-09-01): accept, warmly. Murat is accepting "this time" (implies earlier resignation attempts were talked down) with a personal, grateful email — he values Hamza highly and is grateful for his patience through all the changes Murat introduced.
 - [x] Phantom equity: NOT an issue. Murat confirmed (2026-09-01) no equity was ever actually shared or formalized; the 5% in [[_personal/team/equity-arrangements]] was a planned allocation only. Hamza holds nothing.
 - [ ] Verify contractual entity (DMCC vs FZCO) and notice-period terms.
 - [ ] Handover plan if the resignation stands — see knowledge-loss risks below.
