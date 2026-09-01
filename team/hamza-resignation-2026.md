@@ -57,6 +57,7 @@ Staging:
 - **TrackonAI portal**: Cognito user `hamzayb@trackonsoftware.com` in prod pool `ap-south-1_y1OhTgLij` — ENABLED/CONFIRMED
 - **AWS TrackonAI acct (980921753434)**: NO personal IAM user for Hamza; only shared IAM user `deploy` with one active access key (created 2025-02-07). If Hamza did Athena/CLI work he used these SHARED keys → rotate on exit. No IAM Identity Center instance found.
 - **AWS TradingDocs acct (871773732706)**: IAM users agrisars3, cloudfronts3, sozturk — no Hamza.
+- **CORRECTION (2026-09-01, Murat)**: Hamza DOES have a personal IAM user — Murat found it in the console (account TBC, likely the legacy AWS account which the audit couldn't reach). His one access key: **deactivated by Murat 2026-09-01**. Remaining to fully neutralize: disable console access (Manage console access → Disable), attach inline deny-all policy (kills any still-live STS sessions, which survive key deactivation up to 12h), check for second key / SSH keys / service credentials. Keep user disabled, not deleted, until 30-09 so CloudTrail stays attributable.
 - **Not verifiable from here**: Oracle DB accounts per customer, SSH authorized_keys on legacy EC2s (tenant inventory is runner-side in db_deploy_prod.sh), APEX workspace users, Legacy app users, Google Workspace, Jira/Zendesk, DeskTime.
 
 ### Scripts (in `_personal/team/offboarding/`)
