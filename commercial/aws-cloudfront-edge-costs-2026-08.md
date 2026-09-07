@@ -3,7 +3,7 @@ type: commercial
 status: analysis
 tags: [aws, cloudfront, infrastructure, costs, trackon-legacy]
 created: 2026-08-27
-updated: 2026-08-27
+updated: 2026-09-07
 related: [products/trackon-legacy/oci-migration-plan.md, _personal/commercial/oracle-cloud-order-2026-07.md]
 ---
 
@@ -104,3 +104,16 @@ Net: Option A is strictly cheaper than the current stack — roughly $15–20/mo
 - Decision (refined 2026-08-27): udaz-ubuntu stays as UDA file-ingestion host on its prepaid r6g RI (downsizing before Dec 2028 would ADD cost: r6g.medium is the smallest r6g and the RI bills regardless); prod-ubuntu becomes CloudFront warm-DR failover origin on the other r6g RI; runner + wireguard stay on their matched RIs. Let everything lapse at term, never renew.
 - Housekeeping: 4 unattached EIPs in us-west-1 bill ~$0.005/h each ≈ $3.65/mo each ≈ **$175/yr for the four** — release unless parked deliberately.
 - **EC2 estate monthly run-rate (computed from live account 2026-08-27): ≈ $94/mo total** = RI recurring $46.80 (2× r6g.medium $35.33 to Dec-2028 + t4g.medium $8.76 + t3.micro $2.70 to Jun-2027) + 9 public IPv4 $32.85 + 154 GB gp3 EBS ≈ $14.78. Zero on-demand compute (all running instances RI-covered). Trimmable to ≈ **$65–70/mo** by releasing the 4 unattached EIPs (−$14.60) and deleting staging-ubuntu + al2023 volumes/EIPs once staging is on OCI (≈ −$10–14). Excludes RDS (UDA until Nov), S3, data transfer, ALB/GA.
+
+
+## Live cost read 2026-09-07 (Cost Explorer, account 313765565642, August 2026 unblended, USD)
+
+Total **$1,543** incl. $72 tax. By service: RDS 546 · Lambda 134 · EC2-Other (EBS/snapshots/IPv4) 124 · QuickSight 87 · EC2 compute (RI recurring) 76.5 · S3 68 · VPC (interface endpoints + public IPv4) 65 · CloudWatch 50 · WAF 37 (both ACLs) · Lightsail 36 · Secrets Manager 36 · Support Developer 32 · AWS Backup 31 · EFS 28 · **ELB 20.5 · Global Accelerator 18.6** · DynamoDB 15 · AppSync 11 · Route 53 8.6 · Windows 10 Pro desktop 7.4 · Bedrock ~15. (Sep 1–6 shows $616 but RI recurring fees land on the 1st, so do NOT extrapolate that window.)
+
+**Phase A edge teardown saves ≈ $50/mo**: ALB ~20.5 + GA ~18.6 + regional WAF ~10–12 (the CloudFront ACL keeps costing ~$10 + requests). Both ex-ALB EIPs, if left allocated after deletion, ~$3.65/mo each.
+
+**prod-ubuntu**: its r6g.medium RI is $0.0242/h ≈ $17.7/mo to 2028-12-25 (~27 months ≈ $480 remaining). Terminating saves only EBS 28 GB (~$2.5/mo) + EIP ($3.65/mo); the $17.7/mo goes away only by selling the RI (Marketplace, sale price ~$1, buyer assumes the recurring fee; needs a US-address disbursement bank account). Downsizing udaz would ADD cost (t4g.small on-demand ≈ $12/mo while the idle RI keeps billing $17.7).
+
+**RDS snapshot storage**: 1,450 GB of manual snapshots + 7-day automated backups on 363 GB allocated; free backup allowance = allocated storage of live instances (363 GB) → roughly 1,100+ GB billable at ~$0.095/GB-mo ≈ **~$100/mo** hiding inside the RDS $546. hakan/oldhakan (2× 500 GB) and agrisar (200 GB) are pre-migration copies; if retention is required, restore→expdp→S3 Glacier Deep Archive (~$1/TB-mo) then delete. staging-db-snapshot (250 GB, taken 2026-09-05) can go once staging on OCI is judged complete.
+
+**November (Wave 2)**: central-db r5.large RI expires 2026-11-10; the bulk of the RDS line (~$450+/mo after snapshots) leaves with the UDA migration. QuickSight ($87) likely tied to UDA reporting — confirm.
