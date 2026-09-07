@@ -130,3 +130,5 @@ Any news on the Phase 2 proposal? To hold the December date we need to start now
 
 Best regards,
 Murat
+
+**SENT version (Murat, 2026-09-07):** "Hi Justin, Any news on the Phase 2 proposal? Can we send the 40% acceptance invoice? Best regards, Murat"
