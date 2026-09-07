@@ -121,3 +121,12 @@ Murat Selim Ozturk
 CEO, Trackon Software FZCO
 
 **Notes:** assumptive close (approval = invoice, a small administrative yes that also starts DFA AP early); price not reopened; schedule consequence stated once, factually. Send Mon evening Dubai so it tops Tuesday's inbox after Labor Day. Fallback: WhatsApp Tue/Wed.
+
+**Email 3, short version (Murat, 2026-09-07, replaces the long draft above):**
+
+Hi Justin,
+
+Any news on the Phase 2 proposal? To hold the December date we need to start now. Can we send the 40% acceptance invoice?
+
+Best regards,
+Murat
