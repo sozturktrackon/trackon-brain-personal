@@ -3,7 +3,7 @@ type: draft
 status: draft # NOT SENT. Murat to review, then Bibeesh/Murat send
 tags: [mana, dfa, salesforce, integration, email, phase1-closure]
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-09-07
 related: [customers/mana/mana-health, _personal/commercial/mana-sf-phase2-quote, _personal/commercial/mana-sf-phase1-closure-sdd, products/trackon-legacy/trackon-legacy-api-build]
 ---
 
@@ -98,3 +98,26 @@ CEO, Trackon Software FZCO
 - **Commercial correspondence NEVER goes to the technical thread** (Murat, 2026-08-19): pricing reaches Justin (the commercial decision-maker) privately; Bibeesh, Chad and DFA operational staff never see amounts. The technical audience still sees the schedule pressure through the SDD's closing slide ("Phase 2 acceptance by 4 September"), which carries the deadline without any pricing.
 - The Sep-4 acceptance date is derived: Dec go-live − ~10 wks dev − UAT/training/contingency. It makes DFA's own deadline carry the urgency.
 - Do NOT attach or reference any Legacy table names / data dictionary: endpoints only (dependency directive).
+
+
+---
+
+## Email 3: Murat → Justin (+Josh), reply on the sent proposal thread (2026-09-07, DRAFT, after Sep 4 lapsed)
+
+**Subject:** Re: Salesforce - Trackon Project: Phase 2 Proposal
+
+Hi Justin,
+
+Following up on the Phase 2 proposal I sent on August 19. The September 4 acceptance date has passed and I want to protect your December go-live.
+
+To start development this week we need your go-ahead. The simplest way to record it is the first invoice: 40% on acceptance, per the payment schedule in the proposal. Can we issue that invoice to DFA now? It will carry our Trackon Software FZCO bank details, so it clears the same way the Phase 1 payment did.
+
+If approval needs more time on your side, please let me know the date you expect it. Each week from here moves go-live by roughly a week into January, and I would rather plan that with you now than find it in UAT.
+
+One item we need at the start of the build: Chad's field-mapping workbook, which the fixed quote assumes.
+
+Best regards,
+Murat Selim Ozturk
+CEO, Trackon Software FZCO
+
+**Notes:** assumptive close (approval = invoice, a small administrative yes that also starts DFA AP early); price not reopened; schedule consequence stated once, factually. Send Mon evening Dubai so it tops Tuesday's inbox after Labor Day. Fallback: WhatsApp Tue/Wed.
