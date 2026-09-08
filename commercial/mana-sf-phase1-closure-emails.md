@@ -132,3 +132,30 @@ Best regards,
 Murat
 
 **SENT version (Murat, 2026-09-07):** "Hi Justin, Any news on the Phase 2 proposal? Can we send the 40% acceptance invoice? Best regards, Murat"
+
+**✅ OUTCOME (2026-09-08):** Justin accepted in writing the next day: "Good to proceed with phase 2 proposal. Please send over the invoice." Phase 2 accepted; see [[_personal/commercial/mana-commercials]] for the active payment schedule.
+
+---
+
+## Email 4: Murat → Justin (+Josh), invoice cover (2026-09-08, DRAFT)
+
+**Subject:** Re: Salesforce - Trackon Project: Phase 2 Proposal
+
+Hi Justin,
+
+Thank you, that is great news. The acceptance invoice is attached: $13,800, which is 40% of the Phase 2 fixed price per the payment schedule in the proposal.
+
+Two notes for a smooth payment:
+
+- The invoice and bank details are in the name of **Trackon Software FZCO**, the same account your Phase 1 payment cleared to. Please have AP confirm the vendor record uses that exact name. Our W-8BEN-E and bank confirmation letter are attached in case they are needed.
+- Development starts immediately. One choice to record from the design document: approval flow **Option 1** (contracts arrive in Trackon already approved) or **Option 2** (created as draft, approved in Trackon after clauses and printing). A one-line reply is enough, and it has no effect on price or timeline.
+
+Bibeesh will keep Chad's team updated on the technical thread as the build progresses.
+
+Best regards,
+Murat Selim Ozturk
+CEO, Trackon Software FZCO
+
+**Attachments:** invoice PDF · FZCO W-8BEN-E · bank confirmation letter
+
+**Notes:** amount stated openly (Justin is the commercial recipient); the W-8BEN-E/bank-letter bundle preempts a repeat of the Phase-1 AP bounce on a bigger wire; the approval-flow ask closes the last open design decision with a one-line reply, no meeting.
