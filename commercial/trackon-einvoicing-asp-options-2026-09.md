@@ -27,6 +27,9 @@ Legal floor: every ASP must give 100 free e-invoice exchanges + reporting per en
 (MD 64/2025 Art 10(4)). Our 120/yr overshoots by ~20 exchanges; only matters for per-invoice
 priced ASPs, not for Zoho/Wafeq subscriptions.
 
-**Recommendation:** Zoho Books Standard, annual billing. Expected all-in cost ≈ AED 720/yr plus
-VAT, replacing whatever we pay today for invoice production. Fallback: Wafeq Starter once fully
-accredited. Do not request quotes from portal-only ASPs unless Zoho confirms a per-invoice fee.
+**Superseded 2026-09-10 (same day):** Murat clarified that Trackon's own invoices come from
+Trackon Legacy, so the Zoho/Wafeq accounting-app route is off the table (see ADR). Trackon
+will run its own invoices through the Legacy → ASP adapter. Cost target for our own volume:
+AED 0 for the first 100 exchanges/yr (legal floor), a per-invoice overflow charge for ~20
+more. Get API-tier quotes at 120/yr from Mac & Ross, Complyance, Flick, Covoro, Taxlabs; the
+Zoho and Wafeq rows above stay as competitor price references only.
