@@ -4,7 +4,7 @@ status: engaged-positive
 stage: trial
 product: trackon-legacy
 created: 2026-07-03
-updated: 2026-08-29
+updated: 2026-09-11
 related: [_personal/legal/msa-rollout-strategy, _personal/commercial/newco-yalcintas-proposal-2026-07, decisions/2024-msa-isv-rollout, _personal/prospects/newco-demo-cues-2026-08-29]
 tags: [prospect, trackon-legacy, commodities, uae, new-company]
 ---
@@ -114,6 +114,10 @@ Source: Gemini meeting notes (AI-generated, reviewed by Murat) + Meet recording.
 - **2026-08-28**: Ayhan asked for the Meet link to forward on WhatsApp; ~10 more from their group may attend. Pricing validity (2026-08-05) passed without a chase; deal alive on their timeline. Demo plan and cue sheet: [[_personal/prospects/newco-demo-cues-2026-08-29]]. Old generic Legacy deck (trackon_presentation.pdf) retired for this prospect; new bookend deck in `newco-demo-2026-08-29/`.
 - **2026-08-29**: Demo held (see Demo outcome above). Outcome: 3-5 day demo account trial before contract, WhatsApp support group, four implementation-scope feature asks (index feed, budgeting, tender module, mobile alarms demo).
 - Next: send PDF + recording + next-steps message to Ayhan today (trial framed as standard-system demo account, 3 to 5 days; configuration to their processes is implementation; index feed + budgeting module included in the implementation fee). Then fresh validity date on the commercials, privately.
+
+## Recovery touch (2026-09-11)
+
+No trial activity recorded since the 2026-08-29 demo. Five-page WhatsApp deck built on the Steps story, tailored to Emrah's storage-cost question, Fatih's late claims and Ayhan's bank-grade numbers, next step = the agreed demo account: `newco-whatsapp-2026-09-11/Trackon-NewCo-Every-Step.pdf` + Turkish message draft in the same folder. No pricing in it. Rules: [[company/processes/presentations]].
 
 ## Next steps
 

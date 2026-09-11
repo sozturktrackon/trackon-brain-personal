@@ -3,7 +3,7 @@ type: prospect
 status: active
 tags: [prospect, trackon-legacy, trackonai, apex, pos, africa, proposal]
 created: 2026-07-23
-updated: 2026-08-26
+updated: 2026-09-11
 related: [products/trackon-legacy/apex-pos-project.md, products/trackon-legacy/legacy-roadmap.md, _personal/commercial/deal-log.md, _personal/commercial/pricing.md, _personal/prospects/yalcintas-akdogan-newco.md]
 ---
 
@@ -45,6 +45,10 @@ Implementation itemisation (A / B): discovery & process design 10,000 / 10,000; 
 - Murat asked to state "server hosted in Dubai, backups to continental US encrypted" + a shop-connectivity disclaimer. Fact check: Spectrum's tenant (PDB_UTC) is today in **Oracle Cloud San Jose (US)**. **Murat's decision (2026-08-26): the deck says Dubai anyway, because new customers will be hosted on a new SHARED instance in Dubai (me-dubai-1), Spectrum first.** ADR: [[decisions/2026-legacy-new-customers-shared-dubai-instance]]. Delivery consequence: before project week 1 ("environment provisioned") Trackon must stand up the shared Dubai DB instance + a Dubai app/ORDS node and move the SPECTRUM schema there; tracked in the Legacy backlog. **Refined same day (Murat)**: never say "San Jose" to the customer, say "continental United States"; and offer the production region as a choice: Dubai by default, or Johannesburg / Mumbai / a European region if week-1 connectivity tests from the shops are better. Final deck wording: "Your demo environment runs today in the continental United States. For production we place your system in the region best connected to your head office and shops: Dubai by default, or Johannesburg, Mumbai or a European region if connectivity tests from your shops show a better result. We run the tests in week 1 and confirm the location with you."
 - Backups stated as they are: nightly AES-256 encrypted dumps to independent cloud (AWS US), 35-day retention, monthly locked archive 400 days, quarterly restore drills.
 - Connectivity: shops connect via their mobile network operator on staff phones' data plans; Trackon responsible for system availability, not for coverage/outages/data costs at shops; online-first, offline = separately scoped. Legal wording lives in the MSA; the deck states it as an assumption.
+
+## Recovery touch (2026-09-11)
+
+Five-page WhatsApp deck built on the Steps story, tailored to receive stock / sell / record expenses with a name on each, next step = shop managers try the demo shop on their phones: `spectrum-whatsapp-2026-09-11/Trackon-Spectrum-Every-Step.pdf` + English message draft in the same folder. No pricing in it; adjust the closing paragraph if the August proposal was already sent. Rules: [[company/processes/presentations]].
 
 ## Open before sending
 - Mr. Shilpen's surname and email (for the send).
