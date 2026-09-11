@@ -18,7 +18,7 @@ related: [products/trackon-legacy/apex-pos-project.md, products/trackon-legacy/l
 - They stated **40 users**. They asked for a **commercial proposal**. Murat: "good feeling about them."
 - Scope they described (Murat, 2026-08-26): shops **record their own expenses**, **accept goods**, **execute sales**; shops **add their own customers** = future. Head office handles international shipping and goods movement to the shops.
 
-## Proposal (prepared 2026-08-26, revised same day after Murat's review; not yet sent)
+## Proposal (sent to Mr Shilpen 2026-08-26; silent since)
 Contact: **Mr. Shilpen** (Spectrum DMCC; surname/email not yet on file). Deck + PDF: `_personal/commercial/spectrum/Trackon-Spectrum-Proposal.{md,pdf}` (built from `_templates/customer-deck-marp.md`). 14 slides: understanding, solution flow, HO coverage, POS app (ready + Record Expenses added + customers later), the work (7 workstreams incl. discovery), 3-month timeline, itemised implementation fee (A vs B), Option A pricing, Option B TrackonAI, Option B pricing, side-by-side, assumptions, next steps.
 
 **Pricing (AED, excl. 5% VAT), assumed split 10 HO + 30 shop users (stated on deck; totals adjust at unit rates):**
@@ -45,6 +45,12 @@ Implementation itemisation (A / B): discovery & process design 10,000 / 10,000; 
 - Murat asked to state "server hosted in Dubai, backups to continental US encrypted" + a shop-connectivity disclaimer. Fact check: Spectrum's tenant (PDB_UTC) is today in **Oracle Cloud San Jose (US)**. **Murat's decision (2026-08-26): the deck says Dubai anyway, because new customers will be hosted on a new SHARED instance in Dubai (me-dubai-1), Spectrum first.** ADR: [[decisions/2026-legacy-new-customers-shared-dubai-instance]]. Delivery consequence: before project week 1 ("environment provisioned") Trackon must stand up the shared Dubai DB instance + a Dubai app/ORDS node and move the SPECTRUM schema there; tracked in the Legacy backlog. **Refined same day (Murat)**: never say "San Jose" to the customer, say "continental United States"; and offer the production region as a choice: Dubai by default, or Johannesburg / Mumbai / a European region if week-1 connectivity tests from the shops are better. Final deck wording: "Your demo environment runs today in the continental United States. For production we place your system in the region best connected to your head office and shops: Dubai by default, or Johannesburg, Mumbai or a European region if connectivity tests from your shops show a better result. We run the tests in week 1 and confirm the location with you."
 - Backups stated as they are: nightly AES-256 encrypted dumps to independent cloud (AWS US), 35-day retention, monthly locked archive 400 days, quarterly restore drills.
 - Connectivity: shops connect via their mobile network operator on staff phones' data plans; Trackon responsible for system availability, not for coverage/outages/data costs at shops; online-first, offline = separately scoped. Legal wording lives in the MSA; the deck states it as an assumption.
+
+## Follow-up timeline
+
+- 2026-08-26: proposal sent to Shilpen.
+- 2026-08-31: Murat asked Vaibhav on WhatsApp how to follow up. Vaibhav: "Let me get back to you." No reply since.
+- 2026-09-11: 11 days of silence from both. Read: Vaibhav probably has a negative answer he is avoiding. Nudge sent/drafted: make the bad news easy ("if Shilpen went cold, just tell me"), one-word answer or a call. If silent again, close the file. Acceptance deadline on the proposal: 2026-09-25.
 
 ## Recovery touch (2026-09-11)
 
