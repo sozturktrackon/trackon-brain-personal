@@ -1,6 +1,6 @@
 ---
 type: prospect
-status: active
+status: engaged-price-objection
 tags: [prospect, trackon-legacy, trackonai, apex, pos, africa, proposal]
 created: 2026-07-23
 updated: 2026-09-11
@@ -50,7 +50,10 @@ Implementation itemisation (A / B): discovery & process design 10,000 / 10,000; 
 
 - 2026-08-26: proposal sent to Shilpen.
 - 2026-08-31: Murat asked Vaibhav on WhatsApp how to follow up. Vaibhav: "Let me get back to you." No reply since.
-- 2026-09-11: 11 days of silence from both. Read: Vaibhav probably has a negative answer he is avoiding. Nudge sent/drafted: make the bad news easy ("if Shilpen went cold, just tell me"), one-word answer or a call. If silent again, close the file. Acceptance deadline on the proposal: 2026-09-25.
+- 2026-09-11 11:06: Murat nudged Vaibhav ("no pressure, if Shilpen went cold just tell me"). Vaibhav had simply FORGOTTEN; called Shilpen within 10 minutes.
+- 2026-09-11 11:19, Vaibhav's report: they liked the software a lot, consider Murat among the best professionals in the industry, believe the product has everything they need. **Objection: cost "quite high". They are reviewing other products alongside Trackon.** Vaibhav asked Shilpen to consult Trackon again before any final decision; Shilpen agreed and will update "in due course". Vaibhav wrote "us (Trackon)": he acts as an ally, which strengthens the case for the referral agreement.
+- Read: live deal with a price objection and a competitive review, not a dead one. Competitors are probably retail POS tools priced per shop far below an ERP seat; our price carries HO trading, landed cost and shop profitability.
+- Next: (1) ask Vaibhav which component is high (one-time vs monthly vs total), what range Shilpen would accept, and which competitors; (2) reshape STRUCTURE before touching the rate card: phase the shop rollout (HO + few shops first), trim discovery in the implementation fee if the one-time is the issue, or extend the 50% period if the monthly is the issue; (3) then one short message to Shilpen offering to look at the scope together, no numbers; (4) revised proposal to Shilpen only, fresh validity date. Acceptance deadline on the current proposal: 2026-09-25.
 
 ## Recovery touch (2026-09-11)
 

@@ -41,7 +41,7 @@ Related: [[_personal/commercial/pricing|Pricing]], [[_personal/commercial/deal-n
 
 ## Active Proposals
 
-### Spectrum DMCC — Trackon Legacy + mobile POS (Africa shops), proposal sent to Mr Shilpen 2026-08-26 (no response as of 2026-09-11)
+### Spectrum DMCC — Trackon Legacy + mobile POS (Africa shops), proposal sent to Mr Shilpen 2026-08-26; 2026-09-11 via Vaibhav: fit confirmed, cost "quite high", reviewing competitors, will consult Trackon before deciding
 - 40 users: Dubai head office + shops in Africa (Kinshasa). Two options on one deck: **A: Trackon Legacy + APEX POS app (recommended)**, **B: TrackonAI**.
 - **New price tier introduced: Africa shop / POS-only user at AED 190/user/month (75% off the standard AED 765).** Same shop rate on both options.
 - Contact: Mr. Shilpen (decision-maker; sole recipient of the proposal). Lead source: **Vaibhav, Spectrum's accountant**; referral commission (~20% of collected year-1 subscription, via Trackon, disclosed) under consideration, see [[_personal/prospects/spectrum]].
