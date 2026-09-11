@@ -117,7 +117,7 @@ Source: Gemini meeting notes (AI-generated, reviewed by Murat) + Meet recording.
 
 ## Recovery touch (2026-09-11)
 
-No trial activity recorded since the 2026-08-29 demo. Five-page WhatsApp deck built on the Steps story, tailored to Emrah's storage-cost question, Fatih's late claims and Ayhan's bank-grade numbers, next step = the agreed demo account: `newco-whatsapp-2026-09-11/Trackon-NewCo-Every-Step.pdf` + Turkish message draft in the same folder. No pricing in it. Rules: [[company/processes/presentations]].
+No trial activity recorded since the 2026-08-29 demo. Five-page WhatsApp deck built on the Steps story, tailored to Emrah's storage-cost question, Fatih's late claims and Ayhan's bank-grade numbers, next step = the agreed demo account: `newco-whatsapp-2026-09-11/Trackon-NewCo-Every-Step.pdf` + Turkish message draft in the same folder. No pricing in it. Rules: [[company/processes/presentations]]. **NOT SENT. Murat (2026-09-11): a deck to a prospect who went dark gets glanced at and ignored on page 1. Do not send decks to silent prospects; use one direct question, the intermediary, or remove the friction (ready-made login).**
 
 ## Next steps
 

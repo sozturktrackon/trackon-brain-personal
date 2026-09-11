@@ -48,7 +48,7 @@ Implementation itemisation (A / B): discovery & process design 10,000 / 10,000; 
 
 ## Recovery touch (2026-09-11)
 
-Five-page WhatsApp deck built on the Steps story, tailored to receive stock / sell / record expenses with a name on each, next step = shop managers try the demo shop on their phones: `spectrum-whatsapp-2026-09-11/Trackon-Spectrum-Every-Step.pdf` + English message draft in the same folder. No pricing in it; adjust the closing paragraph if the August proposal was already sent. Rules: [[company/processes/presentations]].
+Five-page WhatsApp deck built on the Steps story, tailored to receive stock / sell / record expenses with a name on each, next step = shop managers try the demo shop on their phones: `spectrum-whatsapp-2026-09-11/Trackon-Spectrum-Every-Step.pdf` + English message draft in the same folder. No pricing in it; adjust the closing paragraph if the August proposal was already sent. Rules: [[company/processes/presentations]]. **NOT SENT. Murat (2026-09-11): a deck to a prospect who went dark gets glanced at and ignored on page 1. Do not send decks to silent prospects; use one direct question, the intermediary, or remove the friction (ready-made login).**
 
 ## Open before sending
 - Mr. Shilpen's surname and email (for the send).
