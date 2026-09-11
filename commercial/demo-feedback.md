@@ -3,7 +3,7 @@ type: commercial
 status: active
 tags: [demo-feedback, feature-requests, prospect-feedback, confidential]
 created: 2026-03-30
-updated: 2026-03-30
+updated: 2026-09-11
 source: project conversations
 related: [_personal/strategy/distribution.md, _personal/crm/contacts.md]
 ---
@@ -41,6 +41,8 @@ Product: [[products/tradingdocs/tradingdocs-roadmap|TradingDocs.AI]] | Prospects
 - **Note**: Response should always include both drag-and-drop UI AND email gateway — Wayne's initial response missed the UI and he pushed back
 
 ## General Demo Lessons
+
+0. **Unrequested or self-run demo accounts have never converted a prospect** (Murat, 2026-09-11, on NewCo; Amee Foods before). Do not build one hoping it restarts a silent deal. A trial only works when it is guided live on the prospect's own cargo, with the decision-maker present.
 
 1. **Always show both access methods**: drag-and-drop UI and email gateway. Forgetting either creates incomplete picture.
 2. **ISBP 821 not 745**: The 2023 revision is current. Using 745 signals outdated knowledge.
